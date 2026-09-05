@@ -10,33 +10,154 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BuscaRouteImport } from './routes/busca'
+import { Route as CheckoutRouteImport } from './routes/checkout'
+import { Route as ContaRouteImport } from './routes/conta'
+import { Route as EntrarRouteImport } from './routes/entrar'
+import { Route as FavoritosRouteImport } from './routes/favoritos'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as CategoriaSlugRouteImport } from './routes/categoria.$slug'
+import { Route as ProdutoSlugRouteImport } from './routes/produto.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BuscaRoute = BuscaRouteImport.update({
+  id: '/busca',
+  path: '/busca',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CheckoutRoute = CheckoutRouteImport.update({
+  id: '/checkout',
+  path: '/checkout',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContaRoute = ContaRouteImport.update({
+  id: '/conta',
+  path: '/conta',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EntrarRoute = EntrarRouteImport.update({
+  id: '/entrar',
+  path: '/entrar',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FavoritosRoute = FavoritosRouteImport.update({
+  id: '/favoritos',
+  path: '/favoritos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CategoriaSlugRoute = CategoriaSlugRouteImport.update({
+  id: '/categoria/$slug',
+  path: '/categoria/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProdutoSlugRoute = ProdutoSlugRouteImport.update({
+  id: '/produto/$slug',
+  path: '/produto/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/busca': typeof BuscaRoute
+  '/checkout': typeof CheckoutRoute
+  '/conta': typeof ContaRoute
+  '/entrar': typeof EntrarRoute
+  '/favoritos': typeof FavoritosRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/categoria/$slug': typeof CategoriaSlugRoute
+  '/produto/$slug': typeof ProdutoSlugRoute
+  '/blog/': typeof BlogIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/busca': typeof BuscaRoute
+  '/checkout': typeof CheckoutRoute
+  '/conta': typeof ContaRoute
+  '/entrar': typeof EntrarRoute
+  '/favoritos': typeof FavoritosRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/categoria/$slug': typeof CategoriaSlugRoute
+  '/produto/$slug': typeof ProdutoSlugRoute
+  '/blog': typeof BlogIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/busca': typeof BuscaRoute
+  '/checkout': typeof CheckoutRoute
+  '/conta': typeof ContaRoute
+  '/entrar': typeof EntrarRoute
+  '/favoritos': typeof FavoritosRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/categoria/$slug': typeof CategoriaSlugRoute
+  '/produto/$slug': typeof ProdutoSlugRoute
+  '/blog/': typeof BlogIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/busca'
+    | '/checkout'
+    | '/conta'
+    | '/entrar'
+    | '/favoritos'
+    | '/blog/$slug'
+    | '/categoria/$slug'
+    | '/produto/$slug'
+    | '/blog/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/busca'
+    | '/checkout'
+    | '/conta'
+    | '/entrar'
+    | '/favoritos'
+    | '/blog/$slug'
+    | '/categoria/$slug'
+    | '/produto/$slug'
+    | '/blog'
+  id:
+    | '__root__'
+    | '/'
+    | '/busca'
+    | '/checkout'
+    | '/conta'
+    | '/entrar'
+    | '/favoritos'
+    | '/blog/$slug'
+    | '/categoria/$slug'
+    | '/produto/$slug'
+    | '/blog/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  BuscaRoute: typeof BuscaRoute
+  CheckoutRoute: typeof CheckoutRoute
+  ContaRoute: typeof ContaRoute
+  EntrarRoute: typeof EntrarRoute
+  FavoritosRoute: typeof FavoritosRoute
+  BlogSlugRoute: typeof BlogSlugRoute
+  CategoriaSlugRoute: typeof CategoriaSlugRoute
+  ProdutoSlugRoute: typeof ProdutoSlugRoute
+  BlogIndexRoute: typeof BlogIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +169,83 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/busca': {
+      id: '/busca'
+      path: '/busca'
+      fullPath: '/busca'
+      preLoaderRoute: typeof BuscaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/checkout': {
+      id: '/checkout'
+      path: '/checkout'
+      fullPath: '/checkout'
+      preLoaderRoute: typeof CheckoutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/conta': {
+      id: '/conta'
+      path: '/conta'
+      fullPath: '/conta'
+      preLoaderRoute: typeof ContaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/entrar': {
+      id: '/entrar'
+      path: '/entrar'
+      fullPath: '/entrar'
+      preLoaderRoute: typeof EntrarRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/favoritos': {
+      id: '/favoritos'
+      path: '/favoritos'
+      fullPath: '/favoritos'
+      preLoaderRoute: typeof FavoritosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/categoria/$slug': {
+      id: '/categoria/$slug'
+      path: '/categoria/$slug'
+      fullPath: '/categoria/$slug'
+      preLoaderRoute: typeof CategoriaSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/produto/$slug': {
+      id: '/produto/$slug'
+      path: '/produto/$slug'
+      fullPath: '/produto/$slug'
+      preLoaderRoute: typeof ProdutoSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  BuscaRoute: BuscaRoute,
+  CheckoutRoute: CheckoutRoute,
+  ContaRoute: ContaRoute,
+  EntrarRoute: EntrarRoute,
+  FavoritosRoute: FavoritosRoute,
+  BlogSlugRoute: BlogSlugRoute,
+  CategoriaSlugRoute: CategoriaSlugRoute,
+  ProdutoSlugRoute: ProdutoSlugRoute,
+  BlogIndexRoute: BlogIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
