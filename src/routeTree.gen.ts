@@ -11,6 +11,9 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as BuscaRouteImport } from './routes/busca'
+import { Route as CheckoutRouteImport } from './routes/checkout'
+import { Route as ContaRouteImport } from './routes/conta'
+import { Route as EntrarRouteImport } from './routes/entrar'
 import { Route as FavoritosRouteImport } from './routes/favoritos'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
@@ -25,6 +28,21 @@ const IndexRoute = IndexRouteImport.update({
 const BuscaRoute = BuscaRouteImport.update({
   id: '/busca',
   path: '/busca',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CheckoutRoute = CheckoutRouteImport.update({
+  id: '/checkout',
+  path: '/checkout',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContaRoute = ContaRouteImport.update({
+  id: '/conta',
+  path: '/conta',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EntrarRoute = EntrarRouteImport.update({
+  id: '/entrar',
+  path: '/entrar',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FavoritosRoute = FavoritosRouteImport.update({
@@ -56,6 +74,9 @@ const ProdutoSlugRoute = ProdutoSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/busca': typeof BuscaRoute
+  '/checkout': typeof CheckoutRoute
+  '/conta': typeof ContaRoute
+  '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
@@ -65,6 +86,9 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/busca': typeof BuscaRoute
+  '/checkout': typeof CheckoutRoute
+  '/conta': typeof ContaRoute
+  '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
@@ -75,6 +99,9 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/busca': typeof BuscaRoute
+  '/checkout': typeof CheckoutRoute
+  '/conta': typeof ContaRoute
+  '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
@@ -86,6 +113,9 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/busca'
+    | '/checkout'
+    | '/conta'
+    | '/entrar'
     | '/favoritos'
     | '/blog/$slug'
     | '/categoria/$slug'
@@ -95,6 +125,9 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/busca'
+    | '/checkout'
+    | '/conta'
+    | '/entrar'
     | '/favoritos'
     | '/blog/$slug'
     | '/categoria/$slug'
@@ -104,6 +137,9 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/busca'
+    | '/checkout'
+    | '/conta'
+    | '/entrar'
     | '/favoritos'
     | '/blog/$slug'
     | '/categoria/$slug'
@@ -114,6 +150,9 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BuscaRoute: typeof BuscaRoute
+  CheckoutRoute: typeof CheckoutRoute
+  ContaRoute: typeof ContaRoute
+  EntrarRoute: typeof EntrarRoute
   FavoritosRoute: typeof FavoritosRoute
   BlogSlugRoute: typeof BlogSlugRoute
   CategoriaSlugRoute: typeof CategoriaSlugRoute
@@ -135,6 +174,27 @@ declare module '@tanstack/react-router' {
       path: '/busca'
       fullPath: '/busca'
       preLoaderRoute: typeof BuscaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/checkout': {
+      id: '/checkout'
+      path: '/checkout'
+      fullPath: '/checkout'
+      preLoaderRoute: typeof CheckoutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/conta': {
+      id: '/conta'
+      path: '/conta'
+      fullPath: '/conta'
+      preLoaderRoute: typeof ContaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/entrar': {
+      id: '/entrar'
+      path: '/entrar'
+      fullPath: '/entrar'
+      preLoaderRoute: typeof EntrarRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/favoritos': {
@@ -178,6 +238,9 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BuscaRoute: BuscaRoute,
+  CheckoutRoute: CheckoutRoute,
+  ContaRoute: ContaRoute,
+  EntrarRoute: EntrarRoute,
   FavoritosRoute: FavoritosRoute,
   BlogSlugRoute: BlogSlugRoute,
   CategoriaSlugRoute: CategoriaSlugRoute,
