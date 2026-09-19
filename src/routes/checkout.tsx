@@ -12,7 +12,7 @@ import { Separator } from "@/components/ui/separator";
 import { supabase } from "@/integrations/supabase/client";
 import { useCart } from "@/lib/cart";
 import { useAuth } from "@/lib/auth";
-import { brl, installment, maskCep, maskCpf, maskPhone, pixPrice } from "@/lib/format";
+import { brl, installment, maskCEP, maskCPF, maskPhone, pixPrice } from "@/lib/format";
 import type { Coupon } from "@/lib/types";
 
 export const Route = createFileRoute("/checkout")({
@@ -70,10 +70,15 @@ function CheckoutPage() {
       .eq("code", couponCode.trim().toUpperCase())
       .eq("active", true)
       .maybeSingle();
-    if (error || !data) return toast.error("Cupom inválido");
+    if (error || !data) {
+      toast.error("Cupom inválido");
+      return;
+    }
     const found = data as Coupon;
-    if (subtotal < found.min_order)
-      return toast.error(`Este cupom vale para pedidos acima de ${brl(found.min_order)}`);
+    if (subtotal < found.min_order) {
+      toast.error(`Este cupom vale para pedidos acima de ${brl(found.min_order)}`);
+      return;
+    }
     setCoupon(found);
     toast.success("Cupom aplicado!");
   }
@@ -90,9 +95,9 @@ function CheckoutPage() {
         customer_name: form.name,
         customer_email: form.email,
         customer_phone: form.phone,
-        customer_document: form.cpf,
-        shipping_cep: form.cep,
-        shipping_street: form.street,
+        customer_cpf: form.cpf,
+        shipping_zip: form.cep,
+        shipping_address: form.street,
         shipping_number: form.number,
         shipping_district: form.district,
         shipping_city: form.city,
@@ -120,13 +125,16 @@ function CheckoutPage() {
         product_id: item.productId,
         product_name: item.name,
         image_url: item.image,
-        variant: item.variant,
+        variant: item.variant ?? null,
         unit_price: item.price,
         quantity: item.quantity,
       })),
     );
     setLoading(false);
-    if (itemsError) return toast.error("Erro ao salvar os itens do pedido");
+    if (itemsError) {
+      toast.error("Erro ao salvar os itens do pedido");
+      return;
+    }
 
     clear();
     toast.success(`Pedido ${data.order_number} confirmado!`);
@@ -169,7 +177,7 @@ function CheckoutPage() {
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="cpf">CPF</Label>
-                <Input id="cpf" required value={form.cpf} onChange={(e) => set("cpf", maskCpf(e.target.value))} />
+                <Input id="cpf" required value={form.cpf} onChange={(e) => set("cpf", maskCPF(e.target.value))} />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="tel">Telefone</Label>
@@ -183,7 +191,7 @@ function CheckoutPage() {
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="space-y-1.5">
                 <Label htmlFor="cep">CEP</Label>
-                <Input id="cep" required value={form.cep} onChange={(e) => set("cep", maskCep(e.target.value))} />
+                <Input id="cep" required value={form.cep} onChange={(e) => set("cep", maskCEP(e.target.value))} />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="rua">Rua</Label>

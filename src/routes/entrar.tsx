@@ -7,7 +7,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { supabase } from "@/integrations/supabase/client";
-import { lovable } from "@/integrations/lovable/index";
 
 export const Route = createFileRoute("/entrar")({
   head: () => ({
@@ -36,7 +35,10 @@ function AuthPage() {
     setLoading(true);
     const { error } = await supabase.auth.signInWithPassword({ email, password });
     setLoading(false);
-    if (error) return toast.error("E-mail ou senha inválidos");
+    if (error) {
+      toast.error("E-mail ou senha inválidos");
+      return;
+    }
     toast.success("Bem-vindo de volta!");
     navigate({ to: "/conta" });
   }
@@ -50,19 +52,24 @@ function AuthPage() {
       options: { emailRedirectTo: window.location.origin, data: { full_name: name } },
     });
     setLoading(false);
-    if (error) return toast.error(error.message);
-    if (!data.session) return toast.success("Confira seu e-mail para confirmar o cadastro");
+    if (error) {
+      toast.error(error.message);
+      return;
+    }
+    if (!data.session) {
+      toast.success("Confira seu e-mail para confirmar o cadastro");
+      return;
+    }
     toast.success("Conta criada!");
     navigate({ to: "/conta" });
   }
 
   async function google() {
-    const result = await lovable.auth.signInWithOAuth("google", {
-      redirect_uri: window.location.origin,
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: window.location.origin },
     });
-    if (result.error) return toast.error("Não foi possível entrar com o Google");
-    if (result.redirected) return;
-    navigate({ to: "/conta" });
+    if (error) toast.error("Não foi possível entrar com o Google");
   }
 
   return (
