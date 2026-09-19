@@ -41,18 +41,6 @@ function useProducts(filter: "featured" | "new" | "offers") {
   return useQuery({
     queryKey: ["home-products", filter],
     queryFn: async () => {
-      try {
-        let query = supabase.from("products").select(productSelect).eq("active", true).limit(8);
-        if (filter === "featured") query = query.eq("featured", true);
-        if (filter === "new") query = query.eq("is_new", true);
-        if (filter === "offers") query = query.order("compare_at_price", { ascending: false });
-        const { data, error } = await query;
-        if (!error && data && data.length > 0) {
-          return (data ?? []) as unknown as Product[];
-        }
-      } catch {
-        // Fallback para os dados estáticos do catálogo
-      }
       return getLocalProducts(filter).slice(0, 8);
     },
     initialData: getLocalProducts(filter).slice(0, 8),
@@ -63,18 +51,6 @@ function Hero() {
   const { data: banners = [] } = useQuery({
     queryKey: ["banners"],
     queryFn: async () => {
-      try {
-        const { data, error } = await supabase
-          .from("banners")
-          .select("*")
-          .eq("active", true)
-          .order("position");
-        if (!error && data && data.length > 0) {
-          return (data ?? []) as Banner[];
-        }
-      } catch {
-        // Fallback para os banners locais
-      }
       return getLocalBanners();
     },
     initialData: getLocalBanners(),

@@ -88,18 +88,6 @@ function ProductPage() {
   const { data: product, isLoading } = useQuery({
     queryKey: ["product", slug],
     queryFn: async () => {
-      try {
-        const { data, error } = await supabase
-          .from("products")
-          .select(productSelect)
-          .eq("slug", slug)
-          .maybeSingle();
-        if (!error && data) {
-          return data as unknown as Product;
-        }
-      } catch {
-        // Fallback
-      }
       return localProduct ?? null;
     },
     initialData: localProduct ?? null,
@@ -131,22 +119,6 @@ function ProductPage() {
   const { data: related = [] } = useQuery({
     queryKey: ["related", product?.category_id, product?.id],
     queryFn: async () => {
-      try {
-        if (product?.category_id) {
-          const { data, error } = await supabase
-            .from("products")
-            .select(productSelect)
-            .eq("active", true)
-            .eq("category_id", product.category_id)
-            .neq("id", product.id)
-            .limit(4);
-          if (!error && data && data.length > 0) {
-            return (data ?? []) as unknown as Product[];
-          }
-        }
-      } catch {
-        // Fallback
-      }
       return localRelated;
     },
     initialData: localRelated,

@@ -24,17 +24,6 @@ export function useCategories() {
     queryKey: ["categories"],
     staleTime: Infinity,
     queryFn: async () => {
-      try {
-        const { data, error } = await supabase
-          .from("categories")
-          .select("id,name,slug,description,image_url,position")
-          .order("position");
-        if (!error && data && data.length > 0) {
-          return data as Category[];
-        }
-      } catch {
-        // Fallback para os dados estáticos do catálogo
-      }
       return getLocalCategories();
     },
     initialData: getLocalCategories(),

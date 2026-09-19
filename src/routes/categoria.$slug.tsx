@@ -55,40 +55,14 @@ function CategoryPage() {
   const { data: category } = useQuery({
     queryKey: ["category", slug],
     queryFn: async () => {
-      try {
-        const { data, error } = await supabase
-          .from("categories")
-          .select("*")
-          .eq("slug", slug)
-          .maybeSingle();
-        if (!error && data) {
-          return data as Category;
-        }
-      } catch {
-        // Fallback
-      }
       return localCategory ?? null;
     },
     initialData: localCategory ?? null,
   });
 
   const { data: products = [], isLoading } = useQuery({
-    queryKey: ["category-products", category?.id ?? slug],
+    queryKey: ["category-products", slug],
     queryFn: async () => {
-      try {
-        if (category?.id) {
-          const { data, error } = await supabase
-            .from("products")
-            .select(productSelect)
-            .eq("active", true)
-            .eq("category_id", category.id);
-          if (!error && data && data.length > 0) {
-            return (data ?? []) as unknown as Product[];
-          }
-        }
-      } catch {
-        // Fallback
-      }
       return localProducts;
     },
     initialData: localProducts,

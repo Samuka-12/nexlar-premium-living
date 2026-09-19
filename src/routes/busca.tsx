@@ -32,19 +32,6 @@ function SearchPage() {
     queryKey: ["search", q],
     enabled: q.length > 0,
     queryFn: async () => {
-      try {
-        const { data, error } = await supabase
-          .from("products")
-          .select(productSelect)
-          .eq("active", true)
-          .or(`name.ilike.%${q}%,short_description.ilike.%${q}%`)
-          .limit(48);
-        if (!error && data && data.length > 0) {
-          return (data ?? []) as unknown as Product[];
-        }
-      } catch {
-        // Fallback
-      }
       return localResults;
     },
     initialData: localResults,
