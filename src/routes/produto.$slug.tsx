@@ -6,9 +6,7 @@ import {
   Heart,
   Minus,
   MessageCircleQuestion,
-  Play,
   Plus,
-  RotateCw,
   Star,
   Truck,
 } from "lucide-react";
@@ -80,8 +78,6 @@ function ProductPage() {
   const [shipping, setShipping] = useState<{ label: string; price: number; eta: string }[] | null>(
     null,
   );
-  const [mode, setMode] = useState<"photos" | "video" | "360">("photos");
-  const [angle, setAngle] = useState(0);
 
   const localProduct = getLocalProductBySlug(slug);
 
@@ -205,110 +201,40 @@ function ProductPage() {
 
         <div className="grid gap-10 lg:grid-cols-2">
           <div>
-            <div className="mb-3 flex gap-2">
-              <Button
-                size="sm"
-                variant={mode === "photos" ? "default" : "outline"}
-                onClick={() => setMode("photos")}
-              >
-                Fotos
-              </Button>
-              <Button
-                size="sm"
-                variant={mode === "video" ? "default" : "outline"}
-                className="gap-1"
-                onClick={() => setMode("video")}
-              >
-                <Play className="h-3.5 w-3.5" /> Vídeo
-              </Button>
-              <Button
-                size="sm"
-                variant={mode === "360" ? "default" : "outline"}
-                className="gap-1"
-                onClick={() => setMode("360")}
-              >
-                <RotateCw className="h-3.5 w-3.5" /> 360°
-              </Button>
+            <div
+              className="relative aspect-square overflow-hidden rounded-3xl border border-border bg-muted"
+              onMouseEnter={() => setZoom(true)}
+              onMouseLeave={() => setZoom(false)}
+            >
+              <img
+                src={images[imageIndex]?.url ?? images[0]?.url}
+                alt={images[imageIndex]?.alt ?? product.name}
+                className={`h-full w-full object-cover transition-transform duration-300 ${zoom ? "scale-150" : "scale-100"}`}
+              />
+              <span className="absolute bottom-3 left-3 rounded-full bg-background/90 px-3 py-1 text-xs text-muted-foreground">
+                Passe o mouse para ampliar
+              </span>
             </div>
-
-            {mode === "photos" && (
-              <>
-                <div
-                  className="relative aspect-square overflow-hidden rounded-3xl border border-border bg-muted"
-                  onMouseEnter={() => setZoom(true)}
-                  onMouseLeave={() => setZoom(false)}
-                >
-                  <img
-                    src={images[imageIndex]?.url ?? images[0]?.url}
-                    alt={images[imageIndex]?.alt ?? product.name}
-                    className={`h-full w-full object-cover transition-transform duration-300 ${zoom ? "scale-150" : "scale-100"}`}
-                  />
-                  <span className="absolute bottom-3 left-3 rounded-full bg-background/90 px-3 py-1 text-xs text-muted-foreground">
-                    Passe o mouse para ampliar
-                  </span>
-                </div>
-                <div className="mt-3 flex gap-3 overflow-x-auto">
-                  {images.map((image, i) => (
-                    <button
-                      key={image.id}
-                      type="button"
-                      onClick={() => setImageIndex(i)}
-                      aria-label={`Ver imagem ${i + 1}`}
-                      className={`h-20 w-20 shrink-0 overflow-hidden rounded-xl border-2 ${
-                        i === imageIndex ? "border-primary" : "border-border"
-                      }`}
-                    >
-                      <img
-                        src={image.url}
-                        alt={image.alt ?? product.name}
-                        loading="lazy"
-                        className="h-full w-full object-cover"
-                      />
-                    </button>
-                  ))}
-                </div>
-              </>
-            )}
-
-            {mode === "video" && (
-              <div className="aspect-square overflow-hidden rounded-3xl border border-border bg-ink">
-                <video
-                  className="h-full w-full object-cover"
-                  controls
-                  playsInline
-                  poster={images[0]?.url}
-                  src="https://cdn.coverr.co/videos/coverr-cooking-in-a-modern-kitchen-2470/1080p.mp4"
-                >
-                  Seu navegador não suporta vídeo.
-                </video>
-              </div>
-            )}
-
-            {mode === "360" && (
-              <div className="rounded-3xl border border-border bg-muted p-4">
-                <div className="aspect-square overflow-hidden rounded-2xl bg-background">
-                  <img
-                    src={images[angle % Math.max(images.length, 1)]?.url ?? images[0]?.url}
-                    alt={`${product.name} — vista ${angle * 45}°`}
-                    className="h-full w-full object-cover"
-                    style={{ transform: `rotate(${(angle % 2) * 0.5}deg)` }}
-                  />
-                </div>
-                <div className="mt-4 flex items-center gap-3">
-                  <RotateCw className="h-4 w-4 text-muted-foreground" />
-                  <input
-                    type="range"
-                    min={0}
-                    max={7}
-                    value={angle}
-                    aria-label="Girar o produto"
-                    onChange={(event) => setAngle(Number(event.target.value))}
-                    className="w-full accent-[var(--color-primary)]"
-                  />
-                  <span className="w-14 text-right text-xs text-muted-foreground">
-                    {angle * 45}°
-                  </span>
-                </div>
+            {images.length > 1 && (
+              <div className="mt-3 flex gap-3 overflow-x-auto">
+                {images.map((image, i) => (
+                  <button
+                    key={image.id}
+                    type="button"
+                    onClick={() => setImageIndex(i)}
+                    aria-label={`Ver imagem ${i + 1}`}
+                    className={`h-20 w-20 shrink-0 overflow-hidden rounded-xl border-2 ${
+                      i === imageIndex ? "border-primary" : "border-border"
+                    }`}
+                  >
+                    <img
+                      src={image.url}
+                      alt={image.alt ?? product.name}
+                      loading="lazy"
+                      className="h-full w-full object-cover"
+                    />
+                  </button>
+                ))}
               </div>
             )}
           </div>

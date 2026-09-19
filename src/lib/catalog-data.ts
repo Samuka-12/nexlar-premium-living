@@ -6,7 +6,7 @@ export const CATEGORIES: Category[] = [
     "name": "Panelas",
     "slug": "panelas",
     "description": "Jogos de panelas antiaderentes, cerâmica e inox, frigideiras, caçarolas, woks e chaleiras.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/286249/promocao-brinox-flora-ceramic-life-com-utensilios.png?v=639234553709030000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/286250/1 - 7135_200.png?v=639234553709200000",
     "position": 1
   },
   {
@@ -14,7 +14,7 @@ export const CATEGORIES: Category[] = [
     "name": "Panelas de Pressão",
     "slug": "panelas-de-pressao",
     "description": "Panelas de pressão com fechamento externo, interno e linha cerâmica antiaderente.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/285299/panela-de-pressao-eletrica-brinox-ceramic-life-6-litros-220v_0.jpg?v=639191229985630000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/285300/8001_100--1280x1280_1.png?v=639198186592800000",
     "position": 2
   },
   {
@@ -30,7 +30,7 @@ export const CATEGORIES: Category[] = [
     "name": "Lixeiras",
     "slug": "lixeiras",
     "description": "Lixeiras com pedal em inox, basculantes, com sensor de movimento e para coleta seletiva.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/287716/Lixeira 5 L - Matte Branco.png?v=639251525307000000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/287727/Lixeira 5 L - Matte Inox.png?v=639251525655300000",
     "position": 4
   },
   {
@@ -38,7 +38,7 @@ export const CATEGORIES: Category[] = [
     "name": "Utensílios de Cozinha",
     "slug": "utensilios-de-cozinha",
     "description": "Kits de silicone alimentício, aço inox 18/10, tábuas de corte em bambu e escorredores.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/286136/porta_condimentos_duplo_em_bambu_coza_brisa_site_Brinox_1.webp?v=639234444909900000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/283748/4774_406.png?v=639110781793000000",
     "position": 5
   },
   {
@@ -46,7 +46,7 @@ export const CATEGORIES: Category[] = [
     "name": "Mesa & Talheres",
     "slug": "mesa-e-talheres",
     "description": "Faqueiros completos em inox, bandejas de servir, bowls e porta-guardanapos.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/284950/5127_143.jpg?v=639172166321230000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/285730/organizador-de-geladeira-coza-dry-3-2-litros-com-2-cestos_0.jpg?v=639227476099570000",
     "position": 6
   },
   {
@@ -54,7 +54,7 @@ export const CATEGORIES: Category[] = [
     "name": "Assadeiras & Formas",
     "slug": "assadeiras-e-formas",
     "description": "Assadeiras antiaderentes, formas de bolo redondas, para lasanha e para pão.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/287544/1481_301.jpg?v=639246381108370000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/287532/1481_300_3.jpg?v=639246380410730000",
     "position": 7
   },
   {
@@ -62,7 +62,7 @@ export const CATEGORIES: Category[] = [
     "name": "Organização",
     "slug": "organizacao",
     "description": "Porta-temperos giratórios, potes herméticos em acrílico crystal e organizadores de pia.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/286010/organizador_giratrio_coza_dry_29_x_32_cm_cristal_site_brinox.webp?v=639233702876170000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/283772/escorredor-16-pecas-cabo-plastico-dispenser-preto_0.jpg?v=639114391702030000",
     "position": 8
   },
   {
@@ -70,7 +70,7 @@ export const CATEGORIES: Category[] = [
     "name": "Churrasco",
     "slug": "churrasco",
     "description": "Kits de churrasco com maleta, grelhas argentinas em inox e churrasqueiras portáteis.",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/266250/Madeira.jpg?v=639052915564830000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/280490/jogo-faca-de-churrasco-em-aco-inox-duzia-new-gourmet-brinox_0.png?v=639252600929800000",
     "position": 9
   }
 ];
@@ -83,7 +83,7 @@ export const BANNERS: Banner[] = [
     "eyebrow": "LINHA CERAMIC LIFE",
     "cta_label": "Ver panelas",
     "cta_url": "/categoria/panelas",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/286249/promocao-brinox-flora-ceramic-life-com-utensilios.png?v=639234553709030000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/286250/1 - 7135_200.png?v=639234553709200000",
     "position": 1,
     "active": true
   },
@@ -94,7 +94,7 @@ export const BANNERS: Banner[] = [
     "eyebrow": "PANELAS DE PRESSÃO",
     "cta_label": "Ver panelas de pressão",
     "cta_url": "/categoria/panelas-de-pressao",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/285299/panela-de-pressao-eletrica-brinox-ceramic-life-6-litros-220v_0.jpg?v=639191229985630000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/285300/8001_100--1280x1280_1.png?v=639198186592800000",
     "position": 2,
     "active": true
   },
@@ -105,7 +105,7 @@ export const BANNERS: Banner[] = [
     "eyebrow": "LIXEIRAS & HIGIENE",
     "cta_label": "Ver lixeiras",
     "cta_url": "/categoria/lixeiras",
-    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/287716/Lixeira 5 L - Matte Branco.png?v=639251525307000000",
+    "image_url": "https://brinox.vteximg.com.br/arquivos/ids/287727/Lixeira 5 L - Matte Inox.png?v=639251525655300000",
     "position": 3,
     "active": true
   }
@@ -128,13 +128,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 999.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 129,
+    "rating": 4.8,
+    "reviews_count": 142,
     "free_shipping": true,
     "featured": true,
     "is_new": true,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.195Z",
+    "created_at": "2026-09-19T19:43:16.522Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -150,25 +150,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242269-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/286249/promocao-brinox-flora-ceramic-life-com-utensilios.png?v=639234553709030000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/286250/1 - 7135_200.png?v=639234553709200000",
         "alt": "Jogo de Panelas NEXLAR 10 Peças Ceramic Life Floria Rosa",
         "position": 0
       },
       {
         "id": "img-994242269-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/286250/1 - 7135_200.png?v=639234553709200000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/286251/2- 7135_200.png?v=639234553709200000",
         "alt": "Jogo de Panelas NEXLAR 10 Peças Ceramic Life Floria Rosa",
         "position": 1
       },
       {
         "id": "img-994242269-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/286251/2- 7135_200.png?v=639234553709200000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/286252/3- 7135_200.png?v=639234553709330000",
         "alt": "Jogo de Panelas NEXLAR 10 Peças Ceramic Life Floria Rosa",
         "position": 2
       },
       {
         "id": "img-994242269-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/286252/3- 7135_200.png?v=639234553709330000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/286253/4 - 7135_200.png?v=639234553709330000",
         "alt": "Jogo de Panelas NEXLAR 10 Peças Ceramic Life Floria Rosa",
         "position": 3
       }
@@ -191,12 +191,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 112,
+    "reviews_count": 191,
     "free_shipping": true,
     "featured": true,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.197Z",
+    "created_at": "2026-09-19T19:43:16.523Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -212,25 +212,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242258-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284633/jogo-de-panelas-com-inducao-brinox-ceramic-life-inox-5-pecas-cinza_0.jpg?v=639154993006500000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284634/A--Nox---1280x1280-1.png?v=639161016676830000",
         "alt": "Jogo de Panelas com Indução NEXLAR Ceramic Life Nox 5 Peças Cinza",
         "position": 0
       },
       {
         "id": "img-994242258-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284634/A--Nox---1280x1280-1.png?v=639161016676830000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284635/A--Nox---1280x1280-2.png?v=639161016677470000",
         "alt": "Jogo de Panelas com Indução NEXLAR Ceramic Life Nox 5 Peças Cinza",
         "position": 1
       },
       {
         "id": "img-994242258-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284635/A--Nox---1280x1280-2.png?v=639161016677470000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284636/A--Nox---1280x1280-3.png?v=639161016677470000",
         "alt": "Jogo de Panelas com Indução NEXLAR Ceramic Life Nox 5 Peças Cinza",
         "position": 2
       },
       {
         "id": "img-994242258-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284636/A--Nox---1280x1280-3.png?v=639161016677470000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284637/A--Nox---1280x1280-4.png?v=639161016677470000",
         "alt": "Jogo de Panelas com Indução NEXLAR Ceramic Life Nox 5 Peças Cinza",
         "position": 3
       }
@@ -252,13 +252,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 464.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 170,
+    "rating": 4.9,
+    "reviews_count": 146,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.197Z",
+    "created_at": "2026-09-19T19:43:16.523Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -280,19 +280,19 @@ export const PRODUCTS: Product[] = [
       },
       {
         "id": "img-994242017-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279843/promocao-jogo-de-panelas-ceramic-life-suprema-preta-brinox-antiaderente.png?v=638979414443630000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279851/jogo-de-panelas-brinox-antiaderente-ceramic-life-6-pecas-suprema-preta_1.jpg?v=638979414444700000",
         "alt": "Jogo de Panelas NEXLAR Antiaderente Ceramic Life 6 Peças Suprema Preta",
         "position": 1
       },
       {
         "id": "img-994242017-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279844/promocao-jogo-de-panelas-ceramic-life-suprema-preta-antiaderente-brinox.png?v=638979414443630000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279852/jogo-de-panelas-brinox-antiaderente-ceramic-life-6-pecas-suprema-preta_2.jpg?v=638979414444700000",
         "alt": "Jogo de Panelas NEXLAR Antiaderente Ceramic Life 6 Peças Suprema Preta",
         "position": 2
       },
       {
         "id": "img-994242017-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279845/promocao-jogo-de-panelas-ceramic-life-suprema-preta-antiaderente-brinox-novidade.png?v=638979414443930000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279853/jogo-de-panelas-brinox-antiaderente-ceramic-life-6-pecas-suprema-preta_3.jpg?v=638979414444700000",
         "alt": "Jogo de Panelas NEXLAR Antiaderente Ceramic Life 6 Peças Suprema Preta",
         "position": 3
       }
@@ -314,13 +314,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 799.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 192,
+    "rating": 4.9,
+    "reviews_count": 77,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.197Z",
+    "created_at": "2026-09-19T19:43:16.523Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -376,13 +376,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 599.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 167,
+    "rating": 4.6,
+    "reviews_count": 113,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.197Z",
+    "created_at": "2026-09-19T19:43:16.523Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -404,19 +404,19 @@ export const PRODUCTS: Product[] = [
       },
       {
         "id": "img-994242259-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287321/jogo-de-panelas-brinox-5-pecas-inox-city_0.jpg?v=639240363972100000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287322/4828_110-1280x1280_1.png?v=639240363972100000",
         "alt": "Jogo de Panelas NEXLAR City em Aço Inox e Fundo Triplo 5 Peças",
         "position": 1
       },
       {
         "id": "img-994242259-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287322/4828_110-1280x1280_1.png?v=639240363972100000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287323/4828_110-1280x1280_2.png?v=639240363972270000",
         "alt": "Jogo de Panelas NEXLAR City em Aço Inox e Fundo Triplo 5 Peças",
         "position": 2
       },
       {
         "id": "img-994242259-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287323/4828_110-1280x1280_2.png?v=639240363972270000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287324/4828_110-1280x1280_3.png?v=639240363972270000",
         "alt": "Jogo de Panelas NEXLAR City em Aço Inox e Fundo Triplo 5 Peças",
         "position": 3
       }
@@ -439,12 +439,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.8,
-    "reviews_count": 206,
+    "reviews_count": 109,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.197Z",
+    "created_at": "2026-09-19T19:43:16.523Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -460,25 +460,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242249-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284575/jogo-de-panelas-brinox-antiaderente-ceramic-life-naturalle-5-pecas-champagne_0.jpg?v=639149570323400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284576/01 - 1280x1280.png?v=639149570323870000",
         "alt": "Jogo de Panelas NEXLAR Antiaderente Ceramic Life Naturalle 5 Peças Champagne",
         "position": 0
       },
       {
         "id": "img-994242249-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284576/01 - 1280x1280.png?v=639149570323870000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284577/02 - 1280x1280.png?v=639149570323870000",
         "alt": "Jogo de Panelas NEXLAR Antiaderente Ceramic Life Naturalle 5 Peças Champagne",
         "position": 1
       },
       {
         "id": "img-994242249-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284577/02 - 1280x1280.png?v=639149570323870000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284578/03 - 1280x1280.png?v=639149570324000000",
         "alt": "Jogo de Panelas NEXLAR Antiaderente Ceramic Life Naturalle 5 Peças Champagne",
         "position": 2
       },
       {
         "id": "img-994242249-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284578/03 - 1280x1280.png?v=639149570324000000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284579/04 - 1280x1280.png?v=639149570324000000",
         "alt": "Jogo de Panelas NEXLAR Antiaderente Ceramic Life Naturalle 5 Peças Champagne",
         "position": 3
       }
@@ -500,13 +500,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 599.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 87,
+    "rating": 4.9,
+    "reviews_count": 39,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.197Z",
+    "created_at": "2026-09-19T19:43:16.524Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -522,25 +522,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242187-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284711/jogo-de-panelas-brinox-ceramic-life-primea-5-pecas-cappuccino_0.jpg?v=639161044888900000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284712/7261-100_Primea-1280x1280_1.png?v=639189406770930000",
         "alt": "Jogo de Panelas NEXLAR Primea Antiaderente Ceramic Life 5 Peças Cappuccino",
         "position": 0
       },
       {
         "id": "img-994242187-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284712/7261-100_Primea-1280x1280_1.png?v=639189406770930000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284713/7261-100_Primea-1280x1280_2.png?v=639189406771400000",
         "alt": "Jogo de Panelas NEXLAR Primea Antiaderente Ceramic Life 5 Peças Cappuccino",
         "position": 1
       },
       {
         "id": "img-994242187-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284713/7261-100_Primea-1280x1280_2.png?v=639189406771400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284714/7261-100_Primea-1280x1280_3.png?v=639189406771400000",
         "alt": "Jogo de Panelas NEXLAR Primea Antiaderente Ceramic Life 5 Peças Cappuccino",
         "position": 2
       },
       {
         "id": "img-994242187-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284714/7261-100_Primea-1280x1280_3.png?v=639189406771400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284715/7261-100_Primea-1280x1280_4.png?v=639189406771400000",
         "alt": "Jogo de Panelas NEXLAR Primea Antiaderente Ceramic Life 5 Peças Cappuccino",
         "position": 3
       }
@@ -562,13 +562,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 1099.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 68,
+    "rating": 5,
+    "reviews_count": 47,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:57.197Z",
+    "created_at": "2026-09-19T19:43:16.524Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -624,13 +624,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 624.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 98,
+    "rating": 4.7,
+    "reviews_count": 201,
     "free_shipping": true,
     "featured": true,
     "is_new": true,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.017Z",
+    "created_at": "2026-09-19T19:43:17.222Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -646,25 +646,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242277-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285299/panela-de-pressao-eletrica-brinox-ceramic-life-6-litros-220v_0.jpg?v=639191229985630000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285300/8001_100--1280x1280_1.png?v=639198186592800000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 220V",
         "position": 0
       },
       {
         "id": "img-994242277-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285300/8001_100--1280x1280_1.png?v=639198186592800000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285301/8001_100--1280x1280_2.png?v=639198186593270000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 220V",
         "position": 1
       },
       {
         "id": "img-994242277-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285301/8001_100--1280x1280_2.png?v=639198186593270000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285302/8001_100--1280x1280_3.png?v=639198186593270000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 220V",
         "position": 2
       },
       {
         "id": "img-994242277-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285302/8001_100--1280x1280_3.png?v=639198186593270000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285303/8001_100--1280x1280_4.png?v=639198186593270000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 220V",
         "position": 3
       }
@@ -686,13 +686,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 624.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 98,
+    "rating": 4.6,
+    "reviews_count": 145,
     "free_shipping": true,
     "featured": true,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.018Z",
+    "created_at": "2026-09-19T19:43:17.222Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -708,25 +708,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242276-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285283/panela-de-pressao-eletrica-brinox-ceramic-life-6-litros-127v_0.jpg?v=639191228744530000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285284/8001_101--1280x1280-1.png?v=639198186760870000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 127V",
         "position": 0
       },
       {
         "id": "img-994242276-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285284/8001_101--1280x1280-1.png?v=639198186760870000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285285/8001_101--1280x1280-2.png?v=639198186760870000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 127V",
         "position": 1
       },
       {
         "id": "img-994242276-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285285/8001_101--1280x1280-2.png?v=639198186760870000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285286/8001_101---1280x1280-3.png?v=639198186761170000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 127V",
         "position": 2
       },
       {
         "id": "img-994242276-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285286/8001_101---1280x1280-3.png?v=639198186761170000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285287/8001_101---1280x1280-4.png?v=639198186761170000",
         "alt": "Panela de Pressão Elétrica NEXLAR Ceramic Life 6 Litros 127V",
         "position": 3
       }
@@ -748,13 +748,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 279.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 176,
+    "rating": 4.8,
+    "reviews_count": 166,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.018Z",
+    "created_at": "2026-09-19T19:43:17.222Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -783,68 +783,6 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-994242185",
-    "name": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
-    "slug": "panela-de-pressao-nexlar-vapt-antiaderente-ceramic-life-4-5-litros-pre",
-    "sku": "NX-7259170",
-    "short_description": "A Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preta foi feita para quem quer cozinhar com mais agilidade no dia a dia...",
-    "description": "A Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preta foi feita para quem quer cozinhar com mais agilidade no dia a dia, sem abrir mão de segurança e praticidade. Com capacidade de 4,5 L, ela é ideal para preparar feijão, carnes, legumes, sopas e receitas completas para a família, entregando ótimo rendimento e desempenho na rotina.O corpo em alumínio aquece rápido e distribui o calor de forma uniforme, ajudando a reduzir o tempo de cozimento e melhorar o resultado das receitas. Por dentro, o revestimento cerâmico antiaderente Ceramic Life evita que os alimentos grudem, facilita o preparo com menos óleo e deixa a limpeza muito mais simples depois do uso. Além disso, é PFOA free, trazendo mais tranquilidade para o preparo das refeições.Para manusear com conforto e segurança, os cabos e alças em baquelite antitérmico não aquecem durante o uso e oferecem pegada firme. E para cozinhar com mais confiança, a Vapt conta com três dispositivos de segurança — trava no cabo, válvula de trabalho e válvula de segurança — contribuindo para um uso mais confiável no dia a dia. O acabamento preto completa o visual com elegância e versatilidade, combinando com diferentes estilos de cozinha.Se você procura uma panela de pressão espaçosa, eficiente e fácil de limpar para usar sempre, escolha a Panela de Pressão NEXLAR Ceramic Life Vapt 4,5 L Preta e garanta a sua agora.Principais benefícios:4,5 litros: capacidade ideal para refeições completasAlumínio: aquecimento rápido e cozimento uniformeAntiaderente cerâmico: não gruda e limpa fácilPFOA free: mais segurança no preparo3 dispositivos de segurança: trava no cabo + válvula de trabalho + válvula de segurançaCabos e alças em baquelite antitérmico: não aquecem e oferecem manuseio seguroCor preta: visual moderno e versátilEspecificações:Produto: panela de pressãoLinha: Ceramic Life VaptCapacidade: 4,5 litrosMaterial: alumínioRevestimento interno: cerâmico antiaderenteCor: pretaCabos e alças: baquelite antitérmicoSegurança: trava no cabo, válvula de trabalho e válvula de segurançaCuidados de uso:Realize a cura do revestimento antes do primeiro usoEvite choques térmicos e lave à mão com esponja macia e sabão neutroEvite utensílios metálicos e produtos abrasivos para preservar o antiaderenteNão utilizar em micro-ondas, lava-louças ou fornoCozinhe com mais segurança e eficiência: escolha a Panela de Pressão NEXLAR Ceramic Life Vapt 4,5 L Preta e compre agora.",
-    "category_id": "cat-pressao",
-    "categories": {
-      "name": "Panelas de Pressão",
-      "slug": "panelas-de-pressao"
-    },
-    "price": 209.99,
-    "compare_at_price": 309.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 126,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:31:58.018Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "7259170",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242185-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287058/4,5L - Vapt Preto.png?v=639238893461500000",
-        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
-        "position": 0
-      },
-      {
-        "id": "img-994242185-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287059/panela-de-pressao-brinox-ceramic-life-vapt-4-5-litros-preto_1.jpg?v=639238893461630000",
-        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
-        "position": 1
-      },
-      {
-        "id": "img-994242185-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287060/panela-de-pressao-brinox-ceramic-life-vapt-4-5-litros-preto_2.jpg?v=639238893461670000",
-        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
-        "position": 2
-      },
-      {
-        "id": "img-994242185-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287061/panela-de-pressao-brinox-ceramic-life-vapt-4-5-litros-preto_3.jpg?v=639238893461700000",
-        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
-        "position": 3
-      }
-    ]
-  },
-  {
     "id": "prod-4952101",
     "name": "Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 4,2L Vanilla",
     "slug": "panela-de-pressao-inducao-nexlar-antiaderente-ceramic-life-pressure-4-",
@@ -860,13 +798,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 499.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 148,
+    "rating": 4.8,
+    "reviews_count": 95,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.018Z",
+    "created_at": "2026-09-19T19:43:17.223Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -923,12 +861,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.6,
-    "reviews_count": 95,
+    "reviews_count": 143,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.018Z",
+    "created_at": "2026-09-19T19:43:17.223Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -963,28 +901,28 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-4953103",
-    "name": "Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Vanilla",
-    "slug": "panela-de-pressao-inducao-nexlar-antiaderente-ceramic-life-pressure-5-",
-    "sku": "NX-4953103",
-    "short_description": "A Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Ø22cm Vanilla é a escolha ideal para quem quer cozinhar com...",
-    "description": "A Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Ø22cm Vanilla é a escolha ideal para quem quer cozinhar com mais agilidade, segurança e um visual elegante na cozinha. Com capacidade de 5,4 L, ela atende muito bem refeições para a família e receitas maiores, preservando sabor e nutrientes graças ao cozimento por pressão e à estrutura em alumínio, que distribui o calor de forma uniforme e acelera a cocção.O revestimento cerâmico antiaderente Pro-Ceramic Premium facilita o preparo com menos óleo, evita que os alimentos grudem e torna a limpeza mais prática. Além disso, é livre de PFOA e metais pesados, trazendo mais tranquilidade para o uso diário. Para completar a versatilidade, a panela conta com fundo de indução, sendo compatível com todos os tipos de fogão: indução, gás, elétrico e vitrocerâmico.Segurança é prioridade: o modelo possui quatro dispositivos de segurança (trava de segurança, válvula de segurança, válvula de trabalho e escape de segurança), oferecendo um uso mais confiável sob pressão. O fechamento externo, as alças e o cabo em baquelite antitérmico com acabamento soft-touch garantem manuseio confortável e firme, com toque agradável no dia a dia. O acabamento na cor Vanilla, com detalhes em tom amadeirado, adiciona um toque contemporâneo e acolhedor à decoração.O produto possui certificação compulsória (OCP 0003), registro 003497/2020 e classificação de antiaderência A (ótima), conforme Portaria Inmetro 499/2021, além de garantia de 1 ano para defeitos de fabricação. Para manter o desempenho do antiaderente, faça a cura antes do primeiro uso, evite choques térmicos e lave sempre à mão com esponja macia e sabão neutro. Escolha a Panela de Pressão NEXLAR Ceramic Life Pressure 5,4 L Vanilla e garanta a sua agora.Principais benefícios:Capacidade de 5,4 L: ideal para receitas maiores e rotina da famíliaFundo de indução: compatível com todos os tipos de fogãoRevestimento Pro-Ceramic Premium: não gruda e limpa fácilLivre de PFOA e metais pesados: mais segurança no preparoAlumínio: aquecimento uniforme e preparo mais rápido4 dispositivos de segurança: mais tranquilidade no uso sob pressãoBaquelite antitérmico com soft-touch: manuseio confortável e seguroInmetro: classificação de antiaderência A (ótima)Garantia de 1 ano para defeitos de fabricaçãoEspecificações:Produto: Panela de Pressão Indução NEXLAR Ceramic Life PressureCapacidade: 5,4 litrosDiâmetro: 22 cmMaterial: alumínioRevestimento: cerâmico antiaderente Pro-Ceramic PremiumCor: VanillaCabos/alças: baquelite antitérmico com soft-touchCompatibilidade: indução, gás, elétrico e vitrocerâmicoCertificação: OCP 0003 (registro 003497/2020) | Inmetro antiaderência A (Portaria 499/2021)Instruções de uso e cuidados:Faça a cura do revestimento antes do primeiro usoEvite choques térmicos e lave à mão com água morna, esponja macia e sabão neutro/detergenteSe precisar esfregar, use materiais não abrasivosNão utilizar em micro-ondas, lava-louças ou fornoComplete agora sua cozinha com a Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Ø22cm Vanilla.",
+    "id": "prod-994242185",
+    "name": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
+    "slug": "panela-de-pressao-nexlar-vapt-antiaderente-ceramic-life-4-5-litros-pre",
+    "sku": "NX-7259170",
+    "short_description": "A Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preta foi feita para quem quer cozinhar com mais agilidade no dia a dia...",
+    "description": "A Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preta foi feita para quem quer cozinhar com mais agilidade no dia a dia, sem abrir mão de segurança e praticidade. Com capacidade de 4,5 L, ela é ideal para preparar feijão, carnes, legumes, sopas e receitas completas para a família, entregando ótimo rendimento e desempenho na rotina.O corpo em alumínio aquece rápido e distribui o calor de forma uniforme, ajudando a reduzir o tempo de cozimento e melhorar o resultado das receitas. Por dentro, o revestimento cerâmico antiaderente Ceramic Life evita que os alimentos grudem, facilita o preparo com menos óleo e deixa a limpeza muito mais simples depois do uso. Além disso, é PFOA free, trazendo mais tranquilidade para o preparo das refeições.Para manusear com conforto e segurança, os cabos e alças em baquelite antitérmico não aquecem durante o uso e oferecem pegada firme. E para cozinhar com mais confiança, a Vapt conta com três dispositivos de segurança — trava no cabo, válvula de trabalho e válvula de segurança — contribuindo para um uso mais confiável no dia a dia. O acabamento preto completa o visual com elegância e versatilidade, combinando com diferentes estilos de cozinha.Se você procura uma panela de pressão espaçosa, eficiente e fácil de limpar para usar sempre, escolha a Panela de Pressão NEXLAR Ceramic Life Vapt 4,5 L Preta e garanta a sua agora.Principais benefícios:4,5 litros: capacidade ideal para refeições completasAlumínio: aquecimento rápido e cozimento uniformeAntiaderente cerâmico: não gruda e limpa fácilPFOA free: mais segurança no preparo3 dispositivos de segurança: trava no cabo + válvula de trabalho + válvula de segurançaCabos e alças em baquelite antitérmico: não aquecem e oferecem manuseio seguroCor preta: visual moderno e versátilEspecificações:Produto: panela de pressãoLinha: Ceramic Life VaptCapacidade: 4,5 litrosMaterial: alumínioRevestimento interno: cerâmico antiaderenteCor: pretaCabos e alças: baquelite antitérmicoSegurança: trava no cabo, válvula de trabalho e válvula de segurançaCuidados de uso:Realize a cura do revestimento antes do primeiro usoEvite choques térmicos e lave à mão com esponja macia e sabão neutroEvite utensílios metálicos e produtos abrasivos para preservar o antiaderenteNão utilizar em micro-ondas, lava-louças ou fornoCozinhe com mais segurança e eficiência: escolha a Panela de Pressão NEXLAR Ceramic Life Vapt 4,5 L Preta e compre agora.",
     "category_id": "cat-pressao",
     "categories": {
       "name": "Panelas de Pressão",
       "slug": "panelas-de-pressao"
     },
-    "price": 299.99,
-    "compare_at_price": 539.99,
+    "price": 209.99,
+    "compare_at_price": 309.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 69,
-    "free_shipping": true,
+    "rating": 5,
+    "reviews_count": 42,
+    "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.018Z",
+    "created_at": "2026-09-19T19:43:17.224Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -993,60 +931,60 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "4953103",
+      "Referência": "7259170",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-4953103-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287081/5,4L - Pressure Vanilla.png?v=639239403720670000",
-        "alt": "Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Vanilla",
+        "id": "img-994242185-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287058/4,5L - Vapt Preto.png?v=639238893461500000",
+        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
         "position": 0
       },
       {
-        "id": "img-4953103-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287082/4953_103---1.jpg?v=639239403720800000",
-        "alt": "Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Vanilla",
+        "id": "img-994242185-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287059/panela-de-pressao-brinox-ceramic-life-vapt-4-5-litros-preto_1.jpg?v=639238893461630000",
+        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
         "position": 1
       },
       {
-        "id": "img-4953103-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287083/4953_103---2.jpg?v=639239403720800000",
-        "alt": "Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Vanilla",
+        "id": "img-994242185-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287060/panela-de-pressao-brinox-ceramic-life-vapt-4-5-litros-preto_2.jpg?v=639238893461670000",
+        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
         "position": 2
       },
       {
-        "id": "img-4953103-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287084/4953_103---3.jpg?v=639239403720800000",
-        "alt": "Panela de Pressão Indução NEXLAR Antiaderente Ceramic Life Pressure 5,4 Litros Vanilla",
+        "id": "img-994242185-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287061/panela-de-pressao-brinox-ceramic-life-vapt-4-5-litros-preto_3.jpg?v=639238893461700000",
+        "alt": "Panela de Pressão NEXLAR Vapt Antiaderente Ceramic Life 4,5 Litros Preto",
         "position": 3
       }
     ]
   },
   {
-    "id": "prod-4953100",
-    "name": "Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 Litros Preto",
-    "slug": "panela-de-pressao-inducao-nexlar-pressure-antiaderente-ceramic-life-5-",
-    "sku": "NX-4953100",
-    "short_description": "A Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 Litros Preta é perfeita para quem quer mais eficiência e praticida...",
-    "description": "A Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 Litros Preta é perfeita para quem quer mais eficiência e praticidade na rotina. Com capacidade de 5,4 L, ela atende muito bem preparos para a família, agilizando receitas como feijão, carnes, sopas, caldos e legumes. O sistema de pressão reduz o tempo de cozimento e, somado ao corpo e tampa em alumínio, garante aquecimento rápido e cocção uniforme, com resultados consistentes em menos tempo.O revestimento interno antiaderente Pro Ceramic, desenvolvido com mini partículas de cerâmica, ajuda a cozinhar com menos óleo, evita que os alimentos grudem e facilita a limpeza após o uso. Além disso, é uma tecnologia mais saudável e sustentável por ser PFOA free, oferecendo mais tranquilidade no dia a dia.A panela possui fundo de indução e é compatível com todos os tipos de fogão — indução, gás, elétrico e vitrocerâmico — trazendo versatilidade para diferentes cozinhas. No manuseio, o cabo e a alça em baquelite oferecem firmeza e segurança. Com acabamento preto, o visual é moderno e combina facilmente com diferentes estilos.O produto conta com certificação compulsória (OCP 0003), registro 003497/2020 e classificação de antiaderência A (ótima), conforme Portaria Inmetro 499/2021. Para manter o desempenho do antiaderente, realize a cura antes do primeiro uso, evite choques térmicos e lave sempre à mão com esponja macia e sabão neutro. Escolha a Panela de Pressão NEXLAR Pressure 5,4 L Preta e garanta a sua agora.Principais benefícios:Capacidade de 5,4 L: ideal para receitas maiores e rotina da famíliaFundo de indução: compatível com todos os tipos de fogãoCorpo e tampa em alumínio: aquecimento rápido e cocção uniformeAntiaderente Pro Ceramic: não gruda e limpa fácilCozinha com menos óleo: preparo mais levePFOA free: mais segurança e tranquilidade no usoCabo e alça em baquelite: manuseio firme e confortávelInmetro: classificação de antiaderência A (ótima)Especificações:Produto: Panela de Pressão Indução NEXLAR Pressure Ceramic LifeCapacidade: 5,4 litrosMaterial: alumínio (corpo e tampa)Revestimento interno: antiaderente Pro Ceramic (partículas de cerâmica)Cor: PretaCabos/alças: baqueliteCompatibilidade: indução, gás, elétrico e vitrocerâmicoCertificação: OCP 0003 (registro 003497/2020) | Inmetro antiaderência A (Portaria 499/2021)Instruções de uso e cuidados:Faça a cura do revestimento antes do primeiro usoEvite choques térmicos e lave à mão com água morna, esponja macia e sabão neutro/detergenteSe precisar esfregar, use materiais não abrasivosNão utilizar em micro-ondas, lava-louças ou fornoGaranta a sua Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 L Preta e cozinhe com mais praticidade, segurança e eficiência todos os dias.",
+    "id": "prod-994242188",
+    "name": "Panela com Tampa NEXLAR Primea Ceramic Life Ø16cm 1,45 Litros Cappuccino",
+    "slug": "panela-com-tampa-nexlar-primea-ceramic-life-16cm-1-45-litros-cappuccin",
+    "sku": "NX-7261356",
+    "short_description": "Panela com Tampa NEXLAR Primea Antiaderente Ceramic Life Ø 16 cm 1,45 Litros Cappuccino — proteção antibacteriana em formato compactoA Panel...",
+    "description": "Panela com Tampa NEXLAR Primea Antiaderente Ceramic Life Ø 16 cm 1,45 Litros Cappuccino — proteção antibacteriana em formato compactoA Panela com Tampa NEXLAR Primea traz a tecnologia que faz toda a diferença na sua rotina: revestimento antiaderente Pro Ceramic com aditivo antibacteriano, desenvolvido para reduzir ativamente a proliferação de bactérias durante o preparo dos alimentos. Mais segurança alimentar, mais higiene e a tranquilidade de saber que cada refeição é feita em uma superfície que trabalha a favor da saúde da sua família. Tudo isso em uma panela compacta, bonita e funcional em tom Cappuccino — pensada para quem leva a sério tanto o sabor quanto a saúde.A diferença está no antibacterianoA proliferação de bactérias é um dos maiores riscos invisíveis na cozinha — especialmente em panelas que são usadas várias vezes ao dia para os mais diversos preparos. O revestimento Pro Ceramic da linha Primea conta com aditivo antibacteriano integrado à própria superfície de cocção — não é uma camada que se desgasta com o tempo, mas uma proteção que atua continuamente, reduzindo a presença de microrganismos durante todo o ciclo de uso da peça. Combinado à formulação livre de PFOA, o resultado é uma superfície ao mesmo tempo segura, antiaderente e ativa na proteção da família.Por que escolher a Panela Primea Ceramic Life NEXLAR 16 cmProduzida com estrutura em alumínio, a panela aquece rapidamente e distribui o calor de forma uniforme, favorecendo o cozimento homogêneo dos alimentos. O diâmetro compacto de 16 cm com 1,45 litros de capacidade é ideal para pequenas porções e preparos do dia a dia: aquecimento de molhos, preparo de acompanhamentos individuais, sopa para uma ou duas pessoas, papinhas e cozimentos rápidos. A tampa flat de vidro temperado com saída para vapor oferece mais controle durante o preparo e permite acompanhar a receita sem perder calor. O cabo com acabamento soft touch garante manuseio confortável, seguro e com menor aquecimento.Diferenciais da Panela Primea Ceramic Life NEXLAR 16 cmAditivo antibacteriano integrado ao revestimento: proteção contínua contra a proliferação de bactérias.Livre de PFOA: mais segurança no uso diário para sua família.Revestimento Pro Ceramic antiaderente: alimentos não grudam e limpeza facilitada.Diâmetro de 16 cm e capacidade de 1,45 litros: tamanho compacto, ideal para porções pequenas.Estrutura em alumínio: aquecimento rápido e distribuição uniforme do calor.Tampa flat de vidro temperado com saída para vapor: controle visual do preparo.Cabo soft touch: manuseio confortável e seguro.Cor Cappuccino: visual moderno, elegante e versátil.Compatível com fogões a gás, elétrico e vitrocerâmico.Receitas ideais com a Panela Primea 16 cmMolhos rápidos e reduções.Acompanhamentos individuais (legumes, purês).Sopas e cremes para uma ou duas pessoas.Cozimento de ovos e papinhas.Aquecimento de mingaus e leite.Preparo de doces leves, brigadeiros e caldas.Pequenas porções de arroz e feijão.Ficha técnicaProduto: Panela com tampaMarca: NEXLARLinha: Primea Ceramic LifeDiâmetro: Ø 16 cmCapacidade: 1,45 litrosEstrutura: AlumínioRevestimento interno: cerâmico antiaderente Pro Ceramic com aditivo antibacteriano (livre de PFOA)Tampa: Flat de vidro temperado com saída para vaporCabo: Soft touchCor: CappuccinoCompatibilidade: fogões a gás, elétrico e vitrocerâmicoCura do revestimento (antes do primeiro uso)Antes de utilizar, realize a cura para potencializar a vida útil do revestimento antibacteriano:Unte a parte interna com óleo ou qualquer outro tipo de gordura.Leve o produto ao fogo baixo até aquecer o conteúdo e deixe esfriar.Descarte o conteúdo e repita a lavagem e secagem para eliminar qualquer resíduo.Como cuidar da sua Panela Primea NEXLARUtilize utensílios de silicone, madeira ou nylon — nunca metálicos.Evite materiais abrasivos na limpeza.Lave à mão, com esponja macia e sabão neutro ou detergente.Evite choques térmicos (não jogue água fria na peça quente).Seque bem após a lavagem para ajudar na conservação da peça.Preparos compactos e saudáveis com proteção antibacteriana: Panela com Tampa NEXLAR Primea Ceramic Life 16 cm Cappuccino.",
     "category_id": "cat-pressao",
     "categories": {
       "name": "Panelas de Pressão",
       "slug": "panelas-de-pressao"
     },
-    "price": 259.99,
-    "compare_at_price": 539.99,
+    "price": 99.99,
+    "compare_at_price": 119.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 170,
-    "free_shipping": true,
+    "rating": 4.9,
+    "reviews_count": 118,
+    "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.018Z",
+    "created_at": "2026-09-19T19:43:17.224Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1055,33 +993,95 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "4953100",
+      "Referência": "7261356",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-4953100-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287089/5,4L - Pressure Preto.png?v=639239404115670000",
-        "alt": "Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 Litros Preto",
+        "id": "img-994242188-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284779/7261 100_Primea 1280x1280_1.png?v=639165230883300000",
+        "alt": "Panela com Tampa NEXLAR Primea Ceramic Life Ø16cm 1,45 Litros Cappuccino",
         "position": 0
       },
       {
-        "id": "img-4953100-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287090/panela-de-pressao-revestimento-ceramico-fundo-de-inducao-linha-ceramic-life-pressure-brinox.jpg?v=639239404115670000",
-        "alt": "Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 Litros Preto",
+        "id": "img-994242188-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284780/7261 100_Primea 1280x1280_2.png?v=639165230883470000",
+        "alt": "Panela com Tampa NEXLAR Primea Ceramic Life Ø16cm 1,45 Litros Cappuccino",
         "position": 1
       },
       {
-        "id": "img-4953100-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287091/panela-de-pressao-fundo-de-inducao-linha-pressure-cor-preto-brinox.jpg?v=639239404115800000",
-        "alt": "Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 Litros Preto",
+        "id": "img-994242188-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284781/7261 100_Primea 1280x1280_4.png?v=639165230883470000",
+        "alt": "Panela com Tampa NEXLAR Primea Ceramic Life Ø16cm 1,45 Litros Cappuccino",
         "position": 2
       },
       {
-        "id": "img-4953100-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287092/panela-de-pressao-linha-ceramic-life-pressure-cor-preto-de-inducao-brinox.jpg?v=639239404115800000",
-        "alt": "Panela de Pressão Indução NEXLAR Pressure Antiaderente Ceramic Life 5,4 Litros Preto",
+        "id": "img-994242188-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284782/7261 100_Primea 1280x1280_3.png?v=639165230883600000",
+        "alt": "Panela com Tampa NEXLAR Primea Ceramic Life Ø16cm 1,45 Litros Cappuccino",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "prod-994242251",
+    "name": "Panela com Tampa NEXLAR Antiaderente Ceramic Life Naturalle Ø18cm 1,75 Litros Champagne",
+    "slug": "panela-com-tampa-nexlar-antiaderente-ceramic-life-naturalle-18cm-1-75-",
+    "sku": "NX-7262357",
+    "short_description": "Panela com Tampa NEXLAR Antiaderente Ceramic Life Naturalle Ø18 x 8 cm 1,75L Champagne – Design Natural com Performance no Dia a Dia\nCom vis...",
+    "description": "Panela com Tampa NEXLAR Antiaderente Ceramic Life Naturalle Ø18 x 8 cm 1,75L Champagne – Design Natural com Performance no Dia a Dia\nCom visual leve e acabamento sofisticado na cor Champagne, a Panela Ø18cm da linha Ceramic Life Naturalle da NEXLAR combina funcionalidade, resistência e beleza para tornar o preparo das suas refeições mais prático e prazeroso.\nCom 1,75 litro de capacidade, é ideal para porções médias de arroz, legumes, molhos ou caldos. Seu revestimento antiaderente cerâmico Pro-Ceramic, livre de PFOA, evita que os alimentos grudem, facilita a limpeza e permite cozinhar com menos óleo, contribuindo para uma alimentação mais saudável.\nA estrutura em alumínio proporciona aquecimento rápido e homogêneo, otimizando o tempo na cozinha. A tampa de vidro temperado com saída para vapor permite o acompanhamento do preparo sem perder temperatura. O cabo em baquelite tem toque confortável, é resistente ao calor e garante segurança no manuseio.\nDestaques que fazem a diferença:\n\n\nRevestimento Pro-Ceramic: antiaderente cerâmico, mais saudável e fácil de limpar\n\n\nLivre de PFOA: mais segurança para sua saúde e o meio ambiente\n\n\nEstrutura em alumínio: distribuição de calor rápida e uniforme\n\n\nTampa de vidro temperado com saída de vapor: controle e vedação eficiente\n\n\nCabo em baquelite: resistente ao calor, seguro e confortável no uso\n\n\nAlta resistência térmica para o uso diário\n\n\nCompatível com fogões a gás, elétrico e vitrocerâmico\n\n\nNão compatível com fogão de indução\n\n\nCaracterísticas técnicas:• Produto: Panela com Tampa• Linha: NEXLAR Ceramic Life Naturalle• Capacidade: 1,75 Litros• Dimensões: Ø 18 x 8 cm• Material: Alumínio com revestimento cerâmico antiaderente• Cor: Champagne• Cabo: Baquelite com isolamento térmico• Tampa: Vidro temperado com saída de vapor• Compatibilidade: Fogões a gás, elétricos e vitrocerâmicos• Restrição: Não vai ao forno e não é compatível com indução\nPerfeita para o uso diário, a Panela Ø18cm Ceramic Life Naturalle Champagne entrega a combinação ideal entre design, segurança e eficiência na cozinha.\n \nAdquira a sua agora e cozinhe com mais leveza, praticidade e estilo!",
+    "category_id": "cat-pressao",
+    "categories": {
+      "name": "Panelas de Pressão",
+      "slug": "panelas-de-pressao"
+    },
+    "price": 96.99,
+    "compare_at_price": 121.24,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.9,
+    "reviews_count": 69,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:17.224Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "7262357",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242251-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284866/01 - 1280x1280.png?v=639165405962430000",
+        "alt": "Panela com Tampa NEXLAR Antiaderente Ceramic Life Naturalle Ø18cm 1,75 Litros Champagne",
+        "position": 0
+      },
+      {
+        "id": "img-994242251-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284867/02 - 1280x1280.png?v=639165405962600000",
+        "alt": "Panela com Tampa NEXLAR Antiaderente Ceramic Life Naturalle Ø18cm 1,75 Litros Champagne",
+        "position": 1
+      },
+      {
+        "id": "img-994242251-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284868/03 - 1280x1280.png?v=639165405962600000",
+        "alt": "Panela com Tampa NEXLAR Antiaderente Ceramic Life Naturalle Ø18cm 1,75 Litros Champagne",
+        "position": 2
+      },
+      {
+        "id": "img-994242251-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284869/04 - 1280x1280.png?v=639165405962770000",
+        "alt": "Panela com Tampa NEXLAR Antiaderente Ceramic Life Naturalle Ø18cm 1,75 Litros Champagne",
         "position": 3
       }
     ]
@@ -1103,12 +1103,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.8,
-    "reviews_count": 49,
+    "reviews_count": 122,
     "free_shipping": true,
     "featured": true,
     "is_new": true,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.974Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1164,13 +1164,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 162.49,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 97,
+    "rating": 4.8,
+    "reviews_count": 132,
     "free_shipping": false,
     "featured": true,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.974Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1186,25 +1186,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242247-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284961/chaleira-brinox-ceramic-life-suprema-2l-vanilla_0.jpg?v=639174068121270000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284962/7244_155-1280x1280_1.png?v=639197985616600000",
         "alt": "Chaleira NEXLAR Ceramic Life Suprema 2 Litros Vanilla",
         "position": 0
       },
       {
         "id": "img-994242247-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284962/7244_155-1280x1280_1.png?v=639197985616600000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284963/7244_155-1280x1280_2.png?v=639197985616900000",
         "alt": "Chaleira NEXLAR Ceramic Life Suprema 2 Litros Vanilla",
         "position": 1
       },
       {
         "id": "img-994242247-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284963/7244_155-1280x1280_2.png?v=639197985616900000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284964/7244_155-1280x1280_3.png?v=639197985616900000",
         "alt": "Chaleira NEXLAR Ceramic Life Suprema 2 Litros Vanilla",
         "position": 2
       },
       {
         "id": "img-994242247-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284964/7244_155-1280x1280_3.png?v=639197985616900000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284961/chaleira-brinox-ceramic-life-suprema-2l-vanilla_0.jpg?v=639174068121270000",
         "alt": "Chaleira NEXLAR Ceramic Life Suprema 2 Litros Vanilla",
         "position": 3
       }
@@ -1227,12 +1227,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 162,
+    "reviews_count": 144,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.974Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1248,25 +1248,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242224-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284389/frigideira-brinox-ceramic-life-rainbow-o16cm-450-ml-grafite_0.jpg?v=639147818684100000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284390/7442-343  -Frigideira cinza_1280x1280_1.png?v=639147818684270000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Grafite",
         "position": 0
       },
       {
         "id": "img-994242224-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284390/7442-343  -Frigideira cinza_1280x1280_1.png?v=639147818684270000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284391/7442-343  -Frigideira cinza_1280x1280_2.png?v=639147818684400000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Grafite",
         "position": 1
       },
       {
         "id": "img-994242224-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284391/7442-343  -Frigideira cinza_1280x1280_2.png?v=639147818684400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284392/7442-343  -Frigideira cinza_1280x1280_3.png?v=639147818684400000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Grafite",
         "position": 2
       },
       {
         "id": "img-994242224-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284392/7442-343  -Frigideira cinza_1280x1280_3.png?v=639147818684400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284393/7442-343  -Frigideira cinza_1280x1280_4.png?v=639147818684570000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Grafite",
         "position": 3
       }
@@ -1289,12 +1289,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 40,
+    "reviews_count": 71,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.974Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1310,25 +1310,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242169-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284365/frigideira-brinox-ceramic-life-rainbow-o16cm-450-ml-cereja_0.jpg?v=639147816639100000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284366/7442-340  -Frigideira cereja_1280x1280_1.png?v=639147816639570000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Cereja",
         "position": 0
       },
       {
         "id": "img-994242169-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284366/7442-340  -Frigideira cereja_1280x1280_1.png?v=639147816639570000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284367/7442-340  -Frigideira cereja_1280x1280_2.png?v=639147816639570000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Cereja",
         "position": 1
       },
       {
         "id": "img-994242169-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284367/7442-340  -Frigideira cereja_1280x1280_2.png?v=639147816639570000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284368/7442-340  -Frigideira cereja_1280x1280_3.png?v=639147816639570000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Cereja",
         "position": 2
       },
       {
         "id": "img-994242169-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284368/7442-340  -Frigideira cereja_1280x1280_3.png?v=639147816639570000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284369/7442-340  -Frigideira cereja_1280x1280_4.png?v=639147816639730000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Cereja",
         "position": 3
       }
@@ -1351,12 +1351,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 86,
+    "reviews_count": 145,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.975Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1372,25 +1372,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242171-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284382/7442_342.jpg?v=639147817991170000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284383/7442-342  -Frigideira azul_1280x1280_1.png?v=639147817991300000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Azul",
         "position": 0
       },
       {
         "id": "img-994242171-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284383/7442-342  -Frigideira azul_1280x1280_1.png?v=639147817991300000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284384/7442-342  -Frigideira azul_1280x1280_2.png?v=639147817991470000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Azul",
         "position": 1
       },
       {
         "id": "img-994242171-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284384/7442-342  -Frigideira azul_1280x1280_2.png?v=639147817991470000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284385/7442-342  -Frigideira azul_1280x1280_3.png?v=639147817991470000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Azul",
         "position": 2
       },
       {
         "id": "img-994242171-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284385/7442-342  -Frigideira azul_1280x1280_3.png?v=639147817991470000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284386/7442-342  -Frigideira azul_1280x1280_4.png?v=639147817991630000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Azul",
         "position": 3
       }
@@ -1412,13 +1412,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 49.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 163,
+    "rating": 5,
+    "reviews_count": 96,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.975Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1434,25 +1434,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242170-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284374/frigideira-brinox-ceramic-life-rainbow-o16cm-450-ml-rosa_0.jpg?v=639147817400700000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284375/7442-341  -Frigideira rosa_1280x1280_1.png?v=639147817401100000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Rosa",
         "position": 0
       },
       {
         "id": "img-994242170-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284375/7442-341  -Frigideira rosa_1280x1280_1.png?v=639147817401100000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284376/7442-341  -Frigideira rosa_1280x1280_2.png?v=639147817401130000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Rosa",
         "position": 1
       },
       {
         "id": "img-994242170-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284376/7442-341  -Frigideira rosa_1280x1280_2.png?v=639147817401130000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284377/7442-341  -Frigideira rosa_1280x1280_3.png?v=639147817401200000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Rosa",
         "position": 2
       },
       {
         "id": "img-994242170-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284377/7442-341  -Frigideira rosa_1280x1280_3.png?v=639147817401200000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284378/7442-341  -Frigideira rosa_1280x1280_4.png?v=639147817401230000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Rosa",
         "position": 3
       }
@@ -1474,13 +1474,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 49.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 41,
+    "rating": 4.6,
+    "reviews_count": 30,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.975Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1496,25 +1496,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242172-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284399/7442_344--1-.jpg?v=639147819286600000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284400/7442-344  -Frigideira verde_1280x1280_1.png?v=639147819286770000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Verde",
         "position": 0
       },
       {
         "id": "img-994242172-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284400/7442-344  -Frigideira verde_1280x1280_1.png?v=639147819286770000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284401/7442-344  -Frigideira verde_1280x1280_2.png?v=639147819286770000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Verde",
         "position": 1
       },
       {
         "id": "img-994242172-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284401/7442-344  -Frigideira verde_1280x1280_2.png?v=639147819286770000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284402/7442-344  -Frigideira verde_1280x1280_3.png?v=639147819286900000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Verde",
         "position": 2
       },
       {
         "id": "img-994242172-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284402/7442-344  -Frigideira verde_1280x1280_3.png?v=639147819286900000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284403/7442-344  -Frigideira verde_1280x1280_4.png?v=639147819286900000",
         "alt": "Frigideira NEXLAR Antiaderente Ceramic Life Rainbow Ø16cm 450ml Verde",
         "position": 3
       }
@@ -1537,12 +1537,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 202,
+    "reviews_count": 163,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:58.742Z",
+    "created_at": "2026-09-19T19:43:17.975Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1561,86 +1561,6 @@ export const PRODUCTS: Product[] = [
         "url": "https://brinox.vteximg.com.br/arquivos/ids/287774/Fervedor SmartP Botanika 1,7 L.png?v=639251535588270000",
         "alt": "Fervedor com Indução NEXLAR Botanika Ceramic Life Ø14cm 1,75 Litros Verde",
         "position": 0
-      },
-      {
-        "id": "img-994242248-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287775/brinox-promocao-fervedor-botanika-leiteira.png?v=639251535588430000",
-        "alt": "Fervedor com Indução NEXLAR Botanika Ceramic Life Ø14cm 1,75 Litros Verde",
-        "position": 1
-      },
-      {
-        "id": "img-994242248-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287776/brinox-promocao-botanika-fervedor--2-.png?v=639251535588430000",
-        "alt": "Fervedor com Indução NEXLAR Botanika Ceramic Life Ø14cm 1,75 Litros Verde",
-        "position": 2
-      },
-      {
-        "id": "img-994242248-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287777/brinox-promocao-botanika-fervedor--1-.png?v=639251535588600000",
-        "alt": "Fervedor com Indução NEXLAR Botanika Ceramic Life Ø14cm 1,75 Litros Verde",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-994242220",
-    "name": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
-    "slug": "lixeira-com-pedal-e-balde-nexlar-matte-5-litros-branco",
-    "sku": "NX-3069102",
-    "short_description": "A Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco é ideal para quem busca mais praticidade, higiene e um visual clean para diferentes...",
-    "description": "A Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco é ideal para quem busca mais praticidade, higiene e um visual clean para diferentes ambientes da casa ou do trabalho. Com capacidade de 5 litros, ela é uma solução funcional para cozinhas, banheiros, lavabos e escritórios, ajudando a manter o espaço mais organizado no dia a dia.O acionamento por pedal permite abrir a tampa sem o uso das mãos, trazendo mais comodidade e contribuindo para uma rotina mais higiênica no descarte dos resíduos. A tampa com abertura de até 90° facilita o uso diário e também torna a troca do saco de lixo mais simples, oferecendo mais praticidade na manutenção.Outro diferencial é o sistema de fechamento suave, que evita ruídos e impactos bruscos ao fechar a tampa, proporcionando mais conforto no ambiente. O balde interno removível facilita a retirada do lixo e deixa a limpeza mais prática e organizada, tornando o uso ainda mais funcional.Com acabamento matte na cor branca, a Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco combina facilmente com diferentes estilos de decoração. Seu visual discreto e sofisticado ajuda a compor ambientes mais leves e modernos, sem abrir mão da eficiência no uso diário. As dimensões de 28,2 x 14 x 28,7 cm também favorecem o aproveitamento do espaço, sendo uma ótima escolha para quem procura praticidade em áreas compactas.A Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco reúne funcionalidade, conforto e um acabamento elegante para deixar a rotina mais simples e organizada. Principais benefícios:Capacidade de 5 litros: ideal para cozinhas, banheiros e escritóriosPedal: abertura prática sem o uso das mãosMais higiene no descarte diárioTampa com abertura de até 90°: facilita o uso e a troca do saco de lixoFechamento suave: evita ruídos e impactos bruscosBalde interno removível: mais praticidade na limpeza e na retirada do lixoAcabamento matte na cor branca: visual clean, moderno e versátilDimensões compactas: melhor aproveitamento do espaçoEspecificações:Produto: lixeira com pedal e baldeMarca: NEXLARLinha: MatteCapacidade: 5 litrosFormato: retangularCor: brancoAcabamento: matteAbertura da tampa: até 90°Sistema de fechamento suavePossui balde interno removívelDimensões: 28,2 x 14 x 28,7 cmCuidados de uso:Limpe com pano macio, esponja suave e sabão neutroEvite o uso de materiais abrasivos para ajudar na conservação do acabamentoSeque após a limpeza para manter a peça sempre bem cuidadaUtilize em ambientes internos para melhor conservaçãoLeve mais higiene e praticidade para o seu ambiente com a Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco e compre agora.",
-    "category_id": "cat-lixeiras",
-    "categories": {
-      "name": "Lixeiras",
-      "slug": "lixeiras"
-    },
-    "price": 189.99,
-    "compare_at_price": 249.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 195,
-    "free_shipping": false,
-    "featured": true,
-    "is_new": true,
-    "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "3069102",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242220-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287716/Lixeira 5 L - Matte Branco.png?v=639251525307000000",
-        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
-        "position": 0
-      },
-      {
-        "id": "img-994242220-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287717/3069_102---1.jpg?v=639251525307300000",
-        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
-        "position": 1
-      },
-      {
-        "id": "img-994242220-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287718/3069_102---2.jpg?v=639251525307300000",
-        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
-        "position": 2
-      },
-      {
-        "id": "img-994242220-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287719/3069_102---3.jpg?v=639251525307300000",
-        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
-        "position": 3
       }
     ]
   },
@@ -1661,12 +1581,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.9,
-    "reviews_count": 146,
+    "reviews_count": 205,
     "free_shipping": false,
     "featured": true,
-    "is_new": false,
+    "is_new": true,
     "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
+    "created_at": "2026-09-19T19:43:18.805Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1688,47 +1608,47 @@ export const PRODUCTS: Product[] = [
       },
       {
         "id": "img-994242218-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287728/3069_100---1.jpg?v=639251525655430000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287733/ChatGPT-Image-11-de-mai.-de-2026-13_38_33.png?v=639251525655600000",
         "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Inox",
         "position": 1
       },
       {
         "id": "img-994242218-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287729/3069_100---2.jpg?v=639251525655430000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287728/3069_100---1.jpg?v=639251525655430000",
         "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Inox",
         "position": 2
       },
       {
         "id": "img-994242218-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287730/3069_100---3.jpg?v=639251525655430000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287729/3069_100---2.jpg?v=639251525655430000",
         "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Inox",
         "position": 3
       }
     ]
   },
   {
-    "id": "prod-994242320",
-    "name": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray",
-    "slug": "lixeira-nexlar-borboleta-com-pedal-20-litros-preta-com-alca-light-gray",
-    "sku": "NX-106620008",
-    "short_description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como...",
-    "description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como asas, daí o nome — e um aro para saco de 20 litros. A Lixeira Coza Borboleta com Pedal 20 Litros Preta com Alça Light Gray é a preta de alça clara. Separar. Abrir. Borboleta.O que cabe quando não tem divisóriaSem divisão no meio, a base de 32 x 22,2 cm fica inteira — e é aí que a versão de compartimento único ganha da dividida. Caixa de pizza dobrada, garrafa deitada, embalagem grande: o que atravessa a peça de um lado ao outro só entra onde não há parede no meio. Numa lixeira dividida, o mesmo item fica em pé na borda.Boca larga é o que o lixo de cozinha pedeLixo de cozinha não é fino. É casca em punhado, embalagem amassada, pote com resto — coisa que se joga com a mão aberta. Uma boca de 32 cm sem obstrução no meio aceita o punhado inteiro; uma boca dividida pede que você escolha o lado antes de soltar. É por isso que o catálogo indica esta versão para ambientes de maior produção de lixo: não é só o volume, é a velocidade de jogar.A alça clara corta a coluna pretaA peça é vertical: 42,5 cm de altura sobre 22,2 de profundidade. Um corpo preto inteiro nessa proporção lê como uma coluna. A alça light gray atravessa o topo e quebra essa vertical — a peça passa a ler como um volume com tampa, não como um bloco. E tem a função óbvia: embaixo da pia, é o claro que a mão encontra.PP, hastes de aço e o cuidado que importaCorpo de polipropileno (PP), reciclável, acabamento acetinado, que devolve menos marca que um preto brilhante. As hastes são de aço galvanizado e pedem uma coisa só: secar depois de limpar.EspecificaçõesMedidas: 32 x 22,2 x 42,5 cmCapacidade: 20 litros, compartimento únicoCor: corpo preto, alça light grayMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 20 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuanto de chão a Lixeira Coza Borboleta 20 Litros ocupa?A base é de 32 x 22,2 cm e a altura é de 42,5 cm — quase duas vezes mais alta que funda.20 litros em um compartimento ou 10+10 divididos?A carcaça e a capacidade são iguais. Um compartimento só aceita item que atravessa a peça de um lado ao outro; o dividido separa seco de úmido. Um ou outro, não os dois.Cabe caixa de pizza?Dobrada, sim: sem divisória no meio, a base de 32 x 22,2 cm fica inteira e aceita o que atravessa a peça. Numa lixeira dividida, o mesmo item fica em pé na borda.Mostra marca de dedo?Menos que um preto brilhante: o acabamento é acetinado, que devolve menos marca.Por que a alça é clara?Por duas razões. Ela quebra a vertical de 42,5 cm, então a peça não lê como uma coluna preta. E é o claro que a mão encontra embaixo da pia, sem precisar olhar.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Boca larga e base inteira: é o que uma lixeira de cozinha precisa quando o lixo vem em punhado. Com a Lixeira Coza Borboleta com Pedal 20 Litros Preta com Alça Light Gray, nada fica em pé na borda. Leve a sua.",
+    "id": "prod-994242220",
+    "name": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
+    "slug": "lixeira-com-pedal-e-balde-nexlar-matte-5-litros-branco",
+    "sku": "NX-3069102",
+    "short_description": "A Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco é ideal para quem busca mais praticidade, higiene e um visual clean para diferentes...",
+    "description": "A Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco é ideal para quem busca mais praticidade, higiene e um visual clean para diferentes ambientes da casa ou do trabalho. Com capacidade de 5 litros, ela é uma solução funcional para cozinhas, banheiros, lavabos e escritórios, ajudando a manter o espaço mais organizado no dia a dia.O acionamento por pedal permite abrir a tampa sem o uso das mãos, trazendo mais comodidade e contribuindo para uma rotina mais higiênica no descarte dos resíduos. A tampa com abertura de até 90° facilita o uso diário e também torna a troca do saco de lixo mais simples, oferecendo mais praticidade na manutenção.Outro diferencial é o sistema de fechamento suave, que evita ruídos e impactos bruscos ao fechar a tampa, proporcionando mais conforto no ambiente. O balde interno removível facilita a retirada do lixo e deixa a limpeza mais prática e organizada, tornando o uso ainda mais funcional.Com acabamento matte na cor branca, a Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco combina facilmente com diferentes estilos de decoração. Seu visual discreto e sofisticado ajuda a compor ambientes mais leves e modernos, sem abrir mão da eficiência no uso diário. As dimensões de 28,2 x 14 x 28,7 cm também favorecem o aproveitamento do espaço, sendo uma ótima escolha para quem procura praticidade em áreas compactas.A Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco reúne funcionalidade, conforto e um acabamento elegante para deixar a rotina mais simples e organizada. Principais benefícios:Capacidade de 5 litros: ideal para cozinhas, banheiros e escritóriosPedal: abertura prática sem o uso das mãosMais higiene no descarte diárioTampa com abertura de até 90°: facilita o uso e a troca do saco de lixoFechamento suave: evita ruídos e impactos bruscosBalde interno removível: mais praticidade na limpeza e na retirada do lixoAcabamento matte na cor branca: visual clean, moderno e versátilDimensões compactas: melhor aproveitamento do espaçoEspecificações:Produto: lixeira com pedal e baldeMarca: NEXLARLinha: MatteCapacidade: 5 litrosFormato: retangularCor: brancoAcabamento: matteAbertura da tampa: até 90°Sistema de fechamento suavePossui balde interno removívelDimensões: 28,2 x 14 x 28,7 cmCuidados de uso:Limpe com pano macio, esponja suave e sabão neutroEvite o uso de materiais abrasivos para ajudar na conservação do acabamentoSeque após a limpeza para manter a peça sempre bem cuidadaUtilize em ambientes internos para melhor conservaçãoLeve mais higiene e praticidade para o seu ambiente com a Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco e compre agora.",
     "category_id": "cat-lixeiras",
     "categories": {
       "name": "Lixeiras",
       "slug": "lixeiras"
     },
-    "price": 119.99,
-    "compare_at_price": 149.99,
+    "price": 189.99,
+    "compare_at_price": 249.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 5,
-    "reviews_count": 202,
+    "rating": 4.8,
+    "reviews_count": 57,
     "free_shipping": false,
-    "featured": false,
+    "featured": true,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
+    "created_at": "2026-09-19T19:43:18.806Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1737,22 +1657,34 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "106620008",
+      "Referência": "3069102",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-994242320-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287613/10662_0008.jpg?v=639250668425630000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray",
+        "id": "img-994242220-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287716/Lixeira 5 L - Matte Branco.png?v=639251525307000000",
+        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
         "position": 0
       },
       {
-        "id": "img-994242320-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287614/borboleta -3-.png?v=639250668792430000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray",
+        "id": "img-994242220-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287722/ChatGPT-Image-11-de-mai.-de-2026-13_40_29.png?v=639251525307600000",
+        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
         "position": 1
+      },
+      {
+        "id": "img-994242220-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287717/3069_102---1.jpg?v=639251525307300000",
+        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
+        "position": 2
+      },
+      {
+        "id": "img-994242220-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287718/3069_102---2.jpg?v=639251525307300000",
+        "alt": "Lixeira com Pedal e Balde NEXLAR Matte 5 Litros Branco",
+        "position": 3
       }
     ]
   },
@@ -1762,7 +1694,7 @@ export const PRODUCTS: Product[] = [
     "slug": "lixeira-nexlar-borboleta-com-pedal-12-litros-preta-com-alca-light-gray",
     "sku": "NX-106610008",
     "short_description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que a...",
-    "description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que abrem como asas, daí o nome. A Lixeira Coza Borboleta com Pedal 12 Litros Preta com Alça Light Gray é a preta de alça clara. Separar. Abrir. Borboleta.Meça a altura, não a larguraÉ onde a compra dá errado: as três medidas da Borboleta têm a mesma frente de 32 cm. Se o seu problema é um vão estreito, nenhuma delas resolve. Esta resolve outro problema — o vão de altura. Com 27 cm, ela entra onde as de 42,5 — a de 20 litros e a dividida de 10+10 — não entram: prateleira baixa, nicho, interior de armário. Confira a altura livre do lugar antes de decidir.Você alcança o fundo sem enfiar o braçoUma consequência de 27 cm que só aparece no uso: o fundo fica ao alcance da mão. Quando algo cai dentro por engano — uma chave, uma tampa, um documento — ou quando o saco rasga e é preciso limpar o interior, a diferença entre 27 e 42,5 cm é entre abaixar a mão e enfiar o braço inteiro.Numa peça baixa, o topo é o que se vêQuem está de pé olha a lixeira de cima. Na de 42,5 cm o que aparece é a frente; nesta, com 27 cm, a tampa é a superfície dominante — e a alça está nela. Por isso a alça light gray num corpo preto muda mais aqui do que na versão alta: ela é a linha clara que atravessa exatamente o plano que você olha. E é também, na prática, o que a mão acha sem procurar.Material e conservaçãoPolipropileno (PP), reciclável, com acabamento acetinado — que devolve menos marca que um preto brilhante. Hastes em aço galvanizado. Limpeza com pano úmido e sabão neutro, ou pano com álcool, e o passo que prolonga a peça: secar as hastes depois.EspecificaçõesMedidas: 32 x 22,2 x 27 cmCapacidade: 12 litrosCor: corpo preto, alça light grayMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 12 ou 15 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuanto de chão a Lixeira Coza Borboleta 12 Litros ocupa?32 x 22,2 cm — a mesma base das outras medidas da Borboleta. A diferença desta é a altura: 27 cm.Cabe dentro de um armário ou embaixo de uma prateleira?Depende da altura livre do lugar: a peça tem 27 cm. Meça o vão vertical, porque a frente de 32 cm é igual em todas as medidas da linha.Dá para alcançar o fundo?Sim, com 27 cm o fundo fica ao alcance da mão — o que resolve quando algo cai dentro por engano ou quando o saco rasga.Mostra marca de dedo?Menos que um preto brilhante: o acabamento é acetinado, que devolve menos marca.Por que a alça é clara?Porque numa peça de 27 cm quem está de pé vê principalmente a tampa, e a alça está nela. A linha clara fica no plano que você olha — e é o que a mão acha sem procurar.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Antes de escolher, meça a altura do vão: a frente de 32 cm é igual em toda a linha. Com a Lixeira Coza Borboleta com Pedal 12 Litros Preta com Alça Light Gray, o que muda são os 27 cm. Leve a sua.",
+    "description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que abrem como asas, daí o nome. A Lixeira NEXLAR Borboleta com Pedal 12 Litros Preta com Alça Light Gray é a preta de alça clara. Separar. Abrir. Borboleta.Meça a altura, não a larguraÉ onde a compra dá errado: as três medidas da Borboleta têm a mesma frente de 32 cm. Se o seu problema é um vão estreito, nenhuma delas resolve. Esta resolve outro problema — o vão de altura. Com 27 cm, ela entra onde as de 42,5 — a de 20 litros e a dividida de 10+10 — não entram: prateleira baixa, nicho, interior de armário. Confira a altura livre do lugar antes de decidir.Você alcança o fundo sem enfiar o braçoUma consequência de 27 cm que só aparece no uso: o fundo fica ao alcance da mão. Quando algo cai dentro por engano — uma chave, uma tampa, um documento — ou quando o saco rasga e é preciso limpar o interior, a diferença entre 27 e 42,5 cm é entre abaixar a mão e enfiar o braço inteiro.Numa peça baixa, o topo é o que se vêQuem está de pé olha a lixeira de cima. Na de 42,5 cm o que aparece é a frente; nesta, com 27 cm, a tampa é a superfície dominante — e a alça está nela. Por isso a alça light gray num corpo preto muda mais aqui do que na versão alta: ela é a linha clara que atravessa exatamente o plano que você olha. E é também, na prática, o que a mão acha sem procurar.Material e conservaçãoPolipropileno (PP), reciclável, com acabamento acetinado — que devolve menos marca que um preto brilhante. Hastes em aço galvanizado. Limpeza com pano úmido e sabão neutro, ou pano com álcool, e o passo que prolonga a peça: secar as hastes depois.EspecificaçõesMedidas: 32 x 22,2 x 27 cmCapacidade: 12 litrosCor: corpo preto, alça light grayMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 12 ou 15 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuanto de chão a Lixeira NEXLAR Borboleta 12 Litros ocupa?32 x 22,2 cm — a mesma base das outras medidas da Borboleta. A diferença desta é a altura: 27 cm.Cabe dentro de um armário ou embaixo de uma prateleira?Depende da altura livre do lugar: a peça tem 27 cm. Meça o vão vertical, porque a frente de 32 cm é igual em todas as medidas da linha.Dá para alcançar o fundo?Sim, com 27 cm o fundo fica ao alcance da mão — o que resolve quando algo cai dentro por engano ou quando o saco rasga.Mostra marca de dedo?Menos que um preto brilhante: o acabamento é acetinado, que devolve menos marca.Por que a alça é clara?Porque numa peça de 27 cm quem está de pé vê principalmente a tampa, e a alça está nela. A linha clara fica no plano que você olha — e é o que a mão acha sem procurar.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Antes de escolher, meça a altura do vão: a frente de 32 cm é igual em toda a linha. Com a Lixeira NEXLAR Borboleta com Pedal 12 Litros Preta com Alça Light Gray, o que muda são os 27 cm. Leve a sua.",
     "category_id": "cat-lixeiras",
     "categories": {
       "name": "Lixeiras",
@@ -1772,13 +1704,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 89.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 96,
+    "rating": 5,
+    "reviews_count": 83,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
+    "created_at": "2026-09-19T19:43:18.806Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1794,41 +1726,41 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-994242329-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287602/10661_0008.jpg?v=639250665599330000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287603/borboleta.png?v=639250665599630000",
         "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Preta com Alça Light Gray",
         "position": 0
       },
       {
         "id": "img-994242329-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287603/borboleta.png?v=639250665599630000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287602/10661_0008.jpg?v=639250665599330000",
         "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Preta com Alça Light Gray",
         "position": 1
       }
     ]
   },
   {
-    "id": "prod-994242323",
-    "name": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Light Gray com Alça Cinza Chumbo",
-    "slug": "lixeira-nexlar-borboleta-com-pedal-20-litros-light-gray-com-alca-cinza",
-    "sku": "NX-106620468",
-    "short_description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como...",
-    "description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como asas, daí o nome — e um aro para saco de 20 litros. A Lixeira Coza Borboleta com Pedal 20 Litros Light Gray com Alça Cinza Chumbo é a clara de alça escura. Separar. Abrir. Borboleta.Vinte litros num saco enchem mais devagarParece a mesma conta e não é. Vinte litros divididos em dois enchem cada lado até o limite de 10, e o lado que lota primeiro define a hora da troca — o outro vai fora pela metade. Num compartimento único, os 20 litros são um só: o saco vai fora quando estiver realmente cheio.Uso intenso é onde o pedal apareceEm cozinha e lavanderia com maior produção de lixo, a tampa não abre duas vezes por dia — abre a cada preparo, a cada embalagem, a cada limpeza. Abrir com o pé deixa de ser conforto quando o gesto se repete dez, quinze vezes ao dia: o que numa lixeira de pouco uso é detalhe, aqui define se a tampa fica fechada. E com um compartimento só, abrir não vem com a pergunta de qual lado usar.Claro em ambiente claroCozinha e lavanderia costumam ser as áreas mais claras da casa — azulejo branco, bancada clara, armário claro. Uma lixeira escura nesse fundo abre um ponto pesado no chão; o corpo light gray fica na mesma faixa de tom e a peça deixa de ser um vazio visual. E a alça cinza chumbo resolve o outro lado: escura justamente onde a mão pega, que é o ponto onde a marca apareceria.O que o material pedePP no corpo, reciclável, acabamento acetinado, hastes de aço galvanizado. Limpeza: pano úmido com sabão neutro, ou pano com álcool. E as hastes secas depois — é o único ponto da peça onde a umidade constante de uma lixeira cobra o preço.EspecificaçõesMedidas: 32 x 22,2 x 42,5 cmCapacidade: 20 litros, compartimento únicoCor: corpo light gray, alça cinza chumboMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 20 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuais as medidas e a capacidade desta lixeira?Base de 32 x 22,2 cm, altura de 42,5 cm e 20 litros em um compartimento só.Um compartimento de 20 litros ou dois de 10?No dividido, o lado que lota primeiro define a troca e o outro vai fora pela metade. No único, o saco sai quando está cheio de verdade — menos trocas por semana.Serve para cozinha com muito lixo?É a indicação do catálogo. Vinte litros num saco só e abertura com o pé, que é o que importa quando a tampa abre a cada preparo.Corpo claro em lixeira funciona?Funciona bem em cozinha e lavanderia, que são as áreas mais claras da casa: a peça fica na mesma faixa de tom em vez de abrir um ponto escuro no chão.Por que a alça é escura?Porque é onde a mão pega. O cinza chumbo está justamente no ponto em que a marca apareceria.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Saco que vai fora cheio, não pela metade: é a conta do compartimento único. Com a Lixeira Coza Borboleta com Pedal 20 Litros Light Gray com Alça Cinza Chumbo, são menos trocas na semana. Leve a sua.",
+    "id": "prod-994242326",
+    "name": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Chumbo com Alça Light Gray",
+    "slug": "lixeira-nexlar-borboleta-com-pedal-12-litros-cinza-chumbo-com-alca-lig",
+    "sku": "NX-106610536",
+    "short_description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que a...",
+    "description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que abrem como asas, daí o nome. A Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Chumbo com Alça Light Gray é a escura de alça clara. Separar. Abrir. Borboleta.12 ou 20 litros? A escolha é verticalA comparação que decide surpreende: a base é idêntica nas duas. São 32 x 22,2 cm aqui e lá — a de 12 litros não economiza um centímetro de chão. O que ela economiza é altura: 27 cm contra 42,5, quinze e meio a menos. A pergunta certa não é quanto espaço você tem no piso, é quanto vão você tem acima.Sessenta por cento do volume na mesma pegadaDito sem rodeio: 12 litros são 60% do volume da versão de 20, na mesma área de chão. Se o lugar é aberto e a altura não é problema, a de 20 litros entrega mais pelo mesmo espaço de piso. Esta faz sentido quando existe um limite em cima — bancada, prateleira, tampo de armário — ou quando 12 litros correspondem ao que se produz ali.Duas de 12 lado a lado, se você quer separar e ficar baixoA Borboleta dividida existe só na altura de 42,5 cm. Quem precisa separar e ficar baixo tem uma saída: duas de 12 litros lado a lado — 64 cm de frente, 24 litros, 27 cm de altura. Custa o dobro de frente e entrega mais volume que uma de 10+10, com as duas partes independentes.Chumbo, PP e o cuidado das hastesO que sustenta a peça: polipropileno (PP) no corpo, reciclável, sob acabamento acetinado, e aço galvanizado nas hastes. Corpo cinza chumbo, alça light gray. O corpo aceita sabão neutro ou álcool; as hastes, secagem: água que fica é o que o galvanizado não segura.EspecificaçõesMedidas: 32 x 22,2 x 27 cmCapacidade: 12 litrosCor: corpo cinza chumbo, alça light grayMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 12 ou 15 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQual a diferença entre a Borboleta de 12 e a de 20 litros?Só a altura. A base é idêntica, 32 x 22,2 cm nas duas: esta tem 27 cm e a de 20 litros tem 42,5 cm. A de 12 não economiza chão, economiza vão vertical.A de 12 litros ocupa menos espaço?Menos altura, não menos chão. São os mesmos 32 x 22,2 cm de base. Se o piso é o que falta, a de 20 litros entrega mais volume pela mesma área.Existe a versão dividida nesta altura?Não: a Borboleta com dois compartimentos é a de 10+10 litros, com 42,5 cm. Para separar e ficar baixo, dá para usar duas de 12 lado a lado — 64 cm de frente e 24 litros.Quais as medidas e a capacidade?Doze litros, numa base de 32 x 22,2 cm com 27 cm de altura.Como limpar?Sabão neutro ou álcool no corpo, e as hastes de aço galvanizado secas em seguida.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.A pergunta não é quanto chão você tem: as duas ocupam o mesmo. É quanto vão há acima. Com a Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Chumbo com Alça Light Gray, são 27 cm. Leve a sua.",
     "category_id": "cat-lixeiras",
     "categories": {
       "name": "Lixeiras",
       "slug": "lixeiras"
     },
-    "price": 119.99,
-    "compare_at_price": 149.99,
+    "price": 69.99,
+    "compare_at_price": 89.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 190,
+    "rating": 4.7,
+    "reviews_count": 168,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
+    "created_at": "2026-09-19T19:43:18.806Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -1837,140 +1769,28 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "106620468",
+      "Referência": "106610536",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-994242323-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287615/10662_0468 -1-.jpg?v=639250669496500000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Light Gray com Alça Cinza Chumbo",
+        "id": "img-994242326-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287611/borboleta.png?v=639250667220370000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Chumbo com Alça Light Gray",
         "position": 0
       },
       {
-        "id": "img-994242323-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287616/106620468.png?v=639250669496800000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Light Gray com Alça Cinza Chumbo",
+        "id": "img-994242326-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287612/borboleta -1-.png?v=639250667220370000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Chumbo com Alça Light Gray",
         "position": 1
       },
       {
-        "id": "img-994242323-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287617/borboleta -3-.png?v=639250669496800000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Light Gray com Alça Cinza Chumbo",
+        "id": "img-994242326-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287610/10661_0536.jpg?v=639250667220070000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Chumbo com Alça Light Gray",
         "position": 2
-      },
-      {
-        "id": "img-994242323-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287618/borboleta -2-.png?v=639250669496970000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Light Gray com Alça Cinza Chumbo",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-994242321",
-    "name": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Cinza Chumbo com Alça Light Gray",
-    "slug": "lixeira-nexlar-borboleta-com-pedal-20-litros-cinza-chumbo-com-alca-lig",
-    "sku": "NX-106620536",
-    "short_description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como...",
-    "description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como asas, daí o nome — e um aro para saco de 20 litros. A Lixeira Coza Borboleta com Pedal 20 Litros Cinza Chumbo com Alça Light Gray é a escura de alça clara. Separar. Abrir. Borboleta.20 litros ou 10+10: a única decisãoAs duas parecem iguais na foto, e quase são. Medida, pegada, altura, pedal, tampa, material e limpeza são idênticos nas duas versões — e a capacidade total também: 20 litros nas duas. A diferença é uma divisória. Esta tem um compartimento e um saco; a outra tem dois de 10 litros. Não é uma maior que a outra: é dividir ou não dividir.Quando dividir é peso mortoDividir só rende se os dois lados forem usados. Em escritório, recepção, quarto ou banheiro, a separação normalmente acontece em outro ponto — na cozinha, ou direto na coleta. Nesses lugares uma lixeira dividida entrega metade do volume útil por saco e o dobro de trocas, sem nenhum ganho.O chumbo e o que ele faz num cantoLixeira quase sempre fica no rodapé, num canto, à sombra de um móvel — e aí o tom escuro trabalha a favor: o cinza chumbo se apoia na sombra em vez de brigar com ela, e a peça deixa de ser um objeto avulso no chão. A alça light gray é o contraponto: ela marca a linha de abertura, que é a informação de que alguém precisa quando vai usar.Material, hastes e limpezaPolipropileno (PP) no corpo, reciclável, acabamento acetinado, hastes em aço galvanizado. Pano úmido com sabão neutro ou pano com álcool resolvem; o que prolonga a peça é secar as hastes, porque galvanizado segura corrosão do ar e não água parada.EspecificaçõesMedidas: 32 x 22,2 x 42,5 cmCapacidade: 20 litros, compartimento únicoCor: corpo cinza chumbo, alça light grayMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 20 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQual a diferença entre a Borboleta 20 litros e a 10+10?Medida, pegada, altura, pedal, tampa, material e capacidade total são idênticos: 20 litros nas duas. A diferença é a divisória. Esta tem um compartimento e um saco.Quando não vale dividir a lixeira?Quando os dois lados não são usados. Em escritório, recepção, quarto ou banheiro a separação costuma acontecer em outro ponto — ali dividir dá metade do volume por saco e o dobro de trocas, sem ganho.Quais as medidas e a capacidade?32 x 22,2 cm de base, 42,5 cm de altura, 20 litros em um compartimento único.Cinza chumbo é boa cor para lixeira?Funciona bem no lugar onde a peça costuma ficar: rodapé, canto, sombra de móvel. O tom escuro se apoia na sombra em vez de brigar com ela.Como limpar?Pano úmido com sabão neutro ou pano com álcool. Seque as hastes de aço galvanizado depois.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Duas versões, uma decisão: dividir ou não. Se a separação já acontece em outro ponto da casa, a Lixeira Coza Borboleta com Pedal 20 Litros Cinza Chumbo com Alça Light Gray é a que faz sentido. Leve a sua.",
-    "category_id": "cat-lixeiras",
-    "categories": {
-      "name": "Lixeiras",
-      "slug": "lixeiras"
-    },
-    "price": 119.99,
-    "compare_at_price": 149.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 31,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "106620536",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242321-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287391/borboleta-lixeira-coza-20-cinza.png?v=639240519120770000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Cinza Chumbo com Alça Light Gray",
-        "position": 0
-      },
-      {
-        "id": "img-994242321-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287392/borboleta-lixeira-coza-20-cinza--2-.png?v=639240519183800000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Cinza Chumbo com Alça Light Gray",
-        "position": 1
-      },
-      {
-        "id": "img-994242321-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287393/borboleta-lixeira-coza-20-cinza--1-.png?v=639240519184270000",
-        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Cinza Chumbo com Alça Light Gray",
-        "position": 2
-      }
-    ]
-  },
-  {
-    "id": "prod-994242319",
-    "name": "Lixeira Dupla NEXLAR Borboleta com Pedal 10+10 Litros Preta com Alça Light Gray",
-    "slug": "lixeira-dupla-nexlar-borboleta-com-pedal-10-10-litros-preta-com-alca-l",
-    "sku": "NX-106630008",
-    "short_description": "A Borboleta é a lixeira que resolve a separação sem pedir espaço: pedal para abrir sem as mãos, abertura dupla lateral e dois aros de 10 lit...",
-    "description": "A Borboleta é a lixeira que resolve a separação sem pedir espaço: pedal para abrir sem as mãos, abertura dupla lateral e dois aros de 10 litros. A Lixeira Dupla Coza Borboleta com Pedal 10+10 Litros Preta com Alça Light Gray é a preta de alça clara. Separar. Abrir. Borboleta.Vinte litros em 0,07 m² de chãoA conta que decide a compra numa cozinha apertada: a peça ocupa 32 x 22,2 cm, ou seja 0,071 m² — e entrega 20 litros divididos em dois. O truque não é largura, é altura: com 42,5 cm, ela é quase duas vezes mais alta que larga. Duas lixeiras separadas de 10 litros ocupariam duas pegadas; esta ocupa uma.O pedal existe para a mão que está ocupadaHigiene é a metade óbvia da história. A outra é mais prosaica: quem vai jogar lixo está com a mão cheia de lixo — casca, embalagem, pano molhado. Tampa que precisa de mão livre é tampa que fica aberta, e lixeira aberta é a que espalha cheiro. O pedal resolve com o pé, e é isso que mantém a tampa fechada na rotina.A alça clara é onde a mão procuraCorpo preto com alça light gray é o maior contraste neutro da linha, e ele tem função: a lixeira costuma ficar em lugar de pouca luz — embaixo da pia, atrás da porta, no canto da lavanderia. A alça clara marca onde pegar sem precisar olhar. Contraste que serve, não que enfeita.Acetinado: o que o preto brilhante não fazPreto brilhante mostra digital, e lixeira é peça de contato diário. O acabamento acetinado devolve menos marca, e é o motivo de a limpeza pedir só pano úmido com sabão neutro ou álcool — sem esfregar. As hastes de aço galvanizado pedem uma coisa a mais: secar depois.EspecificaçõesMedidas: 32 x 22,2 x 42,5 cmCapacidade: 10 + 10 litrosCor: corpo preto, alça light grayMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAros: dois, para sacos de 10 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuanto de chão a Lixeira Dupla Coza Borboleta ocupa?32 x 22,2 cm, cerca de 0,071 m², e 42,5 cm de altura. São 20 litros em uma pegada só, em vez de duas lixeiras de 10 lado a lado.Para que serve o pedal?Para abrir a tampa sem usar as mãos — e quem vai jogar lixo normalmente está com a mão ocupada. Tampa que exige mão livre acaba ficando aberta.Preta com alça light gray ou com alça verde matcha?A clara é o maior contraste neutro da linha e marca onde pegar em lugar de pouca luz. A verde matcha é o único acento de cor das cinco combinações.Mostra marca de dedo?Menos que um preto brilhante: o acabamento é acetinado, que devolve menos marca. Pano úmido com sabão neutro resolve.Cabe embaixo da pia ou ao lado da bancada?Confira o vão: são 42,5 cm de altura e 32 x 22,2 cm de base. Ao lado, encosta sem folga lateral; a frente é que precisa ficar livre, para o pé.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar 20 litros de lixo. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire os sacos.Lixeira boa é a que ninguém precisa pensar em usar. Com a Lixeira Dupla Coza Borboleta com Pedal 10+10 Litros Preta com Alça Light Gray, o pé abre e a mão acha a alça no escuro. Leve a sua.",
-    "category_id": "cat-lixeiras",
-    "categories": {
-      "name": "Lixeiras",
-      "slug": "lixeiras"
-    },
-    "price": 129.99,
-    "compare_at_price": 162.49,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 5,
-    "reviews_count": 162,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "106630008",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242319-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287411/borboleta-lixeira-coza-20-preto.png?v=639240525316770000",
-        "alt": "Lixeira Dupla NEXLAR Borboleta com Pedal 10+10 Litros Preta com Alça Light Gray",
-        "position": 0
-      },
-      {
-        "id": "img-994242319-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287412/borboleta-lixeira-coza-20-preto -1-.png?v=639240525316900000",
-        "alt": "Lixeira Dupla NEXLAR Borboleta com Pedal 10+10 Litros Preta com Alça Light Gray",
-        "position": 1
       }
     ]
   },
@@ -1980,7 +1800,7 @@ export const PRODUCTS: Product[] = [
     "slug": "lixeira-nexlar-borboleta-com-pedal-6-litros-light-gray-com-alca-cinza-",
     "sku": "NX-106600468",
     "short_description": "A Borboleta 6 litros é a compacta da linha — 26,5 x 17,8 cm de base — com pedal para abrir sem as mãos e abertura dupla lateral: duas metade...",
-    "description": "A Borboleta 6 litros é a compacta da linha — 26,5 x 17,8 cm de base — com pedal para abrir sem as mãos e abertura dupla lateral: duas metades que abrem como asas, daí o nome. A Lixeira Coza Borboleta com Pedal 6 Litros Light Gray com Alça Cinza Chumbo é a clara de alça escura. Separar. Abrir. Borboleta.Quarto: o ambiente que só esta medida atendeEsta é a primeira medida da Borboleta indicada para quarto, e faz sentido geométrico: uma peça de 42,5 cm ao lado de uma cama ou de uma cômoda é um móvel a mais no caminho. Com 23,7 cm de altura e 26,5 de frente, ela cabe no vão entre cômoda e parede, ou embaixo de uma escrivaninha, sem entrar na circulação. Seis litros é o volume de lixo de um quarto — lenço, embalagem, papel.Banheiro: pouco volume, troca frequenteNo banheiro o resíduo é pequeno em quantidade e melhor fora rápido. Uma peça de seis litros enche em dias, não em semanas, e é isso que se quer: o saco sai antes de virar problema. Peça grande em banheiro faz o contrário — dá espaço para acumular. Aqui o tamanho impõe o ritmo, e o ritmo certo num banheiro é curto.Corpo claro, alça escuraO corpo light gray acompanha o tom de banheiro e quarto — azulejo claro, parede clara, madeira clara — em vez de abrir um ponto escuro no piso. E a alça cinza chumbo resolve o outro lado da conta: o tom escuro fica exatamente onde a mão pega, que numa peça pequena é a parte mais tocada em relação ao tamanho dela.O que o material pedePP no corpo, reciclável, acabamento acetinado, hastes de aço galvanizado. Para lavar, sabão neutro basta — álcool também serve. As hastes você enxuga depois: é o que impede a umidade de trabalhar nelas, e em banheiro a umidade é constante.EspecificaçõesMedidas: 26,5 x 17,8 x 23,7 cmCapacidade: 6 litrosCor: corpo light gray, alça cinza chumboMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, interno, prende o sacoLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuais as medidas e a capacidade desta lixeira?Altura de 23,7 cm sobre uma base de 26,5 x 17,8 cm, capacidade de 6 litros.Serve para quarto?É a medida da linha indicada para isso. Com 23,7 cm de altura e 26,5 de frente, ela cabe no vão entre cômoda e parede ou embaixo de uma escrivaninha sem entrar na circulação.Seis litros é pouco para banheiro?É o volume que faz o saco sair em dias e não em semanas, que é o desejável num banheiro. Se o volume for pequeno demais, as medidas maiores da linha vão de 12 a 20 litros, e a dividida é a de 10+10.Corpo claro em lixeira funciona?Em banheiro e quarto, sim: acompanha o tom do ambiente em vez de abrir um ponto escuro no piso.Por que a alça é escura?Porque é onde a mão pega, e numa peça pequena essa é a parte mais tocada em relação ao tamanho dela.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Em quarto e banheiro o que se quer é uma peça que não entre no caminho e esvazie sempre. Com a Lixeira Coza Borboleta com Pedal 6 Litros Light Gray com Alça Cinza Chumbo, é o tamanho que puxa o hábito. Leve a sua.",
+    "description": "A Borboleta 6 litros é a compacta da linha — 26,5 x 17,8 cm de base — com pedal para abrir sem as mãos e abertura dupla lateral: duas metades que abrem como asas, daí o nome. A Lixeira NEXLAR Borboleta com Pedal 6 Litros Light Gray com Alça Cinza Chumbo é a clara de alça escura. Separar. Abrir. Borboleta.Quarto: o ambiente que só esta medida atendeEsta é a primeira medida da Borboleta indicada para quarto, e faz sentido geométrico: uma peça de 42,5 cm ao lado de uma cama ou de uma cômoda é um móvel a mais no caminho. Com 23,7 cm de altura e 26,5 de frente, ela cabe no vão entre cômoda e parede, ou embaixo de uma escrivaninha, sem entrar na circulação. Seis litros é o volume de lixo de um quarto — lenço, embalagem, papel.Banheiro: pouco volume, troca frequenteNo banheiro o resíduo é pequeno em quantidade e melhor fora rápido. Uma peça de seis litros enche em dias, não em semanas, e é isso que se quer: o saco sai antes de virar problema. Peça grande em banheiro faz o contrário — dá espaço para acumular. Aqui o tamanho impõe o ritmo, e o ritmo certo num banheiro é curto.Corpo claro, alça escuraO corpo light gray acompanha o tom de banheiro e quarto — azulejo claro, parede clara, madeira clara — em vez de abrir um ponto escuro no piso. E a alça cinza chumbo resolve o outro lado da conta: o tom escuro fica exatamente onde a mão pega, que numa peça pequena é a parte mais tocada em relação ao tamanho dela.O que o material pedePP no corpo, reciclável, acabamento acetinado, hastes de aço galvanizado. Para lavar, sabão neutro basta — álcool também serve. As hastes você enxuga depois: é o que impede a umidade de trabalhar nelas, e em banheiro a umidade é constante.EspecificaçõesMedidas: 26,5 x 17,8 x 23,7 cmCapacidade: 6 litrosCor: corpo light gray, alça cinza chumboMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, interno, prende o sacoLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuais as medidas e a capacidade desta lixeira?Altura de 23,7 cm sobre uma base de 26,5 x 17,8 cm, capacidade de 6 litros.Serve para quarto?É a medida da linha indicada para isso. Com 23,7 cm de altura e 26,5 de frente, ela cabe no vão entre cômoda e parede ou embaixo de uma escrivaninha sem entrar na circulação.Seis litros é pouco para banheiro?É o volume que faz o saco sair em dias e não em semanas, que é o desejável num banheiro. Se o volume for pequeno demais, as medidas maiores da linha vão de 12 a 20 litros, e a dividida é a de 10+10.Corpo claro em lixeira funciona?Em banheiro e quarto, sim: acompanha o tom do ambiente em vez de abrir um ponto escuro no piso.Por que a alça é escura?Porque é onde a mão pega, e numa peça pequena essa é a parte mais tocada em relação ao tamanho dela.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Em quarto e banheiro o que se quer é uma peça que não entre no caminho e esvazie sempre. Com a Lixeira NEXLAR Borboleta com Pedal 6 Litros Light Gray com Alça Cinza Chumbo, é o tamanho que puxa o hábito. Leve a sua.",
     "category_id": "cat-lixeiras",
     "categories": {
       "name": "Lixeiras",
@@ -1991,12 +1811,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 5,
-    "reviews_count": 157,
+    "reviews_count": 36,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:31:59.494Z",
+    "created_at": "2026-09-19T19:43:18.806Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2025,12 +1845,218 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
+    "id": "prod-994242328",
+    "name": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Light Gray com Alça Cinza Chumbo",
+    "slug": "lixeira-nexlar-borboleta-com-pedal-12-litros-light-gray-com-alca-cinza",
+    "sku": "NX-106610468",
+    "short_description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que a...",
+    "description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que abrem como asas, daí o nome. A Lixeira NEXLAR Borboleta com Pedal 12 Litros Light Gray com Alça Cinza Chumbo é a clara de alça escura. Separar. Abrir. Borboleta.Banheiro: o lixo que ocupa sem pesarO catálogo indica esta medida para banheiro, e o motivo é o tipo de resíduo. Lixo de banheiro é volumoso e leve — papel, embalagem, algodão. Ele enche o volume antes de pesar, então o que importa é ter litro sobrando, não resistência a peso. Doze litros com pedal resolvem um banheiro de família, e os 27 cm passam embaixo de uma bancada de cuba.Escritório: uma mesa produz pouco por diaNuma sala de trabalho o lixo é papel, embalagem de lanche e copo — pouca coisa por pessoa, todos os dias. Doze litros é a medida de uma mesa ou de uma sala menor, e a diferença que aparece no uso é o pedal: numa lixeira de escritório sem tampa, o conteúdo fica à vista de quem entra. Com pedal, a peça fica fechada e abre sem encostar a mão.Feita para esvaziar, não para acumularDoze litros mudam o ritmo: a peça pede para ser esvaziada com frequência, e é isso que se quer em banheiro e escritório — resíduo que não fica dias parado. Peça grande — 20 litros, ou a dividida de 10+10 — convida a deixar para depois; peça de 12 litros a 27 cm de altura convida a tirar o saco de passagem. O tamanho define o hábito, e aqui o hábito é o certo.Corpo claro, alça escura, e o materialO corpo light gray com alça cinza chumbo põe o tom escuro onde a mão pega. Material: polipropileno (PP), reciclável, acetinado; aço galvanizado nas hastes. Para lavar, sabão neutro basta — álcool também serve. As hastes você enxuga: é o que impede a umidade de trabalhar nelas.EspecificaçõesMedidas: 32 x 22,2 x 27 cmCapacidade: 12 litrosCor: corpo light gray, alça cinza chumboMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 12 ou 15 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuais as medidas e a capacidade desta lixeira?Altura de 27 cm sobre uma base de 32 x 22,2 cm, capacidade de 12 litros.Doze litros é suficiente para banheiro?Para um banheiro de família, sim. Lixo de banheiro é volumoso e leve — papel, embalagem, algodão —, então o que conta é litro sobrando, e os 27 cm passam embaixo de uma bancada de cuba.Serve para escritório?É uma das indicações do catálogo. Numa mesa ou sala pequena o lixo é papel e embalagem de lanche, e o pedal mantém o conteúdo fora da vista de quem entra.Qual saco usar?Saco de 12 ou de 15 litros — as duas litragens servem nesta medida.Por que a alça é escura?Porque é onde a mão pega, e o cinza chumbo está justamente nesse ponto.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Em banheiro e escritório o que se quer é esvaziar sempre, não acumular. Com a Lixeira NEXLAR Borboleta com Pedal 12 Litros Light Gray com Alça Cinza Chumbo, o tamanho puxa o hábito certo. Leve a sua.",
+    "category_id": "cat-lixeiras",
+    "categories": {
+      "name": "Lixeiras",
+      "slug": "lixeiras"
+    },
+    "price": 69.99,
+    "compare_at_price": 89.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.9,
+    "reviews_count": 95,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:18.806Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "106610468",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242328-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287848/borboleta--6-.png?v=639251655021100000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Light Gray com Alça Cinza Chumbo",
+        "position": 0
+      },
+      {
+        "id": "img-994242328-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287849/borboleta-106610468.png?v=639251655021270000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Light Gray com Alça Cinza Chumbo",
+        "position": 1
+      },
+      {
+        "id": "img-994242328-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287850/borboleta--3-.png?v=639251655021270000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Light Gray com Alça Cinza Chumbo",
+        "position": 2
+      },
+      {
+        "id": "img-994242328-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287851/borboleta--2-.png?v=639251655021400000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Light Gray com Alça Cinza Chumbo",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "prod-994242327",
+    "name": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Frio com Alça Cinza Chumbo",
+    "slug": "lixeira-nexlar-borboleta-com-pedal-12-litros-cinza-frio-com-alca-cinza",
+    "sku": "NX-106610499",
+    "short_description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que a...",
+    "description": "A Borboleta 12 litros é a medida baixa da linha: 27 cm de altura, pedal para abrir sem as mãos e abertura dupla lateral — duas metades que abrem como asas, daí o nome. A Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Frio com Alça Cinza Chumbo é a de tons vizinhos. Separar. Abrir. Borboleta.Abaixo do nível da mesaNuma sala de reunião, num consultório, num corredor de escritório, a lixeira quase sempre fica ao lado de um móvel — e o que decide se ela incomoda é a altura. Com 27 cm, a peça fica bem abaixo de um tampo de mesa, que costuma rondar os 75. Ou seja: quem está sentado não a tem no campo de visão. A versão de 42,5 cm aparece; esta desaparece atrás do próprio móvel.Quando 20 litros seriam excessoVolume grande em sala pequena tem um efeito contrário ao esperado: o saco demora a encher, e resíduo parado por dias é o que gera cheiro. Doze litros em ambiente de pouca gente enchem num prazo razoável e saem antes disso acontecer. Não é a peça menor por economia — é a medida certa para o giro do lugar.A única medida baixa das trêsVale saber o que existe na linha antes de escolher. A Borboleta tem três versões: a dividida de 10+10 litros e a única de 20, ambas com 42,5 cm de altura, e esta, de 12 litros, a única com 27 cm. Se a restrição do lugar é vertical — e num ambiente compartilhado costuma ser, porque a peça vai embaixo de algo — esta é a que resolve, sem alternativa dentro da linha.Cinza frio, PP e conservaçãoCinza frio no corpo, cinza chumbo na alça. O material é polipropileno (PP) — reciclável — com superfície acetinada, e as hastes são de aço galvanizado. Onde muita gente usa, a peça é lavada mais vezes, e a rotina importa: sabão neutro ou álcool no corpo, e as hastes secas logo depois, sempre.EspecificaçõesMedidas: 32 x 22,2 x 27 cmCapacidade: 12 litrosCor: corpo cinza frio, alça cinza chumboMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 12 ou 15 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuais as medidas desta lixeira de 12 litros?São 27 cm de altura sobre 32 x 22,2 cm, com 12 litros.É baixa o suficiente para ficar ao lado de uma mesa?Com 27 cm, ela fica bem abaixo de um tampo de mesa, que costuma rondar os 75 cm — então quem está sentado não a tem no campo de visão.Por que 12 litros e não 20 em uma sala pequena?Porque em ambiente de pouca gente o volume grande demora a encher, e resíduo parado por dias é o que gera cheiro. Doze litros correspondem ao giro do lugar.Quantas versões a Borboleta tem?Três: a dividida de 10+10 litros e a única de 20, as duas com 42,5 cm de altura, e esta de 12 litros, a única com 27 cm.Qual saco usar?Saco de 12 ou de 15 litros — nesta medida as duas litragens servem.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Em sala pequena o que atrapalha é a altura, não o litro. Com a Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Frio com Alça Cinza Chumbo, é um compartimento, um saco e uma retirada. Leve a sua.",
+    "category_id": "cat-lixeiras",
+    "categories": {
+      "name": "Lixeiras",
+      "slug": "lixeiras"
+    },
+    "price": 69.99,
+    "compare_at_price": 89.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.9,
+    "reviews_count": 112,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:18.806Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "106610499",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242327-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287609/borboleta -4-.png?v=639250666807170000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Frio com Alça Cinza Chumbo",
+        "position": 0
+      },
+      {
+        "id": "img-994242327-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287608/10661_0499.jpg?v=639250666807170000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 12 Litros Cinza Frio com Alça Cinza Chumbo",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "prod-994242320",
+    "name": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray",
+    "slug": "lixeira-nexlar-borboleta-com-pedal-20-litros-preta-com-alca-light-gray",
+    "sku": "NX-106620008",
+    "short_description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como...",
+    "description": "A Borboleta 20 litros é a lixeira de um compartimento só: pedal para abrir sem as mãos, abertura dupla lateral — duas metades que abrem como asas, daí o nome — e um aro para saco de 20 litros. A Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray é a preta de alça clara. Separar. Abrir. Borboleta.O que cabe quando não tem divisóriaSem divisão no meio, a base de 32 x 22,2 cm fica inteira — e é aí que a versão de compartimento único ganha da dividida. Caixa de pizza dobrada, garrafa deitada, embalagem grande: o que atravessa a peça de um lado ao outro só entra onde não há parede no meio. Numa lixeira dividida, o mesmo item fica em pé na borda.Boca larga é o que o lixo de cozinha pedeLixo de cozinha não é fino. É casca em punhado, embalagem amassada, pote com resto — coisa que se joga com a mão aberta. Uma boca de 32 cm sem obstrução no meio aceita o punhado inteiro; uma boca dividida pede que você escolha o lado antes de soltar. É por isso que o catálogo indica esta versão para ambientes de maior produção de lixo: não é só o volume, é a velocidade de jogar.A alça clara corta a coluna pretaA peça é vertical: 42,5 cm de altura sobre 22,2 de profundidade. Um corpo preto inteiro nessa proporção lê como uma coluna. A alça light gray atravessa o topo e quebra essa vertical — a peça passa a ler como um volume com tampa, não como um bloco. E tem a função óbvia: embaixo da pia, é o claro que a mão encontra.PP, hastes de aço e o cuidado que importaCorpo de polipropileno (PP), reciclável, acabamento acetinado, que devolve menos marca que um preto brilhante. As hastes são de aço galvanizado e pedem uma coisa só: secar depois de limpar.EspecificaçõesMedidas: 32 x 22,2 x 42,5 cmCapacidade: 20 litros, compartimento únicoCor: corpo preto, alça light grayMaterial: polipropileno (PP), reciclávelHastes: aço galvanizadoAcabamento: acetinadoAbertura: pedal, dupla lateralAro: um, para saco de 20 litrosLimpeza: pano úmido com sabão neutro ou álcool; secar as hastesPerguntas frequentesQuanto de chão a Lixeira NEXLAR Borboleta 20 Litros ocupa?A base é de 32 x 22,2 cm e a altura é de 42,5 cm — quase duas vezes mais alta que funda.20 litros em um compartimento ou 10+10 divididos?A carcaça e a capacidade são iguais. Um compartimento só aceita item que atravessa a peça de um lado ao outro; o dividido separa seco de úmido. Um ou outro, não os dois.Cabe caixa de pizza?Dobrada, sim: sem divisória no meio, a base de 32 x 22,2 cm fica inteira e aceita o que atravessa a peça. Numa lixeira dividida, o mesmo item fica em pé na borda.Mostra marca de dedo?Menos que um preto brilhante: o acabamento é acetinado, que devolve menos marca.Por que a alça é clara?Por duas razões. Ela quebra a vertical de 42,5 cm, então a peça não lê como uma coluna preta. E é o claro que a mão encontra embaixo da pia, sem precisar olhar.Sobre a alça: ela foi feita para reposicionar a lixeira, não para carregar o saco cheio. Puxão brusco com a peça cheia pode estourar a alça — para esvaziar, tire o saco do aro.Boca larga e base inteira: é o que uma lixeira de cozinha precisa quando o lixo vem em punhado. Com a Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray, nada fica em pé na borda. Leve a sua.",
+    "category_id": "cat-lixeiras",
+    "categories": {
+      "name": "Lixeiras",
+      "slug": "lixeiras"
+    },
+    "price": 119.99,
+    "compare_at_price": 149.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.9,
+    "reviews_count": 209,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:18.806Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "106620008",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242320-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287614/borboleta -3-.png?v=639250668792430000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray",
+        "position": 0
+      },
+      {
+        "id": "img-994242320-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287613/10662_0008.jpg?v=639250668425630000",
+        "alt": "Lixeira NEXLAR Borboleta com Pedal 20 Litros Preta com Alça Light Gray",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "prod-994242263",
+    "name": "Jogo de Panelas com Indução NEXLAR Ceramic Life Smart Plus 10 Peças Areia",
+    "slug": "jogo-de-panelas-com-inducao-nexlar-ceramic-life-smart-plus-10-pecas-ar",
+    "sku": "NX-4774406",
+    "short_description": "Jogo de Panelas NEXLAR Ceramic Life Smart Plus Indução 10 Peças Areia — qualidade e sofisticação para a sua cozinhaO Jogo de Panelas NEXLAR...",
+    "description": "Jogo de Panelas NEXLAR Ceramic Life Smart Plus Indução 10 Peças Areia — qualidade e sofisticação para a sua cozinhaO Jogo de Panelas NEXLAR Ceramic Life Smart Plus na elegante cor Areia é a combinação perfeita entre tecnologia, design moderno e alta funcionalidade. Desenvolvido para transformar sua experiência culinária, este conjunto completo oferece desempenho superior com revestimento cerâmico antiaderente Ceramic Life, fundo de indução para distribuição uniforme do calor e acabamento sofisticado que valoriza qualquer cozinha. Compatível com fogões a gás, elétricos, vitrocerâmicos e por indução — versatilidade total para o dia a dia.Por que escolher o Conjunto Ceramic Life Smart Plus NEXLARA tecnologia Ceramic Life proporciona uma cozinha mais saudável: o revestimento antiaderente permite cozinhar com menos óleo, evita que os alimentos grudem e facilita drasticamente a limpeza. O fundo de indução distribui o calor de forma uniforme, eliminando pontos quentes e garantindo cozimento perfeito. Os cabos com revestimento Soft-Touch oferecem toque confortável, seguro e ergonômico. As tampas em vidro temperado com saída de vapor permitem controlar o preparo sem precisar levantá-las, preservando umidade e sabor. E o design empilhável otimiza o espaço nos seus armários.Diferenciais do Jogo Ceramic Life Smart Plus NEXLARRevestimento cerâmico antiaderente Ceramic Life: cozinha mais saudável e fácil de limpar.Fundo de indução: distribuição uniforme do calor.Compatível com todos os tipos de fogão: gás, elétrico, vitrocerâmico e indução.Cabos Soft-Touch: conforto e segurança no manuseio.Tampas em vidro temperado com saída de vapor: controle visual do preparo.Design empilhável: organização inteligente dos armários.Cor Areia: acabamento elegante e atemporal.Conjunto exclusivo do site NEXLAR: vem com 3 utensílios em silicone Urban (concha, escumadeira e espátula), resistentes até 200 °C e laváveis em lava-louças.Composição do jogo1 Panela com tampa Ø 16 cm — 1,4 L1 Panela com tampa Ø 18 cm — 2 L1 Caçarola com tampa Ø 20 cm — 2,5 L1 Caçarola com tampa Ø 22 cm — 3,5 L1 Frigideira Ø 18 cm — 550 ml1 Frigideira Ø 22 cm — 1,1 L1 Grill 24 x 24 cm — 1,8 L1 Concha de silicone Urban1 Escumadeira de silicone Urban1 Espátula de silicone UrbanFicha técnicaProduto: Jogo de PanelasLinha: Ceramic Life Smart PlusCor: AreiaMaterial: Alumínio com revestimento cerâmico antiaderente Ceramic LifeCabos: revestimento Soft-TouchTampas: vidro temperado com saída de vaporFundo: induçãoCompatibilidade: fogões a gás, elétrico, vitrocerâmico e induçãoUtensílios inclusos: 3 peças em silicone Urban (resistentes até 200 °C, podem ir à lava-louças)Cura do revestimento (antes do primeiro uso)Antes de utilizar, realize a cura do revestimento para potencializar a vida útil das panelas:Unte a parte interna com óleo ou qualquer outro tipo de gordura.Leve o produto ao fogo baixo até aquecer o conteúdo e deixe esfriar.Descarte o conteúdo e repita a lavagem e secagem para eliminar qualquer resíduo.Como cuidar do seu Jogo de Panelas NEXLARApós o uso, evite choques térmicos (não jogue água fria na panela quente).Lave à mão, com água morna, esponja macia e sabão neutro ou detergente.Se for necessário esfregar, utilize apenas materiais não abrasivos.Use utensílios de silicone, madeira ou nylon — nunca utensílios metálicos que possam riscar a superfície.Seque bem antes de empilhar para preservar o acabamento.Para quem é indicado?O Jogo de Panelas Ceramic Life Smart Plus NEXLAR é a escolha certa para quem está montando ou renovando a cozinha, valoriza praticidade no dia a dia, busca uma alimentação mais saudável e quer um conjunto sofisticado e durável. Indispensável para apartamentos com fogão por indução, casas com fogão a gás, casais que cozinham com frequência, famílias que valorizam refeições preparadas em casa e amantes de gastronomia que apreciam ferramentas de qualidade. Também é uma excelente opção de presente de casamento, chá de cozinha, dia das mães e datas especiais.Cozinha sofisticada, saudável e prática: Jogo de Panelas NEXLAR Ceramic Life Smart Plus 10 Peças Areia.",
+    "category_id": "cat-utensilios",
+    "categories": {
+      "name": "Utensílios de Cozinha",
+      "slug": "utensilios-de-cozinha"
+    },
+    "price": 699.99,
+    "compare_at_price": 999.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.7,
+    "reviews_count": 101,
+    "free_shipping": true,
+    "featured": true,
+    "is_new": true,
+    "active": true,
+    "created_at": "2026-09-19T19:43:19.426Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "4774406",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242263-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/283748/4774_406.png?v=639110781793000000",
+        "alt": "Jogo de Panelas com Indução NEXLAR Ceramic Life Smart Plus 10 Peças Areia",
+        "position": 0
+      }
+    ]
+  },
+  {
     "id": "prod-994242079",
     "name": "Porta Condimentos Duplo Brisa Bambu NEXLAR",
     "slug": "porta-condimentos-duplo-brisa-bambu-nexlar",
     "sku": "NX-406573009",
-    "short_description": "A linha Brisa é a da mesa posta em bambu. O Porta Condimentos Duplo em Bambu Coza Brisa é o conjunto de servir da linha: dois potes com tamp...",
-    "description": "A linha Brisa é a da mesa posta em bambu. O Porta Condimentos Duplo em Bambu Coza Brisa é o conjunto de servir da linha: dois potes com tampa e colher, sobre bandeja, prontos para ir do armário à mesa. Servir. Compor. Brisa.O que vem no conjunto2 potes de 330 ml em poliestireno transparente2 tampas de bambu, uma para cada pote2 colheres de bambu1 bandeja de bambu, 17,9 x 9,3 cmSão 660 ml em 17,9 x 9,3 cm de mesa. Açúcar e adoçante, sal e pimenta, café e chocolate em pó: a divisão em dois é o que faz sentido no café da manhã, onde quase nada vem sozinho.Encaixe exatoCada pote mede 8,5 cm de lado. Dois lado a lado dão 17 cm, e a bandeja tem 17,9 — 0,9 cm de folga: o bastante para tirar e pôr sem raspar, pouco o suficiente para nada dançar quando se carrega o conjunto. E a bandeja é a mesma Bandeja Pequena Brisa vendida sozinha na linha.Proteção antimofoBambu em mesa de café da manhã convive com açúcar úmido, colher molhada e pano de prato. O acabamento em verniz da linha Brisa dá proteção antimofo à bandeja, às tampas e às colheres, e realça o tom quente da fibra. O que ele não dispensa é o cuidado básico: nada de deixar de molho ou guardar úmido.Cada material no seu lugarOs potes são de poliestireno transparente — num condimento é isso que se quer: vê o nível de fora, sabe o que está acabando, não abre para conferir. O bambu fica onde a mão toca: bandeja, tampas e colheres.O presente da linhaDos onze itens da Brisa, este é o único em caixa litografada — os outros vêm com cinta ou tag. É o conjunto pensado para ser dado: amigo secreto, chá de casa nova, agradecimento de anfitrião. Chega embalado, sem passo intermediário.EspecificaçõesCapacidade: 330 ml cada pote, 660 ml no totalMedidas: 17,9 x 9,3 x 13 cmPotes: poliestireno transparenteBandeja, tampas e colheres: bambu com verniz e proteção antimofoBambu: renovável e reciclávelUso: micro-ondas, lava-louças e freezer nãoEmbalagem: caixa litografadaCódigo: 40657/3Como limparÀ mão, com esponja macia e sabão neutro: abrasivo risca a transparência.Secar na hora: o bambu não fica de molho nem é guardado úmido.Longe do sol direto e do fogão, que abrem a fibra.Perguntas frequentesO que vem no Porta Condimentos Duplo em Bambu Coza Brisa?Dois potes de 330 ml, cada um com tampa e colher de bambu, mais uma bandeja. São 660 ml no conjunto, em 17,9 x 9,3 x 13 cm.Qual a capacidade de cada pote?330 ml cada um, 660 ml no conjunto.De que material é feito?Bandeja, tampas e colheres em bambu com verniz; potes em poliestireno transparente, que deixa ver o conteúdo. Os dois materiais são recicláveis.Vem em caixa de presente?Sim. É o único item da linha Brisa que vem em caixa litografada — os outros dez vêm com cinta ou tag.Qual a diferença entre este kit e o Pote com Colher Brisa vendido separado?O kit traz dois potes de 330 ml com colher e a bandeja, em caixa de presente. O Pote com Colher (40659/3) é uma unidade de 330 ml, 8,5 x 8,5 x 13 cm, sem bandeja.Vai à lava-louças, ao micro-ondas ou ao freezer?Não vai a nenhum dos três. Lave à mão com sabão neutro e esponja macia, e seque na hora: o bambu não deve ficar de molho nem ser guardado úmido.Mesa posta se faz nos detalhes. Com o Porta Condimentos Duplo em Bambu Coza Brisa, o açúcar e o café saem do pacote e entram na composição. Leve o seu e comece a mesa Brisa.",
+    "short_description": "A linha Brisa é a da mesa posta em bambu. O Porta Condimentos Duplo em Bambu NEXLAR Brisa é o conjunto de servir da linha: dois potes com ta...",
+    "description": "A linha Brisa é a da mesa posta em bambu. O Porta Condimentos Duplo em Bambu NEXLAR Brisa é o conjunto de servir da linha: dois potes com tampa e colher, sobre bandeja, prontos para ir do armário à mesa. Servir. Compor. Brisa.O que vem no conjunto2 potes de 330 ml em poliestireno transparente2 tampas de bambu, uma para cada pote2 colheres de bambu1 bandeja de bambu, 17,9 x 9,3 cmSão 660 ml em 17,9 x 9,3 cm de mesa. Açúcar e adoçante, sal e pimenta, café e chocolate em pó: a divisão em dois é o que faz sentido no café da manhã, onde quase nada vem sozinho.Encaixe exatoCada pote mede 8,5 cm de lado. Dois lado a lado dão 17 cm, e a bandeja tem 17,9 — 0,9 cm de folga: o bastante para tirar e pôr sem raspar, pouco o suficiente para nada dançar quando se carrega o conjunto. E a bandeja é a mesma Bandeja Pequena Brisa vendida sozinha na linha.Proteção antimofoBambu em mesa de café da manhã convive com açúcar úmido, colher molhada e pano de prato. O acabamento em verniz da linha Brisa dá proteção antimofo à bandeja, às tampas e às colheres, e realça o tom quente da fibra. O que ele não dispensa é o cuidado básico: nada de deixar de molho ou guardar úmido.Cada material no seu lugarOs potes são de poliestireno transparente — num condimento é isso que se quer: vê o nível de fora, sabe o que está acabando, não abre para conferir. O bambu fica onde a mão toca: bandeja, tampas e colheres.O presente da linhaDos onze itens da Brisa, este é o único em caixa litografada — os outros vêm com cinta ou tag. É o conjunto pensado para ser dado: amigo secreto, chá de casa nova, agradecimento de anfitrião. Chega embalado, sem passo intermediário.EspecificaçõesCapacidade: 330 ml cada pote, 660 ml no totalMedidas: 17,9 x 9,3 x 13 cmPotes: poliestireno transparenteBandeja, tampas e colheres: bambu com verniz e proteção antimofoBambu: renovável e reciclávelUso: micro-ondas, lava-louças e freezer nãoEmbalagem: caixa litografadaCódigo: 40657/3Como limparÀ mão, com esponja macia e sabão neutro: abrasivo risca a transparência.Secar na hora: o bambu não fica de molho nem é guardado úmido.Longe do sol direto e do fogão, que abrem a fibra.Perguntas frequentesO que vem no Porta Condimentos Duplo em Bambu NEXLAR Brisa?Dois potes de 330 ml, cada um com tampa e colher de bambu, mais uma bandeja. São 660 ml no conjunto, em 17,9 x 9,3 x 13 cm.Qual a capacidade de cada pote?330 ml cada um, 660 ml no conjunto.De que material é feito?Bandeja, tampas e colheres em bambu com verniz; potes em poliestireno transparente, que deixa ver o conteúdo. Os dois materiais são recicláveis.Vem em caixa de presente?Sim. É o único item da linha Brisa que vem em caixa litografada — os outros dez vêm com cinta ou tag.Qual a diferença entre este kit e o Pote com Colher Brisa vendido separado?O kit traz dois potes de 330 ml com colher e a bandeja, em caixa de presente. O Pote com Colher (40659/3) é uma unidade de 330 ml, 8,5 x 8,5 x 13 cm, sem bandeja.Vai à lava-louças, ao micro-ondas ou ao freezer?Não vai a nenhum dos três. Lave à mão com sabão neutro e esponja macia, e seque na hora: o bambu não deve ficar de molho nem ser guardado úmido.Mesa posta se faz nos detalhes. Com o Porta Condimentos Duplo em Bambu NEXLAR Brisa, o açúcar e o café saem do pacote e entram na composição. Leve o seu e comece a mesa Brisa.",
     "category_id": "cat-utensilios",
     "categories": {
       "name": "Utensílios de Cozinha",
@@ -2040,13 +2066,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 99.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 197,
+    "rating": 4.8,
+    "reviews_count": 61,
     "free_shipping": false,
     "featured": true,
-    "is_new": true,
+    "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
+    "created_at": "2026-09-19T19:43:19.426Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2087,56 +2113,6 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-994242263",
-    "name": "Jogo de Panelas com Indução NEXLAR Ceramic Life Smart Plus 10 Peças Areia",
-    "slug": "jogo-de-panelas-com-inducao-nexlar-ceramic-life-smart-plus-10-pecas-ar",
-    "sku": "NX-4774406",
-    "short_description": "Jogo de Panelas NEXLAR Ceramic Life Smart Plus Indução 10 Peças Areia — qualidade e sofisticação para a sua cozinhaO Jogo de Panelas NEXLAR...",
-    "description": "Jogo de Panelas NEXLAR Ceramic Life Smart Plus Indução 10 Peças Areia — qualidade e sofisticação para a sua cozinhaO Jogo de Panelas NEXLAR Ceramic Life Smart Plus na elegante cor Areia é a combinação perfeita entre tecnologia, design moderno e alta funcionalidade. Desenvolvido para transformar sua experiência culinária, este conjunto completo oferece desempenho superior com revestimento cerâmico antiaderente Ceramic Life, fundo de indução para distribuição uniforme do calor e acabamento sofisticado que valoriza qualquer cozinha. Compatível com fogões a gás, elétricos, vitrocerâmicos e por indução — versatilidade total para o dia a dia.Por que escolher o Conjunto Ceramic Life Smart Plus NEXLARA tecnologia Ceramic Life proporciona uma cozinha mais saudável: o revestimento antiaderente permite cozinhar com menos óleo, evita que os alimentos grudem e facilita drasticamente a limpeza. O fundo de indução distribui o calor de forma uniforme, eliminando pontos quentes e garantindo cozimento perfeito. Os cabos com revestimento Soft-Touch oferecem toque confortável, seguro e ergonômico. As tampas em vidro temperado com saída de vapor permitem controlar o preparo sem precisar levantá-las, preservando umidade e sabor. E o design empilhável otimiza o espaço nos seus armários.Diferenciais do Jogo Ceramic Life Smart Plus NEXLARRevestimento cerâmico antiaderente Ceramic Life: cozinha mais saudável e fácil de limpar.Fundo de indução: distribuição uniforme do calor.Compatível com todos os tipos de fogão: gás, elétrico, vitrocerâmico e indução.Cabos Soft-Touch: conforto e segurança no manuseio.Tampas em vidro temperado com saída de vapor: controle visual do preparo.Design empilhável: organização inteligente dos armários.Cor Areia: acabamento elegante e atemporal.Conjunto exclusivo do site NEXLAR: vem com 3 utensílios em silicone Urban (concha, escumadeira e espátula), resistentes até 200 °C e laváveis em lava-louças.Composição do jogo1 Panela com tampa Ø 16 cm — 1,4 L1 Panela com tampa Ø 18 cm — 2 L1 Caçarola com tampa Ø 20 cm — 2,5 L1 Caçarola com tampa Ø 22 cm — 3,5 L1 Frigideira Ø 18 cm — 550 ml1 Frigideira Ø 22 cm — 1,1 L1 Grill 24 x 24 cm — 1,8 L1 Concha de silicone Urban1 Escumadeira de silicone Urban1 Espátula de silicone UrbanFicha técnicaProduto: Jogo de PanelasLinha: Ceramic Life Smart PlusCor: AreiaMaterial: Alumínio com revestimento cerâmico antiaderente Ceramic LifeCabos: revestimento Soft-TouchTampas: vidro temperado com saída de vaporFundo: induçãoCompatibilidade: fogões a gás, elétrico, vitrocerâmico e induçãoUtensílios inclusos: 3 peças em silicone Urban (resistentes até 200 °C, podem ir à lava-louças)Cura do revestimento (antes do primeiro uso)Antes de utilizar, realize a cura do revestimento para potencializar a vida útil das panelas:Unte a parte interna com óleo ou qualquer outro tipo de gordura.Leve o produto ao fogo baixo até aquecer o conteúdo e deixe esfriar.Descarte o conteúdo e repita a lavagem e secagem para eliminar qualquer resíduo.Como cuidar do seu Jogo de Panelas NEXLARApós o uso, evite choques térmicos (não jogue água fria na panela quente).Lave à mão, com água morna, esponja macia e sabão neutro ou detergente.Se for necessário esfregar, utilize apenas materiais não abrasivos.Use utensílios de silicone, madeira ou nylon — nunca utensílios metálicos que possam riscar a superfície.Seque bem antes de empilhar para preservar o acabamento.Para quem é indicado?O Jogo de Panelas Ceramic Life Smart Plus NEXLAR é a escolha certa para quem está montando ou renovando a cozinha, valoriza praticidade no dia a dia, busca uma alimentação mais saudável e quer um conjunto sofisticado e durável. Indispensável para apartamentos com fogão por indução, casas com fogão a gás, casais que cozinham com frequência, famílias que valorizam refeições preparadas em casa e amantes de gastronomia que apreciam ferramentas de qualidade. Também é uma excelente opção de presente de casamento, chá de cozinha, dia das mães e datas especiais.Cozinha sofisticada, saudável e prática: Jogo de Panelas NEXLAR Ceramic Life Smart Plus 10 Peças Areia.",
-    "category_id": "cat-utensilios",
-    "categories": {
-      "name": "Utensílios de Cozinha",
-      "slug": "utensilios-de-cozinha"
-    },
-    "price": 699.99,
-    "compare_at_price": 999.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 167,
-    "free_shipping": true,
-    "featured": true,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "4774406",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242263-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/283747/promocao-brinox-kit-jogo-de-panelas-utensilios-areia-ceramic-life.png?v=639110781792530000",
-        "alt": "Jogo de Panelas com Indução NEXLAR Ceramic Life Smart Plus 10 Peças Areia",
-        "position": 0
-      },
-      {
-        "id": "img-994242263-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/283748/4774_406.png?v=639110781793000000",
-        "alt": "Jogo de Panelas com Indução NEXLAR Ceramic Life Smart Plus 10 Peças Areia",
-        "position": 1
-      }
-    ]
-  },
-  {
     "id": "prod-1611025",
     "name": "Travessa Oval Rasa 26 cm - Jornata 26 x 19 cm",
     "slug": "travessa-oval-rasa-26-cm-jornata-26-x-19-cm",
@@ -2152,13 +2128,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 56.24,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 107,
+    "rating": 4.7,
+    "reviews_count": 41,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
+    "created_at": "2026-09-19T19:43:19.426Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2187,6 +2163,68 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
+    "id": "prod-7241154",
+    "name": "Pipoqueira NEXLAR Pic Poc Antiaderente Ceramic Life 5,5 Litros Ø22cm Vanilla",
+    "slug": "pipoqueira-nexlar-pic-poc-antiaderente-ceramic-life-5-5-litros-22cm-va",
+    "sku": "NX-7241154",
+    "short_description": "A Pipoqueira NEXLAR Pic Poc Antiaderente Ceramic Life 5,5 Litros Ø22 x 15,5 cm Vanilla é feita para quem quer pipoca de cinema com mais prat...",
+    "description": "A Pipoqueira NEXLAR Pic Poc Antiaderente Ceramic Life 5,5 Litros Ø22 x 15,5 cm Vanilla é feita para quem quer pipoca de cinema com mais praticidade e menos bagunça em casa. Com capacidade de 5,5 L (equivalente a 70 g de milho para pipoca), ela rende bem para dividir e é perfeita para tardes de filme, séries e encontros com a família.O destaque fica por conta do revestimento Mineral Resist, 100% nacional e com partículas de cerâmica, que ajuda a aumentar a durabilidade e facilita a limpeza depois do uso. Além disso, é livre de PFOA, trazendo mais segurança no preparo. Para um resultado mais uniforme, a pipoqueira é fabricada em alumínio de alta qualidade, que aquece rápido e distribui o calor por igual, ajudando os grãos a estourarem melhor e reduzindo o risco de queimar.Para deixar a rotina ainda mais simples, as duas superfícies contam com o antiaderente Mineral Resist, evitando que os alimentos grudem e tornando a limpeza mais prática. O design na cor vanilla dá um toque leve e moderno para a cozinha.No uso, conforto e segurança também entram em cena: o cabo antitérmico em baquelite é ergonômico e facilita o manuseio. A tampa de vidro temperado permite acompanhar o preparo, conta com saída para vapor e trava de segurança, ajudando a manter calor e umidade na medida certa. E o melhor: a tampa inclui um misturador de nylon, pensado para distribuir o milho e os temperos de forma uniforme sem danificar o antiaderente, melhorando o aproveitamento dos grãos e deixando a pipoca ainda mais saborosa.Se você quer pipoca bem estourada, fácil de preparar e com limpeza simples, escolha a Pipoqueira NEXLAR Pic Poc Ceramic Life 5,5 L e garanta a sua agora.Principais benefíciosCapacidade 5,5 L: rende até 70 g de milho para pipocaAntiaderente Mineral Resist (com partículas de cerâmica): não gruda e limpa fácilLivre de PFOA: mais segurança no preparoAlumínio: aquecimento rápido e distribuição uniforme do calorTampa de vidro temperado: visualização do preparoBorda de silicone + saída para vapor: melhor vedação e controleTrava de segurança: mais tranquilidade no usoMisturador de nylon: mistura sem riscar e ajuda no aproveitamento dos grãosCor Vanilla: visual moderno e leveEspecificaçõesCapacidade: 5,5 L (aprox. 70 g de milho)Medidas: Ø22 x 15,5 cmRevestimento: Mineral Resist (partículas de cerâmica) – interno e externoMaterial: alumínioCor: VanillaCabo: baquelite antitérmicoTampa: vidro temperado com vedação em silicone, saída para vapor e travaEleve sua experiência com pipocas fresquinhas, crocantes e saudáveis. Escolha a Pipoqueira NEXLAR Pic Poc Ceramic Life e traga tecnologia, beleza e praticidade para sua cozinha.",
+    "category_id": "cat-utensilios",
+    "categories": {
+      "name": "Utensílios de Cozinha",
+      "slug": "utensilios-de-cozinha"
+    },
+    "price": 149.99,
+    "compare_at_price": 249.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.8,
+    "reviews_count": 57,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:19.426Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "7241154",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-7241154-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/281655/pipoqueira-ceramic-life-linha-pic-poc-55l-misturador-de-nylon-tampa-com-vidro-temperado-e-saida-vapor.jpg?v=639015726141600000",
+        "alt": "Pipoqueira NEXLAR Pic Poc Antiaderente Ceramic Life 5,5 Litros Ø22cm Vanilla",
+        "position": 0
+      },
+      {
+        "id": "img-7241154-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/281656/7241_154---1.jpg?v=639020253576770000",
+        "alt": "Pipoqueira NEXLAR Pic Poc Antiaderente Ceramic Life 5,5 Litros Ø22cm Vanilla",
+        "position": 1
+      },
+      {
+        "id": "img-7241154-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/281657/7241_154---2.jpg?v=639020253577230000",
+        "alt": "Pipoqueira NEXLAR Pic Poc Antiaderente Ceramic Life 5,5 Litros Ø22cm Vanilla",
+        "position": 2
+      },
+      {
+        "id": "img-7241154-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/281658/7241_154---3.jpg?v=639020253577230000",
+        "alt": "Pipoqueira NEXLAR Pic Poc Antiaderente Ceramic Life 5,5 Litros Ø22cm Vanilla",
+        "position": 3
+      }
+    ]
+  },
+  {
     "id": "prod-2519114",
     "name": "Conjunto Facas NEXLAR Infinity 3 Peças",
     "slug": "conjunto-facas-nexlar-infinity-3-pecas",
@@ -2202,13 +2240,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 199.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 35,
+    "rating": 4.7,
+    "reviews_count": 163,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
+    "created_at": "2026-09-19T19:43:19.426Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2224,25 +2262,25 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-2519114-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285418/Conjunto-Facas-3-pecas-Infinity---Brinox.jpg?v=639202467652900000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285419/Prancheta 1.png?v=639202467653400000",
         "alt": "Conjunto Facas NEXLAR Infinity 3 Peças",
         "position": 0
       },
       {
         "id": "img-2519114-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285419/Prancheta 1.png?v=639202467653400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285420/Prancheta 2.png?v=639202467653400000",
         "alt": "Conjunto Facas NEXLAR Infinity 3 Peças",
         "position": 1
       },
       {
         "id": "img-2519114-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285420/Prancheta 2.png?v=639202467653400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285421/Prancheta 3.png?v=639202467653400000",
         "alt": "Conjunto Facas NEXLAR Infinity 3 Peças",
         "position": 2
       },
       {
         "id": "img-2519114-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285421/Prancheta 3.png?v=639202467653400000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285418/Conjunto-Facas-3-pecas-Infinity---Brinox.jpg?v=639202467652900000",
         "alt": "Conjunto Facas NEXLAR Infinity 3 Peças",
         "position": 3
       }
@@ -2264,13 +2302,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 69.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 200,
+    "rating": 4.7,
+    "reviews_count": 132,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
+    "created_at": "2026-09-19T19:43:19.426Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2327,12 +2365,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 118,
+    "reviews_count": 58,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
+    "created_at": "2026-09-19T19:43:19.427Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2348,103 +2386,53 @@ export const PRODUCTS: Product[] = [
     "product_images": [
       {
         "id": "img-2519115-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285399/foto-principal-facas-com-cepo-2519115.jpg?v=639201427109000000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285400/Prancheta 1.png?v=639201427109170000",
         "alt": "Conjunto de Facas com Cepo NEXLAR Infinity 6 Peças",
         "position": 0
       },
       {
         "id": "img-2519115-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285400/Prancheta 1.png?v=639201427109170000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285401/Prancheta 2.png?v=639201427109370000",
         "alt": "Conjunto de Facas com Cepo NEXLAR Infinity 6 Peças",
         "position": 1
       },
       {
         "id": "img-2519115-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285401/Prancheta 2.png?v=639201427109370000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285402/Prancheta 3.png?v=639201427109370000",
         "alt": "Conjunto de Facas com Cepo NEXLAR Infinity 6 Peças",
         "position": 2
       },
       {
         "id": "img-2519115-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285402/Prancheta 3.png?v=639201427109370000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/285403/conjunto-de-faca-com-cepo-2519115-2.png?v=639201427109530000",
         "alt": "Conjunto de Facas com Cepo NEXLAR Infinity 6 Peças",
         "position": 3
       }
     ]
   },
   {
-    "id": "prod-994242262",
-    "name": "Jogo de Panelas de Indução NEXLAR Ceramic Life Smart Plus 8 Peças Areia",
-    "slug": "jogo-de-panelas-de-inducao-nexlar-ceramic-life-smart-plus-8-pecas-arei",
-    "sku": "NX-4774405",
-    "short_description": "Jogo de Panelas NEXLAR Ceramic Life Smart Plus Indução 8 Peças Areia — qualidade e sofisticação para a sua cozinhaO Jogo de Panelas NEXLAR C...",
-    "description": "Jogo de Panelas NEXLAR Ceramic Life Smart Plus Indução 8 Peças Areia — qualidade e sofisticação para a sua cozinhaO Jogo de Panelas NEXLAR Ceramic Life Smart Plus na elegante cor Areia é a combinação perfeita entre tecnologia, design moderno e alta funcionalidade. Desenvolvido para transformar sua experiência culinária, este conjunto completo oferece desempenho superior com revestimento cerâmico antiaderente Ceramic Life, fundo de indução para distribuição uniforme do calor e acabamento sofisticado que valoriza qualquer cozinha. Compatível com fogões a gás, elétricos, vitrocerâmicos e por indução — versatilidade total para o dia a dia.Por que escolher o Conjunto Ceramic Life Smart Plus NEXLARA tecnologia Ceramic Life proporciona uma cozinha mais saudável: o revestimento antiaderente permite cozinhar com menos óleo, evita que os alimentos grudem e facilita drasticamente a limpeza. O fundo de indução distribui o calor de forma uniforme, eliminando pontos quentes e garantindo cozimento perfeito. Os cabos com revestimento Soft-Touch oferecem toque confortável, seguro e ergonômico. As tampas em vidro temperado com saída de vapor permitem controlar o preparo sem precisar levantá-las, preservando umidade e sabor. E o design empilhável otimiza o espaço nos seus armários.Diferenciais do Jogo Ceramic Life Smart Plus NEXLAR 8 PeçasRevestimento cerâmico antiaderente Ceramic Life: cozinha mais saudável e fácil de limpar.Fundo de indução: distribuição uniforme do calor.Compatível com todos os tipos de fogão: gás, elétrico, vitrocerâmico e indução.Cabos Soft-Touch: conforto e segurança no manuseio.Tampas em vidro temperado com saída de vapor: controle visual do preparo.Design empilhável: organização inteligente dos armários.Cor Areia: acabamento elegante e atemporal.Conjunto exclusivo do site NEXLAR: vem com 3 utensílios em silicone Urban (concha, escumadeira e espátula), resistentes até 200 °C e laváveis em lava-louças.Composição do jogo1 Panela com tampa Ø 16 cm1 Panela com tampa Ø 18 cm1 Caçarola com tampa Ø 22 cm1 Frigideira Ø 22 cm1 Fervedor Ø 14 cm1 Concha de silicone Urban1 Escumadeira de silicone Urban1 Espátula de silicone UrbanFicha técnicaProduto: Jogo de PanelasLinha: Ceramic Life Smart PlusCor: AreiaMaterial: Alumínio com revestimento cerâmico antiaderente Ceramic LifeCabos: revestimento Soft-TouchTampas: vidro temperado com saída de vaporFundo: induçãoCompatibilidade: fogões a gás, elétrico, vitrocerâmico e induçãoUtensílios inclusos: 3 peças em silicone Urban (resistentes até 200 °C, podem ir à lava-louças)Cura do revestimento (antes do primeiro uso)Antes de utilizar, realize a cura do revestimento para potencializar a vida útil das panelas:Unte a parte interna com óleo ou qualquer outro tipo de gordura.Leve o produto ao fogo baixo até aquecer o conteúdo e deixe esfriar.Descarte o conteúdo e repita a lavagem e secagem para eliminar qualquer resíduo.Como cuidar do seu Jogo de Panelas NEXLARApós o uso, evite choques térmicos (não jogue água fria na panela quente).Lave à mão, com água morna, esponja macia e sabão neutro ou detergente.Se for necessário esfregar, utilize apenas materiais não abrasivos.Use utensílios de silicone, madeira ou nylon — nunca utensílios metálicos que possam riscar a superfície.Seque bem antes de empilhar para preservar o acabamento.Para quem é indicado?O Jogo Ceramic Life Smart Plus NEXLAR 8 Peças é a escolha certa para quem está montando ou renovando a cozinha, valoriza praticidade no dia a dia, busca uma alimentação mais saudável e quer um conjunto sofisticado e durável em formato essencial. Indispensável para apartamentos com fogão por indução, casas com fogão a gás, casais que cozinham com frequência e amantes de gastronomia que apreciam ferramentas de qualidade. Também é uma excelente opção de presente de casamento, chá de cozinha, dia das mães e datas especiais.Cozinha sofisticada, saudável e prática: Jogo de Panelas NEXLAR Ceramic Life Smart Plus 8 Peças Areia.",
+    "id": "prod-994242149",
+    "name": "Fouet Fio Inox com Silicone NEXLAR Duo 30cm Preto",
+    "slug": "fouet-fio-inox-com-silicone-nexlar-duo-30cm-preto",
+    "sku": "NX-2250310",
+    "short_description": "O Fouet Fio Inox com Silicone NEXLAR Duo 30 cm Preto é o utensílio ideal para quem quer mais eficiência no preparo de receitas, com conforto...",
+    "description": "O Fouet Fio Inox com Silicone NEXLAR Duo 30 cm Preto é o utensílio ideal para quem quer mais eficiência no preparo de receitas, com conforto no manuseio e cuidado com as panelas. Perfeito para misturar, bater e incorporar ingredientes com rapidez e precisão, ele ajuda a dar ponto em massas, cremes, molhos, omeletes e sobremesas, deixando o preparo mais prático no dia a dia.Sua estrutura é feita em aço inox com revestimento em silicone premium, unindo durabilidade e proteção: o silicone ajuda a evitar riscos em recipientes e utensílios, inclusive em superfícies delicadas. Além disso, o batedor é resistente a temperaturas de até 200°C, funcionando muito bem em preparos quentes e frios, do molho no fogo ao creme para sobremesa.A estrutura reforçada oferece mais firmeza durante o uso, enquanto o cabo arredondado garante pegada confortável e segura, ideal para uso contínuo. O acabamento preto com pintinhas brancas traz um toque moderno e combina com diferentes estilos de cozinha. E para facilitar a rotina, o utensílio pode ser pendurado para organizar melhor o espaço e pode ir à lava-louças, deixando a limpeza simples e rápida.Se você busca um batedor resistente, versátil e pronto para acompanhar as receitas do dia a dia, escolha o Fouet NEXLAR Duo 30 cm Preto e garanta o seu agora.Principais benefícios:Fio inox com silicone premium: durável e mais gentil com panelas e recipientesResistência térmica até 200°C: ideal para preparos quentes e friosEstrutura reforçada: mais firmeza ao bater e misturarCabo arredondado: ergonomia e conforto no manuseioPode ser pendurado: mais organização na cozinhaPode ir à lava-louças: limpeza mais prática30 cm: ótimo alcance para bowls e panelasEspecificações:Produto: batedor manual (fouet)Linha: NEXLAR DuoComprimento: 30 cmMaterial: aço inox + silicone premiumCor: preto com pintas brancasResistência térmica: até 200°CLimpeza: pode ir à lava-louçasCuidados de uso:Evite contato direto com chamaPara maior durabilidade, não use objetos cortantes sobre o siliconeDeixe suas receitas mais práticas e com acabamento perfeito: escolha o Fouet NEXLAR Duo 30 cm Preto e compre agora.",
     "category_id": "cat-utensilios",
     "categories": {
       "name": "Utensílios de Cozinha",
       "slug": "utensilios-de-cozinha"
     },
-    "price": 549.99,
-    "compare_at_price": 999.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 71,
-    "free_shipping": true,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "4774405",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242262-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/283745/promocao-brinox-kit-jogo-de-panelas-utensilios-areia.png?v=639110781609200000",
-        "alt": "Jogo de Panelas de Indução NEXLAR Ceramic Life Smart Plus 8 Peças Areia",
-        "position": 0
-      },
-      {
-        "id": "img-994242262-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/283746/4774_405.png?v=639110781609200000",
-        "alt": "Jogo de Panelas de Indução NEXLAR Ceramic Life Smart Plus 8 Peças Areia",
-        "position": 1
-      }
-    ]
-  },
-  {
-    "id": "prod-2556308",
-    "name": "Kit para Churrasco com Faca e Garfo Trinchante NEXLAR Cross Aço Inox 2 Peças",
-    "slug": "kit-para-churrasco-com-faca-e-garfo-trinchante-nexlar-cross-aco-inox-2",
-    "sku": "NX-2556308",
-    "short_description": "Durabilidade, eficiência e segurança definem o Kit para Churrasco com Faca e Garfo Trinchante NEXLAR Cross Aço Inox 2 Peças. Desenvolvido pa...",
-    "description": "Durabilidade, eficiência e segurança definem o Kit para Churrasco com Faca e Garfo Trinchante NEXLAR Cross Aço Inox 2 Peças. Desenvolvido para facilitar o preparo e o momento de servir, o conjunto é ideal para quem aprecia cortes precisos e mais controle no manuseio das carnes.A faca para carne possui lâmina larga, forte e robusta em aço inox temperado com acabamento polido, garantindo excelente afiação e desempenho em cortes de todos os tipos de carnes. O garfo trinchante conta com dentes especialmente desenhados para estabilizar carnes assadas durante o corte, permitindo verificar o ponto de cozimento com mais segurança e mantendo as mãos afastadas de superfícies quentes.Os cabos em polipropileno na cor preta oferecem firmeza e conforto durante o uso, proporcionando leveza e controle em cada movimento. Prático e funcional, o kit é uma solução eficiente para churrascos e refeições especiais, além de poder ir à lava-louças, facilitando a rotina de limpeza.Principais benefíciosLâminas em aço inox temperado com excelente afiaçãoFaca robusta ideal para cortes de carnes de todos os tiposGarfo trinchante com dentes que estabilizam a carne no corteCabos ergonômicos em polipropileno para manuseio seguroPode ir à lava-louças, trazendo mais praticidade no dia a diaEspecificaçõesProduto: Kit para Churrasco com Faca e Garfo TrinchanteLinha: CrossMaterial das lâminas: Aço inox temperadoAcabamento: PolidoMaterial dos cabos: PolipropilenoCor: PretoComposição do conjunto:1 Faca para Carne 8” – 32,5 cm1 Garfo Trinchante – 29 cmMais controle, segurança e precisão para o preparo das carnes fazem toda a diferença. Escolha o Kit para Churrasco NEXLAR Cross e torne seus momentos à mesa ainda mais completos",
-    "category_id": "cat-utensilios",
-    "categories": {
-      "name": "Utensílios de Cozinha",
-      "slug": "utensilios-de-cozinha"
-    },
-    "price": 29.99,
-    "compare_at_price": 34.99,
+    "price": 19.99,
+    "compare_at_price": 23.99,
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 101,
+    "reviews_count": 200,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:00.207Z",
+    "created_at": "2026-09-19T19:43:19.427Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2453,220 +2441,22 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "2556308",
+      "Referência": "2250310",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-2556308-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285393/Kit_para_churrasco_com_faca_e_garfo_trincante_Brinox_Cross_Aco_Inox.jpg?v=639198874567300000",
-        "alt": "Kit para Churrasco com Faca e Garfo Trinchante NEXLAR Cross Aço Inox 2 Peças",
+        "id": "img-994242149-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/283921/ChatGPT-Image-28-de-abr.-de-2026-10_21_15.png?v=639129792938630000",
+        "alt": "Fouet Fio Inox com Silicone NEXLAR Duo 30cm Preto",
         "position": 0
       },
       {
-        "id": "img-2556308-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285394/Prancheta 1.png?v=639198874567770000",
-        "alt": "Kit para Churrasco com Faca e Garfo Trinchante NEXLAR Cross Aço Inox 2 Peças",
+        "id": "img-994242149-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/282748/batedor-manual-fio-inox-com-silicone-brinox-duo-30cm-preto_0.jpg?v=639089364996170000",
+        "alt": "Fouet Fio Inox com Silicone NEXLAR Duo 30cm Preto",
         "position": 1
-      },
-      {
-        "id": "img-2556308-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285395/Prancheta 2.png?v=639198874567770000",
-        "alt": "Kit para Churrasco com Faca e Garfo Trinchante NEXLAR Cross Aço Inox 2 Peças",
-        "position": 2
-      },
-      {
-        "id": "img-2556308-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285396/Prancheta 3.png?v=639198874567900000",
-        "alt": "Kit para Churrasco com Faca e Garfo Trinchante NEXLAR Cross Aço Inox 2 Peças",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-994242241",
-    "name": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
-    "slug": "faqueiro-nexlar-noble-48-pecas-aco-inoxidavel",
-    "sku": "NX-5127143",
-    "short_description": "O Faqueiro NEXLAR Noble 48 Peças em Aço Inoxidável foi criado para quem valoriza uma mesa bem posta, com acabamento impecável e durabilidade...",
-    "description": "O Faqueiro NEXLAR Noble 48 Peças em Aço Inoxidável foi criado para quem valoriza uma mesa bem posta, com acabamento impecável e durabilidade para acompanhar o dia a dia e as ocasiões especiais. Excelência em cada detalhe para uma mesa impecável! Com design refinado, materiais nobres e polimento extra brilho, o Faqueiro NEXLAR Noble 48 Peças representa o mais alto padrão de qualidade e sofisticação para quem exige o melhor em cada refeição. Cada peça acrescenta sofisticação ao servir, elevando a experiência de refeições em família, jantares e recepções.Produzido em aço inoxidável 304, o conjunto une resistência e beleza por muito mais tempo. As facas são forjadas em aço inox 304 temperado, com espessura de 10 mm, oferecendo corte preciso e estrutura robusta para uso frequente. Já garfos e colheres têm 4,5 mm de espessura, proporcionando equilíbrio na mão, firmeza e ergonomia. Os garfos com dentes alongados ajudam no manuseio e no servir, enquanto as colheres com bojo robusto trazem conforto e funcionalidade em cada refeição.Com 48 peças, o faqueiro atende com praticidade diferentes momentos: refeições completas, sobremesas, chá e café, mantendo a harmonia da mesa do início ao fim. Se você procura um faqueiro premium para compor uma mesa elegante ou presentear com bom gosto, escolha o Faqueiro NEXLAR Noble 48 Peças e garanta o seu agora.Principais benefícios:Aço inox 304: resistência e durabilidade no uso diárioPolimento extra brilho: acabamento sofisticado para a mesaFacas forjadas e temperadas (10 mm): corte preciso e robustezGarfos e colheres (4,5 mm): equilíbrio, firmeza e ergonomiaGarfos com dentes alongados: mais eficiência ao servirColheres com bojo robusto: conforto e funcionalidadeConjunto completo com 48 peças: mesa, sobremesa, chá e caféEspecificações:Linha: NEXLAR NobleMaterial: aço inoxidável 304Acabamento: polimento extra brilhoFacas: aço 304 temperado, espessura 10 mmDemais talheres: espessura 4,5 mmComposição (48 peças):06 facas de mesa06 garfos de mesa06 colheres de mesa06 facas de sobremesa06 garfos de sobremesa06 colheres de sobremesa06 colheres de chá06 colheres de caféPara transformar sua mesa com elegância e desempenho em cada detalhe, escolha o Faqueiro NEXLAR Noble 48 Peças e compre agora.",
-    "category_id": "cat-mesa",
-    "categories": {
-      "name": "Mesa & Talheres",
-      "slug": "mesa-e-talheres"
-    },
-    "price": 869.99,
-    "compare_at_price": 1087.49,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 80,
-    "free_shipping": true,
-    "featured": true,
-    "is_new": true,
-    "active": true,
-    "created_at": "2026-09-19T19:32:01.007Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "5127143",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242241-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284950/5127_143.jpg?v=639172166321230000",
-        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
-        "position": 0
-      },
-      {
-        "id": "img-994242241-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284951/5127 143 1280x1280_1.png?v=639172166322670000",
-        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
-        "position": 1
-      },
-      {
-        "id": "img-994242241-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284952/5127 143 1280x1280_2.png?v=639172166323130000",
-        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
-        "position": 2
-      },
-      {
-        "id": "img-994242241-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284953/5127 143 1280x1280_3.png?v=639172166323300000",
-        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-994242240",
-    "name": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
-    "slug": "faqueiro-nexlar-new-gourmet-48-pecas-aco-inoxidavel",
-    "sku": "NX-5131143",
-    "short_description": "O Faqueiro NEXLAR New Gourmet 48 Peças em Aço Inoxidável foi desenvolvido para quem busca um conjunto completo, com design premium e desempe...",
-    "description": "O Faqueiro NEXLAR New Gourmet 48 Peças em Aço Inoxidável foi desenvolvido para quem busca um conjunto completo, com design premium e desempenho para o dia a dia e para ocasiões especiais. Com polimento extra brilho, as peças valorizam a mesa e trazem um acabamento sofisticado, ideal para servir com elegância em almoços, jantares e momentos de celebração.As facas são forjadas em aço 420 temperado, com 5 mm de espessura, oferecendo corte preciso, resistência e durabilidade para uso frequente. Já garfos e colheres, com 3 mm de espessura, entregam firmeza e ótimo equilíbrio nas mãos, proporcionando uma experiência confortável ao servir e degustar. Os garfos com dentes alongados ajudam na eficiência ao manusear alimentos, enquanto as colheres com bojo robusto trazem praticidade para diferentes preparos, de refeições completas a caldos e sobremesas.Com 48 peças, o faqueiro atende a mesa do início ao fim, com itens para refeição, sobremesa, chá e café, mantendo unidade visual e praticidade na rotina. Se você procura um faqueiro premium para compor uma mesa bonita ou presentear com bom gosto, escolha o Faqueiro NEXLAR New Gourmet 48 Peças e garanta o seu agora.Principais benefícios:Polimento extra brilho: acabamento elegante e sofisticadoFacas forjadas em aço 420 temperado (5 mm): corte preciso e alta resistênciaGarfos e colheres (3 mm): firmeza, conforto e equilíbrio no usoGarfos com dentes alongados: mais eficiência ao servirColheres com bojo robusto: praticidade no dia a diaConjunto completo com 48 peças: mesa, sobremesa, chá e caféServe 06 pessoasIdeal para uso diário e ocasiões especiaisEspecificações:Linha: NEXLAR New GourmetMaterial: aço inoxidávelAcabamento: polimento extra brilhoFacas: aço 420 temperado, 5 mm de espessuraGarfos e colheres: 3 mm de espessuraCategoria: faqueiro premiumComposição (48 peças):06 facas de mesa06 garfos de mesa06 colheres de mesa06 facas de sobremesa06 garfos de sobremesa06 colheres de sobremesa06 colheres de chá06 colheres de caféCuidados de uso:Lave antes do primeiro usoPode ser lavada em lava-louçasEvite materiais abrasivos para ajudar na conservação do brilhoSeque bem após a lavagem para manter a peça sempre bem cuidadaPara elevar sua mesa com brilho, performance e praticidade em cada detalhe, escolha o Faqueiro NEXLAR New Gourmet 48 Peças e compre agora.",
-    "category_id": "cat-mesa",
-    "categories": {
-      "name": "Mesa & Talheres",
-      "slug": "mesa-e-talheres"
-    },
-    "price": 299.99,
-    "compare_at_price": 349.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 121,
-    "free_shipping": true,
-    "featured": true,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:01.007Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "5131143",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242240-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284936/5131_143.jpg?v=639172165662800000",
-        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
-        "position": 0
-      },
-      {
-        "id": "img-994242240-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284937/5131 143 1280x1280_1.png?v=639172165662970000",
-        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
-        "position": 1
-      },
-      {
-        "id": "img-994242240-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284938/5131 143 1280x1280_2.png?v=639172165662970000",
-        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
-        "position": 2
-      },
-      {
-        "id": "img-994242240-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284939/5131 143 1280x1280_3.png?v=639172165663130000",
-        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-994242223",
-    "name": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
-    "slug": "faqueiro-nexlar-bistro-48-pecas-aco-inoxidavel",
-    "sku": "NX-5121143",
-    "short_description": "O Faqueiro NEXLAR Bistrô 48 Peças em Aço Inoxidável foi feito para quem quer uma mesa bem posta com acabamento premium e desempenho no uso d...",
-    "description": "O Faqueiro NEXLAR Bistrô 48 Peças em Aço Inoxidável foi feito para quem quer uma mesa bem posta com acabamento premium e desempenho no uso diário ou em ocasiões especiais. Com polimento extra brilho, as peças valorizam a apresentação e trazem sofisticação para almoços, jantares e recepções, mantendo um visual elegante do início ao fim da refeição.Produzido em aço inoxidável de alta qualidade, o conjunto combina resistência, durabilidade e ergonomia. As facas são forjadas em aço 420 temperado, com espessura de 9 mm, oferecendo corte preciso e alta performance para diferentes alimentos. Os garfos têm dentes alongados e polimento entre os vãos, garantindo acabamento impecável e uma experiência mais confortável ao servir e comer. Já as colheres contam com bojo robusto, ideal para porções generosas, trazendo equilíbrio e praticidade no dia a dia.Com 48 peças, o faqueiro atende refeições completas e também momentos de sobremesa, chá e café, mantendo unidade e facilidade na hora de montar a mesa. Se você procura um conjunto confiável, bonito e com desempenho superior, escolha o Faqueiro NEXLAR Bistrô 48 Peças e garanta o seu agora.Principais benefícios:Aço inoxidável premium: resistência e durabilidade no uso diárioPolimento extra brilho: acabamento sofisticado para a mesaFacas forjadas em aço 420 temperado (9 mm): corte preciso e alto desempenhoTalheres com 2,5 mm: equilíbrio e conforto ao usarGarfos com dentes alongados e polimento entre os dentes: mais eficiência e acabamento impecávelColheres com bojo robusto: praticidade para diferentes preparosConjunto completo com 48 peças: mesa, sobremesa, chá e caféServe 06 pessoasEspecificações:Linha: NEXLAR BistrôMaterial: aço inoxidávelAcabamento: polimento extra brilhoFacas: aço 420 temperado, forjadas, espessura 9 mmDemais talheres: espessura 2,5 mmUso indicado: refeições diárias e ocasiões especiaisComposição (48 peças) - Serve 06 pessoas:06 facas de mesa – aço 420 forjado, 9 mm06 garfos de mesa – 2,5 mm06 colheres de mesa – 2,5 mm06 facas de sobremesa – 2,5 mm06 garfos de sobremesa – 2,5 mm06 colheres de sobremesa – 2,5 mm06 colheres de chá – 2,5 mm06 colheres de café – 2,5 mmPara levar mais sofisticação e desempenho para a sua mesa em todos os momentos, escolha o Faqueiro NEXLAR Bistrô 48 Peças e compre agora.",
-    "category_id": "cat-mesa",
-    "categories": {
-      "name": "Mesa & Talheres",
-      "slug": "mesa-e-talheres"
-    },
-    "price": 449.99,
-    "compare_at_price": 469.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 68,
-    "free_shipping": true,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:01.007Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "5121143",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242223-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284926/5121_143.jpg?v=639172164839800000",
-        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
-        "position": 0
-      },
-      {
-        "id": "img-994242223-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284927/5121 143 1280x1280_1.png?v=639172164840430000",
-        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
-        "position": 1
-      },
-      {
-        "id": "img-994242223-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284928/5121 143 1280x1280_2.png?v=639172164840430000",
-        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
-        "position": 2
-      },
-      {
-        "id": "img-994242223-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284929/5121 143 1280x1280_3.png?v=639172164840600000",
-        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
-        "position": 3
       }
     ]
   },
@@ -2687,12 +2477,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.8,
-    "reviews_count": 130,
+    "reviews_count": 161,
     "free_shipping": false,
-    "featured": false,
-    "is_new": false,
+    "featured": true,
+    "is_new": true,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.007Z",
+    "created_at": "2026-09-19T19:43:20.394Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2733,6 +2523,192 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
+    "id": "prod-994242241",
+    "name": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
+    "slug": "faqueiro-nexlar-noble-48-pecas-aco-inoxidavel",
+    "sku": "NX-5127143",
+    "short_description": "O Faqueiro NEXLAR Noble 48 Peças em Aço Inoxidável foi criado para quem valoriza uma mesa bem posta, com acabamento impecável e durabilidade...",
+    "description": "O Faqueiro NEXLAR Noble 48 Peças em Aço Inoxidável foi criado para quem valoriza uma mesa bem posta, com acabamento impecável e durabilidade para acompanhar o dia a dia e as ocasiões especiais. Excelência em cada detalhe para uma mesa impecável! Com design refinado, materiais nobres e polimento extra brilho, o Faqueiro NEXLAR Noble 48 Peças representa o mais alto padrão de qualidade e sofisticação para quem exige o melhor em cada refeição. Cada peça acrescenta sofisticação ao servir, elevando a experiência de refeições em família, jantares e recepções.Produzido em aço inoxidável 304, o conjunto une resistência e beleza por muito mais tempo. As facas são forjadas em aço inox 304 temperado, com espessura de 10 mm, oferecendo corte preciso e estrutura robusta para uso frequente. Já garfos e colheres têm 4,5 mm de espessura, proporcionando equilíbrio na mão, firmeza e ergonomia. Os garfos com dentes alongados ajudam no manuseio e no servir, enquanto as colheres com bojo robusto trazem conforto e funcionalidade em cada refeição.Com 48 peças, o faqueiro atende com praticidade diferentes momentos: refeições completas, sobremesas, chá e café, mantendo a harmonia da mesa do início ao fim. Se você procura um faqueiro premium para compor uma mesa elegante ou presentear com bom gosto, escolha o Faqueiro NEXLAR Noble 48 Peças e garanta o seu agora.Principais benefícios:Aço inox 304: resistência e durabilidade no uso diárioPolimento extra brilho: acabamento sofisticado para a mesaFacas forjadas e temperadas (10 mm): corte preciso e robustezGarfos e colheres (4,5 mm): equilíbrio, firmeza e ergonomiaGarfos com dentes alongados: mais eficiência ao servirColheres com bojo robusto: conforto e funcionalidadeConjunto completo com 48 peças: mesa, sobremesa, chá e caféEspecificações:Linha: NEXLAR NobleMaterial: aço inoxidável 304Acabamento: polimento extra brilhoFacas: aço 304 temperado, espessura 10 mmDemais talheres: espessura 4,5 mmComposição (48 peças):06 facas de mesa06 garfos de mesa06 colheres de mesa06 facas de sobremesa06 garfos de sobremesa06 colheres de sobremesa06 colheres de chá06 colheres de caféPara transformar sua mesa com elegância e desempenho em cada detalhe, escolha o Faqueiro NEXLAR Noble 48 Peças e compre agora.",
+    "category_id": "cat-mesa",
+    "categories": {
+      "name": "Mesa & Talheres",
+      "slug": "mesa-e-talheres"
+    },
+    "price": 869.99,
+    "compare_at_price": 1087.49,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.8,
+    "reviews_count": 189,
+    "free_shipping": true,
+    "featured": true,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:20.394Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "5127143",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242241-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284951/5127 143 1280x1280_1.png?v=639172166322670000",
+        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
+        "position": 0
+      },
+      {
+        "id": "img-994242241-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284952/5127 143 1280x1280_2.png?v=639172166323130000",
+        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
+        "position": 1
+      },
+      {
+        "id": "img-994242241-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284953/5127 143 1280x1280_3.png?v=639172166323300000",
+        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
+        "position": 2
+      },
+      {
+        "id": "img-994242241-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284950/5127_143.jpg?v=639172166321230000",
+        "alt": "Faqueiro NEXLAR Noble 48 Peças Aço Inoxidável",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "prod-994242240",
+    "name": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
+    "slug": "faqueiro-nexlar-new-gourmet-48-pecas-aco-inoxidavel",
+    "sku": "NX-5131143",
+    "short_description": "O Faqueiro NEXLAR New Gourmet 48 Peças em Aço Inoxidável foi desenvolvido para quem busca um conjunto completo, com design premium e desempe...",
+    "description": "O Faqueiro NEXLAR New Gourmet 48 Peças em Aço Inoxidável foi desenvolvido para quem busca um conjunto completo, com design premium e desempenho para o dia a dia e para ocasiões especiais. Com polimento extra brilho, as peças valorizam a mesa e trazem um acabamento sofisticado, ideal para servir com elegância em almoços, jantares e momentos de celebração.As facas são forjadas em aço 420 temperado, com 5 mm de espessura, oferecendo corte preciso, resistência e durabilidade para uso frequente. Já garfos e colheres, com 3 mm de espessura, entregam firmeza e ótimo equilíbrio nas mãos, proporcionando uma experiência confortável ao servir e degustar. Os garfos com dentes alongados ajudam na eficiência ao manusear alimentos, enquanto as colheres com bojo robusto trazem praticidade para diferentes preparos, de refeições completas a caldos e sobremesas.Com 48 peças, o faqueiro atende a mesa do início ao fim, com itens para refeição, sobremesa, chá e café, mantendo unidade visual e praticidade na rotina. Se você procura um faqueiro premium para compor uma mesa bonita ou presentear com bom gosto, escolha o Faqueiro NEXLAR New Gourmet 48 Peças e garanta o seu agora.Principais benefícios:Polimento extra brilho: acabamento elegante e sofisticadoFacas forjadas em aço 420 temperado (5 mm): corte preciso e alta resistênciaGarfos e colheres (3 mm): firmeza, conforto e equilíbrio no usoGarfos com dentes alongados: mais eficiência ao servirColheres com bojo robusto: praticidade no dia a diaConjunto completo com 48 peças: mesa, sobremesa, chá e caféServe 06 pessoasIdeal para uso diário e ocasiões especiaisEspecificações:Linha: NEXLAR New GourmetMaterial: aço inoxidávelAcabamento: polimento extra brilhoFacas: aço 420 temperado, 5 mm de espessuraGarfos e colheres: 3 mm de espessuraCategoria: faqueiro premiumComposição (48 peças):06 facas de mesa06 garfos de mesa06 colheres de mesa06 facas de sobremesa06 garfos de sobremesa06 colheres de sobremesa06 colheres de chá06 colheres de caféCuidados de uso:Lave antes do primeiro usoPode ser lavada em lava-louçasEvite materiais abrasivos para ajudar na conservação do brilhoSeque bem após a lavagem para manter a peça sempre bem cuidadaPara elevar sua mesa com brilho, performance e praticidade em cada detalhe, escolha o Faqueiro NEXLAR New Gourmet 48 Peças e compre agora.",
+    "category_id": "cat-mesa",
+    "categories": {
+      "name": "Mesa & Talheres",
+      "slug": "mesa-e-talheres"
+    },
+    "price": 299.99,
+    "compare_at_price": 349.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.8,
+    "reviews_count": 100,
+    "free_shipping": true,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:20.394Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "5131143",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242240-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284937/5131 143 1280x1280_1.png?v=639172165662970000",
+        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
+        "position": 0
+      },
+      {
+        "id": "img-994242240-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284938/5131 143 1280x1280_2.png?v=639172165662970000",
+        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
+        "position": 1
+      },
+      {
+        "id": "img-994242240-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284939/5131 143 1280x1280_3.png?v=639172165663130000",
+        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
+        "position": 2
+      },
+      {
+        "id": "img-994242240-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284936/5131_143.jpg?v=639172165662800000",
+        "alt": "Faqueiro NEXLAR New Gourmet 48 Peças Aço Inoxidável",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "prod-994242223",
+    "name": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
+    "slug": "faqueiro-nexlar-bistro-48-pecas-aco-inoxidavel",
+    "sku": "NX-5121143",
+    "short_description": "O Faqueiro NEXLAR Bistrô 48 Peças em Aço Inoxidável foi feito para quem quer uma mesa bem posta com acabamento premium e desempenho no uso d...",
+    "description": "O Faqueiro NEXLAR Bistrô 48 Peças em Aço Inoxidável foi feito para quem quer uma mesa bem posta com acabamento premium e desempenho no uso diário ou em ocasiões especiais. Com polimento extra brilho, as peças valorizam a apresentação e trazem sofisticação para almoços, jantares e recepções, mantendo um visual elegante do início ao fim da refeição.Produzido em aço inoxidável de alta qualidade, o conjunto combina resistência, durabilidade e ergonomia. As facas são forjadas em aço 420 temperado, com espessura de 9 mm, oferecendo corte preciso e alta performance para diferentes alimentos. Os garfos têm dentes alongados e polimento entre os vãos, garantindo acabamento impecável e uma experiência mais confortável ao servir e comer. Já as colheres contam com bojo robusto, ideal para porções generosas, trazendo equilíbrio e praticidade no dia a dia.Com 48 peças, o faqueiro atende refeições completas e também momentos de sobremesa, chá e café, mantendo unidade e facilidade na hora de montar a mesa. Se você procura um conjunto confiável, bonito e com desempenho superior, escolha o Faqueiro NEXLAR Bistrô 48 Peças e garanta o seu agora.Principais benefícios:Aço inoxidável premium: resistência e durabilidade no uso diárioPolimento extra brilho: acabamento sofisticado para a mesaFacas forjadas em aço 420 temperado (9 mm): corte preciso e alto desempenhoTalheres com 2,5 mm: equilíbrio e conforto ao usarGarfos com dentes alongados e polimento entre os dentes: mais eficiência e acabamento impecávelColheres com bojo robusto: praticidade para diferentes preparosConjunto completo com 48 peças: mesa, sobremesa, chá e caféServe 06 pessoasEspecificações:Linha: NEXLAR BistrôMaterial: aço inoxidávelAcabamento: polimento extra brilhoFacas: aço 420 temperado, forjadas, espessura 9 mmDemais talheres: espessura 2,5 mmUso indicado: refeições diárias e ocasiões especiaisComposição (48 peças) - Serve 06 pessoas:06 facas de mesa – aço 420 forjado, 9 mm06 garfos de mesa – 2,5 mm06 colheres de mesa – 2,5 mm06 facas de sobremesa – 2,5 mm06 garfos de sobremesa – 2,5 mm06 colheres de sobremesa – 2,5 mm06 colheres de chá – 2,5 mm06 colheres de café – 2,5 mmPara levar mais sofisticação e desempenho para a sua mesa em todos os momentos, escolha o Faqueiro NEXLAR Bistrô 48 Peças e compre agora.",
+    "category_id": "cat-mesa",
+    "categories": {
+      "name": "Mesa & Talheres",
+      "slug": "mesa-e-talheres"
+    },
+    "price": 449.99,
+    "compare_at_price": 469.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 5,
+    "reviews_count": 38,
+    "free_shipping": true,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:20.394Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "5121143",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242223-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284927/5121 143 1280x1280_1.png?v=639172164840430000",
+        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
+        "position": 0
+      },
+      {
+        "id": "img-994242223-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284928/5121 143 1280x1280_2.png?v=639172164840430000",
+        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
+        "position": 1
+      },
+      {
+        "id": "img-994242223-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284929/5121 143 1280x1280_3.png?v=639172164840600000",
+        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
+        "position": 2
+      },
+      {
+        "id": "img-994242223-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284926/5121_143.jpg?v=639172164839800000",
+        "alt": "Faqueiro NEXLAR Bistro 48 Peças Aço Inoxidável",
+        "position": 3
+      }
+    ]
+  },
+  {
     "id": "prod-994242032",
     "name": "Jogo de Faca de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
     "slug": "jogo-de-faca-de-mesa-nexlar-noble-aco-inox-304-12-pecas",
@@ -2748,13 +2724,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 479.25,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 97,
+    "rating": 4.7,
+    "reviews_count": 34,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.008Z",
+    "created_at": "2026-09-19T19:43:20.394Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2795,68 +2771,6 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-994242030",
-    "name": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
-    "slug": "jogo-de-garfo-de-mesa-nexlar-noble-aco-inox-304-12-pecas",
-    "sku": "NX-5126102",
-    "short_description": "O Jogo de Garfo de Mesa Noble 12 Peças tem um detalhe que quase nenhum garfo do mercado tem: o polimento entre os dentes. Com 21 cm e 4,5 mm...",
-    "description": "O Jogo de Garfo de Mesa Noble 12 Peças tem um detalhe que quase nenhum garfo do mercado tem: o polimento entre os dentes. Com 21 cm e 4,5 mm de espessura em aço inox 304, é a dúzia que fecha o serviço de mesa com acabamento de restaurante, inclusive nos vãos que ninguém repara até segurar o garfo.Polimento entre os dentes: o acabamento que quase ninguém fazEm garfo comum, o polimento cobre as faces e para ali: as fendas entre os dentes ficam opacas, com a marca da estampagem, e é ali que o resíduo se agarra. Os garfos Noble recebem polimento extra brilho também entre os dentes — peça lisa de ponta a ponta, mais fácil de lavar e sem o contraste fosco que denuncia talher barato.O que vem no jogo de garfo de mesa Noble12 garfos de mesa Noble (caixa completa)21 cm de comprimento cada4,5 mm de espessuraPeça monobloco em aço inox 304, com polimento entre os dentesAço inox 304 e 4,5 mm que não entortamDente de garfo fino entorta ao furar carne mais firme. Os 4,5 mm da Noble e a construção monobloco — uma única lâmina de aço, sem emendas — resolvem isso. E a base é aço inox 304, a liga 18/10 com 18% de cromo e 10% de níquel, a mesma do faqueiro premium da linha: alta resistência à oxidação e brilho que não cede na lava-louças.Especificações técnicasMarca: NEXLARLinha: NobleProduto: Garfo de mesaQuantidade: 12 peças (dúzia)Material: Aço inox 304 (18/10)Comprimento: 21 cm (210 mm)Espessura: 4,5 mmAcabamento: Polimento extra brilho, inclusive entre os dentesConstrução: Monobloco (peça única)Cor: Inox prateadoLava-louças: SimCódigo: 5126/102Modo de usar e conservaçãoAntes de levar à mesaUma lavagem com detergente neutro e esponja macia, e as peças estão prontas.Limpeza entre os dentesComo os vãos são polidos, o resíduo sai com esponja macia ou no ciclo normal da lava-louças, sem precisar de escova.O que evitarPalha de aço, abrasivos, produtos com cloro e longos períodos de molho.Perguntas frequentesO que é polimento entre os dentes?É o polimento aplicado também nas fendas entre os dentes, e não só nas faces externas. Deixa a peça lisa por inteiro, mais fácil de limpar, e evita o acabamento fosco dos vãos de garfo sem esse tratamento.Quantos garfos vêm no jogo?São 12 garfos de mesa Noble, a caixa completa.Qual o tamanho do garfo de mesa Noble?Cada peça tem 21 cm de comprimento e 4,5 mm de espessura.Combina com a colher de mesa Noble?Sim. A colher de mesa tem exatamente os mesmos 21 cm e 4,5 mm, então as duas peças formam um par proporcional na mesa.Os dentes do garfo entortam com o uso?Com 4,5 mm de espessura e corpo monobloco, o garfo aguenta furar carne firme sem ceder, bem acima do talher de mesa comum.Pode ir na lava-louças?Sim. As peças são compatíveis com lava-louças.É no detalhe que a mesa se revela, e o garfo é onde mais se olha. Garanta agora o seu Jogo de Garfo de Mesa Noble 12 Peças e sirva com acabamento impecável até entre os dentes!",
-    "category_id": "cat-mesa",
-    "categories": {
-      "name": "Mesa & Talheres",
-      "slug": "mesa-e-talheres"
-    },
-    "price": 329.72,
-    "compare_at_price": 412.15,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 141,
-    "free_shipping": true,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:01.008Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "5126102",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242030-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279894/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_0.jpg?v=639232820098400000",
-        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
-        "position": 0
-      },
-      {
-        "id": "img-994242030-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279895/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_1.jpg?v=639232820098700000",
-        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-994242030-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279896/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_2.jpg?v=639232820098700000",
-        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
-        "position": 2
-      },
-      {
-        "id": "img-994242030-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279897/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_3.png?v=639232820098870000",
-        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
-        "position": 3
-      }
-    ]
-  },
-  {
     "id": "prod-994242034",
     "name": "Jogo de Faca de Sobremesa NEXLAR Noble Aço Inox 304 12 Peças",
     "slug": "jogo-de-faca-de-sobremesa-nexlar-noble-aco-inox-304-12-pecas",
@@ -2873,12 +2787,12 @@ export const PRODUCTS: Product[] = [
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 110,
+    "reviews_count": 106,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.008Z",
+    "created_at": "2026-09-19T19:43:20.394Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2913,12 +2827,12 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-994242026",
-    "name": "Jogo de Colher de Mesa NEXLAR Noble em Aço Inox 304 12 Peças",
-    "slug": "jogo-de-colher-de-mesa-nexlar-noble-em-aco-inox-304-12-pecas",
-    "sku": "NX-5126101",
-    "short_description": "O Jogo de Colher de Mesa Noble 12 Peças é para quem cansou de talher que verga no prato. Com 21 cm e 4,5 mm de espessura, a colher de mesa N...",
-    "description": "O Jogo de Colher de Mesa Noble 12 Peças é para quem cansou de talher que verga no prato. Com 21 cm e 4,5 mm de espessura, a colher de mesa Noble tem peso real na mão, e o aço inox 304 com polimento extra brilho mantém a aparência de nova depois de anos de almoço e jantar. São 12 peças, a caixa completa para pôr a mesa sem faltar colher.4,5 mm de espessura: a robustez que se sente na mãoEspessura é o que separa um talher que dura de um que entorta. A colher de mesa Noble tem 4,5 mm, muito acima do que se encontra na categoria, e é monobloco — feita de uma única lâmina de aço, sem emendas ou soldas. O resultado é firmeza ao apoiar no prato, equilíbrio entre cabo e bojo e conforto para segurar do começo ao fim da refeição.O que vem no jogo de colher de mesa Noble12 colheres de mesa Noble (caixa completa)21 cm de comprimento cada4,5 mm de espessuraPeça monobloco em aço inox 304Aço inox 304 com polimento extra brilhoA base é aço inox 304, a liga 18/10 — 18% de cromo e 10% de níquel, a mesma do faqueiro premium Noble. Sobre ela vem o polimento extra brilho, acabamento espelhado da linha. Juntos, garantem alta resistência à oxidação e brilho que não desbota no uso frequente, inclusive na lava-louças.Especificações técnicasMarca: NEXLARLinha: NobleProduto: Colher de mesaQuantidade: 12 peças (caixa)Material: Aço inox 304 (18/10)Comprimento: 21 cm (210 mm)Espessura: 4,5 mmAcabamento: Polimento extra brilhoConstrução: Monobloco (peça única)Cor: Inox prateadoLava-louças: SimCódigo: 5126/101Modo de usar e conservaçãoAntes do primeiro usoLave com água, detergente neutro e esponja macia, e seque bem.LimpezaPode lavar à mão ou na lava-louças. Secar logo após a lavagem preserva o polimento extra brilho.O que evitarPalha de aço, produtos abrasivos ou à base de cloro, e deixar as peças de molho por longos períodos.Perguntas frequentesColher de mesa e colher de sopa são a mesma coisa?Sim. Colher de mesa é o nome técnico do talher que a maioria chama de colher de sopa: a maior do jogo, usada nas refeições principais.Para que serve a colher de mesa?É a colher das refeições principais: arroz, feijão, sopas, caldos, risotos e massas. Também é a peça usada para servir à mesa.Quantas colheres vêm no jogo?São 12 colheres de mesa, todas da linha Noble.Qual o tamanho da colher de mesa Noble?Cada peça tem 21 cm de comprimento e 4,5 mm de espessura.O que significa aço inox 304 ou 18/10?São dois nomes para a mesma liga: 18% de cromo e 10% de níquel. É o padrão de inox mais resistente à oxidação entre os usados em talheres.Pode ir na lava-louças?Sim. As peças são compatíveis com lava-louças e mantêm o acabamento.Sua mesa merece mais do que colher que entorta. Garanta agora o seu Jogo de Colher de Mesa Noble 12 Peças e sirva com o peso e o brilho de um talher de verdade!",
+    "id": "prod-994242030",
+    "name": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
+    "slug": "jogo-de-garfo-de-mesa-nexlar-noble-aco-inox-304-12-pecas",
+    "sku": "NX-5126102",
+    "short_description": "O Jogo de Garfo de Mesa Noble 12 Peças tem um detalhe que quase nenhum garfo do mercado tem: o polimento entre os dentes. Com 21 cm e 4,5 mm...",
+    "description": "O Jogo de Garfo de Mesa Noble 12 Peças tem um detalhe que quase nenhum garfo do mercado tem: o polimento entre os dentes. Com 21 cm e 4,5 mm de espessura em aço inox 304, é a dúzia que fecha o serviço de mesa com acabamento de restaurante, inclusive nos vãos que ninguém repara até segurar o garfo.Polimento entre os dentes: o acabamento que quase ninguém fazEm garfo comum, o polimento cobre as faces e para ali: as fendas entre os dentes ficam opacas, com a marca da estampagem, e é ali que o resíduo se agarra. Os garfos Noble recebem polimento extra brilho também entre os dentes — peça lisa de ponta a ponta, mais fácil de lavar e sem o contraste fosco que denuncia talher barato.O que vem no jogo de garfo de mesa Noble12 garfos de mesa Noble (caixa completa)21 cm de comprimento cada4,5 mm de espessuraPeça monobloco em aço inox 304, com polimento entre os dentesAço inox 304 e 4,5 mm que não entortamDente de garfo fino entorta ao furar carne mais firme. Os 4,5 mm da Noble e a construção monobloco — uma única lâmina de aço, sem emendas — resolvem isso. E a base é aço inox 304, a liga 18/10 com 18% de cromo e 10% de níquel, a mesma do faqueiro premium da linha: alta resistência à oxidação e brilho que não cede na lava-louças.Especificações técnicasMarca: NEXLARLinha: NobleProduto: Garfo de mesaQuantidade: 12 peças (dúzia)Material: Aço inox 304 (18/10)Comprimento: 21 cm (210 mm)Espessura: 4,5 mmAcabamento: Polimento extra brilho, inclusive entre os dentesConstrução: Monobloco (peça única)Cor: Inox prateadoLava-louças: SimCódigo: 5126/102Modo de usar e conservaçãoAntes de levar à mesaUma lavagem com detergente neutro e esponja macia, e as peças estão prontas.Limpeza entre os dentesComo os vãos são polidos, o resíduo sai com esponja macia ou no ciclo normal da lava-louças, sem precisar de escova.O que evitarPalha de aço, abrasivos, produtos com cloro e longos períodos de molho.Perguntas frequentesO que é polimento entre os dentes?É o polimento aplicado também nas fendas entre os dentes, e não só nas faces externas. Deixa a peça lisa por inteiro, mais fácil de limpar, e evita o acabamento fosco dos vãos de garfo sem esse tratamento.Quantos garfos vêm no jogo?São 12 garfos de mesa Noble, a caixa completa.Qual o tamanho do garfo de mesa Noble?Cada peça tem 21 cm de comprimento e 4,5 mm de espessura.Combina com a colher de mesa Noble?Sim. A colher de mesa tem exatamente os mesmos 21 cm e 4,5 mm, então as duas peças formam um par proporcional na mesa.Os dentes do garfo entortam com o uso?Com 4,5 mm de espessura e corpo monobloco, o garfo aguenta furar carne firme sem ceder, bem acima do talher de mesa comum.Pode ir na lava-louças?Sim. As peças são compatíveis com lava-louças.É no detalhe que a mesa se revela, e o garfo é onde mais se olha. Garanta agora o seu Jogo de Garfo de Mesa Noble 12 Peças e sirva com acabamento impecável até entre os dentes!",
     "category_id": "cat-mesa",
     "categories": {
       "name": "Mesa & Talheres",
@@ -2928,13 +2842,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 412.15,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 88,
+    "rating": 4.9,
+    "reviews_count": 204,
     "free_shipping": true,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.008Z",
+    "created_at": "2026-09-19T19:43:20.394Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2943,54 +2857,60 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "5126101",
+      "Referência": "5126102",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-994242026-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279879/jogo-colher-de-mesa-noble-duzia-em-aco-inox-brinox_0.jpg?v=639232717634530000",
-        "alt": "Jogo de Colher de Mesa NEXLAR Noble em Aço Inox 304 12 Peças",
+        "id": "img-994242030-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279897/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_3.png?v=639232820098870000",
+        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
         "position": 0
       },
       {
-        "id": "img-994242026-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279880/jogo-colher-de-mesa-noble-duzia-em-aco-inox-brinox_1.jpg?v=639232717635030000",
-        "alt": "Jogo de Colher de Mesa NEXLAR Noble em Aço Inox 304 12 Peças",
+        "id": "img-994242030-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279894/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_0.jpg?v=639232820098400000",
+        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
         "position": 1
       },
       {
-        "id": "img-994242026-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/279881/jogo-colher-de-mesa-noble-duzia-em-aco-inox-brinox_2.png?v=639232717635030000",
-        "alt": "Jogo de Colher de Mesa NEXLAR Noble em Aço Inox 304 12 Peças",
+        "id": "img-994242030-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279895/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_1.jpg?v=639232820098700000",
+        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
         "position": 2
+      },
+      {
+        "id": "img-994242030-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279896/jogo-garfo-de-mesa-noble-duzia-em-aco-inox-brinox_2.jpg?v=639232820098700000",
+        "alt": "Jogo de Garfo de Mesa NEXLAR Noble Aço Inox 304 12 Peças",
+        "position": 3
       }
     ]
   },
   {
-    "id": "prod-994242150",
-    "name": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
-    "slug": "assadeira-retangular-funda-nexlar-ceramic-life-bakeware-33-5x24x5cm-va",
-    "sku": "NX-1481301",
-    "short_description": "A Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5 x 24 x 5 cm Vanilla é a escolha ideal para quem quer mais praticidade no forn...",
-    "description": "A Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5 x 24 x 5 cm Vanilla é a escolha ideal para quem quer mais praticidade no forno, com desempenho e um visual elegante para servir. Com formato fundo, ela é perfeita para receitas que pedem mais volume, como lasanhas, assados, frangos, carnes ao molho, legumes gratinados, bolos mais úmidos e sobremesas, garantindo preparo uniforme e apresentação bonita.Produzida em alumínio, a assadeira aquece rapidamente e distribui o calor de forma homogênea, ajudando a assar por igual e otimizando o tempo no forno. O revestimento interno antiaderente cerâmico Ceramic Life evita que os alimentos grudem, permite usar menos óleo e facilita muito a limpeza depois do uso. Além disso, é PFOA free, trazendo mais tranquilidade para a rotina.O acabamento Vanilla por dentro e por fora adiciona um toque sofisticado à cozinha e à mesa, enquanto as alças laterais ajudam no manuseio com mais firmeza e segurança na hora de levar e retirar do forno.Indicada para uso em forno convencional, não deve ser utilizada no fogão ou no micro-ondas. Se você busca uma assadeira funda, fácil de limpar e pronta para acompanhar receitas do dia a dia e ocasiões especiais, escolha a Assadeira NEXLAR Ceramic Life Bakeware Vanilla 33,5 x 24 x 5 cm e garanta a sua agora.Principais benefícios:Formato fundo: ideal para lasanhas, assados e receitas com molhoAlumínio: aquecimento rápido e distribuição uniforme do calorAntiaderente cerâmico Pro Ceramic: não gruda e limpa fácilCozinha com menos óleo: preparos mais levesPFOA free: mais segurança no usoAlças laterais: manuseio mais firme e práticoCor Vanilla: visual elegante para servirEspecificações:Produto: assadeira retangular funda NEXLAR Ceramic Life BakewareMedidas: 33,5 x 24 x 5 cmMaterial: alumínioRevestimento: antiaderente cerâmico Ceramic LifeCor: VanillaUso: forno convencionalRestrições: não usar em fogão ou micro-ondasCuidados de uso:Antes do primeiro uso, lave e seque bemPara melhor desempenho do antiaderente, unte levemente e leve ao forno por até 2 minutos a 180°C; deixe esfriar e lave novamenteUse utensílios de silicone, nylon ou madeira e lave com esponja macia e detergente neutroUtilize luvas térmicas para manusear e mantenha fora do alcance de crianças durante o usoLeve mais praticidade e elegância para suas receitas com a Assadeira NEXLAR Ceramic Life Bakeware Vanilla e compre agora.",
-    "category_id": "cat-assadeiras",
+    "id": "prod-994242028",
+    "name": "Jogo de Colher de Chá NEXLAR Noble em Aço Inox 304 12 Peças",
+    "slug": "jogo-de-colher-de-cha-nexlar-noble-em-aco-inox-304-12-pecas",
+    "sku": "NX-5126107",
+    "short_description": "O Jogo de Colher de Chá Noble 12 Peças é a peça de acabamento que faltava na sua mesa. Com 15,7 cm e 3,5 mm de espessura, tem peso e proporç...",
+    "description": "O Jogo de Colher de Chá Noble 12 Peças é a peça de acabamento que faltava na sua mesa. Com 15,7 cm e 3,5 mm de espessura, tem peso e proporção para xícaras de chá, canecas e sobremesas leves — sem a fragilidade das colherzinhas comuns. São 12 peças em aço inox 304 com polimento extra brilho: a dúzia completa para receber visita.Design Noble: proporção certa para xícaras e canecasA colher de chá Noble tem 3,5 mm de espessura, bem acima do que se encontra em talheres dessa categoria, e é monobloco — feita de uma única lâmina de aço, sem emendas que possam soltar. Isso dá firmeza na mão, e o desenho clássico harmoniza com composições do tradicional ao contemporâneo.O que vem no jogo de colher de chá Noble12 colheres de chá Noble (dúzia completa)15,7 cm de comprimento cada3,5 mm de espessuraPeça monobloco em aço inox 304Polimento extra brilho sobre aço inox 304O polimento extra brilho é o acabamento espelhado da linha Noble, e ele se sustenta porque a base é aço inox 304 — a liga 18/10, com 18% de cromo e 10% de níquel, a mesma do faqueiro premium Noble. O resultado é alta resistência à oxidação e brilho que não cede com as lavagens. São compatíveis com lava-louças.Especificações técnicasMarca: NEXLARLinha: NobleProduto: Colher de cháQuantidade: 12 peças (dúzia)Material: Aço inox 304 (18/10)Comprimento: 15,7 cm (157 mm)Espessura: 3,5 mmAcabamento: Polimento extra brilhoConstrução: Monobloco (peça única)Cor: Inox prateadoLava-louças: SimCódigo: 5126/107Modo de usar e conservaçãoAntes do primeiro usoLave com água, detergente neutro e esponja macia, e seque bem.LimpezaPode lavar à mão ou na lava-louças. Secar logo após a lavagem preserva o polimento extra brilho.O que evitarPalha de aço, produtos abrasivos ou à base de cloro, e deixar as peças de molho por longos períodos.Perguntas frequentesPara que serve a colher de chá?Serve para mexer chá, café com leite e bebidas quentes em xícaras e canecas, e para sobremesas leves como mousse, pudim e sorvete em taça.Quantas colheres vêm no jogo?São 12 colheres, a dúzia completa, todas da linha Noble.Qual o tamanho da colher de chá Noble?Cada peça tem 15,7 cm de comprimento e 3,5 mm de espessura.Qual a diferença entre colher de chá e colher de café?A de chá é maior: na linha Noble tem 15,7 cm, contra 11 cm da colher de café. A de chá atende xícaras e canecas; a de café é feita para xícara de cafezinho e espresso.Colher de chá de aço inox 304 mancha?O 304 é a liga com maior resistência à oxidação entre as usadas em talheres. Secar após lavar evita as marcas de água que costumam ser confundidas com mancha.Pode ir na lava-louças?Sim. As peças são compatíveis com lava-louças e mantêm o acabamento.Mesa bem posta se nota nos detalhes, e a colher de chá é um deles. Garanta agora o seu Jogo de Colher de Chá Noble 12 Peças e receba com a elegância que a linha Noble entrega!",
+    "category_id": "cat-mesa",
     "categories": {
-      "name": "Assadeiras & Formas",
-      "slug": "assadeiras-e-formas"
+      "name": "Mesa & Talheres",
+      "slug": "mesa-e-talheres"
     },
-    "price": 69.99,
-    "compare_at_price": 96.99,
+    "price": 227.49,
+    "compare_at_price": 284.36,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 190,
+    "rating": 4.6,
+    "reviews_count": 31,
     "free_shipping": false,
-    "featured": true,
-    "is_new": true,
+    "featured": false,
+    "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.754Z",
+    "created_at": "2026-09-19T19:43:20.394Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -2999,33 +2919,33 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "1481301",
+      "Referência": "5126107",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-994242150-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287544/1481_301.jpg?v=639246381108370000",
-        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
+        "id": "img-994242028-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279889/jogo-colher-de-cha-noble-duzia-em-aco-inox-brinox_3.png?v=639232715249330000",
+        "alt": "Jogo de Colher de Chá NEXLAR Noble em Aço Inox 304 12 Peças",
         "position": 0
       },
       {
-        "id": "img-994242150-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287545/1481_301---1.jpg?v=639246381108370000",
-        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
+        "id": "img-994242028-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279886/jogo-colher-de-cha-noble-duzia-em-aco-inox-brinox_0.jpg?v=639232715248870000",
+        "alt": "Jogo de Colher de Chá NEXLAR Noble em Aço Inox 304 12 Peças",
         "position": 1
       },
       {
-        "id": "img-994242150-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287546/1481_301---2.jpg?v=639246381108500000",
-        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
+        "id": "img-994242028-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279887/jogo-colher-de-cha-noble-duzia-em-aco-inox-brinox_1.jpg?v=639232715249170000",
+        "alt": "Jogo de Colher de Chá NEXLAR Noble em Aço Inox 304 12 Peças",
         "position": 2
       },
       {
-        "id": "img-994242150-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287547/1481_301---3.jpg?v=639246381108500000",
-        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
+        "id": "img-994242028-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279888/jogo-colher-de-cha-noble-duzia-em-aco-inox-brinox_2.jpg?v=639232715249330000",
+        "alt": "Jogo de Colher de Chá NEXLAR Noble em Aço Inox 304 12 Peças",
         "position": 3
       }
     ]
@@ -3046,13 +2966,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 119.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 110,
+    "rating": 4.9,
+    "reviews_count": 178,
     "free_shipping": false,
     "featured": true,
-    "is_new": false,
+    "is_new": true,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.755Z",
+    "created_at": "2026-09-19T19:43:21.400Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3074,109 +2994,41 @@ export const PRODUCTS: Product[] = [
       },
       {
         "id": "img-994242151-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287533/promocao-brinox-assadeira-antiaderente-vanilla.jpg?v=639246380411030000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287536/1481_300_2.jpg?v=639246380411370000",
         "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 39,5x28x5cm Vanilla",
         "position": 1
       },
       {
         "id": "img-994242151-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287534/promocao-brinox-assadeira-forma-antiaderente-vanilla.jpg?v=639246380411200000",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287537/assadeira-retangular-funda-brinox-ceramic-life-bakeware-39-5-x-28-x-5cm-vanilla_0.jpg?v=639246380411370000",
         "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 39,5x28x5cm Vanilla",
         "position": 2
-      },
-      {
-        "id": "img-994242151-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287535/promocao-brinox-assadeira-ceramica-antiaderente-vanilla.jpg?v=639246380411200000",
-        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 39,5x28x5cm Vanilla",
-        "position": 3
       }
     ]
   },
   {
-    "id": "prod-994242155",
-    "name": "Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33cm 1,8cm Vanilla",
-    "slug": "forma-para-pizza-nexlar-ceramic-life-bakeware-33cm-1-8cm-vanilla",
-    "sku": "NX-1481308",
-    "short_description": "A Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33 cm x 1,8 cm Vanilla (sem furo) é ideal para quem quer pizzas caseiras bem assadas, com p...",
-    "description": "A Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33 cm x 1,8 cm Vanilla (sem furo) é ideal para quem quer pizzas caseiras bem assadas, com praticidade no preparo e facilidade na hora de servir. Com diâmetro de 33 cm, ela oferece um tamanho ótimo para pizzas maiores, além de ser versátil para outras receitas de forno, como focaccias, pães achatados, cookies grandes, tortas abertas e legumes assados.Produzida em alumínio, a forma aquece rapidamente e distribui o calor de maneira uniforme, ajudando a massa a assar por igual e ficar crocante na medida certa. O revestimento cerâmico antiaderente Ceramic Life evita que a massa grude, permite usar menos óleo e facilita muito a limpeza depois do uso. Além disso, é PFOA free, trazendo mais tranquilidade para a rotina.Por ser um modelo sem furo, ela entrega uma base mais uniforme e é ótima para quem prefere uma assadeira “lisinha”, fácil de manusear e servir direto na mesa. O acabamento Vanilla por dentro e por fora adiciona um toque moderno e delicado, combinando com diferentes estilos de cozinha.Indicada para forno convencional, não deve ser utilizada no fogão ou no micro-ondas. Se você quer uma forma prática, fácil de limpar e com antiaderente eficiente para pizzas e outras receitas, escolha a Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33 cm Vanilla e garanta a sua agora.Principais benefícios:Ø33 cm: tamanho ideal para pizzas maioresModelo sem furo: base mais uniforme e versátil para outras receitasAlumínio: aquecimento rápido e distribuição uniforme do calorAntiaderente cerâmico Pro Ceramic/Ceramic Life: não gruda e limpa fácilCozinha com menos óleo: preparos mais levesPFOA free: mais segurança no usoCor Vanilla: visual elegante e modernoEspecificações:Produto: forma para pizza sem furo NEXLAR Ceramic Life BakewareDiâmetro: 33 cmAltura: 1,8 cmMaterial: alumínioRevestimento: cerâmico antiaderente Pro Ceramic (PFOA free)Cor: Vanilla (interno e externo)Uso: forno convencionalRestrições: não usar em fogão ou micro-ondasCuidados de uso:Antes do primeiro uso, lave e seque bemPara melhor desempenho do antiaderente, unte levemente e leve ao forno por até 2 minutos a 180°C; deixe esfriar e lave novamenteUse utensílios de silicone, nylon ou madeira e lave com esponja macia e detergente neutroNão utilizar em lava-louçasDeixe suas pizzas mais práticas e saborosas: escolha a Forma para Pizza NEXLAR Ceramic Life Bakeware Vanilla e compre agora.",
+    "id": "prod-994242150",
+    "name": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
+    "slug": "assadeira-retangular-funda-nexlar-ceramic-life-bakeware-33-5x24x5cm-va",
+    "sku": "NX-1481301",
+    "short_description": "A Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5 x 24 x 5 cm Vanilla é a escolha ideal para quem quer mais praticidade no forn...",
+    "description": "A Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5 x 24 x 5 cm Vanilla é a escolha ideal para quem quer mais praticidade no forno, com desempenho e um visual elegante para servir. Com formato fundo, ela é perfeita para receitas que pedem mais volume, como lasanhas, assados, frangos, carnes ao molho, legumes gratinados, bolos mais úmidos e sobremesas, garantindo preparo uniforme e apresentação bonita.Produzida em alumínio, a assadeira aquece rapidamente e distribui o calor de forma homogênea, ajudando a assar por igual e otimizando o tempo no forno. O revestimento interno antiaderente cerâmico Ceramic Life evita que os alimentos grudem, permite usar menos óleo e facilita muito a limpeza depois do uso. Além disso, é PFOA free, trazendo mais tranquilidade para a rotina.O acabamento Vanilla por dentro e por fora adiciona um toque sofisticado à cozinha e à mesa, enquanto as alças laterais ajudam no manuseio com mais firmeza e segurança na hora de levar e retirar do forno.Indicada para uso em forno convencional, não deve ser utilizada no fogão ou no micro-ondas. Se você busca uma assadeira funda, fácil de limpar e pronta para acompanhar receitas do dia a dia e ocasiões especiais, escolha a Assadeira NEXLAR Ceramic Life Bakeware Vanilla 33,5 x 24 x 5 cm e garanta a sua agora.Principais benefícios:Formato fundo: ideal para lasanhas, assados e receitas com molhoAlumínio: aquecimento rápido e distribuição uniforme do calorAntiaderente cerâmico Pro Ceramic: não gruda e limpa fácilCozinha com menos óleo: preparos mais levesPFOA free: mais segurança no usoAlças laterais: manuseio mais firme e práticoCor Vanilla: visual elegante para servirEspecificações:Produto: assadeira retangular funda NEXLAR Ceramic Life BakewareMedidas: 33,5 x 24 x 5 cmMaterial: alumínioRevestimento: antiaderente cerâmico Ceramic LifeCor: VanillaUso: forno convencionalRestrições: não usar em fogão ou micro-ondasCuidados de uso:Antes do primeiro uso, lave e seque bemPara melhor desempenho do antiaderente, unte levemente e leve ao forno por até 2 minutos a 180°C; deixe esfriar e lave novamenteUse utensílios de silicone, nylon ou madeira e lave com esponja macia e detergente neutroUtilize luvas térmicas para manusear e mantenha fora do alcance de crianças durante o usoLeve mais praticidade e elegância para suas receitas com a Assadeira NEXLAR Ceramic Life Bakeware Vanilla e compre agora.",
     "category_id": "cat-assadeiras",
     "categories": {
       "name": "Assadeiras & Formas",
       "slug": "assadeiras-e-formas"
     },
-    "price": 54.99,
-    "compare_at_price": 80.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 203,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:01.755Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "1481308",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-994242155-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287565/forma-de-pizza-brinox-antiaderente-1481308.png?v=639246384306600000",
-        "alt": "Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33cm 1,8cm Vanilla",
-        "position": 0
-      },
-      {
-        "id": "img-994242155-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287566/1481_308---1.jpg?v=639246384306930000",
-        "alt": "Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33cm 1,8cm Vanilla",
-        "position": 1
-      },
-      {
-        "id": "img-994242155-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287567/1481_308---2.jpg?v=639246384306930000",
-        "alt": "Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33cm 1,8cm Vanilla",
-        "position": 2
-      },
-      {
-        "id": "img-994242155-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/287568/1481_308---3.jpg?v=639246384306930000",
-        "alt": "Forma para Pizza NEXLAR Ceramic Life Bakeware Ø33cm 1,8cm Vanilla",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-1460301",
-    "name": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm Grafite",
-    "slug": "assadeira-retangular-funda-nexlar-bakeware-33-5-x-24-x-6-1-cm-grafite",
-    "sku": "NX-1460301",
-    "short_description": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm GrafiteTransforme suas receitas em momentos especiais com a Assadeira Retangul...",
-    "description": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm GrafiteTransforme suas receitas em momentos especiais com a Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm na cor Grafite. Perfeita para quem ama praticidade e qualidade na cozinha, essa assadeira conta com estrutura em alumínio que garante aquecimento uniforme, agilizando o preparo dos alimentos e economizando energia.Seu revestimento antiaderente Pro-Flon permite cozinhar com menos óleo, evita que os alimentos grudem e torna a limpeza muito mais fácil. Além disso, é livre de PFOA, oferecendo mais segurança para você e sua família. Com design funcional, possui alças laterais que facilitam o manuseio com firmeza e segurança no dia a dia.Ideal para assados, bolos, lasanhas e muito mais, a Assadeira Bakeware é um item indispensável para quem busca versatilidade, resistência e um toque de sofisticação na cozinha. Escolha NEXLAR e leve praticidade e inovação para o seu forno!",
-    "category_id": "cat-assadeiras",
-    "categories": {
-      "name": "Assadeiras & Formas",
-      "slug": "assadeiras-e-formas"
-    },
-    "price": 79.99,
+    "price": 69.99,
     "compare_at_price": 96.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 189,
+    "rating": 4.6,
+    "reviews_count": 30,
     "free_shipping": false,
-    "featured": false,
+    "featured": true,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.755Z",
+    "created_at": "2026-09-19T19:43:21.400Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3185,28 +3037,34 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "1460301",
+      "Referência": "1481301",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-1460301-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284624/promocao-brinox-ceramic-life-bakeware-cinza.png?v=639153946772300000",
-        "alt": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm Grafite",
+        "id": "img-994242150-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287550/Gemini_Generated_Image_m6tbdkm6tbdkm6tb.png?v=639246381108670000",
+        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
         "position": 0
       },
       {
-        "id": "img-1460301-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284625/assadeira-retangular-funda-preta-brinox.jpg?v=639153946773230000",
-        "alt": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm Grafite",
+        "id": "img-994242150-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287544/1481_301.jpg?v=639246381108370000",
+        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
         "position": 1
       },
       {
-        "id": "img-1460301-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/284626/assadeira-retangular-funda-brinox-aco-inoxidavel-preto.jpg?v=639153946773530000",
-        "alt": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm Grafite",
+        "id": "img-994242150-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287545/1481_301---1.jpg?v=639246381108370000",
+        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
         "position": 2
+      },
+      {
+        "id": "img-994242150-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287546/1481_301---2.jpg?v=639246381108500000",
+        "alt": "Assadeira Retangular Funda NEXLAR Ceramic Life Bakeware 33,5x24x5cm Vanilla",
+        "position": 3
       }
     ]
   },
@@ -3226,13 +3084,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 119.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 38,
+    "rating": 5,
+    "reviews_count": 103,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:01.755Z",
+    "created_at": "2026-09-19T19:43:21.400Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3261,6 +3119,56 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
+    "id": "prod-1460301",
+    "name": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm Grafite",
+    "slug": "assadeira-retangular-funda-nexlar-bakeware-33-5-x-24-x-6-1-cm-grafite",
+    "sku": "NX-1460301",
+    "short_description": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm GrafiteTransforme suas receitas em momentos especiais com a Assadeira Retangul...",
+    "description": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm GrafiteTransforme suas receitas em momentos especiais com a Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm na cor Grafite. Perfeita para quem ama praticidade e qualidade na cozinha, essa assadeira conta com estrutura em alumínio que garante aquecimento uniforme, agilizando o preparo dos alimentos e economizando energia.Seu revestimento antiaderente Pro-Flon permite cozinhar com menos óleo, evita que os alimentos grudem e torna a limpeza muito mais fácil. Além disso, é livre de PFOA, oferecendo mais segurança para você e sua família. Com design funcional, possui alças laterais que facilitam o manuseio com firmeza e segurança no dia a dia.Ideal para assados, bolos, lasanhas e muito mais, a Assadeira Bakeware é um item indispensável para quem busca versatilidade, resistência e um toque de sofisticação na cozinha. Escolha NEXLAR e leve praticidade e inovação para o seu forno!",
+    "category_id": "cat-assadeiras",
+    "categories": {
+      "name": "Assadeiras & Formas",
+      "slug": "assadeiras-e-formas"
+    },
+    "price": 79.99,
+    "compare_at_price": 96.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.7,
+    "reviews_count": 87,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:21.400Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "1460301",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-1460301-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284625/assadeira-retangular-funda-preta-brinox.jpg?v=639153946773230000",
+        "alt": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm Grafite",
+        "position": 0
+      },
+      {
+        "id": "img-1460301-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/284626/assadeira-retangular-funda-brinox-aco-inoxidavel-preto.jpg?v=639153946773530000",
+        "alt": "Assadeira Retangular Funda NEXLAR Bakeware 33,5 x 24 x 6,1 cm Grafite",
+        "position": 1
+      }
+    ]
+  },
+  {
     "id": "prod-994242152",
     "name": "Forma para Bolo NEXLAR Ceramic Life Bakeware Ø19,5cm 2,2 Litros Vanilla",
     "slug": "forma-para-bolo-nexlar-ceramic-life-bakeware-19-5cm-2-2-litros-vanilla",
@@ -3276,13 +3184,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 79.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 110,
+    "rating": 5,
+    "reviews_count": 61,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:02.078Z",
+    "created_at": "2026-09-19T19:43:21.952Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3338,13 +3246,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 67.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 5,
-    "reviews_count": 156,
+    "rating": 4.7,
+    "reviews_count": 149,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:02.078Z",
+    "created_at": "2026-09-19T19:43:21.952Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3400,13 +3308,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 82.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 196,
+    "rating": 4.9,
+    "reviews_count": 116,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:02.078Z",
+    "created_at": "2026-09-19T19:43:21.952Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3447,12 +3355,118 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
+    "id": "prod-1460310",
+    "name": "Forma para Bolo NEXLAR Bakeware 20 x 8 cm Grafite",
+    "slug": "forma-para-bolo-nexlar-bakeware-20-x-8-cm-grafite",
+    "sku": "NX-1460310",
+    "short_description": "Forma para Bolo NEXLAR Bakeware 20 x 8 cm Grafite – Antiaderente, Versátil e Ideal para Receitas PerfeitasPrepare bolos deliciosos com facil...",
+    "description": "Forma para Bolo NEXLAR Bakeware 20 x 8 cm Grafite – Antiaderente, Versátil e Ideal para Receitas PerfeitasPrepare bolos deliciosos com facilidade e segurança usando a Forma para Bolo NEXLAR Bakeware 20 x 8 cm Grafite. Produzida em alumínio de alta qualidade, essa forma garante aquecimento rápido e uniforme, proporcionando um cozimento perfeito em todas as receitas.Com revestimento antiaderente Pro-Flon, ela permite o preparo com menos óleo, evita que os alimentos grudem e torna a limpeza muito mais simples. Além disso, é um produto livre de PFOA, garantindo maior segurança alimentar.Seu acabamento arredondado facilita o manuseio e proporciona mais praticidade durante o uso. Com 20 cm de diâmetro e 8 cm de altura, a forma também pode ser utilizada para cozimento no vapor sobre caçarolas de 18 cm da NEXLAR, ampliando suas possibilidades na cozinha.Nesta versão na cor grafite, o modelo traz mais sobriedade e elegância para o ambiente, mas também está disponível na cor cereja, ideal para quem busca uma decoração vibrante.Destaques do produto:Estrutura em alumínio para cozimento uniformeRevestimento antiaderente Pro-Flon: menos óleo e fácil limpezaLivre de PFOA: mais segurança para sua saúde20 cm de diâmetro x 8 cm de alturaDesign com acabamento arredondadoIdeal para bolos e cozimento a vaporRenove suas receitas com a qualidade da Linha Bakeware NEXLAR e experimente o prazer de cozinhar com mais praticidade!",
+    "category_id": "cat-assadeiras",
+    "categories": {
+      "name": "Assadeiras & Formas",
+      "slug": "assadeiras-e-formas"
+    },
+    "price": 73.67,
+    "compare_at_price": 83.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.8,
+    "reviews_count": 133,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:21.952Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "1460310",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-1460310-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/261739/Grafite-Brinox.jpg?v=637190928736430000",
+        "alt": "Forma para Bolo NEXLAR Bakeware 20 x 8 cm Grafite",
+        "position": 0
+      }
+    ]
+  },
+  {
+    "id": "prod-994242268",
+    "name": "Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox com Dispenser Preto",
+    "slug": "escorredor-de-loucas-nexlar-suprema-16-pratos-em-aco-inox-com-dispense",
+    "sku": "NX-2104214",
+    "short_description": "Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox Preto com Dispenser é a solução ideal para quem quer manter a pia organizada com p...",
+    "description": "Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox Preto com Dispenser é a solução ideal para quem quer manter a pia organizada com praticidade e um visual moderno na cozinha. Com capacidade para até 16 pratos, ele ajuda a otimizar o espaço da bancada e deixa cada item no seu lugar, facilitando a rotina após as refeições.Fabricado em aço inox, o escorredor oferece resistência e durabilidade para o uso diário, além de ser fácil de limpar e higienizar. A organização é pensada para o dia a dia: os espaços são bem distribuídos para acomodar pratos, além de áreas para copos, xícaras e talheres, trazendo mais eficiência na secagem e no manuseio.O diferencial fica por conta do dispenser para detergente, que acompanha o produto e contribui para uma bancada mais funcional, mantendo o detergente sempre à mão e ajudando a reduzir a bagunça na pia. Com acabamento preto, o escorredor combina com diferentes estilos de cozinha e valoriza a decoração com um toque contemporâneo.Se você busca um escorredor robusto, prático e elegante para organizar a louça com mais facilidade, escolha o Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox Preto com Dispenser e garanta o seu agora.Principais benefícios:Capacidade para até 16 pratos: ideal para a rotina da casaAço inox: resistente, durável e fácil de limparCompartimentos organizados: espaço para pratos, copos, xícaras e talheresAcompanha dispenser de detergente: mais praticidade na bancadaAcabamento preto: design moderno e versátil para a cozinhaFácil manutenção e higienizaçãoEspecificações:Produto: escorredor de louçasLinha: NEXLAR SupremaCapacidade: até 16 pratosMaterial: aço inoxCor: pretoCompartimentos: pratos, copos, xícaras e talheresLimpeza: fácil manutenção e higienizaçãoDimensões: 50,5 x 27 x 28,5 cmConteúdo da embalagem01 escorredor de louças01 dispenser para detergenteOrganize sua pia com mais eficiência e estilo: escolha o Escorredor de Louças NEXLAR Suprema e compre agora.",
+    "category_id": "cat-organizacao",
+    "categories": {
+      "name": "Organização",
+      "slug": "organizacao"
+    },
+    "price": 99.99,
+    "compare_at_price": 199.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.9,
+    "reviews_count": 36,
+    "free_shipping": false,
+    "featured": true,
+    "is_new": true,
+    "active": true,
+    "created_at": "2026-09-19T19:43:22.799Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "2104214",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242268-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/283772/escorredor-16-pecas-cabo-plastico-dispenser-preto_0.jpg?v=639114391702030000",
+        "alt": "Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox com Dispenser Preto",
+        "position": 0
+      },
+      {
+        "id": "img-994242268-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/283773/escorredor-16-pecas-cabo-plastico-dispenser-preto_1.jpg?v=639114391702430000",
+        "alt": "Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox com Dispenser Preto",
+        "position": 1
+      },
+      {
+        "id": "img-994242268-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/283774/escorredor-16-pecas-cabo-plastico-dispenser-preto_2.jpg?v=639114391702470000",
+        "alt": "Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox com Dispenser Preto",
+        "position": 2
+      },
+      {
+        "id": "img-994242268-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/283775/escorredor-16-pecas-cabo-plastico-dispenser-preto_3.jpg?v=639114391702530000",
+        "alt": "Escorredor de Louças NEXLAR Suprema 16 Pratos em Aço Inox com Dispenser Preto",
+        "position": 3
+      }
+    ]
+  },
+  {
     "id": "prod-994242307",
     "name": "Organizador Giratório NEXLAR Dry Ø29 x 3,2 cm Cristal",
     "slug": "organizador-giratorio-nexlar-dry-29-x-3-2-cm-cristal",
     "sku": "NX-101903009",
     "short_description": "A linha Dry existe para fazer a geladeira e o armário renderem: caixas organizadoras, organizadores com cesto, porta-ovos, porta-latas, temp...",
-    "description": "A linha Dry existe para fazer a geladeira e o armário renderem: caixas organizadoras, organizadores com cesto, porta-ovos, porta-latas, temperos frescos e este giratório. O Organizador Giratório Coza Dry na cor Cristal resolve o problema do fundo da prateleira. Organizar. Conservar. Dry.O fundo vira frenteTodo armário tem uma zona morta: o que está atrás. Você compra, guarda na segunda fila e esquece que existe até vencer. A base giratória elimina essa fila — em vez de alcançar o fundo, você gira 360 graus e o fundo passa pela frente. As rodinhas embutidas fazem o giro com um toque, mesmo com a base carregada.3,2 cm de altura: o giro que quase não custa espaçoÉ o número que decide se a peça é usável. Base giratória alta resolve o acesso e cria outro problema, porque come a altura livre da prateleira e passa a limitar o que cabe em cima. Com 3,2 cm, esta praticamente desaparece sob o conteúdo: sobra altura para vidro de conserva, garrafa de molho e pote de tempero em pé.29 cm de diâmetro para uma roda de frascosO diâmetro define quantos itens ficam em círculo, todos com a mesma chance de aparecer. É a medida do canto de armário, da prateleira funda de geladeira, do centro da bancada. Serve para o kit de temperos, para vidros de conserva, latas e frascos de uso diário.PET, e não poliestirenoOrganizador de armário costuma ser feito em poliestireno, material que entrega transparência e brilho, mas cede ao impacto e trinca — e esta é uma peça que gira com peso em cima todos os dias. A Dry é de PET, o mesmo polímero da garrafa de refrigerante: mesma aparência de vidro, resistência bem maior. Na cor Cristal, não disputa espaço visual com o que está sobre ela.EspecificaçõesMedidas: 29 cm de diâmetro x 3,2 cm de alturaGiro: 360 graus, com rodinhas embutidasMaterial: PET, reciclável e livre de BPAUso indicado: geladeira, armário, despensa e bancadaMicro-ondas: nãoLava-louças: nãoCor: CristalLinha: DryCódigo: 10190/3009Como limpar e conservarLavagem à mão: lado macio da esponja com água e sabão neutro.Não usar abrasivos, que riscam a transparência.Não levar à lava-louças nem ao micro-ondas.Perguntas frequentesQual o tamanho do Organizador Giratório Coza Dry?29 cm de diâmetro e apenas 3,2 cm de altura. É a peça mais baixa da linha Dry, e a altura é o que permite usá-la sem sacrificar espaço de prateleira.Como funciona o giro?A base tem rodinhas embutidas e gira 360 graus com um toque. Você roda em vez de alcançar: o que estava no fundo vem para a frente.Onde o organizador giratório pode ser usado?Geladeira, armário, despensa e bancada. Funciona melhor justamente onde a prateleira é profunda e o que fica atrás costuma ser esquecido.O que dá para colocar em cima?Potes de tempero, vidros de conserva, garrafas de molho, latas, frascos — itens pequenos e altos que, guardados em fila, escondem uns aos outros. Com 29 cm de diâmetro, cabe uma roda de vários frascos.Vai ao micro-ondas ou à lava-louças?Não vai a nenhum dos dois: a ficha técnica da linha Dry veda ambos. A limpeza é à mão, com água e sabão neutro.De que material é feito?PET, reciclável e livre de BPA. PET não é poliestireno: os dois são transparentes, mas o PET resiste bem mais ao impacto do uso diário.Armário organizado é o que você já tem, à vista. Com o Organizador Giratório Coza Dry, nada mais fica esquecido na segunda fila. Leve o seu e monte a sua cozinha Dry.",
+    "description": "A linha Dry existe para fazer a geladeira e o armário renderem: caixas organizadoras, organizadores com cesto, porta-ovos, porta-latas, temperos frescos e este giratório. O Organizador Giratório NEXLAR Dry na cor Cristal resolve o problema do fundo da prateleira. Organizar. Conservar. Dry.O fundo vira frenteTodo armário tem uma zona morta: o que está atrás. Você compra, guarda na segunda fila e esquece que existe até vencer. A base giratória elimina essa fila — em vez de alcançar o fundo, você gira 360 graus e o fundo passa pela frente. As rodinhas embutidas fazem o giro com um toque, mesmo com a base carregada.3,2 cm de altura: o giro que quase não custa espaçoÉ o número que decide se a peça é usável. Base giratória alta resolve o acesso e cria outro problema, porque come a altura livre da prateleira e passa a limitar o que cabe em cima. Com 3,2 cm, esta praticamente desaparece sob o conteúdo: sobra altura para vidro de conserva, garrafa de molho e pote de tempero em pé.29 cm de diâmetro para uma roda de frascosO diâmetro define quantos itens ficam em círculo, todos com a mesma chance de aparecer. É a medida do canto de armário, da prateleira funda de geladeira, do centro da bancada. Serve para o kit de temperos, para vidros de conserva, latas e frascos de uso diário.PET, e não poliestirenoOrganizador de armário costuma ser feito em poliestireno, material que entrega transparência e brilho, mas cede ao impacto e trinca — e esta é uma peça que gira com peso em cima todos os dias. A Dry é de PET, o mesmo polímero da garrafa de refrigerante: mesma aparência de vidro, resistência bem maior. Na cor Cristal, não disputa espaço visual com o que está sobre ela.EspecificaçõesMedidas: 29 cm de diâmetro x 3,2 cm de alturaGiro: 360 graus, com rodinhas embutidasMaterial: PET, reciclável e livre de BPAUso indicado: geladeira, armário, despensa e bancadaMicro-ondas: nãoLava-louças: nãoCor: CristalLinha: DryCódigo: 10190/3009Como limpar e conservarLavagem à mão: lado macio da esponja com água e sabão neutro.Não usar abrasivos, que riscam a transparência.Não levar à lava-louças nem ao micro-ondas.Perguntas frequentesQual o tamanho do Organizador Giratório NEXLAR Dry?29 cm de diâmetro e apenas 3,2 cm de altura. É a peça mais baixa da linha Dry, e a altura é o que permite usá-la sem sacrificar espaço de prateleira.Como funciona o giro?A base tem rodinhas embutidas e gira 360 graus com um toque. Você roda em vez de alcançar: o que estava no fundo vem para a frente.Onde o organizador giratório pode ser usado?Geladeira, armário, despensa e bancada. Funciona melhor justamente onde a prateleira é profunda e o que fica atrás costuma ser esquecido.O que dá para colocar em cima?Potes de tempero, vidros de conserva, garrafas de molho, latas, frascos — itens pequenos e altos que, guardados em fila, escondem uns aos outros. Com 29 cm de diâmetro, cabe uma roda de vários frascos.Vai ao micro-ondas ou à lava-louças?Não vai a nenhum dos dois: a ficha técnica da linha Dry veda ambos. A limpeza é à mão, com água e sabão neutro.De que material é feito?PET, reciclável e livre de BPA. PET não é poliestireno: os dois são transparentes, mas o PET resiste bem mais ao impacto do uso diário.Armário organizado é o que você já tem, à vista. Com o Organizador Giratório NEXLAR Dry, nada mais fica esquecido na segunda fila. Leve o seu e monte a sua cozinha Dry.",
     "category_id": "cat-organizacao",
     "categories": {
       "name": "Organização",
@@ -3462,13 +3476,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 59.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 206,
+    "rating": 4.7,
+    "reviews_count": 136,
     "free_shipping": false,
     "featured": true,
-    "is_new": true,
+    "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:02.780Z",
+    "created_at": "2026-09-19T19:43:22.799Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3514,7 +3528,7 @@ export const PRODUCTS: Product[] = [
     "slug": "organizador-nexlar-new-retro-230ml-cristal",
     "sku": "NX-102543009",
     "short_description": "A linha New Retrô é a do acabamento canelado: frisos verticais que dão aspecto de vidro trabalhado a organizadores que arrumam e aparecem. O...",
-    "description": "A linha New Retrô é a do acabamento canelado: frisos verticais que dão aspecto de vidro trabalhado a organizadores que arrumam e aparecem. O Organizador Coza New Retrô 230 ml Cristal é o módulo da linha — a menor peça, e a medida de todas as outras. Organizar. Decorar. New Retrô.O módulo 1x1Os organizadores da linha não têm tamanhos avulsos: são múltiplos deste. O 1x1 é um quadrado; o 1x2 são dois lado a lado; o 2x3, seis. Isso muda a compra: em vez de escolher no olho e descobrir que sobrou um vão, você monta o espaço como um tabuleiro e leva as peças que fecham o desenho.A família inteira, em módulos1x1 — 230 ml (esta peça)1x2 — 500 ml1x3 — 700 ml1x4 — 1 litro2x2 — 1 litro2x3 — 1,6 litro2x4 — 2,1 litros2x5 — 2,7 litrosA 1x4 e a 2x2 têm a mesma capacidade e formatos diferentes: quatro módulos em fila ou quatro em quadrado. Ali a escolha é a forma do vão, não o volume.Quatro de 230 ml ou uma de 1 litroQuatro unidades desta somam 920 ml e ocupam o mesmo desenho de quatro módulos que a 2x2, que declara 1 litro. A peça única leva 80 ml a mais, porque não tem parede entre os módulos. As quatro têm o que ela não tem: são soltas. Uma vai para o banheiro, duas para a gaveta, uma para a mesa — sem ficar preso a um bloco só.Onde ele resolve230 ml é a medida do treco pequeno que sempre sobra: sachê de tempero, batom e pincel, clipe, elástico, pen drive, pilha. Aberto e transparente, mostra o conteúdo sem revirar — e é isso que mantém a gaveta organizada depois da terceira semana.Ultra-resistente porque é PETOrganizador transparente costuma ser de poliestireno, que entrega transparência e brilho, mas cede ao impacto e trinca. Este é de PET, o polímero da garrafa de refrigerante: aparência de vidro e ultra-resistente. Não quebra facilmente — e numa peça pequena, que uma esbarrada põe no chão, isso decide.EspecificaçõesCapacidade: 230 mlFormato: 1x1, o módulo da linhaMaterial: PET, ultra-resistente, reciclável, sem BPAAcabamento: canelado, cristalGeladeira: simUso: micro-ondas e lava-louças nãoComo limparÀ mão, com sabão neutro e o lado macio da esponja — abrasivo risca a transparência e apaga o brilho do canelado.Perguntas frequentesQuanto cabe no Organizador Coza New Retrô 230 ml?230 ml. É a menor peça da linha e o módulo 1x1: todas as outras são múltiplos dela, da 1x2 com 500 ml até a 2x5 com 2,7 litros.O que significa o formato 1x1?É o módulo da linha: um quadrado. Todas as outras peças são múltiplos dele — a 2x2 são quatro módulos em quadrado, a 2x5 são dez. É por isso que elas fecham desenho entre si na gaveta.Quatro de 230 ml ou uma peça de 1 litro?Quatro somam 920 ml; a 2x2, de mesmo desenho, declara 1 litro. Leve as quatro para espalhar por ambientes diferentes; leve a 2x2 se o conteúdo é um só.Pode ir à geladeira?Pode. Micro-ondas e lava-louças, não: a ficha técnica da linha New Retrô veda os dois. A limpeza é à mão, com sabão neutro.Serve para banheiro e escritório também?Serve, e é a mesma peça: pincel e batom no banheiro, clipe e pen drive na mesa, tempero na cozinha. O que muda é o que entra.De que material é feito?PET, reciclável e livre de BPA. O PET é ultra-resistente e não quebra facilmente: tem a aparência do vidro, sem o peso e sem trincar num impacto.Organizar bem começa pela menor peça: é ela que fecha o desenho da gaveta. Leve o seu Organizador Coza New Retrô 230 ml e comece a sua New Retrô.",
+    "description": "A linha New Retrô é a do acabamento canelado: frisos verticais que dão aspecto de vidro trabalhado a organizadores que arrumam e aparecem. O Organizador NEXLAR New Retrô 230 ml Cristal é o módulo da linha — a menor peça, e a medida de todas as outras. Organizar. Decorar. New Retrô.O módulo 1x1Os organizadores da linha não têm tamanhos avulsos: são múltiplos deste. O 1x1 é um quadrado; o 1x2 são dois lado a lado; o 2x3, seis. Isso muda a compra: em vez de escolher no olho e descobrir que sobrou um vão, você monta o espaço como um tabuleiro e leva as peças que fecham o desenho.A família inteira, em módulos1x1 — 230 ml (esta peça)1x2 — 500 ml1x3 — 700 ml1x4 — 1 litro2x2 — 1 litro2x3 — 1,6 litro2x4 — 2,1 litros2x5 — 2,7 litrosA 1x4 e a 2x2 têm a mesma capacidade e formatos diferentes: quatro módulos em fila ou quatro em quadrado. Ali a escolha é a forma do vão, não o volume.Quatro de 230 ml ou uma de 1 litroQuatro unidades desta somam 920 ml e ocupam o mesmo desenho de quatro módulos que a 2x2, que declara 1 litro. A peça única leva 80 ml a mais, porque não tem parede entre os módulos. As quatro têm o que ela não tem: são soltas. Uma vai para o banheiro, duas para a gaveta, uma para a mesa — sem ficar preso a um bloco só.Onde ele resolve230 ml é a medida do treco pequeno que sempre sobra: sachê de tempero, batom e pincel, clipe, elástico, pen drive, pilha. Aberto e transparente, mostra o conteúdo sem revirar — e é isso que mantém a gaveta organizada depois da terceira semana.Ultra-resistente porque é PETOrganizador transparente costuma ser de poliestireno, que entrega transparência e brilho, mas cede ao impacto e trinca. Este é de PET, o polímero da garrafa de refrigerante: aparência de vidro e ultra-resistente. Não quebra facilmente — e numa peça pequena, que uma esbarrada põe no chão, isso decide.EspecificaçõesCapacidade: 230 mlFormato: 1x1, o módulo da linhaMaterial: PET, ultra-resistente, reciclável, sem BPAAcabamento: canelado, cristalGeladeira: simUso: micro-ondas e lava-louças nãoComo limparÀ mão, com sabão neutro e o lado macio da esponja — abrasivo risca a transparência e apaga o brilho do canelado.Perguntas frequentesQuanto cabe no Organizador NEXLAR New Retrô 230 ml?230 ml. É a menor peça da linha e o módulo 1x1: todas as outras são múltiplos dela, da 1x2 com 500 ml até a 2x5 com 2,7 litros.O que significa o formato 1x1?É o módulo da linha: um quadrado. Todas as outras peças são múltiplos dele — a 2x2 são quatro módulos em quadrado, a 2x5 são dez. É por isso que elas fecham desenho entre si na gaveta.Quatro de 230 ml ou uma peça de 1 litro?Quatro somam 920 ml; a 2x2, de mesmo desenho, declara 1 litro. Leve as quatro para espalhar por ambientes diferentes; leve a 2x2 se o conteúdo é um só.Pode ir à geladeira?Pode. Micro-ondas e lava-louças, não: a ficha técnica da linha New Retrô veda os dois. A limpeza é à mão, com sabão neutro.Serve para banheiro e escritório também?Serve, e é a mesma peça: pincel e batom no banheiro, clipe e pen drive na mesa, tempero na cozinha. O que muda é o que entra.De que material é feito?PET, reciclável e livre de BPA. O PET é ultra-resistente e não quebra facilmente: tem a aparência do vidro, sem o peso e sem trincar num impacto.Organizar bem começa pela menor peça: é ela que fecha o desenho da gaveta. Leve o seu Organizador NEXLAR New Retrô 230 ml e comece a sua New Retrô.",
     "category_id": "cat-organizacao",
     "categories": {
       "name": "Organização",
@@ -3524,13 +3538,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 12.49,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 53,
+    "rating": 4.8,
+    "reviews_count": 72,
     "free_shipping": false,
-    "featured": true,
+    "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:02.780Z",
+    "created_at": "2026-09-19T19:43:22.799Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3576,7 +3590,7 @@ export const PRODUCTS: Product[] = [
     "slug": "organizador-nexlar-new-retro-500ml-1x2-cristal",
     "sku": "NX-102553009",
     "short_description": "A linha New Retrô é a do acabamento canelado: frisos verticais que dão aspecto de vidro trabalhado a organizadores que arrumam e aparecem. O...",
-    "description": "A linha New Retrô é a do acabamento canelado: frisos verticais que dão aspecto de vidro trabalhado a organizadores que arrumam e aparecem. O Organizador Coza New Retrô 500 ml 1x2 Cristal são dois módulos em fila — a peça que fecha conta na gaveta. Organizar. Decorar. New Retrô.O módulo tem 8 cmEsta peça mede 16 x 8 x 5,2 cm, e o nome explica o número: 1x2 são dois módulos lado a lado, então o módulo é um quadrado de 8 cm. Com isso a linha para de ser um catálogo de tamanhos e passa a ser uma grade. Dois destes dão 32 cm de frente; três dão 48. Numa gaveta de 40 cm de largura útil, este e um 1x3 fecham os 40 cm exatos.5,2 cm: a altura que entra na gavetaComparado com o resto da linha, este é o grupo raso: 5,2 cm contra 8,4 cm do giratório, 9,8 cm dos organizadores com rodinhas e 10,5 a 11 cm das cestas. A diferença separa os dois usos: cestas e giratório são peças de prateleira; os modulares são os únicos da New Retrô que entram dentro da gaveta, sob a bancada, na primeira divisão do armário.500 ml em 16 cm de frenteDuas peças de 230 ml ocupam a mesma frente de 16 cm e somam 460 ml. Esta, num corpo só, leva 500: são 40 ml a mais, porque não há parede no meio. A escolha é o conteúdo. Se é um só — clipes, sachês, pincéis —, o corpo único aproveita melhor. Se são dois tipos que não podem se misturar, ou se você quer uma peça em cada ambiente, leve duas de 230.Ultra-resistente porque é PETOrganizador transparente costuma ser de poliestireno, que entrega transparência e brilho, mas cede ao impacto e trinca. Este é de PET, o polímero da garrafa de refrigerante: aparência de vidro e ultra-resistente. Não quebra facilmente — e numa peça que bate no fundo da gaveta todo dia, isso decide.EspecificaçõesMedidas: 16 x 8 x 5,2 cmCapacidade: 500 mlFormato: 1x2, dois módulos de 8 cmMaterial: PET, ultra-resistente, reciclável, sem BPAAcabamento: canelado, cristalGeladeira: simUso: micro-ondas e lava-louças nãoComo limparÀ mão, com sabão neutro e o lado macio da esponja — abrasivo risca a transparência e apaga o brilho do canelado.Perguntas frequentesQuais as medidas do Organizador Coza New Retrô 500 ml 1x2?16 x 8 x 5,2 cm, com 500 ml de capacidade. O 1x2 são dois módulos de 8 cm lado a lado: é daí que vêm os 16 cm de frente.O que significa 1x2?São dois módulos em fila. O módulo é um quadrado de 8 cm, então esta peça tem 16 cm de frente por 8 de fundo. As outras peças da linha são múltiplos do mesmo módulo, e é por isso que fecham desenho entre si.Cabe dentro de uma gaveta?Cabe: com 5,2 cm de altura, é a peça mais baixa da linha New Retrô — as cestas têm 10,5 e 11 cm, os organizadores com rodinhas 9,8. Numa gaveta de 40 cm de largura útil, este e um 1x3 fecham a frente inteira.500 ml ou duas peças de 230 ml?Duas de 230 ml somam 460 ml na mesma frente de 16 cm; esta, num corpo só, leva 500 — 40 ml a mais, porque não há parede no meio. Leve as duas se quiser separar o conteúdo ou espalhar por ambientes.Pode ir à geladeira?Pode. Micro-ondas e lava-louças, não: a ficha técnica da linha New Retrô veda os dois. A limpeza é à mão, com sabão neutro.De que material é feito?PET, reciclável e livre de BPA. O PET é ultra-resistente e não quebra facilmente: tem a aparência do vidro, sem o peso e sem trincar num impacto.Gaveta organizada é gaveta com desenho. Com o Organizador Coza New Retrô 500 ml 1x2, os 16 cm de frente já vêm resolvidos. Leve o seu e comece a sua New Retrô.",
+    "description": "A linha New Retrô é a do acabamento canelado: frisos verticais que dão aspecto de vidro trabalhado a organizadores que arrumam e aparecem. O Organizador NEXLAR New Retrô 500 ml 1x2 Cristal são dois módulos em fila — a peça que fecha conta na gaveta. Organizar. Decorar. New Retrô.O módulo tem 8 cmEsta peça mede 16 x 8 x 5,2 cm, e o nome explica o número: 1x2 são dois módulos lado a lado, então o módulo é um quadrado de 8 cm. Com isso a linha para de ser um catálogo de tamanhos e passa a ser uma grade. Dois destes dão 32 cm de frente; três dão 48. Numa gaveta de 40 cm de largura útil, este e um 1x3 fecham os 40 cm exatos.5,2 cm: a altura que entra na gavetaComparado com o resto da linha, este é o grupo raso: 5,2 cm contra 8,4 cm do giratório, 9,8 cm dos organizadores com rodinhas e 10,5 a 11 cm das cestas. A diferença separa os dois usos: cestas e giratório são peças de prateleira; os modulares são os únicos da New Retrô que entram dentro da gaveta, sob a bancada, na primeira divisão do armário.500 ml em 16 cm de frenteDuas peças de 230 ml ocupam a mesma frente de 16 cm e somam 460 ml. Esta, num corpo só, leva 500: são 40 ml a mais, porque não há parede no meio. A escolha é o conteúdo. Se é um só — clipes, sachês, pincéis —, o corpo único aproveita melhor. Se são dois tipos que não podem se misturar, ou se você quer uma peça em cada ambiente, leve duas de 230.Ultra-resistente porque é PETOrganizador transparente costuma ser de poliestireno, que entrega transparência e brilho, mas cede ao impacto e trinca. Este é de PET, o polímero da garrafa de refrigerante: aparência de vidro e ultra-resistente. Não quebra facilmente — e numa peça que bate no fundo da gaveta todo dia, isso decide.EspecificaçõesMedidas: 16 x 8 x 5,2 cmCapacidade: 500 mlFormato: 1x2, dois módulos de 8 cmMaterial: PET, ultra-resistente, reciclável, sem BPAAcabamento: canelado, cristalGeladeira: simUso: micro-ondas e lava-louças nãoComo limparÀ mão, com sabão neutro e o lado macio da esponja — abrasivo risca a transparência e apaga o brilho do canelado.Perguntas frequentesQuais as medidas do Organizador NEXLAR New Retrô 500 ml 1x2?16 x 8 x 5,2 cm, com 500 ml de capacidade. O 1x2 são dois módulos de 8 cm lado a lado: é daí que vêm os 16 cm de frente.O que significa 1x2?São dois módulos em fila. O módulo é um quadrado de 8 cm, então esta peça tem 16 cm de frente por 8 de fundo. As outras peças da linha são múltiplos do mesmo módulo, e é por isso que fecham desenho entre si.Cabe dentro de uma gaveta?Cabe: com 5,2 cm de altura, é a peça mais baixa da linha New Retrô — as cestas têm 10,5 e 11 cm, os organizadores com rodinhas 9,8. Numa gaveta de 40 cm de largura útil, este e um 1x3 fecham a frente inteira.500 ml ou duas peças de 230 ml?Duas de 230 ml somam 460 ml na mesma frente de 16 cm; esta, num corpo só, leva 500 — 40 ml a mais, porque não há parede no meio. Leve as duas se quiser separar o conteúdo ou espalhar por ambientes.Pode ir à geladeira?Pode. Micro-ondas e lava-louças, não: a ficha técnica da linha New Retrô veda os dois. A limpeza é à mão, com sabão neutro.De que material é feito?PET, reciclável e livre de BPA. O PET é ultra-resistente e não quebra facilmente: tem a aparência do vidro, sem o peso e sem trincar num impacto.Gaveta organizada é gaveta com desenho. Com o Organizador NEXLAR New Retrô 500 ml 1x2, os 16 cm de frente já vêm resolvidos. Leve o seu e comece a sua New Retrô.",
     "category_id": "cat-organizacao",
     "categories": {
       "name": "Organização",
@@ -3586,13 +3600,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 16.24,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 150,
+    "rating": 4.8,
+    "reviews_count": 83,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:02.780Z",
+    "created_at": "2026-09-19T19:43:22.799Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3633,28 +3647,28 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-1626000",
-    "name": "Queijeira Oreganeira NEXLAR Jornata 280ml Aço Inox",
-    "slug": "queijeira-oreganeira-nexlar-jornata-280ml-aco-inox",
-    "sku": "NX-1626000",
-    "short_description": "A Queijeira Oreganeira NEXLAR Jornata 280ml em Aço Inox é perfeita para quem quer mais praticidade e elegância na hora de finalizar receitas...",
-    "description": "A Queijeira Oreganeira NEXLAR Jornata 280ml em Aço Inox é perfeita para quem quer mais praticidade e elegância na hora de finalizar receitas. Versátil, ela é ideal para armazenar e servir queijo ralado ou orégano com mais controle, deixando a mesa posta mais organizada e o tempero sempre à mão no dia a dia.Produzida em aço inox, a peça é resistente, durável e higiênica. Como o material não possui porosidades, facilita a limpeza e ajuda a evitar o acúmulo de resíduos. A tampa dosadora com pequenos orifícios permite servir na medida certa, enquanto a sobre tampa plástica protege o conteúdo e contribui para conservar os alimentos por mais tempo. Com 280 ml de capacidade, é compacta, sofisticada e vai da cozinha à mesa com total praticidade.Principais benefícios:Versátil: ideal para queijo ralado e oréganoCapacidade 280 ml: tamanho prático para o uso diárioAço inox sem porosidades: mais higiene e limpeza facilitadaTampa dosadora perfurada: serve com precisão e evita desperdíciosSobre tampa plástica: ajuda a proteger e conservar o conteúdoDesign elegante: combina com diferentes estilos de mesa e cozinhaEspecificações:Produto: Queijeira OreganeiraLinha: JornataMarca: NEXLARMaterial: Aço inoxCapacidade: 280 mlTampa: dosadora perfurada + sobre tampa plásticaGaranta já a Queijeira Oreganeira NEXLAR Jornata e finalize suas receitas com mais praticidade, controle e elegância.",
+    "id": "prod-1575100",
+    "name": "Porta Sachês NEXLAR Parma Aço Inox",
+    "slug": "porta-saches-nexlar-parma-aco-inox",
+    "sku": "NX-1575100",
+    "short_description": "O Porta Sachês NEXLAR Parma Aço Inox é ideal para quem valoriza organização, praticidade e elegância na mesa de café. Desenvolvido especialm...",
+    "description": "O Porta Sachês NEXLAR Parma Aço Inox é ideal para quem valoriza organização, praticidade e elegância na mesa de café. Desenvolvido especialmente para acomodar sachês de açúcar, adoçante e outros itens individuais, ele facilita o manuseio e o transporte, deixando tudo sempre à mão no dia a dia.Produzido em aço inox de alta qualidade, o porta sachês é resistente, durável e fácil de limpar. O material não possui porosidades, o que evita o acúmulo de resíduos e garante mais higiene durante o uso. Seu design funcional e sofisticado combina perfeitamente com diferentes estilos de mesa posta, seja em ambientes residenciais, escritórios ou espaços gourmet.Além de organizar, o Porta Sachês NEXLAR Parma valoriza a apresentação da mesa, trazendo mais praticidade e charme para o café da manhã, lanches ou momentos especiais.Principais benefíciosOrganiza sachês de açúcar, adoçante e similaresFacilita o manuseio e o transporte à mesaProduzido em aço inox resistente e durávelMaterial higiênico e fácil de limparDesign elegante que valoriza a mesa de caféEspecificaçõesProduto: Porta SachêsLinha: ParmaMaterial: Aço inoxUso indicado: Organização de sachês para mesa e bancadaDimensões: 6 cm X 9,5 cm X 4 cmMais organização, praticidade e sofisticação para sua mesa de café. Escolha o Porta Sachês NEXLAR Parma e valorize cada detalhe do servir.",
     "category_id": "cat-organizacao",
     "categories": {
       "name": "Organização",
       "slug": "organizacao"
     },
-    "price": 29.99,
-    "compare_at_price": 39.99,
+    "price": 39.99,
+    "compare_at_price": 50.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 5,
-    "reviews_count": 106,
+    "rating": 4.8,
+    "reviews_count": 124,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:02.780Z",
+    "created_at": "2026-09-19T19:43:22.799Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3663,210 +3677,42 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "1626000",
+      "Referência": "1575100",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-1626000-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/258612/Queijeira-oreganeira-300-ml-com-sobretampa-Jornata-Brinox-280-ml---Brinox.jpg?v=637030519678830000",
-        "alt": "Queijeira Oreganeira NEXLAR Jornata 280ml Aço Inox",
+        "id": "img-1575100-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/280954/Porta_Saches_de_Acucar_e_Adocantes_Brinox_Parma_Nova.jpg?v=639081431726330000",
+        "alt": "Porta Sachês NEXLAR Parma Aço Inox",
         "position": 0
       }
     ]
   },
   {
-    "id": "prod-1627000",
-    "name": "Saleiro Pimenteiro NEXLAR Jornata 300ml Aço Inox",
-    "slug": "saleiro-pimenteiro-nexlar-jornata-300ml-aco-inox",
-    "sku": "NX-1627000",
-    "short_description": "O Saleiro Pimenteiro NEXLAR Jornata 300 ml em Aço Inox é ideal para quem quer mais praticidade e elegância na hora de temperar. Com design m...",
-    "description": "O Saleiro Pimenteiro NEXLAR Jornata 300 ml em Aço Inox é ideal para quem quer mais praticidade e elegância na hora de temperar. Com design moderno e funcional, ele complementa a cozinha e a mesa posta, mantendo sal e pimenta sempre à mão para o dia a dia e para receber convidados com mais sofisticação.Produzido em aço inox, o saleiro/pimenteiro é resistente, durável, higiênico e fácil de limpar, além de ser resistente à corrosão. A tampa perfurada com pequenos orifícios ajuda a dosar com precisão a quantidade ideal de sal ou pimenta, evitando excessos. E para proteger o conteúdo, a sobre tampa plástica auxilia na conservação, mantendo os temperos preservados por mais tempo. Com capacidade de 300 ml, é uma opção prática para uso frequente, tanto no preparo quanto na hora de servir.Principais benefícios:Temperos sempre à mão: ideal para usar no preparo e à mesaCapacidade 300 ml: ótimo volume para o uso diárioAço inox resistente: durável, higiênico e fácil de limparTampa perfurada: dosagem precisa de sal ou pimentaSobre tampa plástica: ajuda a proteger e conservar o conteúdoDesign elegante: combina com diferentes estilos de cozinha e mesaResistente à corrosão: mais durabilidade no dia a diaEspecificações:Produto: Saleiro PimenteiroLinha: JornataMarca: NEXLARMaterial: Aço inoxCapacidade: 300 mlTampa: perfurada + sobre tampa plásticaIdeal para quem valoriza utensílios duráveis, funcionais e com acabamento sofisticado. Leve para sua casa a qualidade e inovação da NEXLAR.",
+    "id": "prod-1419100",
+    "name": "Porta Pão NEXLAR Átina 40x16cm Aço Inox",
+    "slug": "porta-pao-nexlar-atina-40x16cm-aco-inox",
+    "sku": "NX-1419100",
+    "short_description": "O Porta Pão NEXLAR Átina 40x16cm Aço Inox é ideal para quem busca praticidade, proteção e uma apresentação mais elegante para servir e armaz...",
+    "description": "O Porta Pão NEXLAR Átina 40x16cm Aço Inox é ideal para quem busca praticidade, proteção e uma apresentação mais elegante para servir e armazenar alimentos no dia a dia. Versátil e funcional, ele é uma ótima escolha para acomodar pães, rocamboles e tortas frias com mais organização, seja na mesa ou na geladeira.O conjunto reúne bandeja em aço inox e cúpula transparente em acrílico, combinação que oferece resistência, durabilidade e praticidade na rotina. A bandeja em aço inox tem formato alongado e dimensões ideais para diferentes receitas, além de ser produzida em material sem porosidades, o que ajuda a evitar o acúmulo de resíduos e contribui para preservar melhor o sabor e o aroma dos alimentos. Já a cúpula transparente protege contra contaminações externas, ajuda a evitar o ressecamento e conserva a textura e o frescor por mais tempo.Com design clássico da linha Átina, o Porta Pão NEXLAR valoriza a apresentação dos alimentos e combina com diferentes ocasiões, do uso diário a momentos especiais. A transparência da tampa também facilita a visualização do conteúdo, deixando a mesa mais bonita e funcional. Além disso, é fácil de limpar e pode ser usado tanto para servir quanto para organizar a geladeira com mais praticidade.Se você procura um acessório resistente, elegante e pensado para conservar melhor suas receitas, o Porta Pão NEXLAR Átina 40x16cm Aço Inox é uma excelente escolha para a sua cozinha. Principais benefícios:Ideal para armazenar e servir pães, rocamboles e tortas friasBandeja em aço inox: resistente, durável e fácil de limparMaterial sem porosidades: mais higiene no uso diárioNão altera o sabor nem o aroma dos alimentosCúpula transparente em acrílico: protege e ajuda a evitar o ressecamentoPode ser usado na mesa e na geladeiraDesign elegante e funcional para diferentes ocasiõesAjuda a conservar a textura e o frescor por mais tempoEspecificações:Produto: porta pão, rocambole e torta friaMarca: NEXLARLinha: ÁtinaMaterial da bandeja: aço inoxMaterial da cúpula: acrílico transparenteDimensões da bandeja: 40 x 16 cmDimensões da cúpula: 34,7 x 14,3 x 13,5 cmUso indicado: pães, rocamboles e tortas friasCuidados de uso:Lave antes do primeiro usoHigienize com esponja macia e detergente neutroEvite materiais abrasivos para ajudar na conservação do brilho do inoxSeque bem após a lavagemManuseie a cúpula com cuidado para preservar a transparênciaLeve mais organização, proteção e sofisticação para a sua rotina com o Porta Pão NEXLAR Átina 40x16cm Aço Inox e compre agora.",
     "category_id": "cat-organizacao",
     "categories": {
       "name": "Organização",
       "slug": "organizacao"
     },
-    "price": 29.99,
-    "compare_at_price": 36.99,
+    "price": 99.99,
+    "compare_at_price": 149.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 165,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:02.780Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "1627000",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-1627000-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/258613/Saleiro-pimenteiro-300-ml-com-sobretampa-Jornata-Brinox-280-ml---Brinox.jpg?v=638978588797930000",
-        "alt": "Saleiro Pimenteiro NEXLAR Jornata 300ml Aço Inox",
-        "position": 0
-      }
-    ]
-  },
-  {
-    "id": "prod-206403009",
-    "name": "Pote Hermético Quadrado NEXLAR Modo 230ml Cristal",
-    "slug": "pote-hermetico-quadrado-nexlar-modo-230ml-cristal",
-    "sku": "NX-206403009",
-    "short_description": "A linha Modo é feita de potes que se encaixam, empilham e combinam entre si: 8 tamanhos e mais de 40 mil modos de organizar. Corpo e tampa e...",
-    "description": "A linha Modo é feita de potes que se encaixam, empilham e combinam entre si: 8 tamanhos e mais de 40 mil modos de organizar. Corpo e tampa em Cristal, com transparência e brilho que deixam o conteúdo à vista. Este é o Quadrado de 230 ml, o menor da linha, na cor Cristal. Modular. Empilha. Encaixa.Quanto cabe no pote de 230 mlAçúcar: 225 gPipoca: 210 gFeijão: 200 gArroz: 185 gCafé: 100 gFarinha: 100 gOs 230 ml dão conta de temperos, ervas, snacks, castanhas e porções individuais.Vedação super hermética por siliconeO anel de silicone barra a entrada de ar e de umidade e impede vazamento, na prateleira ou na bolsa. Cereais, grãos, farinhas, biscoitos e chás mantêm sabor e textura por mais tempo.Transparência e brilho do CristalCorpo e tampa em poliestireno na cor Cristal: você identifica o conteúdo sem abrir e sem etiqueta, e enxerga quando o mantimento está acabando. O material é reciclável e livre de BPA.Modularidade da linha ModoSão 8 tamanhos entre quadrados e retangulares, todos com o mesmo sistema de encaixes exclusivo da Coza. Escolher um tamanho é escolher uma peça de um conjunto que cresce com a sua despensa.Encaixe entre formatosO sistema de encaixes exclusivo da Coza vai além de empilhar igual com igual: os potes retangulares assentam sobre os quadrados. A pilha se monta na ordem que você quiser e fica firme para guardar e para transportar, sem risco de derramar no caminho.EspecificaçõesCapacidade: 230 mlMedidas: 9,8 x 9,8 x 5 cmFormato: quadradoMaterial: poliestireno (PS) reciclável e livre de BPA e anel de siliconeCor: CristalLinha: ModoCódigo: 20640/3Como limpar e conservarLavar à mão com o lado macio da esponja e sabão neutro.Não usar produtos abrasivos nem esponja áspera.Secar bem antes de guardar mantimento seco.Não levar ao micro-ondas, à lava-louças nem ao freezer.Perguntas frequentesQuantos gramas cabem no Pote Hermético Quadrado Modo de 230 ml?O Pote Hermético Quadrado Modo de 230 ml leva até 225 g de açúcar, 185 g de arroz ou 100 g de café.O que dá para guardar em um pote de 230 ml?O Pote Hermético Quadrado Modo de 230 ml comporta 185 g de arroz, 100 g de café ou 100 g de farinha, além de temperos, snacks e biscoitos.O pote pode ir ao micro-ondas?Não. O Pote Hermético Quadrado Modo é feito em poliestireno e não deve ir ao micro-ondas.O pote pode ir à lava-louças ou ao freezer?Não. O Pote Hermético Quadrado Modo não vai à lava-louças nem ao freezer, e deve ser lavado à mão.O Pote Modo é seguro para transportar?Sim. O Pote Hermético Quadrado Modo tem vedação hermética e sistema de encaixes que mantém a pilha firme para transportar.Os potes retangulares encaixam nos quadrados?Sim. O sistema de encaixes da linha Modo permite empilhar retangulares sobre quadrados, em qualquer ordem.Organizar pode ser um jeito de expressar quem você é. Com o Pote Hermético Quadrado Coza Modo 230ml Cristal, a despensa ganha ordem e a bancada ganha desenho. Leve o seu e organize do seu Modo.",
-    "category_id": "cat-organizacao",
-    "categories": {
-      "name": "Organização",
-      "slug": "organizacao"
-    },
-    "price": 16.99,
-    "compare_at_price": 22.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 5,
-    "reviews_count": 125,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:03.485Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "206403009",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-206403009-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285940/pote_hermetico_coza_modo_230ml_cristal_6079_1_site_Brinox.webp?v=639233682288430000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 230ml Cristal",
-        "position": 0
-      },
-      {
-        "id": "img-206403009-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285941/pote_hermetico_coza_modo_230ml_cristal_6079_1_site_Brinox_2.webp?v=639233682288730000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 230ml Cristal",
-        "position": 1
-      },
-      {
-        "id": "img-206403009-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285942/pote_hermetico_coza_modo_230ml_cristal_6079_1_site_Brinox_3.webp?v=639233682288730000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 230ml Cristal",
-        "position": 2
-      },
-      {
-        "id": "img-206403009-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285943/pote_hermetico_coza_modo_230ml_cristal_6079_1_site_Brinox_4.webp?v=639233682288900000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 230ml Cristal",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-206453009",
-    "name": "Pote Hermético Retangular NEXLAR Modo 530ml Cristal",
-    "slug": "pote-hermetico-retangular-nexlar-modo-530ml-cristal",
-    "sku": "NX-206453009",
-    "short_description": "A linha Modo é feita de potes que se encaixam, empilham e combinam entre si: 8 tamanhos e mais de 40 mil modos de organizar. Corpo e tampa e...",
-    "description": "A linha Modo é feita de potes que se encaixam, empilham e combinam entre si: 8 tamanhos e mais de 40 mil modos de organizar. Corpo e tampa em Cristal, com transparência e brilho que deixam o conteúdo à vista. Este é o Retangular de 530 ml, com apenas 5 cm de altura, na cor Cristal. Modular. Empilha. Encaixa.Quanto cabe no pote de 530 mlAçúcar: 515 gPipoca: 485 gFeijão: 460 gArroz: 425 gCafé: 230 gFarinha: 230 gO perfil baixo entra em gaveta e em prateleira apertada, onde os potes altos não vão.Vedação super hermética por siliconeO anel de silicone barra a entrada de ar e de umidade e impede vazamento, na prateleira ou na bolsa. Cereais, grãos, farinhas, biscoitos e chás mantêm sabor e textura por mais tempo.Transparência e brilho do CristalCorpo e tampa em poliestireno na cor Cristal: você identifica o conteúdo sem abrir e sem etiqueta, e enxerga quando o mantimento está acabando. O material é reciclável e livre de BPA.Modularidade da linha ModoSão 8 tamanhos entre quadrados e retangulares, todos com o mesmo sistema de encaixes exclusivo da Coza. Escolher um tamanho é escolher uma peça de um conjunto que cresce com a sua despensa.Encaixe entre formatosO sistema de encaixes exclusivo da Coza vai além de empilhar igual com igual: os potes retangulares assentam sobre os quadrados. A pilha se monta na ordem que você quiser e fica firme para guardar e para transportar, sem risco de derramar no caminho.EspecificaçõesCapacidade: 530 mlMedidas: 9,8 x 19,7 x 5 cmFormato: retangularMaterial: poliestireno (PS) reciclável e livre de BPA e anel de siliconeCor: CristalLinha: ModoCódigo: 20645/3Como limpar e conservarLavar à mão com o lado macio da esponja e sabão neutro.Não usar produtos abrasivos nem esponja áspera.Secar bem antes de guardar mantimento seco.Não levar ao micro-ondas, à lava-louças nem ao freezer.Perguntas frequentesQuantos gramas cabem no Pote Hermético Retangular Modo de 530 ml?O Pote Hermético Retangular Modo de 530 ml leva até 515 g de açúcar, 425 g de arroz ou 230 g de café.O que dá para guardar em um pote de 530 ml?O Pote Hermético Retangular Modo de 530 ml comporta 425 g de arroz, 230 g de café ou 230 g de farinha, além de temperos, snacks e biscoitos.O pote pode ir ao micro-ondas?Não. O Pote Hermético Retangular Modo é feito em poliestireno e não deve ir ao micro-ondas.O pote pode ir à lava-louças ou ao freezer?Não. O Pote Hermético Retangular Modo não vai à lava-louças nem ao freezer, e deve ser lavado à mão.O Pote Modo é seguro para transportar?Sim. O Pote Hermético Retangular Modo tem vedação hermética e sistema de encaixes que mantém a pilha firme para transportar.Os potes retangulares encaixam nos quadrados?Sim. O sistema de encaixes da linha Modo permite empilhar retangulares sobre quadrados, em qualquer ordem.Organizar pode ser um jeito de expressar quem você é. Com o Pote Hermético Retangular Coza Modo 530ml Cristal, a despensa ganha ordem e a bancada ganha desenho. Leve o seu e organize do seu Modo.",
-    "category_id": "cat-organizacao",
-    "categories": {
-      "name": "Organização",
-      "slug": "organizacao"
-    },
-    "price": 29.99,
-    "compare_at_price": 37.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 85,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:03.485Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "206453009",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-206453009-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285889/pote_hermetico_retangular_coza_modo_530ml_cristal_6049_1_site_brinox_1.webp?v=639233672392600000",
-        "alt": "Pote Hermético Retangular NEXLAR Modo 530ml Cristal",
-        "position": 0
-      },
-      {
-        "id": "img-206453009-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285890/pote_hermetico_retangular_coza_modo_530ml_cristal_6049_1_site_brinox_2.webp?v=639233672392900000",
-        "alt": "Pote Hermético Retangular NEXLAR Modo 530ml Cristal",
-        "position": 1
-      },
-      {
-        "id": "img-206453009-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285891/pote_hermetico_retangular_coza_modo_530ml_cristal_6049_1_site_brinox_3.webp?v=639233672392900000",
-        "alt": "Pote Hermético Retangular NEXLAR Modo 530ml Cristal",
-        "position": 2
-      },
-      {
-        "id": "img-206453009-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285892/pote_hermetico_retangular_coza_modo_530ml_cristal_6049_1_site_brinox_4.webp?v=639233672393070000",
-        "alt": "Pote Hermético Retangular NEXLAR Modo 530ml Cristal",
-        "position": 3
-      }
-    ]
-  },
-  {
-    "id": "prod-206413009",
-    "name": "Pote Hermético Quadrado NEXLAR Modo 580ml Cristal",
-    "slug": "pote-hermetico-quadrado-nexlar-modo-580ml-cristal",
-    "sku": "NX-206413009",
-    "short_description": "A linha Modo é feita de potes que se encaixam, empilham e combinam entre si: 8 tamanhos e mais de 40 mil modos de organizar. Corpo e tampa e...",
-    "description": "A linha Modo é feita de potes que se encaixam, empilham e combinam entre si: 8 tamanhos e mais de 40 mil modos de organizar. Corpo e tampa em Cristal, com transparência e brilho que deixam o conteúdo à vista. Este é o Quadrado de 580 ml, com 10 cm de altura, na cor Cristal. Modular. Empilha. Encaixa.Quanto cabe no pote de 580 mlAçúcar: 560 gPipoca: 530 gFeijão: 500 gArroz: 465 gCafé: 250 gFarinha: 250 gÉ o tamanho de rotina: grãos, cereais e biscoitos do dia a dia sem tomar a prateleira.Vedação super hermética por siliconeO anel de silicone barra a entrada de ar e de umidade e impede vazamento, na prateleira ou na bolsa. Cereais, grãos, farinhas, biscoitos e chás mantêm sabor e textura por mais tempo.Transparência e brilho do CristalCorpo e tampa em poliestireno na cor Cristal: você identifica o conteúdo sem abrir e sem etiqueta, e enxerga quando o mantimento está acabando. O material é reciclável e livre de BPA.Modularidade da linha ModoSão 8 tamanhos entre quadrados e retangulares, todos com o mesmo sistema de encaixes exclusivo da Coza. Escolher um tamanho é escolher uma peça de um conjunto que cresce com a sua despensa.Encaixe entre formatosO sistema de encaixes exclusivo da Coza vai além de empilhar igual com igual: os potes retangulares assentam sobre os quadrados. A pilha se monta na ordem que você quiser e fica firme para guardar e para transportar, sem risco de derramar no caminho.EspecificaçõesCapacidade: 580 mlMedidas: 9,8 x 9,8 x 10 cmFormato: quadradoMaterial: poliestireno (PS) reciclável e livre de BPA e anel de siliconeCor: CristalLinha: ModoCódigo: 20641/3Como limpar e conservarLavar à mão com o lado macio da esponja e sabão neutro.Não usar produtos abrasivos nem esponja áspera.Secar bem antes de guardar mantimento seco.Não levar ao micro-ondas, à lava-louças nem ao freezer.Perguntas frequentesQuantos gramas cabem no Pote Hermético Quadrado Modo de 580 ml?O Pote Hermético Quadrado Modo de 580 ml leva até 560 g de açúcar, 465 g de arroz ou 250 g de café.O que dá para guardar em um pote de 580 ml?O Pote Hermético Quadrado Modo de 580 ml comporta 465 g de arroz, 250 g de café ou 250 g de farinha, além de temperos, snacks e biscoitos.O pote pode ir ao micro-ondas?Não. O Pote Hermético Quadrado Modo é feito em poliestireno e não deve ir ao micro-ondas.O pote pode ir à lava-louças ou ao freezer?Não. O Pote Hermético Quadrado Modo não vai à lava-louças nem ao freezer, e deve ser lavado à mão.O Pote Modo é seguro para transportar?Sim. O Pote Hermético Quadrado Modo tem vedação hermética e sistema de encaixes que mantém a pilha firme para transportar.Os potes retangulares encaixam nos quadrados?Sim. O sistema de encaixes da linha Modo permite empilhar retangulares sobre quadrados, em qualquer ordem.Organizar pode ser um jeito de expressar quem você é. Com o Pote Hermético Quadrado Coza Modo 580ml Cristal, a despensa ganha ordem e a bancada ganha desenho. Leve o seu e organize do seu Modo.",
-    "category_id": "cat-organizacao",
-    "categories": {
-      "name": "Organização",
-      "slug": "organizacao"
-    },
-    "price": 19.99,
-    "compare_at_price": 24.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.7,
+    "rating": 4.9,
     "reviews_count": 169,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:03.485Z",
+    "created_at": "2026-09-19T19:43:22.799Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3875,60 +3721,160 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "206413009",
+      "Referência": "1419100",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-206413009-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285929/pote_hermetico_coza_modo_580ml_cristal_6073_1_site_brinox_1.webp?v=639233680665970000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 580ml Cristal",
+        "id": "img-1419100-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/251626/Porta-Pao-Rocambole-e-Torta-Fria-2-Pecas---Atina-40-x-16-cm---Brinox.jpg?v=638971826664970000",
+        "alt": "Porta Pão NEXLAR Átina 40x16cm Aço Inox",
         "position": 0
       },
       {
-        "id": "img-206413009-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285930/pote_hermetico_coza_modo_580ml_cristal_6073_1_site_brinox_2.webp?v=639233680666100000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 580ml Cristal",
+        "id": "img-1419100-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/274658/porta-pao-rocambole-e-torta-fria-2-pecas-linha-atina-brinox.jpg?v=638971826665100000",
+        "alt": "Porta Pão NEXLAR Átina 40x16cm Aço Inox",
         "position": 1
       },
       {
-        "id": "img-206413009-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285931/pote_hermetico_coza_modo_580ml_cristal_6073_1_site_brinox_3.webp?v=639233680666270000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 580ml Cristal",
+        "id": "img-1419100-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/274659/porta-pao-torta-fria-e-rocambole-2-pecas-atina-brinox.jpg?v=638971826665270000",
+        "alt": "Porta Pão NEXLAR Átina 40x16cm Aço Inox",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "prod-2389100",
+    "name": "Porta Frios Empilhável com Pinça NEXLAR A´tina 3 Peças Aço Inox",
+    "slug": "porta-frios-empilhavel-com-pinca-nexlar-a-tina-3-pecas-aco-inox",
+    "sku": "NX-2389100",
+    "short_description": "O Porta Frios Empilhável com Pinça NEXLAR Átina 3 Peças Aço Inox é ideal para quem busca mais organização, higiene e praticidade para armaze...",
+    "description": "O Porta Frios Empilhável com Pinça NEXLAR Átina 3 Peças Aço Inox é ideal para quem busca mais organização, higiene e praticidade para armazenar e servir frios no dia a dia. Funcional e elegante, ele ajuda a conservar presunto, queijo, salame e outros frios fatiados com mais proteção, além de deixar a geladeira e a mesa mais organizadas e bonitas.O conjunto é composto por prato retangular em aço inox, cúpula transparente em acrílico e pinça higiênica, reunindo resistência, durabilidade e praticidade em uma única solução. O prato em aço inox é resistente, fácil de limpar e não possui porosidades, o que ajuda a evitar o acúmulo de resíduos e contribui para preservar melhor o sabor e o aroma dos alimentos. Já a cúpula transparente protege os frios contra contaminações externas sem comprometer a visualização, ajudando a manter o frescor por mais tempo.Outro diferencial do Porta Frios Empilhável com Pinça NEXLAR Átina 3 Peças Aço Inox é o design empilhável, que otimiza o espaço na geladeira e facilita a organização do ambiente. A pinça inclusa também torna o momento de servir mais higiênico e prático, evitando o contato direto com os alimentos. Com dimensões de 20 x 13 cm, o conjunto é compacto, versátil e ideal para uso diário ou para servir à mesa em ocasiões especiais.Se você procura um acessório resistente, fácil de limpar e pensado para conservar e servir com mais eficiência, o Porta Frios Empilhável com Pinça NEXLAR Átina 3 Peças Aço Inox é uma ótima escolha para a sua rotina. Principais benefícios:Conjunto com 3 peças: prato, cúpula e pinçaIdeal para armazenar e servir frios fatiadosPrato em aço inox: resistente, higiênico e durávelMaterial sem porosidades: mais higiene no uso diárioNão altera o sabor nem o aroma dos alimentosCúpula transparente: protege e ajuda a conservar os friosPinça inclusa: mais praticidade e higiene ao servirDesign empilhável: melhor aproveitamento de espaço na geladeiraCompacto e versátil para uso diário ou ocasiões especiaisEspecificações:Produto: porta frios empilhável com pinçaMarca: NEXLARLinha: ÁtinaQuantidade de peças: 3Material do prato: aço inoxMaterial da cúpula: acrílico transparenteAcompanha pinça: simDimensões: 20 x 13 cmEmpilhável: simUso indicado: frios, fiambres e queijos fatiadosCuidados de uso:Lave antes do primeiro usoHigienize com esponja macia e sabão neutroEvite materiais abrasivos para ajudar na conservação do brilho do inoxSeque bem após a lavagemManuseie a cúpula com cuidado para preservar a transparênciaLeve mais organização e praticidade para a sua cozinha com o Porta Frios Empilhável com Pinça NEXLAR Átina 3 Peças Aço Inox e compre agora.",
+    "category_id": "cat-organizacao",
+    "categories": {
+      "name": "Organização",
+      "slug": "organizacao"
+    },
+    "price": 59.99,
+    "compare_at_price": 65.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.7,
+    "reviews_count": 88,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:22.799Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "2389100",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-2389100-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/281036/Porta_Frios_Empilhavel_com_Pinca_Brinox_Lyon_3_Pecas_Aco_Inox.jpg?v=639032186953830000",
+        "alt": "Porta Frios Empilhável com Pinça NEXLAR A´tina 3 Peças Aço Inox",
+        "position": 0
+      }
+    ]
+  },
+  {
+    "id": "prod-1413100",
+    "name": "Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox",
+    "slug": "porta-frios-nexlar-atina-19x28x7-2cm-3-pecas-aco-inox",
+    "sku": "NX-1413100",
+    "short_description": "O Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox é ideal para quem busca mais praticidade, higiene e organização para armazenar e ser...",
+    "description": "O Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox é ideal para quem busca mais praticidade, higiene e organização para armazenar e servir frios no dia a dia. Funcional e elegante, ele ajuda a conservar queijos, presuntos, salames e outros embutidos com mais proteção, além de valorizar a apresentação dos alimentos na geladeira ou à mesa.O conjunto é composto por bandeja em aço inox polido, cúpula transparente em acrílico e pinça em aço inox, reunindo resistência, durabilidade e praticidade em uma única solução. A bandeja em aço inox oferece acabamento sofisticado e boa resistência à corrosão, enquanto a cúpula transparente permite visualizar os alimentos com facilidade e ajuda a protegê-los contra odores e contaminações externas, contribuindo para manter o frescor por mais tempo.Outro diferencial do Porta Frios NEXLAR Átina é o design empilhável, que otimiza o espaço na geladeira e facilita a organização do ambiente. A pinça em aço inox também torna o momento de servir mais higiênico e prático, evitando o contato direto com os alimentos. Com visual clean e funcional, o conjunto combina com diferentes ocasiões, desde o uso diário até momentos especiais à mesa.Fácil de limpar e versátil no uso, o Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox é uma ótima escolha para quem valoriza conservação, praticidade e uma apresentação mais elegante para servir. Principais benefícios:Conjunto com 3 peças: bandeja, cúpula e pinçaIdeal para armazenar e servir queijos, presuntos, salames e outros friosBandeja em aço inox polido: resistente, durável e eleganteCúpula transparente: protege os alimentos e facilita a visualizaçãoPinça em aço inox: mais higiene e praticidade ao servirDesign empilhável: melhor aproveitamento de espaço na geladeiraAjuda a conservar o frescor dos alimentos por mais tempoFácil de limpar e prático para o uso diárioEspecificações:Produto: porta friosMarca: NEXLARLinha: ÁtinaQuantidade de peças: 3Material da bandeja: aço inoxMaterial da cúpula: acrílico transparenteMaterial da pinça: aço inoxMedidas da bandeja: 27 x 18,5 cmMedidas da cúpula: 23 x 18 x 5,8 cmMedidas da pinça: 16,5 x 1,5 cmUso indicado: armazenar e servir friosDiferencial: design empilhávelCuidados de uso:Lave antes do primeiro usoHigienize com esponja macia e sabão neutroEvite materiais abrasivos para ajudar na conservação do brilho do inoxSeque bem após a lavagemManuseie a cúpula com cuidado para preservar a transparênciaLeve mais organização e eficiência para a sua rotina com o Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox e compre agora.",
+    "category_id": "cat-organizacao",
+    "categories": {
+      "name": "Organização",
+      "slug": "organizacao"
+    },
+    "price": 59.99,
+    "compare_at_price": 71.99,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.7,
+    "reviews_count": 90,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:22.799Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "1413100",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-1413100-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/280947/Kit_Porta_Frios_Brinox_atina_19_x_28_x_72_cm_3_Pecas_Nova.jpg?v=639032170654600000",
+        "alt": "Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox",
+        "position": 0
+      },
+      {
+        "id": "img-1413100-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/280948/Kit_Porta_Frios_Brinox_atina_19_x_28_x_72_cm_3_Pecas_Nova_1.jpg?v=639032170654600000",
+        "alt": "Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox",
+        "position": 1
+      },
+      {
+        "id": "img-1413100-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/280949/kit-porta-frios-e-pinca-3-pecas-empilhavel-aco-inoxidavel-atina-brinox.jpg?v=639007066690070000",
+        "alt": "Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox",
         "position": 2
       },
       {
-        "id": "img-206413009-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/285932/pote_hermetico_coza_modo_580ml_cristal_6073_1_site_brinox_4.webp?v=639233680666270000",
-        "alt": "Pote Hermético Quadrado NEXLAR Modo 580ml Cristal",
+        "id": "img-1413100-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/280950/kit-porta-frios-3-pecas-inox-linha-atina-brinox.jpg?v=639007066690230000",
+        "alt": "Porta Frios NEXLAR Átina 19x28x7,2cm 3 Peças Aço Inox",
         "position": 3
       }
     ]
   },
   {
-    "id": "prod-2555303",
-    "name": "Pegador para Churrasco NEXLAR  - Madeira (40cm x 5cm x 5cm) - em aço inoxidável e madeira - Linha Churrasco",
-    "slug": "pegador-para-churrasco-nexlar-madeira-40cm-x-5cm-x-5cm-em-aco-inoxidav",
-    "sku": "NX-2555303",
-    "short_description": "Uma peça única para assadores especiais. Esse é o Pegador para Churrasco NEXLAR com cabo em Madeira (40cm x 5cm x 5cm) e aço inoxidável da L...",
-    "description": "Uma peça única para assadores especiais. Esse é o Pegador para Churrasco NEXLAR com cabo em Madeira (40cm x 5cm x 5cm) e aço inoxidável da Linha Churrasco NEXLAR. Aproveite os bons momentos e se delicie com o estilo da Linha Churrasco NEXLAR. O Pagador, junto com as demais peças da Linha Churrasco, é ideal para assados e churrasco é perfeito para pendurar no seu espaço gourmet. O Pegador, preciso e resistente, está preparado para pequenos encontros e grandes celebrações. Em aço inoxidável com cabos de madeira com rebite em alumínio, é perfeito para o preparo de alimentos assados e carnes, como churrasco. Sirva seus convidados com os melhores, práticos e resistentes utensílios e facas da linha Churrasco NEXLAR. Para manter seus produtos de aço inox sempre brilhando, lave-os com esponja macia e sabão ou detergente neutro. Produtos abrasivos como palha de aço e outros, poderão riscar ou prejudicar o brilho. Conheça também os demais produtos das marcas NEXLAR, Coza e Haus Concept para deixar a sua casa ainda mais bonita com soluções completas de organização. O Grupo NEXLAR é um dos maiores fabricantes de utilidades domésticas do Brasil. Com fábricas nas cidades de Caxias do Sul (RS) e Linhares (ES) e importar produtos exclusivos e diferenciados, o Grupo NEXLAR atua em mais de vinte países. Através de suas marcas, NEXLAR, Coza e Haus Concept, oferece um mix de mais de 6 mil itens.",
+    "id": "prod-994242124",
+    "name": "Jogo Faca de Churrasco em Aço Inox Duzia New Gourmet NEXLAR",
+    "slug": "jogo-faca-de-churrasco-em-aco-inox-duzia-new-gourmet-nexlar",
+    "sku": "NX-5130118",
+    "short_description": "Faca de Churrasco New Gourmet – Precisão e Estilo para Seu Churrasco\r\nTorne seus momentos de churrasco ainda mais especiais com a Faca de Ch...",
+    "description": "Faca de Churrasco New Gourmet – Precisão e Estilo para Seu Churrasco\r\nTorne seus momentos de churrasco ainda mais especiais com a Faca de Churrasco New Gourmet. Com design sofisticado e lâmina de alta performance, este conjunto é ideal para garantir cortes precisos e um toque de elegância à mesa, seja em almoços em família ou confraternizações com amigos.\r\nDestaques que fazem a diferença!\r\n\r\n\r\nLâmina afiada e resistente: Garante cortes limpos e eficientes de carnes assadas, grelhadas ou defumadas.\r\n\r\n\r\nEstilo e durabilidade: Visual elegante com acabamento em aço inoxidável que resiste ao tempo e ao uso frequente.\r\n\r\n\r\nConforto no manuseio: Cabos ergonômicos que proporcionam firmeza e segurança durante o uso.\r\n\r\n\r\nIdeal para todos os momentos: Perfeita para uso doméstico, churrascarias ou eventos especiais.\r\n\r\n\r\nCaracterísticas técnicas:\r\n\r\n\r\nModelo: Faca de Churrasco New Gourmet\r\n\r\n\r\nQuantidade: Conjunto com 12 unidades (dúzia)\r\n\r\n\r\nMaterial: Aço inoxidável\r\n\r\n\r\nCor: Prateada \r\n\r\n\r\nIndicação: Ideal para corte de carnes em churrascos e refeições principais\r\n\r\n\r\nCabo: Anatômico, projetado para conforto e controle no corte\r\n\r\n\r\nRecomendação: Produto compatível com lava-louças\r\n\r\n\r\n \r\nGaranta já a Faca de Churrasco New Gourmet e eleve o nível do seu churrasco com qualidade, praticidade e um toque de sofisticação à mesa!",
     "category_id": "cat-churrasco",
     "categories": {
       "name": "Churrasco",
       "slug": "churrasco"
     },
-    "price": 56.99,
-    "compare_at_price": 67.99,
+    "price": 119.99,
+    "compare_at_price": 129.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.9,
-    "reviews_count": 129,
+    "rating": 4.8,
+    "reviews_count": 32,
     "free_shipping": false,
     "featured": true,
     "is_new": true,
     "active": true,
-    "created_at": "2026-09-19T19:32:04.067Z",
+    "created_at": "2026-09-19T19:43:23.619Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -3937,22 +3883,122 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "2555303",
+      "Referência": "5130118",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-2555303-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/266250/Madeira.jpg?v=639052915564830000",
-        "alt": "Pegador para Churrasco NEXLAR  - Madeira (40cm x 5cm x 5cm) - em aço inoxidável e madeira - Linha Churrasco",
+        "id": "img-994242124-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/280490/jogo-faca-de-churrasco-em-aco-inox-duzia-new-gourmet-brinox_0.png?v=639252600929800000",
+        "alt": "Jogo Faca de Churrasco em Aço Inox Duzia New Gourmet NEXLAR",
+        "position": 0
+      }
+    ]
+  },
+  {
+    "id": "prod-994242033",
+    "name": "Jogo de Faca de Churrasco NEXLAR Noble Aço Inox 304 12 Peças",
+    "slug": "jogo-de-faca-de-churrasco-nexlar-noble-aco-inox-304-12-pecas",
+    "sku": "NX-5126118",
+    "short_description": "O Jogo de Faca de Churrasco Noble 12 Peças é a faca de mesa que dá conta de picanha, costela e maminha sem serrar o prato. São 24,1 cm de pe...",
+    "description": "O Jogo de Faca de Churrasco Noble 12 Peças é a faca de mesa que dá conta de picanha, costela e maminha sem serrar o prato. São 24,1 cm de peça forjada em aço inox 304 temperado, com cabo maciço de 10 mm — a faca de churrasco mais longa e mais robusta do portfólio NEXLAR. Doze unidades: a caixa completa para o churrasco da família inteira.Aço 304 forjado e temperado: o corte que não se perdeAs facas Noble são forjadas em aço inox 304 temperado, processo que dá dureza ao fio e faz o corte durar muito mais que em faca de talher comum. Carne assada, grelhada ou defumada: o fio atravessa a fibra sem rasgar. E o aço 304, liga inox de maior resistência à oxidação, mantém o polimento extra brilho sem manchar.Cabo maciço de 10 mm: firmeza para cortar de verdadeO cabo tem 10 mm de espessura e é monobloco — a mesma lâmina de aço se estende do fio até a ponta do cabo, sem emenda, sem rebite, sem plástico. Isso dá peso e firmeza para aplicar força no corte, e elimina a fresta onde a gordura acumula em faca de cabo montado.O que vem no jogo de faca de churrasco Noble12 facas de churrasco Noble (caixa completa)24,1 cm de comprimento cada10 mm de espessura no caboPeça monobloco forjada em aço inox 304 temperadoEspecificações técnicasMarca: NEXLARLinha: NobleProduto: Faca de churrasco (faca de mesa para carne)Quantidade: 12 peças (caixa)Material: Aço inox 304 forjado e temperadoComprimento: 24,1 cm (241 mm)Espessura do cabo: 10 mmAcabamento: Polimento extra brilhoConstrução: Monobloco (peça única)Cor: Inox prateadoLava-louças: SimCódigo: 5126/118Modo de usar e conservaçãoPara preservar o fioCorte sobre prato, tábua de madeira ou polipropileno. Vidro e pedra desgastam o fio a cada corte.LimpezaPode ir à lava-louças. Se lavar à mão, não deixe de molho e seque logo em seguida.GuardaGuarde sem que os fios se toquem, para não bater lâmina contra lâmina.Perguntas frequentesÉ a faca de cortar no prato ou a faca de fatiar do churrasqueiro?É a faca de mesa, aquela que fica no prato de cada pessoa para cortar a carne já servida. Para fatiar a peça na churrasqueira, a indicação é uma faca de cutelaria, como a faca para carne ou a chef.Quantas facas vêm no jogo?São 12 facas de churrasco Noble, a caixa completa.Qual o tamanho da faca de churrasco Noble?Cada peça tem 24,1 cm de comprimento e 10 mm de espessura no cabo.O que significa aço 304 forjado e temperado?Forjado é conformado sob pressão, o que deixa o aço mais denso. Temperado é o tratamento térmico que endurece o fio. O 304 é a liga com 18% de cromo e 10% de níquel.Combina com os outros talheres Noble?Sim. A linha tem colher e garfo de mesa de 21 cm e faca de mesa de 24,3 cm, no mesmo desenho e acabamento.Pode ir na lava-louças?Sim. As peças são compatíveis com lava-louças.Churrasco bom não merece faca que escorrega e não corta. Garanta agora o seu Jogo de Faca de Churrasco Noble 12 Peças e sirva a carne com a faca que está à altura dela!",
+    "category_id": "cat-churrasco",
+    "categories": {
+      "name": "Churrasco",
+      "slug": "churrasco"
+    },
+    "price": 383.4,
+    "compare_at_price": 479.25,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.9,
+    "reviews_count": 143,
+    "free_shipping": true,
+    "featured": true,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:23.619Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "5126118",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242033-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279905/jogo-faca-de-churrasco-noble-duzia-em-aco-inox-brinox_0.jpg?v=639232727365730000",
+        "alt": "Jogo de Faca de Churrasco NEXLAR Noble Aço Inox 304 12 Peças",
         "position": 0
       },
       {
-        "id": "img-2555303-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/273620/pegador-para-churrasco-brinox-aco-inoxidavel-madeira-linha-churrasco.jpg?v=638991657659200000",
-        "alt": "Pegador para Churrasco NEXLAR  - Madeira (40cm x 5cm x 5cm) - em aço inoxidável e madeira - Linha Churrasco",
+        "id": "img-994242033-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279906/jogo-faca-de-churrasco-noble-duzia-em-aco-inox-brinox_1.jpg?v=639232727366330000",
+        "alt": "Jogo de Faca de Churrasco NEXLAR Noble Aço Inox 304 12 Peças",
         "position": 1
+      },
+      {
+        "id": "img-994242033-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279907/jogo-faca-de-churrasco-noble-duzia-em-aco-inox-brinox_2.jpg?v=639232727366330000",
+        "alt": "Jogo de Faca de Churrasco NEXLAR Noble Aço Inox 304 12 Peças",
+        "position": 2
+      },
+      {
+        "id": "img-994242033-3",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/279908/jogo-faca-de-churrasco-noble-duzia-em-aco-inox-brinox_3.jpg?v=639232727366330000",
+        "alt": "Jogo de Faca de Churrasco NEXLAR Noble Aço Inox 304 12 Peças",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "prod-994242313",
+    "name": "Garfo de Mesa para Churrasco NEXLAR 20,7 cm Cabo Preto ABS",
+    "slug": "garfo-de-mesa-para-churrasco-nexlar-20-7-cm-cabo-preto-abs",
+    "sku": "NX-2554013",
+    "short_description": "O Garfo de Mesa para Churrasco NEXLAR é a peça que segura a carne firme enquanto a faca trabalha. Com 20,7 cm, 1,5 mm de espessura e cabo em...",
+    "description": "O Garfo de Mesa para Churrasco NEXLAR é a peça que segura a carne firme enquanto a faca trabalha. Com 20,7 cm, 1,5 mm de espessura e cabo em aço inoxidável com ABS preto sobreinjetado, fixado por rebites de aço inox, é um garfo feito para força de churrasco, não para talher de sopa. Vendido por unidade.Cabo em aço inox com ABS sobreinjetado e rebitesA construção do cabo é o que separa este garfo de um talher comum. A base é de aço inoxidável, sobre ela vem o ABS preto sobreinjetado — um polímero rígido moldado diretamente sobre o metal, que não gira nem solta — e a fixação é feita com rebites de aço inox. O resultado é um cabo com volume para a mão fechar em torno dele e aplicar força de verdade ao segurar a peça de carne.20,7 cm: o par da faca de churrascoFaca e garfo trabalham juntos, e o garfo precisa de comprimento para alcançar a fatia sem a mão chegar perto da lâmina. Os 20,7 cm desta peça formam o par com as facas de churrasco da linha, de 21,8 cm e 23,5 cm. A espessura de 1,5 mm mantém os dentes firmes na hora de fixar a carne no prato.Especificações técnicasMarca: NEXLARLinha: ChurrascoProduto: Garfo de mesa para churrascoQuantidade: 1 unidadeComprimento: 20,7 cm (207 mm)Espessura: 1,5 mmCabo: Aço inoxidável com ABS preto sobreinjetadoRebites: Aço inoxCor do cabo: PretoCódigo: 2554/013Modo de usar e conservaçãoAntes do primeiro usoLave com água, detergente neutro e esponja macia, e seque bem.Cuidado com o caboA lavagem à mão é a que melhor conserva o ABS e a região dos rebites. Seque logo após lavar e evite deixar a peça de molho, para que não entre água entre o cabo e o metal.O que evitarPalha de aço e abrasivos no cabo, contato com chama ou panela quente, e produtos à base de cloro.Perguntas frequentesO que é ABS sobreinjetado?ABS é um polímero rígido e resistente a impacto. Sobreinjetado significa que ele é moldado diretamente sobre a estrutura de aço do cabo, em vez de ser encaixado — por isso não gira, não solta e não abre fresta com o uso.Para que serve o garfo de mesa para churrasco?Serve para fixar a carne no prato enquanto se corta com a faca, e também para servir a fatia. É maior e mais reforçado que o garfo de mesa comum, justamente para aguentar essa força.O garfo é vendido por unidade?Sim, por unidade. Assim você monta o serviço no número exato de lugares da mesa ou repõe a peça que faltou.Qual o tamanho e a espessura do garfo?20,7 cm de comprimento e 1,5 mm de espessura.Qual faca combina com esse garfo?As facas de churrasco da mesma linha: a de 4 1/4\", com 21,8 cm, e a de 4 1/2\", com 23,5 cm. Ambas em aço 420 temperado e também vendidas avulsas.Os dentes entortam ao segurar a carne?Com 1,5 mm de espessura e cabo reforçado por rebites, o garfo aguenta a força de fixar a peça no prato sem ceder.Churrasco na mesa pede o par completo. Garanta agora o seu Garfo de Mesa para Churrasco NEXLAR e sirva a carne com faca e garfo à altura dela!",
+    "category_id": "cat-churrasco",
+    "categories": {
+      "name": "Churrasco",
+      "slug": "churrasco"
+    },
+    "price": 17.99,
+    "compare_at_price": 22.49,
+    "pix_discount_percent": 10,
+    "stock": 40,
+    "rating": 4.7,
+    "reviews_count": 182,
+    "free_shipping": false,
+    "featured": false,
+    "is_new": false,
+    "active": true,
+    "created_at": "2026-09-19T19:43:23.619Z",
+    "highlights": [
+      "Design ergonômico e exclusivo NEXLAR",
+      "Materiais nobres de alta durabilidade",
+      "Fácil higienização e manutenção",
+      "Garantia oficial de fábrica"
+    ],
+    "specs": {
+      "Marca": "NEXLAR Premium Living",
+      "Referência": "2554013",
+      "Material": "Alta qualidade e resistência",
+      "Garantia": "12 meses contra defeitos de fabricação"
+    },
+    "product_images": [
+      {
+        "id": "img-994242313-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/287517/garfo-brinox-inox-2554013.png?v=639245663995900000",
+        "alt": "Garfo de Mesa para Churrasco NEXLAR 20,7 cm Cabo Preto ABS",
+        "position": 0
       }
     ]
   },
@@ -3972,13 +4018,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 91.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 62,
+    "rating": 4.8,
+    "reviews_count": 48,
     "free_shipping": false,
-    "featured": true,
+    "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:04.067Z",
+    "created_at": "2026-09-19T19:43:23.619Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -4022,13 +4068,13 @@ export const PRODUCTS: Product[] = [
     "compare_at_price": 79.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 198,
+    "rating": 4.7,
+    "reviews_count": 74,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:04.068Z",
+    "created_at": "2026-09-19T19:43:23.619Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -4051,122 +4097,28 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-2556301",
-    "name": "Faca para Carne NEXLAR Cross 6\" 27,5 cm Aço Inox",
-    "slug": "faca-para-carne-nexlar-cross-6-27-5-cm-aco-inox",
-    "sku": "NX-2556301",
-    "short_description": "A Faca para Carne NEXLAR Cross 6\" 27,5cm Aço Inox foi desenvolvida para garantir eficiência, segurança e precisão no preparo de todos os tip...",
-    "description": "A Faca para Carne NEXLAR Cross 6\" 27,5cm Aço Inox foi desenvolvida para garantir eficiência, segurança e precisão no preparo de todos os tipos de carne. Ideal para o uso diário, ela completa a linha de facas essenciais da cozinha, oferecendo desempenho confiável em diferentes tipos de corte.A lâmina em aço inox temperado com tratamento térmico e acabamento polido proporciona excelente afiação por mais tempo, além de maior resistência e durabilidade. Forte e robusta, é indicada para fatiar, picar e cortar carnes com eficiência, mantendo o controle e a precisão durante o uso.O cabo ergonômico em polipropileno na cor preta conta com textura antiderrapante, garantindo firmeza, conforto e segurança no manuseio. Prática e funcional, a Faca para Carne Cross facilita o preparo das receitas e contribui para uma rotina mais ágil e organizada na cozinha.Principais benefíciosLâmina em aço inox temperado com excelente afiaçãoIdeal para fatiar, picar e cortar todos os tipos de carnesAlta durabilidade e resistência ao uso diárioCabo ergonômico em polipropileno com textura antiderrapanteMais segurança e controle durante o preparoEspecificaçõesProduto: Faca para CarneLinha: CrossTamanho da lâmina: 6\"Comprimento: 27,5 cmMaterial da lâmina: Aço inox temperadoMaterial do cabo: Polipropileno com textura antiderrapanteUso indicado: Carnes em geralMais precisão, resistência e controle no preparo das carnes fazem toda a diferença. Escolha a Faca para Carne NEXLAR Cross e leve mais eficiência para sua rotina na cozinha.",
+    "id": "prod-1661000",
+    "name": "Pinça para Churrasco e Frios NEXLAR Arienzo 13cm Aço Inox",
+    "slug": "pinca-para-churrasco-e-frios-nexlar-arienzo-13cm-aco-inox",
+    "sku": "NX-1661000",
+    "short_description": "A Pinça para Churrasco e Frios NEXLAR Arienzo 13cm é aquele utensílio pequeno no tamanho, mas enorme na praticidade. Multiuso e funcional, e...",
+    "description": "A Pinça para Churrasco e Frios NEXLAR Arienzo 13cm é aquele utensílio pequeno no tamanho, mas enorme na praticidade. Multiuso e funcional, ela é perfeita para servir com mais higiene e precisão alimentos fatiados ou em pedaços, deixando o momento à mesa muito mais organizado e elegante.Com um formato de bojo pensado para “pegar” com firmeza, essa pinça facilita o serviço de queijos e frios no café da tarde, além de ser ótima para carnes assadas e petiscos no almoço de domingo ou naquele churrasco com amigos. Também é uma excelente aliada para montar tábuas e aperitivos, garantindo um toque mais sofisticado na apresentação.Produzida inteiramente em aço inoxidável, a pinça une durabilidade, resistência e fácil higienização. O inox não retém odores nem sabores, é um material seguro para uso diário e mantém o visual bonito por mais tempo. Para completar, o acabamento em alto brilho dá um charme extra, combinando com diferentes estilos de cozinha e mesa posta.E para a rotina ficar ainda mais simples, a Pinça Arienzo pode ir à lava-louças, facilitando a limpeza depois do uso.Principais benefícios:Multiuso: ideal para churrasco, frios, queijos, carnes e petiscosBojo funcional: pega com firmeza alimentos fatiados ou em pedaçosAço inox: resistente, durável e higiênicoAcabamento alto brilho: mais elegância ao servirTamanho compacto (13 cm): prático para tábuas, travessas e serviço à mesaVai à lava-louças: limpeza fácil no dia a diaEspecificações:Produto: Pinça para Churrasco e FriosLinha: ArienzoMarca: NEXLARMaterial: Aço inoxidávelComprimento total: 13 cmAcabamento: Alto brilhoLimpeza: compatível com lava-louçasSirva com mais praticidade e estilo em qualquer ocasião — garanta já a Pinça para Churrasco e Frios NEXLAR Arienzo 13cm e deixe sua mesa ainda mais completa!",
     "category_id": "cat-churrasco",
     "categories": {
       "name": "Churrasco",
       "slug": "churrasco"
     },
-    "price": 12.99,
-    "compare_at_price": 14.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.8,
-    "reviews_count": 157,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:04.068Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "2556301",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-2556301-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/281060/Faca_para_Carne_Brinox_Cross_6_Polegadas_275_cm_Aco_inox_com_cabo_preto.jpg?v=639050558277470000",
-        "alt": "Faca para Carne NEXLAR Cross 6\" 27,5 cm Aço Inox",
-        "position": 0
-      },
-      {
-        "id": "img-2556301-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/281061/Faca_para_Carne_Brinox_Cross_6_Polegadas_275_cm_Aco_inox_com_cabo_preto_1.jpg?v=639050558277600000",
-        "alt": "Faca para Carne NEXLAR Cross 6\" 27,5 cm Aço Inox",
-        "position": 1
-      }
-    ]
-  },
-  {
-    "id": "prod-2555321",
-    "name": "Escova NEXLAR preta para limpar Grelha e churrasqueira com 2 tipos de função - aço inox e polipropileno",
-    "slug": "escova-nexlar-preta-para-limpar-grelha-e-churrasqueira-com-2-tipos-de-",
-    "sku": "NX-2555321",
-    "short_description": "Mantenha sua churrasqueira sempre pronta para o uso com a Escova NEXLAR preta para limpar Grelha e churrasqueira com 2 tipos de função - aço...",
-    "description": "Mantenha sua churrasqueira sempre pronta para o uso com a Escova NEXLAR preta para limpar Grelha e churrasqueira com 2 tipos de função - aço inox e polipropileno. Com 26,5 cm x 7,3 cm é perfeita para a higienização completa após o uso da grelha ou da churrasqueira. Para para garantir a melhor durabilidade da sua Escova NEXLAR preta para limpar grelha e churrasqueira, utilize também os utensílios de silicone da linha Flex. E para melhorar a performance do seu produto lave-o à mão, com água morna e esponja macia com sabão neutro ou detergente. Se for necessário esfregar, use materiais não abrasivos e mantenha a Escova sempre seca. Gostou da Escova NEXLAR preta para limpar grelha e churrasqueira? Você merece os produtos NEXLAR na sua casa! O Grupo NEXLAR, com desenvolvimento e produção no Brasil, é um dos maiores fabricantes de utilidades domésticas do Brasil. Localizado na cidade de Caxias do Sul, na Serra Gaúcha e expandindo permanentemente a sua atuação no mercado externo, o Grupo NEXLAR possui canais de exportação nos cinco continentes e atua ativamente em mais de vinte países. Através de suas marcas, NEXLAR, Coza e Haus Concept, oferece um mix de mais de 6 mil itens, e segue com seus planos de expansão como um grande participante no mercado de utilidades domésticas.",
-    "category_id": "cat-churrasco",
-    "categories": {
-      "name": "Churrasco",
-      "slug": "churrasco"
-    },
-    "price": 36.99,
-    "compare_at_price": 39.99,
-    "pix_discount_percent": 10,
-    "stock": 40,
-    "rating": 4.6,
-    "reviews_count": 196,
-    "free_shipping": false,
-    "featured": false,
-    "is_new": false,
-    "active": true,
-    "created_at": "2026-09-19T19:32:04.068Z",
-    "highlights": [
-      "Design ergonômico e exclusivo NEXLAR",
-      "Materiais nobres de alta durabilidade",
-      "Fácil higienização e manutenção",
-      "Garantia oficial de fábrica"
-    ],
-    "specs": {
-      "Marca": "NEXLAR Premium Living",
-      "Referência": "2555321",
-      "Material": "Alta qualidade e resistência",
-      "Garantia": "12 meses contra defeitos de fabricação"
-    },
-    "product_images": [
-      {
-        "id": "img-2555321-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/266136/Preto.jpg?v=639081457918300000",
-        "alt": "Escova NEXLAR preta para limpar Grelha e churrasqueira com 2 tipos de função - aço inox e polipropileno",
-        "position": 0
-      }
-    ]
-  },
-  {
-    "id": "prod-6000719",
-    "name": "Faqueiro NEXLAR Itaparica 16 Peças Preto Aço Inox com Pote",
-    "slug": "faqueiro-nexlar-itaparica-16-pecas-preto-aco-inox-com-pote",
-    "sku": "NX-6000719",
-    "short_description": "O Faqueiro Itaparica 16 Peças Preto é o jogo de talheres que resolve a mesa do dia a dia sem complicação: 4 lugares completos, cabo em polip...",
-    "description": "O Faqueiro Itaparica 16 Peças Preto é o jogo de talheres que resolve a mesa do dia a dia sem complicação: 4 lugares completos, cabo em polipropileno preto que não esquenta nem escorrega, e pote plástico que já vem com o faqueiro para organizar tudo na gaveta. Prático, colorido e feito para o uso de todos os dias.O que vem no faqueiro Itaparica 16 peças4 colheres de mesa — 18,7 cm4 garfos de mesa — 18,8 cm4 facas de churrasco — 21 cm4 colheres de chá — 13,75 cm1 pote plástico para organizar as peçasSão quatro peças de cada tipo: dá para servir 4 pessoas com talher completo em cada lugar.Cabo em polipropileno preto: leve e confortávelOs cabos são em polipropileno (PP), material leve e resistente que não transmite calor e dá firmeza na mão. O preto combina com louça branca, colorida ou estampada, e não marca digital como o inox espelhado. É o talher que aguenta o rodízio de almoço, jantar e lancheira.Facas em aço 420 temperadoAs facas de churrasco do faqueiro têm lâmina em aço 420 temperado — a têmpera endurece o fio e faz o corte durar mais que em faca de talher comum. Com 21 cm, são as maiores peças do jogo e dão conta de carne assada e grelhada no prato. Colheres e garfos são em aço inox, resistente à oxidação.Especificações técnicasMarca: NEXLARLinha: ItaparicaProduto: Faqueiro 16 peçasCor: PretoComposição: 4 colheres de mesa, 4 garfos de mesa, 4 facas de churrasco, 4 colheres de cháMaterial dos talheres: Aço inoxMaterial das facas: Aço 420 temperadoCabos: Polipropileno (PP)Embalagem: Pote plásticoLava-louças: SimCódigo: 6000/719Modo de usar e conservaçãoAntes do primeiro usoLave com água, detergente neutro e esponja macia, e seque bem.LavagemPode ir à lava-louças. O polipropileno dos cabos suporta o ciclo normal, mas evite o ciclo de secagem em temperatura máxima.O que evitarPalha de aço e abrasivos nos cabos, contato direto com chama ou panela quente, e longos períodos de molho.Perguntas frequentesQuais peças vêm no faqueiro Itaparica 16 peças?Vêm 4 colheres de mesa, 4 garfos de mesa, 4 facas de churrasco e 4 colheres de chá, mais o pote plástico organizador.O faqueiro tem faca de mesa?Não. As facas do jogo são facas de churrasco, de 21 cm, indicadas para carne. A faca de mesa Itaparica é vendida separadamente.Para quantas pessoas serve?Serve 4 lugares completos, com colher de mesa, garfo, faca e colher de chá para cada pessoa.O faqueiro já vem com o pote?Sim. O pote plástico faz parte do jogo e serve para guardar as peças organizadas na gaveta.Pode ir na lava-louças?Sim. Tanto o aço inox quanto os cabos em polipropileno são compatíveis com lava-louças.Tem outra cor disponível?A linha Itaparica também é produzida em vermelho, no mesmo formato de 16 peças.Mesa posta não precisa ser caro nem complicado. Garanta agora o seu Faqueiro Itaparica 16 Peças Preto e renove os talheres da casa com cor, praticidade e o pote organizador de brinde!",
-    "category_id": "cat-churrasco",
-    "categories": {
-      "name": "Churrasco",
-      "slug": "churrasco"
-    },
-    "price": 39.99,
-    "compare_at_price": 56.99,
+    "price": 9.99,
+    "compare_at_price": 10.99,
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.7,
-    "reviews_count": 54,
+    "reviews_count": 71,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:05.036Z",
+    "created_at": "2026-09-19T19:43:23.619Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -4175,60 +4127,42 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "6000719",
+      "Referência": "1661000",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-6000719-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/278782/Preto-Brinox.jpg?v=638917477409170000",
-        "alt": "Faqueiro NEXLAR Itaparica 16 Peças Preto Aço Inox com Pote",
+        "id": "img-1661000-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/280966/Pinca_para_Churrasco_e_Frios_Brinox_Arienzo_13_cm_Aco_Inox.jpg?v=639032183816730000",
+        "alt": "Pinça para Churrasco e Frios NEXLAR Arienzo 13cm Aço Inox",
         "position": 0
-      },
-      {
-        "id": "img-6000719-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/278783/Faqueiro_Brinox_Itaparica_16_Pecas_Em_Aco_Inox_Com_Cabo_Preto_5.png?v=638917477409630000",
-        "alt": "Faqueiro NEXLAR Itaparica 16 Peças Preto Aço Inox com Pote",
-        "position": 1
-      },
-      {
-        "id": "img-6000719-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/278784/6000_719.png?v=638917477409800000",
-        "alt": "Faqueiro NEXLAR Itaparica 16 Peças Preto Aço Inox com Pote",
-        "position": 2
-      },
-      {
-        "id": "img-6000719-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/278785/Faqueiro_Brinox_Itaparica_16_Pecas_Em_Aco_Inox_Com_Cabo_Preto_1.png?v=638917477409970000",
-        "alt": "Faqueiro NEXLAR Itaparica 16 Peças Preto Aço Inox com Pote",
-        "position": 3
       }
     ]
   },
   {
-    "id": "prod-6000759",
-    "name": "Faqueiro NEXLAR Itaparica 16 Peças Vermelho Bold Aço Inox",
-    "slug": "faqueiro-nexlar-itaparica-16-pecas-vermelho-bold-aco-inox",
-    "sku": "NX-6000759",
-    "short_description": "O Faqueiro Itaparica 16 Peças Vermelho é para quem não quer talher que passa despercebido. O cabo em polipropileno vermelho dá cor à louça b...",
-    "description": "O Faqueiro Itaparica 16 Peças Vermelho é para quem não quer talher que passa despercebido. O cabo em polipropileno vermelho dá cor à louça branca e à mesa neutra, e o jogo entrega 4 lugares completos mais o pote plástico para guardar tudo organizado.O que vem no faqueiro Itaparica 16 peças4 colheres de mesa — 18,7 cm4 garfos de mesa — 18,8 cm4 facas de churrasco — 21 cm4 colheres de chá — 13,75 cm1 pote plástico para organizar as peçasQuatro peças de cada tipo: talher completo para 4 pessoas à mesa.Vermelho: a cor que a mesa neutra estava pedindoLouça branca, mesa de madeira, cozinha clara — em qualquer composição sóbria, o talher vermelho é o ponto de cor que muda a foto. E como o polipropileno (PP) tem a cor no próprio material, e não em pintura por cima, o tom não descasca com o uso. O cabo é leve, não transmite calor e não escorrega com a mão molhada.Facas em aço 420 temperadoAs quatro facas do jogo são facas de churrasco com lâmina em aço 420 temperado: a têmpera endurece o fio e mantém o corte muito mais tempo que uma faca de talher comum. Com 21 cm, são as peças mais longas do faqueiro. Colheres e garfos são em aço inox, resistente à oxidação.Especificações técnicasMarca: NEXLARLinha: ItaparicaProduto: Faqueiro 16 peçasCor: VermelhoComposição: 4 colheres de mesa, 4 garfos de mesa, 4 facas de churrasco, 4 colheres de cháMaterial dos talheres: Aço inoxMaterial das facas: Aço 420 temperadoCabos: Polipropileno (PP)Embalagem: Pote plásticoLava-louças: SimCódigo: 6000/759Modo de usar e conservaçãoAntes do primeiro usoLave com água, detergente neutro e esponja macia, e seque bem.Para manter a cor vivaPode ir à lava-louças no ciclo normal. Evite a secagem em temperatura máxima e produtos à base de cloro, que agridem o pigmento do cabo.O que evitarPalha de aço nos cabos, apoio em panela quente ou borda de fogão, e longos períodos de molho.Perguntas frequentesQuais peças vêm no faqueiro Itaparica 16 peças?Vêm 4 colheres de mesa, 4 garfos de mesa, 4 facas de churrasco e 4 colheres de chá, mais o pote plástico organizador.O vermelho do cabo desbota na lava-louças?A cor está no próprio polipropileno, não em pintura de superfície, então não descasca. Para conservar o tom, evite a secagem em temperatura máxima e produtos com cloro.O faqueiro tem faca de mesa?Não. As facas do jogo são facas de churrasco de 21 cm, indicadas para carne. A faca de mesa Itaparica é vendida separadamente.Para quantas pessoas serve?Serve 4 lugares, com colher de mesa, garfo, faca e colher de chá para cada pessoa.O pote já vem incluído?Sim. O pote plástico faz parte do jogo e organiza as peças na gaveta.Tem outra cor disponível?A linha Itaparica também é produzida em preto, no mesmo formato de 16 peças.Mesa sem graça tem conserto, e ele custa pouco. Garanta agora o seu Faqueiro Itaparica 16 Peças Vermelho e coloque cor na mesa já no próximo almoço!",
+    "id": "prod-2554109",
+    "name": "Jogo De Talheres Para Churrasco 12 Peças Aço Inoxidável Linha Churrasco da NEXLAR",
+    "slug": "jogo-de-talheres-para-churrasco-12-pecas-aco-inoxidavel-linha-churrasc",
+    "sku": "NX-2554109",
+    "short_description": "Os melhores churrasqueiros sabem que todas as etapas de um bom churrasco, do preparo ao serviço, são momentos de vivenciar boas experiências...",
+    "description": "Os melhores churrasqueiros sabem que todas as etapas de um bom churrasco, do preparo ao serviço, são momentos de vivenciar boas experiências. Para deixar as comemorações ainda melhores, a escolha certa é ter à mesa o Conjunto de Talheres para Churrasco 12 peças da Linha Churrasco/NEXLAR. \nTodos sabemos que saborear um bom churrasco ou uma carne com preparo especial fica ainda melhor quando temos uma faca que garante o corte perfeito e com segurança, e um garfo que permite precisão na hora de segurar a comida. \nÉ justamente isso que entrega o Conjunto de Talheres para Churrasco 12 peças da Linha Churrasco/NEXLAR.\nA NEXLAR, em sua linha Churrasco, leva até sua casa um belo jogo garfos e facas, produzidos com lâminas em Aço Inoxidável Polido, que combinam tecnologia, qualidade e durabilidade.  \nO cabo em polipropileno é na cor Preta e forjado em aço inoxidável, sendo ergonomicamente desenhado com rebites também em Aço Inoxidável, que seguram as lâminas inteiriças e conferem um acabamento refinado aos utensílios.\nO conjunto de talheres é composto por 6 garfos com dimensões de 20,7 cm de comprimento, 2,4 cm de largura e 1,5 cm de espessura, e 6 facas com dimensões de 21,8 cm de comprimento, 2,2 cm de largura e 1,2 cm de espessura\nO conjunto de talheres para churrasco 12 peças Churrasco/NEXLAR é um convite a partilhar com a família e os amigos um delicioso assado, agregando tecnologia de ponta, design sofisticado e toda a tradição dos itens de cozinha e mesa NEXLAR.\nA NEXLAR oferece uma grande variedade de utilidades domésticas para o seu dia a dia e para ocasiões especiais. Tudo produzido com os mais rigorosos padrões de qualidade técnica e responsabilidade ambiental. Os produtos NEXLAR agregam tecnologia, sofisticação e sustentabilidade. A Linha Churrasco é indispensável aos churrasqueiros e amantes dos melhores cortes de carne. Acesse o site e conheça nossa linha completa de produtos.",
     "category_id": "cat-churrasco",
     "categories": {
       "name": "Churrasco",
       "slug": "churrasco"
     },
-    "price": 39.99,
-    "compare_at_price": 56.99,
+    "price": 99.99,
+    "compare_at_price": 129.99,
     "pix_discount_percent": 10,
     "stock": 40,
-    "rating": 4.7,
-    "reviews_count": 88,
+    "rating": 4.9,
+    "reviews_count": 103,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:05.036Z",
+    "created_at": "2026-09-19T19:43:23.619Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -4237,48 +4171,54 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "6000759",
+      "Referência": "2554109",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-6000759-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/251044/Vermelho-Bold-Brinox.jpg?v=637002027352270000",
-        "alt": "Faqueiro NEXLAR Itaparica 16 Peças Vermelho Bold Aço Inox",
+        "id": "img-2554109-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/277847/jogo-de-talheres-para-churrasco-12-pecas-aco-inoxidavel-linha-churrasco-da-brinox.jpg?v=638920923011800000",
+        "alt": "Jogo De Talheres Para Churrasco 12 Peças Aço Inoxidável Linha Churrasco da NEXLAR",
         "position": 0
       },
       {
-        "id": "img-6000759-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/261212/thumbnail--24-.jpg?v=638917482739300000",
-        "alt": "Faqueiro NEXLAR Itaparica 16 Peças Vermelho Bold Aço Inox",
+        "id": "img-2554109-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/277848/conjunto-churrasco.jpg?v=638781544185500000",
+        "alt": "Jogo De Talheres Para Churrasco 12 Peças Aço Inoxidável Linha Churrasco da NEXLAR",
         "position": 1
+      },
+      {
+        "id": "img-2554109-2",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/277849/jogo-de-talheres-para-churrasco-12-pecas-aco-inoxidavel-churrasco-brinox.jpg?v=638781544185670000",
+        "alt": "Jogo De Talheres Para Churrasco 12 Peças Aço Inoxidável Linha Churrasco da NEXLAR",
+        "position": 2
       }
     ]
   },
   {
-    "id": "prod-6000712",
-    "name": "Faqueiro NEXLAR Itaparica 24 Peças Preto",
-    "slug": "faqueiro-nexlar-itaparica-24-pecas-preto",
-    "sku": "NX-6000712",
-    "short_description": "O Faqueiro Itaparica 24 Peças Preto é o tamanho de quem recebe: 6 lugares completos, com colher, garfo, faca e colher de chá para cada pesso...",
-    "description": "O Faqueiro Itaparica 24 Peças Preto é o tamanho de quem recebe: 6 lugares completos, com colher, garfo, faca e colher de chá para cada pessoa. Vem com pote plástico incluso para guardar tudo organizado, cabo em polipropileno preto e facas em aço 420 temperado. Resolve a mesa da família e ainda dá conta do almoço de domingo com visita.16 ou 24 peças? Este é o de seis lugaresA linha Itaparica tem duas opções de faqueiro, e a escolha é pelo número de pessoas na mesa. O de 16 peças monta 4 lugares; este, de 24 peças, monta 6 lugares. Se a casa tem cinco ou seis pessoas, ou se você costuma receber, o de 24 evita ter que lavar talher no meio do almoço.O que vem no faqueiro Itaparica 24 peças6 colheres de mesa — 18,7 cm6 garfos de mesa — 18,8 cm6 facas de churrasco — 21 cm6 colheres de chá — 13,75 cmPote plástico incluso, além das 24 peçasCabo preto em polipropileno e facas em aço 420Os cabos são em polipropileno (PP): leves, resistentes, não transmitem calor e têm a cor no próprio material, sem pintura que descasque. As seis facas são facas de churrasco de 21 cm com lâmina em aço 420 temperado — a têmpera endurece o fio e o corte dura mais. Colheres e garfos são em aço inox, resistente à oxidação.Especificações técnicasMarca: NEXLARLinha: ItaparicaProduto: Faqueiro 24 peçasCor: PretoComposição: 6 colheres de mesa, 6 garfos de mesa, 6 facas de churrasco e 6 colheres de cháAtende: 6 pessoasMaterial dos talheres: Aço inoxMaterial das facas: Aço 420 temperadoCabos: Polipropileno (PP)Acompanha: Pote plásticoLava-louças: SimCódigo: 6000/712Modo de usar e conservaçãoAntes do primeiro usoLave com água, detergente neutro e esponja macia, e seque bem.LavagemPode ir à lava-louças no ciclo normal. Evite a secagem em temperatura máxima e produtos à base de cloro.O que evitarPalha de aço nos cabos, apoio em panela quente ou borda de fogão, e longos períodos de molho.Perguntas frequentesQuais peças vêm no faqueiro Itaparica 24 peças?Vêm 6 colheres de mesa, 6 garfos de mesa, 6 facas de churrasco e 6 colheres de chá. O pote plástico organizador acompanha o jogo.Para quantas pessoas serve?Serve 6 lugares completos. Para 4 lugares, a opção da linha é o faqueiro de 16 peças.O faqueiro tem faca de mesa?Não. As facas do jogo são facas de churrasco de 21 cm, indicadas para carne. A faca de mesa Itaparica é vendida separadamente.Vem com pote para guardar?Sim. O pote plástico acompanha o faqueiro e serve para manter as peças organizadas na gaveta.O cabo preto marca ou desbota?Não. A cor está no próprio polipropileno, e o preto ainda tem a vantagem de não marcar digital como o inox espelhado.Pode ir na lava-louças?Sim. Tanto o aço inox quanto os cabos em polipropileno são compatíveis com lava-louças.Mesa cheia pede faqueiro que dê conta. Garanta agora o seu Faqueiro Itaparica 24 Peças Preto e receba sem contar talher!",
+    "id": "prod-5100118",
+    "name": "Jogo de Faca de Churrasco NEXLAR Lyon 214 x 3 mm Aço Inox 12 Peças",
+    "slug": "jogo-de-faca-de-churrasco-nexlar-lyon-214-x-3-mm-aco-inox-12-pecas",
+    "sku": "NX-5100118",
+    "short_description": "O Jogo de Faca de Churrasco NEXLAR Lyon 12 Peças Aço Inox (214 mm | 3 mm) é ideal para quem quer montar uma mesa completa e garantir cortes...",
+    "description": "O Jogo de Faca de Churrasco NEXLAR Lyon 12 Peças Aço Inox (214 mm | 3 mm) é ideal para quem quer montar uma mesa completa e garantir cortes mais eficientes no dia a dia e nos encontros de churrasco. Com traços simples, leves e elegantes, a linha Lyon combina com diferentes estilos de cozinha e mesa posta, do ambiente descontraído ao mais sofisticado.Mais serrilhadas e afiadas, as facas de churrasco são indicadas para carnes mais resistentes, oferecendo firmeza no manuseio e melhor desempenho no corte. Um diferencial importante é a lâmina temperada, que ajuda a não danificar pratos de porcelana, trazendo mais segurança e tranquilidade durante o uso.Produzidas em aço inox, as peças são resistentes à oxidação, duráveis e mantêm um visual bonito por mais tempo. Para facilitar a rotina, podem ir à lava-louças, garantindo praticidade na limpeza após as refeições. E como o conjunto vem com 12 unidades, é perfeito para repor talheres, completar o faqueiro, receber convidados ou padronizar a mesa em eventos e reuniões.Para conservar o inox sempre bonito, lave com detergente neutro, evite produtos abrasivos e seque após a lavagem para ajudar a prevenir manchas.Principais benefícios:Conjunto com 12 peças: ideal para repor ou completar o faqueiroLinha Lyon: design simples, leve e elegante para diferentes mesasMais serrilhada e afiada: indicada para carnes mais resistentesLâmina temperada: ajuda a não danificar pratos de porcelanaAço inox: resistente, durável e resistente à oxidaçãoVai à lava-louças: praticidade na limpeza do dia a diaTamanho e espessura ideais: firmeza e conforto no usoEspecificações:Produto: Jogo de Faca de Churrasco NEXLAR Lyon 12 Peças Aço InoxLinha: LyonMaterial: aço inoxComposição: 12 peçasComprimento de cada faca: 214 mmEspessura: 3 mmCaracterística: lâmina temperada; corte serrilhado e mais afiadoIndicação de uso: carnes e churrascoVai à lava-louças: simDeixe seus momentos à mesa mais práticos e completos: compre agora o Jogo de Faca de Churrasco NEXLAR Lyon 12 Peças e leve mais desempenho e elegância para as suas refeições.",
     "category_id": "cat-churrasco",
     "categories": {
       "name": "Churrasco",
       "slug": "churrasco"
     },
-    "price": 69.99,
-    "compare_at_price": 80.99,
+    "price": 99.99,
+    "compare_at_price": 109.99,
     "pix_discount_percent": 10,
     "stock": 40,
     "rating": 4.8,
-    "reviews_count": 176,
+    "reviews_count": 195,
     "free_shipping": false,
     "featured": false,
     "is_new": false,
     "active": true,
-    "created_at": "2026-09-19T19:32:05.036Z",
+    "created_at": "2026-09-19T19:43:23.619Z",
     "highlights": [
       "Design ergonômico e exclusivo NEXLAR",
       "Materiais nobres de alta durabilidade",
@@ -4287,34 +4227,22 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Marca": "NEXLAR Premium Living",
-      "Referência": "6000712",
+      "Referência": "5100118",
       "Material": "Alta qualidade e resistência",
       "Garantia": "12 meses contra defeitos de fabricação"
     },
     "product_images": [
       {
-        "id": "img-6000712-0",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/254922/Preto-Brinox.jpg?v=637007095207130000",
-        "alt": "Faqueiro NEXLAR Itaparica 24 Peças Preto",
+        "id": "img-5100118-0",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/251156/Faca-de-Churrasco-Duzia---Lyon-214-x-3-mm---Brinox.jpg?v=638978647580370000",
+        "alt": "Jogo de Faca de Churrasco NEXLAR Lyon 214 x 3 mm Aço Inox 12 Peças",
         "position": 0
       },
       {
-        "id": "img-6000712-1",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/254923/Preto-Brinox.jpg?v=638917492899230000",
-        "alt": "Faqueiro NEXLAR Itaparica 24 Peças Preto",
+        "id": "img-5100118-1",
+        "url": "https://brinox.vteximg.com.br/arquivos/ids/261297/thumbnail--27-.jpg?v=638978647580370000",
+        "alt": "Jogo de Faca de Churrasco NEXLAR Lyon 214 x 3 mm Aço Inox 12 Peças",
         "position": 1
-      },
-      {
-        "id": "img-6000712-2",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/254924/Preto-Brinox.jpg?v=638917492899530000",
-        "alt": "Faqueiro NEXLAR Itaparica 24 Peças Preto",
-        "position": 2
-      },
-      {
-        "id": "img-6000712-3",
-        "url": "https://brinox.vteximg.com.br/arquivos/ids/254925/Preto-Brinox.jpg?v=638917492899530000",
-        "alt": "Faqueiro NEXLAR Itaparica 24 Peças Preto",
-        "position": 3
       }
     ]
   }

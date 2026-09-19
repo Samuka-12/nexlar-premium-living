@@ -12,11 +12,13 @@ async function fetchSearch(term, from = 0, to = 15) {
   }
 }
 
-function cleanName(name) {
-  return name
+function cleanAllText(text) {
+  if (!text) return '';
+  return text
     .replace(/Brinox/gi, 'NEXLAR')
     .replace(/Coza/gi, 'NEXLAR')
     .replace(/Haus Concept/gi, 'NEXLAR')
+    .replace(/Haus/gi, 'NEXLAR')
     .trim();
 }
 
@@ -40,15 +42,13 @@ async function buildCatalog() {
       slug: 'panelas',
       description: 'Jogos de panelas antiaderentes, cerâmica e inox, frigideiras, caçarolas, woks e chaleiras.',
       terms: ['jogo de panelas', 'frigideira', 'cacarola', 'wok', 'chaleira'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/285601/jogo-de-panelas-empilhavel-brinox-fit-10-pecas-antiaderente-ceramic-life-cabo-removivel-e-fundo-de-inducao-areia_lancamento_Hero.jpg.jpg'
     },
     {
       id: 'cat-pressao',
       name: 'Panelas de Pressão',
       slug: 'panelas-de-pressao',
       description: 'Panelas de pressão com fechamento externo, interno e linha cerâmica antiaderente.',
-      terms: ['panela de pressao', 'pressure'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/280829/Jogo_de_Panelas_Brinox_Antiaderente_Ceramic_Life_7_Pecas_Marble_Blend_com_Inducao_Cinza_Claro_Nova_1.jpg'
+      terms: ['panela de pressao inox', 'panela de pressao 4,5', 'pressure'],
     },
     {
       id: 'cat-eletro',
@@ -56,55 +56,48 @@ async function buildCatalog() {
       slug: 'eletroportateis',
       description: 'Panelas de pressão elétricas digitais, fritadeiras e cooktops de indução portáteis.',
       terms: ['eletrico', 'inducao', 'pressao eletrica', 'airfryer'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/285601/jogo-de-panelas-empilhavel-brinox-fit-10-pecas-antiaderente-ceramic-life-cabo-removivel-e-fundo-de-inducao-areia_lancamento_Hero.jpg.jpg'
     },
     {
       id: 'cat-lixeiras',
       name: 'Lixeiras',
       slug: 'lixeiras',
       description: 'Lixeiras com pedal em inox, basculantes, com sensor de movimento e para coleta seletiva.',
-      terms: ['lixeira pedal', 'lixeira inox', 'lixeira', 'lixeira 5 litros'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/287642/Lixeira 20 L - Spin.png'
+      terms: ['lixeira com pedal', 'lixeira inox', 'lixeira spin', 'lixeira matte'],
     },
     {
       id: 'cat-utensilios',
       name: 'Utensílios de Cozinha',
       slug: 'utensilios-de-cozinha',
       description: 'Kits de silicone alimentício, aço inox 18/10, tábuas de corte em bambu e escorredores.',
-      terms: ['kit utensilios', 'tabua corte', 'escorredor louca', 'concha inox', 'espatula silicone'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/287716/Lixeira 5 L - Matte Branco.png'
+      terms: ['kit utensilios silicone', 'tabua corte bambu', 'escorredor inox', 'concha inox'],
     },
     {
       id: 'cat-mesa',
       name: 'Mesa & Talheres',
       slug: 'mesa-e-talheres',
       description: 'Faqueiros completos em inox, bandejas de servir, bowls e porta-guardanapos.',
-      terms: ['faqueiro inox', 'faqueiro 24', 'faqueiro 42', 'bandeja inox', 'conjunto bowls'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/273785/frigideira-24cm-revestimento-ceramico-antiaderente-mineral-resist-vanilla-ceramic-life-suprema-brinox.jpg'
+      terms: ['faqueiro inox 24', 'faqueiro 42', 'bandeja servir inox', 'conjunto bowls inox'],
     },
     {
       id: 'cat-assadeiras',
       name: 'Assadeiras & Formas',
       slug: 'assadeiras-e-formas',
       description: 'Assadeiras antiaderentes, formas de bolo redondas, para lasanha e para pão.',
-      terms: ['assadeira', 'forma bolo', 'bakeware', 'forma pao'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/283805/SECA.jpg'
+      terms: ['assadeira retangular', 'forma bolo', 'forma pao antiaderente'],
     },
     {
       id: 'cat-organizacao',
       name: 'Organização',
       slug: 'organizacao',
       description: 'Porta-temperos giratórios, potes herméticos em acrílico crystal e organizadores de pia.',
-      terms: ['porta temperos', 'pote hermetico', 'organizador', 'potes'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/287621/Lixeira 12 L - Decorline.png'
+      terms: ['porta temperos inox', 'potes hermeticos', 'organizador bambu', 'pote hermetico'],
     },
     {
       id: 'cat-churrasco',
       name: 'Churrasco',
       slug: 'churrasco',
       description: 'Kits de churrasco com maleta, grelhas argentinas em inox e churrasqueiras portáteis.',
-      terms: ['churrasco', 'grelha', 'kit churrasco', 'espeto'],
-      image: 'https://brinox.vteximg.com.br/arquivos/ids/287668/Lixeira 3L - Spin.png'
+      terms: ['kit churrasco inox', 'grelha churrasco', 'espeto inox'],
     },
   ];
 
@@ -124,14 +117,34 @@ async function buildCatalog() {
         if (seenProductIds.has(item.productId)) continue;
 
         const skuItem = item.items[0];
-        const images = (skuItem.images || [])
+        
+        // Filtro para fotos limpas do produto, eliminando artes promocionais com logos
+        let validImages = (skuItem.images || [])
           .filter(img => img && img.imageUrl)
-          .map((img, i) => ({
-            id: `img-${item.productId}-${i}`,
-            url: img.imageUrl,
-            alt: cleanName(item.productName),
-            position: i,
-          }));
+          .filter(img => {
+            const u = img.imageUrl.toLowerCase();
+            return !u.includes('promocao-') && !u.includes('banner') && !u.includes('selo') && !u.includes('arte');
+          });
+
+        if (validImages.length === 0) {
+          validImages = (skuItem.images || []).filter(img => img && img.imageUrl);
+        }
+
+        // Priorizar imagens .png e fotos isoladas de produto
+        validImages.sort((a, b) => {
+          const aPng = a.imageUrl.toLowerCase().includes('.png');
+          const bPng = b.imageUrl.toLowerCase().includes('.png');
+          if (aPng && !bPng) return -1;
+          if (!aPng && bPng) return 1;
+          return 0;
+        });
+
+        const images = validImages.map((img, i) => ({
+          id: `img-${item.productId}-${i}`,
+          url: img.imageUrl,
+          alt: cleanAllText(item.productName),
+          position: i,
+        }));
 
         if (images.length === 0) continue;
 
@@ -141,7 +154,7 @@ async function buildCatalog() {
         if (price <= 0) price = 89.90;
         if (listPrice <= price) listPrice = Math.round(price * 1.25 * 100) / 100;
 
-        let name = cleanName(item.productName);
+        let name = cleanAllText(item.productName);
         let slug = generateSlug(name);
         if (seenSlugs.has(slug)) {
           slug = `${slug}-${item.productId}`;
@@ -150,11 +163,11 @@ async function buildCatalog() {
         seenProductIds.add(item.productId);
 
         const shortDesc = item.description 
-          ? item.description.replace(/<[^>]*>/g, '').replace(/Brinox/gi, 'NEXLAR').slice(0, 140).trim() + '...'
+          ? cleanAllText(item.description.replace(/<[^>]*>/g, '')).slice(0, 140).trim() + '...'
           : `Produto oficial NEXLAR com acabamento premium e alta durabilidade para sua casa.`;
 
         const fullDesc = item.description 
-          ? item.description.replace(/<[^>]*>/g, '').replace(/Brinox/gi, 'NEXLAR').trim()
+          ? cleanAllText(item.description.replace(/<[^>]*>/g, '')).trim()
           : `${name} é fabricado com materiais nobres de alta resistência pela NEXLAR, garantindo máxima performance, durabilidade e beleza no dia a dia da sua cozinha.`;
 
         const pObj = {
@@ -202,8 +215,6 @@ async function buildCatalog() {
 
     if (catProducts.length > 0 && catProducts[0].product_images[0]) {
       cat.image_url = catProducts[0].product_images[0].url;
-    } else {
-      cat.image_url = cat.image;
     }
   }
 
@@ -248,7 +259,7 @@ async function buildCatalog() {
       eyebrow: "LIXEIRAS & HIGIENE",
       cta_label: "Ver lixeiras",
       cta_url: "/categoria/lixeiras",
-      image_url: allProducts.find(p => p.category_id === 'cat-lixeiras')?.product_images[0]?.url || "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1600",
+      image_url: allProducts.find(p => p.category_id === 'cat-lixeiras')?.product_images[0]?.url || "https://images.unsplash.com/photo-1585914924626-15adac1e6402?w=1600",
       position: 3,
       active: true,
     },
@@ -307,7 +318,7 @@ export function searchLocalProducts(term: string): Product[] {
 `;
 
   fs.writeFileSync('src/lib/catalog-data.ts', fileContent, 'utf-8');
-  console.log('Successfully wrote src/lib/catalog-data.ts!');
+  console.log('Successfully wrote src/lib/catalog-data.ts with zero Brinox branding in texts and pure product images!');
 }
 
 buildCatalog();
