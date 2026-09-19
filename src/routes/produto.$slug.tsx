@@ -29,7 +29,7 @@ import {
 } from "@/components/ui/accordion";
 import { supabase } from "@/integrations/supabase/client";
 import { productSelect, sortedImages, type Product, type Review } from "@/lib/types";
-import { brl, installment, maskCep, pixPrice, discountPercent, dateBR } from "@/lib/format";
+import { brl, installment, maskCEP, pixPrice, discountPercent, dateBR } from "@/lib/format";
 import { useCart } from "@/lib/cart";
 import { useFavorites } from "@/lib/favorites";
 
@@ -414,7 +414,7 @@ function ProductPage() {
                       name: product.name,
                       image: images[0]?.url ?? "",
                       price: finalPrice,
-                      variant: variant?.value ?? null,
+                      variant: variant?.value ?? undefined,
                     },
                     quantity,
                   );
