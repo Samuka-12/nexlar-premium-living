@@ -120,7 +120,7 @@ export function CartDrawer() {
               </div>
 
               <Button asChild size="lg" className="w-full" onClick={cart.close}>
-                <Link to="/carrinho">Avançar e revisar carrinho</Link>
+                <Link to="/checkout">Avançar para o checkout</Link>
               </Button>
               <Button variant="ghost" className="w-full" onClick={cart.close}>
                 Continuar comprando

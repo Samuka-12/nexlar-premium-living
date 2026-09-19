@@ -441,7 +441,7 @@ function ProductPage() {
               <div className="flex gap-2">
                 <Input
                   value={cep}
-                  onChange={(event) => setCep(maskCep(event.target.value))}
+                  onChange={(event) => setCep(maskCEP(event.target.value))}
                   placeholder="00000-000"
                   inputMode="numeric"
                   aria-label="CEP de entrega"

@@ -63,7 +63,7 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/minha-conta" className="hover:text-white">
+              <Link to="/conta" className="hover:text-white">
                 Minha conta
               </Link>
             </li>
@@ -73,8 +73,8 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/carrinho" className="hover:text-white">
-                Carrinho
+              <Link to="/checkout" className="hover:text-white">
+                Checkout
               </Link>
             </li>
           </ul>
