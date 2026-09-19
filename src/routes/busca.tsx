@@ -6,6 +6,7 @@ import { ProductCard, ProductCardSkeleton } from "@/components/store/ProductCard
 import { EmptyState } from "@/components/store/EmptyState";
 import { supabase } from "@/integrations/supabase/client";
 import { productSelect, type Product } from "@/lib/types";
+import { searchLocalProducts } from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/busca")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -25,20 +26,28 @@ export const Route = createFileRoute("/busca")({
 
 function SearchPage() {
   const { q } = Route.useSearch();
+  const localResults = searchLocalProducts(q);
 
   const { data = [], isLoading } = useQuery({
     queryKey: ["search", q],
     enabled: q.length > 0,
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("products")
-        .select(productSelect)
-        .eq("active", true)
-        .or(`name.ilike.%${q}%,short_description.ilike.%${q}%`)
-        .limit(48);
-      if (error) throw error;
-      return (data ?? []) as unknown as Product[];
+      try {
+        const { data, error } = await supabase
+          .from("products")
+          .select(productSelect)
+          .eq("active", true)
+          .or(`name.ilike.%${q}%,short_description.ilike.%${q}%`)
+          .limit(48);
+        if (!error && data && data.length > 0) {
+          return (data ?? []) as unknown as Product[];
+        }
+      } catch {
+        // Fallback
+      }
+      return localResults;
     },
+    initialData: localResults,
   });
 
   return (

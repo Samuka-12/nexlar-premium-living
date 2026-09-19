@@ -17,19 +17,27 @@ import { supabase } from "@/integrations/supabase/client";
 import { useCart } from "@/lib/cart";
 import { useAuth } from "@/lib/auth";
 import type { Category } from "@/lib/types";
+import { getLocalCategories } from "@/lib/catalog-data";
 
 export function useCategories() {
   return useQuery({
     queryKey: ["categories"],
-    staleTime: 5 * 60 * 1000,
+    staleTime: Infinity,
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("categories")
-        .select("id,name,slug,description,image_url,position")
-        .order("position");
-      if (error) throw error;
-      return (data ?? []) as Category[];
+      try {
+        const { data, error } = await supabase
+          .from("categories")
+          .select("id,name,slug,description,image_url,position")
+          .order("position");
+        if (!error && data && data.length > 0) {
+          return data as Category[];
+        }
+      } catch {
+        // Fallback para os dados estáticos do catálogo
+      }
+      return getLocalCategories();
     },
+    initialData: getLocalCategories(),
   });
 }
 

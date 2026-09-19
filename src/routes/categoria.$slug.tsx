@@ -20,6 +20,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 import { supabase } from "@/integrations/supabase/client";
 import { productSelect, type Category, type Product } from "@/lib/types";
 import { brl } from "@/lib/format";
+import { getLocalCategoryBySlug, getLocalProductsByCategory } from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/categoria/$slug")({
   head: ({ params }) => {
@@ -48,31 +49,49 @@ function CategoryPage() {
   const [onlyFreeShipping, setOnlyFreeShipping] = useState(false);
   const [onlyOffers, setOnlyOffers] = useState(false);
 
+  const localCategory = getLocalCategoryBySlug(slug);
+  const localProducts = getLocalProductsByCategory(slug);
+
   const { data: category } = useQuery({
     queryKey: ["category", slug],
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("categories")
-        .select("*")
-        .eq("slug", slug)
-        .maybeSingle();
-      if (error) throw error;
-      return data as Category | null;
+      try {
+        const { data, error } = await supabase
+          .from("categories")
+          .select("*")
+          .eq("slug", slug)
+          .maybeSingle();
+        if (!error && data) {
+          return data as Category;
+        }
+      } catch {
+        // Fallback
+      }
+      return localCategory ?? null;
     },
+    initialData: localCategory ?? null,
   });
 
   const { data: products = [], isLoading } = useQuery({
-    queryKey: ["category-products", category?.id],
-    enabled: Boolean(category?.id),
+    queryKey: ["category-products", category?.id ?? slug],
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("products")
-        .select(productSelect)
-        .eq("active", true)
-        .eq("category_id", category!.id);
-      if (error) throw error;
-      return (data ?? []) as unknown as Product[];
+      try {
+        if (category?.id) {
+          const { data, error } = await supabase
+            .from("products")
+            .select(productSelect)
+            .eq("active", true)
+            .eq("category_id", category.id);
+          if (!error && data && data.length > 0) {
+            return (data ?? []) as unknown as Product[];
+          }
+        }
+      } catch {
+        // Fallback
+      }
+      return localProducts;
     },
+    initialData: localProducts,
   });
 
   const filtered = useMemo(() => {

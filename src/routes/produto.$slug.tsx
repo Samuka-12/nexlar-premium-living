@@ -32,6 +32,7 @@ import { productSelect, sortedImages, type Product, type Review } from "@/lib/ty
 import { brl, installment, maskCEP, pixPrice, discountPercent, dateBR } from "@/lib/format";
 import { useCart } from "@/lib/cart";
 import { useFavorites } from "@/lib/favorites";
+import { getLocalProductBySlug, getLocalProductsByCategory } from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/produto/$slug")({
   head: ({ params }) => {
@@ -58,11 +59,11 @@ const questions = [
   },
   {
     q: "Serve em cooktop de indução?",
-    a: "Todas as peças de cocção NEXLAR com fundo triplo são compatíveis com indução, gás e vitrocerâmico.",
+    a: "Todas as peças de cocção NEXLAR com fundo triplo ou fundo de indução são 100% compatíveis com indução, gás, elétrico e vitrocerâmico.",
   },
   {
     q: "Qual é a garantia?",
-    a: "Garantia de 12 meses contra defeitos de fabricação, além de 30 dias para troca por arrependimento.",
+    a: "Garantia legal e de fábrica contra defeitos de fabricação, além de 30 dias para troca sem burocracia.",
   },
 ];
 
@@ -82,48 +83,73 @@ function ProductPage() {
   const [mode, setMode] = useState<"photos" | "video" | "360">("photos");
   const [angle, setAngle] = useState(0);
 
+  const localProduct = getLocalProductBySlug(slug);
+
   const { data: product, isLoading } = useQuery({
     queryKey: ["product", slug],
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("products")
-        .select(productSelect)
-        .eq("slug", slug)
-        .maybeSingle();
-      if (error) throw error;
-      return (data ?? null) as unknown as Product | null;
+      try {
+        const { data, error } = await supabase
+          .from("products")
+          .select(productSelect)
+          .eq("slug", slug)
+          .maybeSingle();
+        if (!error && data) {
+          return data as unknown as Product;
+        }
+      } catch {
+        // Fallback
+      }
+      return localProduct ?? null;
     },
+    initialData: localProduct ?? null,
   });
 
   const { data: reviews = [] } = useQuery({
     queryKey: ["reviews", product?.id],
     enabled: Boolean(product?.id),
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("reviews")
-        .select("*")
-        .eq("product_id", product!.id)
-        .eq("approved", true)
-        .order("created_at", { ascending: false });
-      if (error) throw error;
-      return (data ?? []) as Review[];
+      try {
+        const { data, error } = await supabase
+          .from("reviews")
+          .select("*")
+          .eq("product_id", product!.id)
+          .eq("approved", true)
+          .order("created_at", { ascending: false });
+        if (!error && data) return data as Review[];
+      } catch {
+        // Fallback
+      }
+      return [] as Review[];
     },
   });
 
+  const localRelated = product?.category_id
+    ? getLocalProductsByCategory(product.category_id).filter((p) => p.id !== product.id).slice(0, 4)
+    : [];
+
   const { data: related = [] } = useQuery({
     queryKey: ["related", product?.category_id, product?.id],
-    enabled: Boolean(product?.category_id),
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("products")
-        .select(productSelect)
-        .eq("active", true)
-        .eq("category_id", product!.category_id!)
-        .neq("id", product!.id)
-        .limit(4);
-      if (error) throw error;
-      return (data ?? []) as unknown as Product[];
+      try {
+        if (product?.category_id) {
+          const { data, error } = await supabase
+            .from("products")
+            .select(productSelect)
+            .eq("active", true)
+            .eq("category_id", product.category_id)
+            .neq("id", product.id)
+            .limit(4);
+          if (!error && data && data.length > 0) {
+            return (data ?? []) as unknown as Product[];
+          }
+        }
+      } catch {
+        // Fallback
+      }
+      return localRelated;
     },
+    initialData: localRelated,
   });
 
   const images = useMemo(() => (product ? sortedImages(product) : []), [product]);
