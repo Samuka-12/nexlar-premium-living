@@ -21,10 +21,9 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
 import { supabase } from "@/integrations/supabase/client";
-import { useAuth } from "@/lib/auth";
 import type { Category } from "@/lib/types";
+import { CATEGORIES, PRODUCTS } from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/admin/produto/$id")({
   head: () => ({ meta: [{ title: "Editar Produto | Admin NEXLAR" }] }),
@@ -81,48 +80,84 @@ function slugify(text: string) {
 function AdminProductEditor() {
   const { id } = Route.useParams();
   const navigate = useNavigate();
-  const { loading, isAdmin } = useAuth();
   const queryClient = useQueryClient();
 
   const isNew = id === "novo";
 
-  const [form, setForm] = useState<FormData>(defaultForm);
-  const [images, setImages] = useState<ManagedImage[]>([]);
+  const localProduct = isNew ? null : PRODUCTS.find((p) => p.id === id || p.slug === id);
+
+  const [form, setForm] = useState<FormData>(() => {
+    if (!localProduct) return defaultForm;
+    return {
+      name: localProduct.name ?? "",
+      slug: localProduct.slug ?? "",
+      sku: localProduct.sku ?? "",
+      short_description: localProduct.short_description ?? "",
+      description: localProduct.description ?? "",
+      category_id: localProduct.category_id ?? "",
+      price: String(localProduct.price ?? 0),
+      compare_at_price: localProduct.compare_at_price ? String(localProduct.compare_at_price) : "",
+      pix_discount_percent: String(localProduct.pix_discount_percent ?? 10),
+      stock: String(localProduct.stock ?? 0),
+      free_shipping: localProduct.free_shipping ?? false,
+      featured: localProduct.featured ?? false,
+      is_new: localProduct.is_new ?? false,
+      active: localProduct.active ?? true,
+      specs: localProduct.specs ?? {},
+      highlights: localProduct.highlights ?? [],
+    };
+  });
+
+  const [images, setImages] = useState<ManagedImage[]>(() => {
+    if (!localProduct) return [];
+    return (localProduct.product_images ?? []).map((img, i) => ({
+      id: img.id || `img-${i}`,
+      url: img.url,
+      alt: img.alt,
+      position: img.position ?? i,
+    }));
+  });
+
   const [faqs, setFaqs] = useState<FaqItem[]>([]);
   const [saving, setSaving] = useState(false);
-
-  // Guard
-  useEffect(() => {
-    if (!loading && !isAdmin) navigate({ to: "/" });
-  }, [loading, isAdmin, navigate]);
 
   // Categorias
   const { data: categories = [] } = useQuery({
     queryKey: ["categories"],
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("categories")
-        .select("id, name, slug")
-        .eq("active", true)
-        .order("position");
-      if (error) throw error;
-      return data as Category[];
+      try {
+        const { data, error } = await supabase
+          .from("categories")
+          .select("id, name, slug")
+          .eq("active", true)
+          .order("position");
+        if (!error && data && data.length > 0) return data as Category[];
+      } catch {
+        // Fallback
+      }
+      return CATEGORIES;
     },
+    initialData: CATEGORIES,
   });
 
   // Produto existente
   const { data: productData, isLoading: loadingProduct } = useQuery({
     queryKey: ["admin-product", id],
-    enabled: !isNew && isAdmin,
+    enabled: !isNew,
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("products")
-        .select("*, product_images(id,url,alt,position), product_variants(id,name,value,hex,price_delta,stock)")
-        .eq("id", id)
-        .single();
-      if (error) throw error;
-      return data;
+      try {
+        const { data, error } = await supabase
+          .from("products")
+          .select("*, product_images(id,url,alt,position), product_variants(id,name,value,hex,price_delta,stock)")
+          .eq("id", id)
+          .single();
+        if (!error && data) return data;
+      } catch {
+        // Fallback para produto local
+      }
+      return localProduct ?? null;
     },
+    initialData: localProduct ?? null,
   });
 
   useEffect(() => {
@@ -148,26 +183,30 @@ function AdminProductEditor() {
     const imgs: ManagedImage[] = (productData.product_images ?? [])
       .sort((a: any, b: any) => a.position - b.position)
       .map((img: any) => ({ id: img.id, url: img.url, alt: img.alt, position: img.position }));
-    setImages(imgs);
+    if (imgs.length > 0) setImages(imgs);
   }, [productData]);
 
   // FAQs do produto
   const { data: faqData } = useQuery({
     queryKey: ["admin-faqs", id],
-    enabled: !isNew && isAdmin,
+    enabled: !isNew,
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("product_faqs")
-        .select("*")
-        .eq("product_id", id)
-        .order("position");
-      if (error) throw error;
-      return data;
+      try {
+        const { data, error } = await supabase
+          .from("product_faqs")
+          .select("*")
+          .eq("product_id", id)
+          .order("position");
+        if (!error && data) return data;
+      } catch {
+        // Fallback
+      }
+      return [];
     },
   });
 
   useEffect(() => {
-    if (!faqData) return;
+    if (!faqData || faqData.length === 0) return;
     setFaqs(
       faqData.map((f: any) => ({
         id: f.id,
@@ -299,7 +338,7 @@ function AdminProductEditor() {
     }
   }
 
-  if (loading || (!isNew && loadingProduct)) {
+  if (!isNew && loadingProduct && !localProduct) {
     return (
       <AdminLayout>
         <div className="flex items-center justify-center py-20">

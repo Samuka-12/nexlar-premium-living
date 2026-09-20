@@ -4,25 +4,16 @@ import { useAuth } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { to: "/admin", label: "Dashboard", icon: LayoutDashboard, exact: true },
-  { to: "/admin/produtos", label: "Produtos", icon: Package },
+  { to: "/admin", label: "Produtos", icon: Package },
 ];
 
 export function AdminLayout({ children }: { children: React.ReactNode }) {
-  const { user, signOut } = useAuth();
-  const navigate = useNavigate();
-
-  async function handleSignOut() {
-    await signOut();
-    navigate({ to: "/" });
-  }
-
   return (
     <div className="flex min-h-screen bg-muted/30">
       {/* Sidebar */}
       <aside className="fixed inset-y-0 left-0 z-30 flex w-60 flex-col border-r border-border bg-background">
         <div className="flex items-center gap-2 border-b border-border px-5 py-4">
-          <span className="text-lg font-bold tracking-tight">NEXLAR</span>
+          <Link to="/" className="text-lg font-bold tracking-tight">NEXLAR</Link>
           <span className="rounded-full bg-primary px-2 py-0.5 text-[10px] font-semibold text-primary-foreground">
             Admin
           </span>
@@ -43,10 +34,11 @@ export function AdminLayout({ children }: { children: React.ReactNode }) {
         </nav>
 
         <div className="border-t border-border p-4">
-          <p className="mb-2 truncate text-xs text-muted-foreground">{user?.email}</p>
-          <Button variant="outline" size="sm" className="w-full gap-2" onClick={handleSignOut}>
-            <LogOut className="h-3.5 w-3.5" />
-            Sair
+          <Button asChild variant="outline" size="sm" className="w-full gap-2">
+            <Link to="/">
+              <LogOut className="h-3.5 w-3.5" />
+              Ver Loja
+            </Link>
           </Button>
         </div>
       </aside>

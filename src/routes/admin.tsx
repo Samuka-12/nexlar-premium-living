@@ -1,13 +1,14 @@
-import { useEffect } from "react";
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useState } from "react";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
-import { Package, Plus, Pencil, Loader2, CheckCircle, XCircle } from "lucide-react";
+import { Package, Plus, Pencil, Loader2, CheckCircle, XCircle, Search } from "lucide-react";
 import { AdminLayout } from "@/components/admin/AdminLayout";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
 import { supabase } from "@/integrations/supabase/client";
-import { useAuth } from "@/lib/auth";
 import { brl } from "@/lib/format";
+import { PRODUCTS } from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/admin")({
   head: () => ({
@@ -17,47 +18,67 @@ export const Route = createFileRoute("/admin")({
 });
 
 function AdminPage() {
-  const { user, loading, isAdmin } = useAuth();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (!loading && !user) navigate({ to: "/entrar" });
-    if (!loading && user && !isAdmin) navigate({ to: "/" });
-  }, [loading, user, isAdmin, navigate]);
+  const [search, setSearch] = useState("");
 
   const { data: products = [], isLoading } = useQuery({
     queryKey: ["admin-products"],
-    enabled: isAdmin,
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from("products")
-        .select("id, name, slug, price, compare_at_price, active, featured, is_new, categories(name)")
-        .order("created_at", { ascending: false });
-      if (error) throw error;
-      return data ?? [];
+      try {
+        const { data, error } = await supabase
+          .from("products")
+          .select("id, name, slug, price, compare_at_price, active, featured, is_new, categories(name)")
+          .order("created_at", { ascending: false });
+        if (!error && data && data.length > 0) {
+          return data;
+        }
+      } catch {
+        // Fallback para catálogo local
+      }
+      return PRODUCTS.map((p) => ({
+        id: p.id,
+        name: p.name,
+        slug: p.slug,
+        price: p.price,
+        compare_at_price: p.compare_at_price,
+        active: p.active ?? true,
+        featured: p.featured ?? false,
+        is_new: p.is_new ?? false,
+        categories: p.categories ? { name: p.categories.name } : null,
+      }));
     },
+    initialData: PRODUCTS.map((p) => ({
+      id: p.id,
+      name: p.name,
+      slug: p.slug,
+      price: p.price,
+      compare_at_price: p.compare_at_price,
+      active: p.active ?? true,
+      featured: p.featured ?? false,
+      is_new: p.is_new ?? false,
+      categories: p.categories ? { name: p.categories.name } : null,
+    })),
   });
 
-  if (loading) {
+  const filtered = products.filter((p: any) => {
+    const q = search.toLowerCase().trim();
+    if (!q) return true;
     return (
-      <div className="flex min-h-screen items-center justify-center">
-        <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
-      </div>
+      p.name.toLowerCase().includes(q) ||
+      p.slug.toLowerCase().includes(q) ||
+      p.categories?.name?.toLowerCase().includes(q)
     );
-  }
-
-  if (!isAdmin) return null;
+  });
 
   return (
     <AdminLayout>
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Produtos</h1>
+          <h1 className="text-2xl font-bold">Produtos ({products.length})</h1>
           <p className="text-sm text-muted-foreground">
             Gerencie todos os produtos do catálogo NEXLAR
           </p>
         </div>
-        <Button asChild className="gap-2">
+        <Button asChild className="gap-2 shrink-0">
           <Link to="/admin/produto/$id" params={{ id: "novo" }}>
             <Plus className="h-4 w-4" />
             Novo produto
@@ -65,17 +86,27 @@ function AdminPage() {
         </Button>
       </div>
 
+      <div className="mb-4 relative">
+        <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+        <Input
+          placeholder="Buscar produto por nome, categoria ou slug..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="pl-9"
+        />
+      </div>
+
       {isLoading ? (
         <div className="flex items-center justify-center py-16">
           <Loader2 className="h-7 w-7 animate-spin text-muted-foreground" />
         </div>
-      ) : products.length === 0 ? (
+      ) : filtered.length === 0 ? (
         <div className="flex flex-col items-center justify-center gap-4 rounded-2xl border border-dashed border-border py-20 text-center">
           <Package className="h-10 w-10 text-muted-foreground opacity-40" />
           <div>
-            <p className="font-medium">Nenhum produto cadastrado</p>
+            <p className="font-medium">Nenhum produto encontrado</p>
             <p className="text-sm text-muted-foreground">
-              Clique em "Novo produto" para começar
+              Tente outra busca ou adicione um novo produto
             </p>
           </div>
         </div>
@@ -93,7 +124,7 @@ function AdminPage() {
               </tr>
             </thead>
             <tbody>
-              {products.map((product: any) => (
+              {filtered.map((product: any) => (
                 <tr
                   key={product.id}
                   className="border-b border-border last:border-0 hover:bg-muted/20 transition-colors"
@@ -105,7 +136,7 @@ function AdminPage() {
                     </div>
                   </td>
                   <td className="px-4 py-3 text-muted-foreground">
-                    {(product.categories as any)?.name ?? "—"}
+                    {product.categories?.name ?? "—"}
                   </td>
                   <td className="px-4 py-3 text-right">
                     <div>
@@ -118,7 +149,7 @@ function AdminPage() {
                     </div>
                   </td>
                   <td className="px-4 py-3 text-center">
-                    {product.active ? (
+                    {product.active !== false ? (
                       <span className="inline-flex items-center gap-1 text-green-600 text-xs font-medium">
                         <CheckCircle className="h-3.5 w-3.5" />
                         Ativo
@@ -136,7 +167,7 @@ function AdminPage() {
                       {product.is_new && <Badge className="text-[10px]">Novo</Badge>}
                     </div>
                   </td>
-                  <td className="px-4 py-3">
+                  <td className="px-4 py-3 text-right">
                     <Button asChild size="sm" variant="outline" className="gap-1.5">
                       <Link to="/admin/produto/$id" params={{ id: product.id }}>
                         <Pencil className="h-3.5 w-3.5" />
