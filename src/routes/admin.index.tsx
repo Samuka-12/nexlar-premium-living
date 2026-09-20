@@ -10,7 +10,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { brl } from "@/lib/format";
 import { PRODUCTS } from "@/lib/catalog-data";
 
-export const Route = createFileRoute("/admin")({
+export const Route = createFileRoute("/admin/")({
   head: () => ({
     meta: [{ title: "Admin | NEXLAR" }],
   }),

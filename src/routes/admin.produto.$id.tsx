@@ -21,6 +21,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
+} from "@/components/ui/select";
 import { supabase } from "@/integrations/supabase/client";
 import type { Category } from "@/lib/types";
 import { CATEGORIES, PRODUCTS } from "@/lib/catalog-data";

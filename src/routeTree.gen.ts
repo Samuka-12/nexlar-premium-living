@@ -15,7 +15,7 @@ import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContaRouteImport } from './routes/conta'
 import { Route as EntrarRouteImport } from './routes/entrar'
 import { Route as FavoritosRouteImport } from './routes/favoritos'
-import { Route as AdminRouteImport } from './routes/admin'
+import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as CategoriaSlugRouteImport } from './routes/categoria.$slug'
@@ -52,9 +52,9 @@ const FavoritosRoute = FavoritosRouteImport.update({
   path: '/favoritos',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AdminRoute = AdminRouteImport.update({
-  id: '/admin',
-  path: '/admin',
+const AdminIndexRoute = AdminIndexRouteImport.update({
+  id: '/admin/',
+  path: '/admin/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdminProdutoIdRoute = AdminProdutoIdRouteImport.update({
@@ -90,7 +90,7 @@ export interface FileRoutesByFullPath {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
-  '/admin': typeof AdminRoute
+  '/admin/': typeof AdminIndexRoute
   '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
@@ -104,7 +104,7 @@ export interface FileRoutesByTo {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
-  '/admin': typeof AdminRoute
+  '/admin': typeof AdminIndexRoute
   '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
@@ -119,7 +119,7 @@ export interface FileRoutesById {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
-  '/admin': typeof AdminRoute
+  '/admin/': typeof AdminIndexRoute
   '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
@@ -135,7 +135,7 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
-    | '/admin'
+    | '/admin/'
     | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
@@ -163,7 +163,7 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
-    | '/admin'
+    | '/admin/'
     | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
@@ -178,7 +178,7 @@ export interface RootRouteChildren {
   ContaRoute: typeof ContaRoute
   EntrarRoute: typeof EntrarRoute
   FavoritosRoute: typeof FavoritosRoute
-  AdminRoute: typeof AdminRoute
+  AdminIndexRoute: typeof AdminIndexRoute
   AdminProdutoIdRoute: typeof AdminProdutoIdRoute
   BlogSlugRoute: typeof BlogSlugRoute
   CategoriaSlugRoute: typeof CategoriaSlugRoute
@@ -230,11 +230,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FavoritosRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/admin': {
-      id: '/admin'
+    '/admin/': {
+      id: '/admin/'
       path: '/admin'
-      fullPath: '/admin'
-      preLoaderRoute: typeof AdminRouteImport
+      fullPath: '/admin/'
+      preLoaderRoute: typeof AdminIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin/produto/$id': {
@@ -282,7 +282,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContaRoute: ContaRoute,
   EntrarRoute: EntrarRoute,
   FavoritosRoute: FavoritosRoute,
-  AdminRoute: AdminRoute,
+  AdminIndexRoute: AdminIndexRoute,
   AdminProdutoIdRoute: AdminProdutoIdRoute,
   BlogSlugRoute: BlogSlugRoute,
   CategoriaSlugRoute: CategoriaSlugRoute,
