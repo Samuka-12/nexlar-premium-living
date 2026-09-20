@@ -50,20 +50,6 @@ export const Route = createFileRoute("/produto/$slug")({
   component: ProductPage,
 });
 
-const questions = [
-  {
-    q: "O produto pode ir à lava-louças?",
-    a: "Sim. Recomendamos ciclo suave e secagem imediata para preservar o acabamento por mais tempo.",
-  },
-  {
-    q: "Serve em cooktop de indução?",
-    a: "Todas as peças de cocção NEXLAR com fundo triplo ou fundo de indução são 100% compatíveis com indução, gás, elétrico e vitrocerâmico.",
-  },
-  {
-    q: "Qual é a garantia?",
-    a: "Garantia legal e de fábrica contra defeitos de fabricação, além de 30 dias para troca sem burocracia.",
-  },
-];
 
 function ProductPage() {
   const { slug } = Route.useParams();
@@ -119,6 +105,25 @@ function ProductPage() {
     },
     initialData: localRelated,
   });
+
+  const { data: faqs = [] } = useQuery({
+    queryKey: ["faqs", product?.id],
+    enabled: Boolean(product?.id),
+    queryFn: async () => {
+      try {
+        const { data, error } = await supabase
+          .from("product_faqs")
+          .select("*")
+          .eq("product_id", product!.id)
+          .order("position", { ascending: true });
+        if (!error && data) return data as { id: string; question: string; answer: string }[];
+      } catch {
+        // Fallback silencioso
+      }
+      return [] as { id: string; question: string; answer: string }[];
+    },
+  });
+
 
   const images = useMemo(() => (product ? sortedImages(product) : []), [product]);
   const variants = product?.product_variants ?? [];
@@ -460,14 +465,22 @@ function ProductPage() {
           </TabsContent>
 
           <TabsContent value="faq" className="max-w-3xl py-6">
-            <Accordion type="single" collapsible>
-              {questions.map((item) => (
-                <AccordionItem key={item.q} value={item.q}>
-                  <AccordionTrigger>{item.q}</AccordionTrigger>
-                  <AccordionContent>{item.a}</AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
+            {faqs.length === 0 ? (
+              <EmptyState
+                icon={MessageCircleQuestion}
+                title="Ainda sem perguntas frequentes"
+                description="Tem alguma dúvida sobre este produto? Entre em contato com nosso atendimento."
+              />
+            ) : (
+              <Accordion type="single" collapsible>
+                {faqs.map((item) => (
+                  <AccordionItem key={item.id} value={item.id}>
+                    <AccordionTrigger>{item.question}</AccordionTrigger>
+                    <AccordionContent>{item.answer}</AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            )}
           </TabsContent>
         </Tabs>
 

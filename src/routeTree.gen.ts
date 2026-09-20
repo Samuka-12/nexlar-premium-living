@@ -15,10 +15,12 @@ import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as ContaRouteImport } from './routes/conta'
 import { Route as EntrarRouteImport } from './routes/entrar'
 import { Route as FavoritosRouteImport } from './routes/favoritos'
+import { Route as AdminRouteImport } from './routes/admin'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as CategoriaSlugRouteImport } from './routes/categoria.$slug'
 import { Route as ProdutoSlugRouteImport } from './routes/produto.$slug'
+import { Route as AdminProdutoIdRouteImport } from './routes/admin.produto.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -50,6 +52,16 @@ const FavoritosRoute = FavoritosRouteImport.update({
   path: '/favoritos',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminProdutoIdRoute = AdminProdutoIdRouteImport.update({
+  id: '/admin/produto/$id',
+  path: '/admin/produto/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogIndexRoute = BlogIndexRouteImport.update({
   id: '/blog/',
   path: '/blog/',
@@ -78,6 +90,8 @@ export interface FileRoutesByFullPath {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
+  '/admin': typeof AdminRoute
+  '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
   '/produto/$slug': typeof ProdutoSlugRoute
@@ -90,6 +104,8 @@ export interface FileRoutesByTo {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
+  '/admin': typeof AdminRoute
+  '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
   '/produto/$slug': typeof ProdutoSlugRoute
@@ -103,6 +119,8 @@ export interface FileRoutesById {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
+  '/admin': typeof AdminRoute
+  '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
   '/produto/$slug': typeof ProdutoSlugRoute
@@ -117,6 +135,8 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
+    | '/admin'
+    | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
     | '/produto/$slug'
@@ -129,6 +149,8 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
+    | '/admin'
+    | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
     | '/produto/$slug'
@@ -141,6 +163,8 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
+    | '/admin'
+    | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
     | '/produto/$slug'
@@ -154,6 +178,8 @@ export interface RootRouteChildren {
   ContaRoute: typeof ContaRoute
   EntrarRoute: typeof EntrarRoute
   FavoritosRoute: typeof FavoritosRoute
+  AdminRoute: typeof AdminRoute
+  AdminProdutoIdRoute: typeof AdminProdutoIdRoute
   BlogSlugRoute: typeof BlogSlugRoute
   CategoriaSlugRoute: typeof CategoriaSlugRoute
   ProdutoSlugRoute: typeof ProdutoSlugRoute
@@ -204,6 +230,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FavoritosRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/produto/$id': {
+      id: '/admin/produto/$id'
+      path: '/admin/produto/$id'
+      fullPath: '/admin/produto/$id'
+      preLoaderRoute: typeof AdminProdutoIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/': {
       id: '/blog/'
       path: '/blog'
@@ -242,6 +282,8 @@ const rootRouteChildren: RootRouteChildren = {
   ContaRoute: ContaRoute,
   EntrarRoute: EntrarRoute,
   FavoritosRoute: FavoritosRoute,
+  AdminRoute: AdminRoute,
+  AdminProdutoIdRoute: AdminProdutoIdRoute,
   BlogSlugRoute: BlogSlugRoute,
   CategoriaSlugRoute: CategoriaSlugRoute,
   ProdutoSlugRoute: ProdutoSlugRoute,

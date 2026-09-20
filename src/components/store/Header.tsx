@@ -134,10 +134,11 @@ export function Header() {
                   <DropdownMenuItem asChild>
                     <Link to="/conta">Meus pedidos</Link>
                   </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link to="/favoritos">Favoritos</Link>
-                  </DropdownMenuItem>
-                  {isAdmin && <DropdownMenuItem disabled>Painel administrativo</DropdownMenuItem>}
+                  {isAdmin && (
+                    <DropdownMenuItem asChild>
+                      <Link to="/admin">Painel administrativo</Link>
+                    </DropdownMenuItem>
+                  )}
                   <DropdownMenuSeparator />
                   <DropdownMenuItem onClick={() => void signOut()}>Sair</DropdownMenuItem>
                 </>
