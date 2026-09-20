@@ -23,28 +23,75 @@ function AdminPage() {
   const { data: products = [], isLoading } = useQuery({
     queryKey: ["admin-products"],
     queryFn: async () => {
+      let dbProducts: any[] = [];
       try {
         const { data, error } = await supabase
           .from("products")
           .select("id, name, slug, price, compare_at_price, active, featured, is_new, categories(name)")
           .order("created_at", { ascending: false });
-        if (!error && data && data.length > 0) {
-          return data;
+        if (!error && data) {
+          dbProducts = data;
         }
       } catch {
-        // Fallback para catálogo local
+        // Fallback silencioso
       }
-      return PRODUCTS.map((p) => ({
-        id: p.id,
-        name: p.name,
-        slug: p.slug,
-        price: p.price,
-        compare_at_price: p.compare_at_price,
-        active: p.active ?? true,
-        featured: p.featured ?? false,
-        is_new: p.is_new ?? false,
-        categories: p.categories ? { name: p.categories.name } : null,
+
+      // Mapeamento por slug e por id dos dados do Supabase
+      const dbMap = new Map<string, any>();
+      dbProducts.forEach((p) => {
+        if (p.slug) dbMap.set(p.slug, p);
+        if (p.id) dbMap.set(p.id, p);
+      });
+
+      // Mescla os 72 produtos com os dados atualizados do banco (se houver)
+      const merged = PRODUCTS.map((localP) => {
+        const dbP = dbMap.get(localP.slug) || dbMap.get(localP.id);
+        if (dbP) {
+          dbMap.delete(localP.slug);
+          dbMap.delete(localP.id);
+          return {
+            id: dbP.id,
+            name: dbP.name,
+            slug: dbP.slug,
+            price: dbP.price,
+            compare_at_price: dbP.compare_at_price,
+            active: dbP.active ?? true,
+            featured: dbP.featured ?? false,
+            is_new: dbP.is_new ?? false,
+            categories: dbP.categories
+              ? { name: dbP.categories.name }
+              : localP.categories
+              ? { name: localP.categories.name }
+              : null,
+          };
+        }
+        return {
+          id: localP.id,
+          name: localP.name,
+          slug: localP.slug,
+          price: localP.price,
+          compare_at_price: localP.compare_at_price,
+          active: localP.active ?? true,
+          featured: localP.featured ?? false,
+          is_new: localP.is_new ?? false,
+          categories: localP.categories ? { name: localP.categories.name } : null,
+        };
+      });
+
+      // Produtos adicionais criados no Supabase
+      const extraDbProducts = Array.from(new Set(dbMap.values())).map((dbP: any) => ({
+        id: dbP.id,
+        name: dbP.name,
+        slug: dbP.slug,
+        price: dbP.price,
+        compare_at_price: dbP.compare_at_price,
+        active: dbP.active ?? true,
+        featured: dbP.featured ?? false,
+        is_new: dbP.is_new ?? false,
+        categories: dbP.categories ? { name: dbP.categories.name } : null,
       }));
+
+      return [...extraDbProducts, ...merged];
     },
     initialData: PRODUCTS.map((p) => ({
       id: p.id,
@@ -96,7 +143,7 @@ function AdminPage() {
         />
       </div>
 
-      {isLoading ? (
+      {isLoading && products.length === 0 ? (
         <div className="flex items-center justify-center py-16">
           <Loader2 className="h-7 w-7 animate-spin text-muted-foreground" />
         </div>
@@ -126,7 +173,7 @@ function AdminPage() {
             <tbody>
               {filtered.map((product: any) => (
                 <tr
-                  key={product.id}
+                  key={product.id || product.slug}
                   className="border-b border-border last:border-0 hover:bg-muted/20 transition-colors"
                 >
                   <td className="px-4 py-3">
@@ -169,7 +216,7 @@ function AdminPage() {
                   </td>
                   <td className="px-4 py-3 text-right">
                     <Button asChild size="sm" variant="outline" className="gap-1.5">
-                      <Link to="/admin/produto/$id" params={{ id: product.id }}>
+                      <Link to="/admin/produto/$id" params={{ id: product.id || product.slug }}>
                         <Pencil className="h-3.5 w-3.5" />
                         Editar
                       </Link>

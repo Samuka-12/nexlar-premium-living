@@ -147,11 +147,18 @@ function AdminProductEditor() {
     enabled: !isNew,
     queryFn: async () => {
       try {
-        const { data, error } = await supabase
+        const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
+        let query = supabase
           .from("products")
-          .select("*, product_images(id,url,alt,position), product_variants(id,name,value,hex,price_delta,stock)")
-          .eq("id", id)
-          .single();
+          .select("*, product_images(id,url,alt,position), product_variants(id,name,value,hex,price_delta,stock)");
+        
+        if (isUuid) {
+          query = query.eq("id", id);
+        } else {
+          query = query.or(`id.eq.${id},slug.eq.${id}`);
+        }
+        
+        const { data, error } = await query.maybeSingle();
         if (!error && data) return data;
       } catch {
         // Fallback para produto local
@@ -193,6 +200,8 @@ function AdminProductEditor() {
     enabled: !isNew,
     queryFn: async () => {
       try {
+        const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
+        if (!isUuid) return [];
         const { data, error } = await supabase
           .from("product_faqs")
           .select("*")
@@ -259,7 +268,23 @@ function AdminProductEditor() {
         highlights: form.highlights,
       };
 
-      if (isNew) {
+      const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
+      let existing = null;
+      if (!isNew) {
+        if (isUuid) {
+          const { data } = await supabase.from("products").select("id").eq("id", id).maybeSingle();
+          existing = data;
+        } else {
+          const { data } = await supabase.from("products").select("id").eq("slug", payload.slug).maybeSingle();
+          existing = data;
+        }
+      }
+
+      if (existing) {
+        productId = existing.id;
+        const { error } = await supabase.from("products").update(payload).eq("id", productId);
+        if (error) throw error;
+      } else {
         const { data, error } = await supabase
           .from("products")
           .insert(payload)
@@ -267,9 +292,6 @@ function AdminProductEditor() {
           .single();
         if (error) throw error;
         productId = data.id;
-      } else {
-        const { error } = await supabase.from("products").update(payload).eq("id", id);
-        if (error) throw error;
       }
 
       // 2. Upload e sync de imagens
