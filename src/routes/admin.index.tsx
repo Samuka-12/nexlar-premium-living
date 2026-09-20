@@ -17,6 +17,15 @@ export const Route = createFileRoute("/admin/")({
   component: AdminPage,
 });
 
+function normalize(str: string) {
+  return (str || "")
+    .toLowerCase()
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+}
+
 function AdminPage() {
   const [search, setSearch] = useState("");
 
@@ -36,28 +45,31 @@ function AdminPage() {
         // Fallback silencioso
       }
 
-      // Mapeamento por slug e por id dos dados do Supabase
+      // Mapeamento por chave normalizada (slug, id e nome) dos dados do Supabase
       const dbMap = new Map<string, any>();
       dbProducts.forEach((p) => {
-        if (p.slug) dbMap.set(p.slug, p);
-        if (p.id) dbMap.set(p.id, p);
+        if (p.slug) dbMap.set(normalize(p.slug), p);
+        if (p.id) dbMap.set(normalize(p.id), p);
+        if (p.name) dbMap.set(normalize(p.name), p);
       });
 
-      // Mescla os 72 produtos com os dados atualizados do banco (se houver)
-      const merged = PRODUCTS.map((localP) => {
-        const dbP = dbMap.get(localP.slug) || dbMap.get(localP.id);
+      // Mescla estritamente os 72 produtos do catálogo oficial
+      return PRODUCTS.map((localP) => {
+        const dbP =
+          dbMap.get(normalize(localP.slug)) ||
+          dbMap.get(normalize(localP.id)) ||
+          dbMap.get(normalize(localP.name));
+
         if (dbP) {
-          dbMap.delete(localP.slug);
-          dbMap.delete(localP.id);
           return {
-            id: dbP.id,
-            name: dbP.name,
-            slug: dbP.slug,
-            price: dbP.price,
-            compare_at_price: dbP.compare_at_price,
-            active: dbP.active ?? true,
-            featured: dbP.featured ?? false,
-            is_new: dbP.is_new ?? false,
+            id: dbP.id || localP.id,
+            name: dbP.name || localP.name,
+            slug: dbP.slug || localP.slug,
+            price: dbP.price ?? localP.price,
+            compare_at_price: dbP.compare_at_price !== undefined ? dbP.compare_at_price : localP.compare_at_price,
+            active: dbP.active ?? localP.active ?? true,
+            featured: dbP.featured ?? localP.featured ?? false,
+            is_new: dbP.is_new ?? localP.is_new ?? false,
             categories: dbP.categories
               ? { name: dbP.categories.name }
               : localP.categories
@@ -65,6 +77,7 @@ function AdminPage() {
               : null,
           };
         }
+
         return {
           id: localP.id,
           name: localP.name,
@@ -77,21 +90,6 @@ function AdminPage() {
           categories: localP.categories ? { name: localP.categories.name } : null,
         };
       });
-
-      // Produtos adicionais criados no Supabase
-      const extraDbProducts = Array.from(new Set(dbMap.values())).map((dbP: any) => ({
-        id: dbP.id,
-        name: dbP.name,
-        slug: dbP.slug,
-        price: dbP.price,
-        compare_at_price: dbP.compare_at_price,
-        active: dbP.active ?? true,
-        featured: dbP.featured ?? false,
-        is_new: dbP.is_new ?? false,
-        categories: dbP.categories ? { name: dbP.categories.name } : null,
-      }));
-
-      return [...extraDbProducts, ...merged];
     },
     initialData: PRODUCTS.map((p) => ({
       id: p.id,
@@ -120,9 +118,9 @@ function AdminPage() {
     <AdminLayout>
       <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Produtos ({products.length})</h1>
+          <h1 className="text-2xl font-bold">Produtos ({filtered.length})</h1>
           <p className="text-sm text-muted-foreground">
-            Gerencie todos os produtos do catálogo NEXLAR
+            Gerencie todos os 72 produtos do catálogo NEXLAR
           </p>
         </div>
         <Button asChild className="gap-2 shrink-0">
