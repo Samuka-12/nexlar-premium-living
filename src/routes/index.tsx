@@ -82,7 +82,7 @@ function Hero() {
           <p className="max-w-md text-white/70">{banner.subtitle}</p>
           <div className="flex flex-wrap gap-3">
             <Button asChild size="lg" className="gap-2">
-              <Link to={banner.cta_url ?? "/categoria/$slug"} params={{ slug: "panelas" }}>
+              <Link to={banner.cta_url ?? "/categoria/$slug"} params={{ slug: "jogos-de-panelas" }}>
                 {banner.cta_label ?? "Comprar agora"} <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
@@ -251,7 +251,7 @@ function HomePage() {
               cozinhas que trabalham todos os dias.
             </p>
             <Button asChild size="lg">
-              <Link to="/categoria/$slug" params={{ slug: "panelas" }}>
+              <Link to="/categoria/$slug" params={{ slug: "jogos-de-panelas" }}>
                 Conhecer a linha
               </Link>
             </Button>

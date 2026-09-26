@@ -120,7 +120,7 @@ function AdminPage() {
         <div>
           <h1 className="text-2xl font-bold">Produtos ({filtered.length})</h1>
           <p className="text-sm text-muted-foreground">
-            Gerencie todos os 72 produtos do catálogo NEXLAR
+            Gerencie todos os produtos do catálogo de panelas NEXLAR
           </p>
         </div>
         <Button asChild className="gap-2 shrink-0">
