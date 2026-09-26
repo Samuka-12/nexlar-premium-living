@@ -30833,7 +30833,624 @@ export const PRODUCTS: Product[] = [
       "slug": "panelas-especiais"
     }
   }
-];
+,
+  {
+    "id": "prod-tram-27899286",
+    "slug": "jogo-de-panelas-tramontina-ravena-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-5-pecas",
+    "name": "Jogo de Panelas Tramontina Ravena em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 5 Peças",
+    "short_description": "Jogo de panelas Tramontina Ravena com 5 peças em alumínio e revestimento antiaderente Starflon Max. Alta resistência e fácil limpeza. Inclui panelas 14/16/18 cm, caçarola 20 cm e frigideira 24 cm.",
+    "description": "Jogo de panelas Tramontina Ravena com 5 peças em alumínio e revestimento antiaderente Starflon Max. Alta resistência e fácil limpeza. Inclui panelas 14/16/18 cm, caçarola 20 cm e frigideira 24 cm.",
+    "brand": "Tramontina",
+    "sku": "TRAM-27899286",
+    "price": 239,
+    "compare_at_price": 546,
+    "stock": 50,
+    "category_id": "cat-jogos-de-panelas",
+    "featured": true,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 67,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Ravena" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Azul" },
+      { "key": "Número de Peças", "value": "5 peças" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "27899286" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-27899286-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899286PDM001E.jpg",
+        "alt": "Jogo de Panelas Tramontina Ravena em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 5 Peças",
+        "position": 1
+      },
+      {
+        "id": "img-tram-27899286-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899286PDM002E.jpg",
+        "alt": "Jogo de Panelas Tramontina Ravena em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 5 Peças - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Jogo de Panelas",
+      "slug": "jogos-de-panelas"
+    }
+  },
+  {
+    "id": "prod-tram-27816078",
+    "slug": "cacarola-tramontina-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-preto-com-tampa-de-vidro-22-cm-3-5-l",
+    "name": "Caçarola Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Preto com Tampa de Vidro 22 cm 3,5 L",
+    "short_description": "Caçarola Tramontina em alumínio com revestimento antiaderente Starflon. Tampa de vidro temperado. 22 cm, 3,5 litros. Cozinhe com menos gordura com facilidade de limpeza.",
+    "description": "Caçarola Tramontina em alumínio com revestimento antiaderente Starflon. Tampa de vidro temperado. 22 cm, 3,5 litros. Cozinhe com menos gordura com facilidade de limpeza.",
+    "brand": "Tramontina",
+    "sku": "TRAM-27816078",
+    "price": 199,
+    "compare_at_price": 442,
+    "stock": 50,
+    "category_id": "cat-cacarolas-e-avulsas",
+    "featured": true,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 84,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Profissional" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Antiaderente" },
+      { "key": "Cor", "value": "Preto" },
+      { "key": "Diâmetro", "value": "22 cm" },
+      { "key": "Capacidade", "value": "3.5 L" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "27816078" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-27816078-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27816078PDM001E.jpg",
+        "alt": "Caçarola Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Preto com Tampa de Vidro 22 cm 3,5 L",
+        "position": 1
+      },
+      {
+        "id": "img-tram-27816078-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27816078PDM002E.jpg",
+        "alt": "Caçarola Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Preto com Tampa de Vidro 22 cm 3,5 L - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Panelas Avulsas",
+      "slug": "cacarolas-e-avulsas"
+    }
+  },
+  {
+    "id": "prod-tram-27815868",
+    "slug": "frigideira-funda-tramontina-ravena-em-aluminio-com-revestimento-interno-antiaderente-starflon-max-28-cm-3-3-l",
+    "name": "Frigideira Funda Tramontina Ravena em Alumínio com Revestimento Interno Antiaderente Starflon Max 28 cm 3,3 L",
+    "short_description": "Frigideira Funda Tramontina Ravena em alumínio com revestimento antiaderente Starflon Max. 28 cm, 3,3 litros. Ideal para risotos, massas e refogados.",
+    "description": "Frigideira Funda Tramontina Ravena em alumínio com revestimento antiaderente Starflon Max. 28 cm, 3,3 litros. Ideal para risotos, massas e refogados.",
+    "brand": "Tramontina",
+    "sku": "TRAM-27815868",
+    "price": 64.9,
+    "compare_at_price": 143,
+    "stock": 50,
+    "category_id": "cat-frigideiras-e-woks",
+    "featured": true,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 101,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Ravena" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Azul" },
+      { "key": "Diâmetro", "value": "28 cm" },
+      { "key": "Capacidade", "value": "3.3 L" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "27815868" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-27815868-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815868PDM001E.jpg",
+        "alt": "Frigideira Funda Tramontina Ravena em Alumínio com Revestimento Interno Antiaderente Starflon Max 28 cm 3,3 L",
+        "position": 1
+      },
+      {
+        "id": "img-tram-27815868-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815868PDM002E.jpg",
+        "alt": "Frigideira Funda Tramontina Ravena em Alumínio com Revestimento Interno Antiaderente Starflon Max 28 cm 3,3 L - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Frigideiras",
+      "slug": "frigideiras-e-woks"
+    }
+  },
+  {
+    "id": "prod-tram-28399205",
+    "slug": "kit-cozinha-tramontina-lyf-verde-natureza-25-pecas",
+    "name": "Kit Cozinha Tramontina Lyf Verde Natureza 25 Peças",
+    "short_description": "Kit completo Tramontina Lyf com 25 peças na cor Verde Natureza. Panelas, frigideiras e utensílios para toda a cozinha com praticidade e durabilidade.",
+    "description": "Kit completo Tramontina Lyf com 25 peças na cor Verde Natureza. Panelas, frigideiras e utensílios para toda a cozinha com praticidade e durabilidade.",
+    "brand": "Tramontina",
+    "sku": "TRAM-28399205",
+    "price": 389.42,
+    "compare_at_price": 854,
+    "stock": 50,
+    "category_id": "cat-jogos-de-panelas",
+    "featured": true,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 118,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Lyf" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Antiaderente" },
+      { "key": "Cor", "value": "Verde" },
+      { "key": "Número de Peças", "value": "25 peças" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "28399205" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-28399205-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399205PDM001E.jpg",
+        "alt": "Kit Cozinha Tramontina Lyf Verde Natureza 25 Peças",
+        "position": 1
+      },
+      {
+        "id": "img-tram-28399205-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399205PDM002E.jpg",
+        "alt": "Kit Cozinha Tramontina Lyf Verde Natureza 25 Peças - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Jogo de Panelas",
+      "slug": "jogos-de-panelas"
+    }
+  },
+  {
+    "id": "prod-tram-20999319",
+    "slug": "jogo-de-panelas-tramontina-refinatta-em-aluminio-com-revestimento-interno-e-externo-em-antiaderente-starflon-premium-03-pecas",
+    "name": "Jogo de Panelas Tramontina Refinatta em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Premium 03 Peças",
+    "short_description": "Jogo de Panelas Tramontina Refinatta em alumínio com revestimento antiaderente Starflon Premium. Design sofisticado e acabamento dourado. 3 peças de alta performance.",
+    "description": "Jogo de Panelas Tramontina Refinatta em alumínio com revestimento antiaderente Starflon Premium. Design sofisticado e acabamento dourado. 3 peças de alta performance.",
+    "brand": "Tramontina",
+    "sku": "TRAM-20999319",
+    "price": 712.5,
+    "compare_at_price": 1500,
+    "stock": 50,
+    "category_id": "cat-jogos-de-panelas",
+    "featured": true,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 135,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Refinatta" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Premium Antiaderente" },
+      { "key": "Cor", "value": "Dourado" },
+      { "key": "Número de Peças", "value": "3 peças" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "20999319" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-20999319-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999319PDM001E.jpg",
+        "alt": "Jogo de Panelas Tramontina Refinatta em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Premium 03 Peças",
+        "position": 1
+      },
+      {
+        "id": "img-tram-20999319-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999319PDM002E.jpg",
+        "alt": "Jogo de Panelas Tramontina Refinatta em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Premium 03 Peças - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Jogo de Panelas",
+      "slug": "jogos-de-panelas"
+    }
+  },
+  {
+    "id": "prod-tram-28319216",
+    "slug": "frigideira-reta-tramontina-lyf-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-16-cm",
+    "name": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 16 cm",
+    "short_description": "Frigideira Reta Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. 16 cm, ideal para ovos, crepes e porções individuais.",
+    "description": "Frigideira Reta Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. 16 cm, ideal para ovos, crepes e porções individuais.",
+    "brand": "Tramontina",
+    "sku": "TRAM-28319216",
+    "price": 39.52,
+    "compare_at_price": 88,
+    "stock": 50,
+    "category_id": "cat-frigideiras-e-woks",
+    "featured": false,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 152,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Lyf" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Verde" },
+      { "key": "Diâmetro", "value": "16 cm" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "28319216" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-28319216-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319216PDM001E.jpg",
+        "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 16 cm",
+        "position": 1
+      },
+      {
+        "id": "img-tram-28319216-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319216PDM002E.jpg",
+        "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 16 cm - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Frigideiras",
+      "slug": "frigideiras-e-woks"
+    }
+  },
+  {
+    "id": "prod-tram-28316220",
+    "slug": "cacarola-tramontina-lyf-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-e-tampa-de-vidro-20-cm-2-8-l",
+    "name": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 20 cm 2,8 L",
+    "short_description": "Caçarola Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. Tampa de vidro. 20 cm, 2,8 litros. Perfeita para sopas e molhos.",
+    "description": "Caçarola Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. Tampa de vidro. 20 cm, 2,8 litros. Perfeita para sopas e molhos.",
+    "brand": "Tramontina",
+    "sku": "TRAM-28316220",
+    "price": 79.52,
+    "compare_at_price": 174,
+    "stock": 50,
+    "category_id": "cat-cacarolas-e-avulsas",
+    "featured": false,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 169,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Lyf" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Verde" },
+      { "key": "Diâmetro", "value": "20 cm" },
+      { "key": "Capacidade", "value": "2.8 L" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "28316220" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-28316220-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316220PDM001E.jpg",
+        "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 20 cm 2,8 L",
+        "position": 1
+      },
+      {
+        "id": "img-tram-28316220-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316220PDM002E.jpg",
+        "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 20 cm 2,8 L - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Panelas Avulsas",
+      "slug": "cacarolas-e-avulsas"
+    }
+  },
+  {
+    "id": "prod-tram-28316224",
+    "slug": "cacarola-tramontina-lyf-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-e-tampa-de-vidro-24-cm-4-7-l",
+    "name": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 24 cm 4,7 L",
+    "short_description": "Caçarola Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. Tampa de vidro. 24 cm, 4,7 litros. Ideal para famílias.",
+    "description": "Caçarola Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. Tampa de vidro. 24 cm, 4,7 litros. Ideal para famílias.",
+    "brand": "Tramontina",
+    "sku": "TRAM-28316224",
+    "price": 99.52,
+    "compare_at_price": 216,
+    "stock": 50,
+    "category_id": "cat-cacarolas-e-avulsas",
+    "featured": false,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 186,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Lyf" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Verde" },
+      { "key": "Diâmetro", "value": "24 cm" },
+      { "key": "Capacidade", "value": "4.7 L" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "28316224" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-28316224-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316224PDM001E.jpg",
+        "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 24 cm 4,7 L",
+        "position": 1
+      },
+      {
+        "id": "img-tram-28316224-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316224PDM002E.jpg",
+        "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 24 cm 4,7 L - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Panelas Avulsas",
+      "slug": "cacarolas-e-avulsas"
+    }
+  },
+  {
+    "id": "prod-tram-28316228",
+    "slug": "cacarola-tramontina-lyf-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-e-tampa-de-vidro-28-cm-7-3-l",
+    "name": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 28 cm 7,3 L",
+    "short_description": "Caçarola Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. Tampa de vidro. 28 cm, 7,3 litros. Ideal para grandes receitas.",
+    "description": "Caçarola Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. Tampa de vidro. 28 cm, 7,3 litros. Ideal para grandes receitas.",
+    "brand": "Tramontina",
+    "sku": "TRAM-28316228",
+    "price": 129.52,
+    "compare_at_price": 280,
+    "stock": 50,
+    "category_id": "cat-cacarolas-e-avulsas",
+    "featured": false,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 203,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Lyf" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Verde" },
+      { "key": "Diâmetro", "value": "28 cm" },
+      { "key": "Capacidade", "value": "7.3 L" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "28316228" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-28316228-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316228PDM001E.jpg",
+        "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 28 cm 7,3 L",
+        "position": 1
+      },
+      {
+        "id": "img-tram-28316228-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316228PDM002E.jpg",
+        "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 28 cm 7,3 L - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Panelas Avulsas",
+      "slug": "cacarolas-e-avulsas"
+    }
+  },
+  {
+    "id": "prod-tram-28317220",
+    "slug": "frigideira-reta-tramontina-lyf-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-20-cm",
+    "name": "Frigideira Reta Tramontina LYF em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 20 cm",
+    "short_description": "Frigideira Reta Tramontina LYF em alumínio com revestimento antiaderente Starflon Max. 20 cm, versátil para ovos, legumes e carnes.",
+    "description": "Frigideira Reta Tramontina LYF em alumínio com revestimento antiaderente Starflon Max. 20 cm, versátil para ovos, legumes e carnes.",
+    "brand": "Tramontina",
+    "sku": "TRAM-28317220",
+    "price": 47.52,
+    "compare_at_price": 104,
+    "stock": 50,
+    "category_id": "cat-frigideiras-e-woks",
+    "featured": false,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 220,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Lyf" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Verde" },
+      { "key": "Diâmetro", "value": "20 cm" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "28317220" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-28317220-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317220PDM001E.jpg",
+        "alt": "Frigideira Reta Tramontina LYF em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 20 cm",
+        "position": 1
+      },
+      {
+        "id": "img-tram-28317220-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317220PDM002E.jpg",
+        "alt": "Frigideira Reta Tramontina LYF em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 20 cm - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Frigideiras",
+      "slug": "frigideiras-e-woks"
+    }
+  },
+  {
+    "id": "prod-tram-27899204",
+    "slug": "jogo-de-frigideiras-tramontina-everyday-em-aluminio-com-revestimento-interno-antiaderente-starflon-basic-3-pecas",
+    "name": "Jogo de Frigideiras Tramontina Everyday em Alumínio com Revestimento Interno Antiaderente Starflon Basic 3 Peças",
+    "short_description": "Jogo de Frigideiras Tramontina Everyday em alumínio com revestimento antiaderente Starflon Basic. 3 peças em tamanhos diferentes para o dia a dia.",
+    "description": "Jogo de Frigideiras Tramontina Everyday em alumínio com revestimento antiaderente Starflon Basic. 3 peças em tamanhos diferentes para o dia a dia.",
+    "brand": "Tramontina",
+    "sku": "TRAM-27899204",
+    "price": 94.81,
+    "compare_at_price": 208,
+    "stock": 50,
+    "category_id": "cat-frigideiras-e-woks",
+    "featured": false,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 237,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Everyday" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Basic Antiaderente" },
+      { "key": "Cor", "value": "Cinza" },
+      { "key": "Número de Peças", "value": "3 peças" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "27899204" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-27899204-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899204PDM001E.jpg",
+        "alt": "Jogo de Frigideiras Tramontina Everyday em Alumínio com Revestimento Interno Antiaderente Starflon Basic 3 Peças",
+        "position": 1
+      },
+      {
+        "id": "img-tram-27899204-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899204PDM002E.jpg",
+        "alt": "Jogo de Frigideiras Tramontina Everyday em Alumínio com Revestimento Interno Antiaderente Starflon Basic 3 Peças - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Frigideiras",
+      "slug": "frigideiras-e-woks"
+    }
+  },
+  {
+    "id": "prod-tram-28317224",
+    "slug": "frigideira-reta-tramontina-lyf-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-24-cm",
+    "name": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 24 cm",
+    "short_description": "Frigideira Reta Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. 24 cm, ideal para bifes, frango e refogados.",
+    "description": "Frigideira Reta Tramontina Lyf em alumínio com revestimento antiaderente Starflon Max. 24 cm, ideal para bifes, frango e refogados.",
+    "brand": "Tramontina",
+    "sku": "TRAM-28317224",
+    "price": 62.52,
+    "compare_at_price": 136,
+    "stock": 50,
+    "category_id": "cat-frigideiras-e-woks",
+    "featured": false,
+    "is_new": false,
+    "rating": 4.3,
+    "review_count": 54,
+    "highlights": [
+      "Revestimento antiaderente Starflon",
+      "Fabricado em Alumínio",
+      "Marca Tramontina",
+      "Fácil limpeza"
+    ],
+    "specs": [
+      { "key": "Marca", "value": "Tramontina" },
+      { "key": "Linha", "value": "Lyf" },
+      { "key": "Material", "value": "Alumínio" },
+      { "key": "Revestimento", "value": "Starflon Max Antiaderente" },
+      { "key": "Cor", "value": "Verde" },
+      { "key": "Diâmetro", "value": "24 cm" },
+      { "key": "Compatível com Indução", "value": "Não" },
+      { "key": "SKU Original", "value": "28317224" }
+    ],
+    "images": [
+      {
+        "id": "img-tram-28317224-1",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317224PDM001E.jpg",
+        "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 24 cm",
+        "position": 1
+      },
+      {
+        "id": "img-tram-28317224-2",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317224PDM002E.jpg",
+        "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 24 cm - vista 2",
+        "position": 2
+      }
+    ],
+    "categories": {
+      "name": "Frigideiras",
+      "slug": "frigideiras-e-woks"
+    }
+  }];
 
 export function getLocalCategories(): Category[] {
   return CATEGORIES;
