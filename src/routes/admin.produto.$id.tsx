@@ -111,7 +111,8 @@ function AdminProductEditor() {
 
   const [images, setImages] = useState<ManagedImage[]>(() => {
     if (!localProduct) return [];
-    return (localProduct.product_images ?? []).map((img, i) => ({
+    const rawImgs = localProduct.product_images ?? (localProduct as any).images ?? [];
+    return rawImgs.map((img: any, i: number) => ({
       id: img.id || `img-${i}`,
       url: img.url,
       alt: img.alt,

@@ -40,6 +40,7 @@ export type Product = {
   specs: Record<string, string>;
   created_at: string;
   product_images?: ProductImage[];
+  images?: ProductImage[];
   product_variants?: ProductVariant[];
   categories?: { name: string; slug: string } | null;
 };
@@ -121,11 +122,13 @@ export const productSelect =
   "*, product_images(id,url,alt,position), product_variants(id,name,value,hex,price_delta,stock), categories(name,slug)";
 
 export function primaryImage(product: Product) {
-  const images = [...(product.product_images ?? [])].sort((a, b) => a.position - b.position);
+  const list = product.product_images ?? product.images ?? [];
+  const images = [...list].sort((a, b) => (a.position ?? 0) - (b.position ?? 0));
   return images[0]?.url ?? "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800";
 }
 
 export function sortedImages(product: Product) {
-  const images = [...(product.product_images ?? [])].sort((a, b) => a.position - b.position);
+  const list = product.product_images ?? product.images ?? [];
+  const images = [...list].sort((a, b) => (a.position ?? 0) - (b.position ?? 0));
   return images.length ? images : [];
 }
