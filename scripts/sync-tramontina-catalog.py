@@ -13,6 +13,7 @@ import re
 import sys
 import time
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -141,6 +142,59 @@ def fetch_listing() -> list[dict]:
     return list(found.values())
 
 
+def extract_gallery(response_text: str, pid: str, fallback: str = "") -> list[dict]:
+    """Read only the product gallery, never recommendation/description/banner images."""
+    soup = BeautifulSoup(response_text, "html.parser")
+    gallery = soup.select(f"#pdpCarousel-{pid} ul.productImages li.productImages__item img")
+    seen: set[str] = set()
+    images: list[dict] = []
+    for image in gallery:
+        url = clean(image.get("src") or image.get("data-src"))
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        images.append({
+            "id": f"img-{pid}-{len(images)}",
+            "url": url,
+            "alt": clean(image.get("alt")) or None,
+            "position": len(images),
+        })
+    if images:
+        return images
+    if fallback:
+        return [{"id": f"img-{pid}-0", "url": fallback, "alt": None, "position": 0}]
+    return []
+
+
+def fetch_product_gallery(item: dict) -> tuple[str, list[dict]]:
+    """Fetch one product page and return only its gallery; retries transient errors."""
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; NexlarCatalogGallery/1.0)"})
+    last_error = None
+    for attempt in range(4):
+        try:
+            response = session.get(item["url"], timeout=60)
+            response.raise_for_status()
+            return item["pid"], extract_gallery(response.text, item["pid"], item.get("image", ""))
+        except Exception as exc:
+            last_error = exc
+            time.sleep(1.5 * (attempt + 1))
+    print(f"falha na galeria {item['pid']}: {last_error}", file=sys.stderr)
+    return item["pid"], []
+
+
+def fetch_galleries(listings: list[dict]) -> dict[str, list[dict]]:
+    galleries: dict[str, list[dict]] = {}
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = [executor.submit(fetch_product_gallery, item) for item in listings]
+        for done, future in enumerate(as_completed(futures), 1):
+            pid, images = future.result()
+            galleries[pid] = images
+            if done % 25 == 0 or done == len(futures):
+                print(f"galerias processadas: {done}/{len(futures)}", flush=True)
+    return galleries
+
+
 def read_catalog() -> tuple[list, list, list]:
     source = CATALOG_FILE.read_text()
     def array_after(marker: str):
@@ -191,6 +245,7 @@ def make_product(item: dict, category_slug: str, used_slugs: set[str]) -> dict:
 def main() -> None:
     categories, banners, products = read_catalog()
     listings = fetch_listing()
+    galleries = fetch_galleries(listings)
     existing_by_sku = {str(p.get("sku", "")).upper(): p for p in products if p.get("sku")}
     existing_tram = {re.sub(r"^TRAM-", "", sku): p for sku, p in existing_by_sku.items() if sku.startswith("TRAM-")}
     used_slugs = {p.get("slug", "") for p in products}
@@ -201,6 +256,7 @@ def main() -> None:
         category_slug = classify(item["name"])
         category_id, category_name = CATEGORY_BY_SLUG[category_slug]
         product = existing_tram.get(item["pid"])
+        official_gallery = galleries.get(item["pid"], [])
         if product:
             specs = normalize_specs(product)
             if specs != product.get("specs"):
@@ -209,14 +265,17 @@ def main() -> None:
                 product["category_id"] = category_id
                 product["categories"] = {"name": category_name, "slug": category_slug}
                 reclassified += 1
-            images = product.get("product_images") or product.get("images") or []
-            if not images and item["image"]:
-                product["product_images"] = [{"id": f"img-{item['pid']}-0", "url": item["image"], "alt": item["name"], "position": 0}]
+            current_images = product.get("product_images") or product.get("images") or []
+            if official_gallery and official_gallery != current_images:
+                product["product_images"] = official_gallery
                 images_filled += 1
             product.setdefault("brand", "Tramontina")
             product.setdefault("source_url", item["url"])
         else:
-            products.append(make_product(item, category_slug, used_slugs))
+            new_product = make_product(item, category_slug, used_slugs)
+            if official_gallery:
+                new_product["product_images"] = official_gallery
+            products.append(new_product)
             added += 1
     # Normalize legacy rows without changing commercial values or other brands.
     for product in products:
