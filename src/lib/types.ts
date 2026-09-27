@@ -22,6 +22,7 @@ export type Product = {
   id: string;
   name: string;
   slug: string;
+  brand?: string;
   sku: string | null;
   short_description: string | null;
   description: string | null;
@@ -32,6 +33,7 @@ export type Product = {
   stock: number;
   rating: number;
   reviews_count: number;
+  review_count?: number;
   free_shipping: boolean;
   featured: boolean;
   is_new: boolean;
@@ -39,6 +41,7 @@ export type Product = {
   highlights: string[];
   specs: Record<string, string>;
   created_at: string;
+  source_url?: string;
   product_images?: ProductImage[];
   images?: ProductImage[];
   product_variants?: ProductVariant[];
