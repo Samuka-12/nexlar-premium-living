@@ -122064,7 +122064,38 @@ export const PRODUCTS: Product[] = [
 export function getLocalCategories(): Category[] { return CATEGORIES; }
 export function getLocalCategoryBySlug(slug: string): Category | undefined { return CATEGORIES.find((c) => c.slug === slug || c.id === slug); }
 export function getLocalBanners(): Banner[] { return BANNERS; }
-export function getLocalProducts(filter?: "featured" | "new" | "offers"): Product[] { let list = PRODUCTS; if (filter === "featured") list = list.filter((p) => p.featured); if (filter === "new") list = list.filter((p) => p.is_new); if (filter === "offers") list = list.filter((p) => p.compare_at_price && p.compare_at_price > p.price); return list; }
+export function getLocalProductBrand(product: Product): string | undefined {
+  if (product.brand?.trim()) return product.brand.trim();
+  if (product.id.startsWith("prod-brx-") || /\bbrinox\b/i.test(product.name)) return "Brinox";
+  return undefined;
+}
+export function getLocalBrands(): string[] {
+  return [...new Set(PRODUCTS.map(getLocalProductBrand).filter(Boolean))].sort((a, b) =>
+    a!.localeCompare(b!, "pt-BR"),
+  ) as string[];
+}
+export function diversifyProducts(products: Product[]): Product[] {
+  const groups = new Map<string, Product[]>();
+  const unbranded: Product[] = [];
+  for (const product of products) {
+    const brand = getLocalProductBrand(product);
+    if (!brand) { unbranded.push(product); continue; }
+    const group = groups.get(brand) ?? [];
+    group.push(product);
+    groups.set(brand, group);
+  }
+  const mixed: Product[] = [];
+  const orderedGroups = [...groups.values()];
+  const maxLength = Math.max(0, ...orderedGroups.map((group) => group.length));
+  for (let index = 0; index < maxLength; index++) {
+    for (const group of orderedGroups) {
+      const product = group[index];
+      if (product) mixed.push(product);
+    }
+  }
+  return [...mixed, ...unbranded];
+}
+export function getLocalProducts(filter?: "featured" | "new" | "offers"): Product[] { let list = PRODUCTS; if (filter === "featured") list = list.filter((p) => p.featured); if (filter === "new") list = list.filter((p) => p.is_new); if (filter === "offers") list = list.filter((p) => p.compare_at_price && p.compare_at_price > p.price); return diversifyProducts(list); }
 export function getLocalProductsByCategory(categorySlugOrId: string): Product[] { const cat = CATEGORIES.find((c) => c.slug === categorySlugOrId || c.id === categorySlugOrId); if (!cat) return []; return PRODUCTS.filter((p) => p.category_id === cat.id || p.categories?.slug === cat.slug); }
 export function getLocalProductBySlug(slug: string): Product | undefined { return PRODUCTS.find((p) => p.slug === slug || p.id === slug || p.sku === slug); }
-export function searchLocalProducts(term: string): Product[] { const q = term.toLowerCase().trim(); if (!q) return []; return PRODUCTS.filter((p) => p.name.toLowerCase().includes(q) || p.short_description?.toLowerCase().includes(q) || p.categories?.name.toLowerCase().includes(q) || p.highlights.some((h) => h.toLowerCase().includes(q))); }
+export function searchLocalProducts(term: string): Product[] { const q = term.toLowerCase().trim(); if (!q) return []; return diversifyProducts(PRODUCTS.filter((p) => p.name.toLowerCase().includes(q) || p.short_description?.toLowerCase().includes(q) || p.categories?.name.toLowerCase().includes(q) || p.highlights.some((h) => h.toLowerCase().includes(q)))); }

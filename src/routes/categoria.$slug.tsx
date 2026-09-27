@@ -20,7 +20,13 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 import { supabase } from "@/integrations/supabase/client";
 import { productSelect, type Category, type Product } from "@/lib/types";
 import { brl } from "@/lib/format";
-import { getLocalCategoryBySlug, getLocalProductsByCategory } from "@/lib/catalog-data";
+import {
+  diversifyProducts,
+  getLocalBrands,
+  getLocalCategoryBySlug,
+  getLocalProductBrand,
+  getLocalProductsByCategory,
+} from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/categoria/$slug")({
   head: ({ params }) => {
@@ -48,6 +54,8 @@ function CategoryPage() {
   const [maxPrice, setMaxPrice] = useState(1000);
   const [onlyFreeShipping, setOnlyFreeShipping] = useState(false);
   const [onlyOffers, setOnlyOffers] = useState(false);
+  const [brand, setBrand] = useState("");
+  const brands = getLocalBrands();
 
   const localCategory = getLocalCategoryBySlug(slug);
   const localProducts = getLocalProductsByCategory(slug);
@@ -70,23 +78,43 @@ function CategoryPage() {
 
   const filtered = useMemo(() => {
     const list = products.filter((product) => {
+      if (brand && getLocalProductBrand(product) !== brand) return false;
       if (product.price > maxPrice) return false;
       if (onlyFreeShipping && !product.free_shipping) return false;
       if (onlyOffers && !(product.compare_at_price && product.compare_at_price > product.price))
         return false;
       return true;
     });
-    const sorted = [...list];
+    const sorted = brand ? [...list] : diversifyProducts(list);
     if (sort === "price-asc") sorted.sort((a, b) => a.price - b.price);
     if (sort === "price-desc") sorted.sort((a, b) => b.price - a.price);
     if (sort === "rating") sorted.sort((a, b) => b.rating - a.rating);
     if (sort === "newest")
       sorted.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
     return sorted;
-  }, [products, sort, maxPrice, onlyFreeShipping, onlyOffers]);
+  }, [products, sort, maxPrice, onlyFreeShipping, onlyOffers, brand]);
 
   const filters = (
     <div className="space-y-6">
+      <div>
+        <h3 className="mb-3 text-sm font-semibold">Marca</h3>
+        <Select
+          value={brand || "all"}
+          onValueChange={(value) => setBrand(value === "all" ? "" : value)}
+        >
+          <SelectTrigger aria-label="Filtrar por marca">
+            <SelectValue placeholder="Todas as marcas" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">Todas</SelectItem>
+            {brands.map((option) => (
+              <SelectItem key={option} value={option}>
+                {option}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+      </div>
       <div>
         <h3 className="mb-3 text-sm font-semibold">Preço até</h3>
         <Slider
@@ -217,6 +245,7 @@ function CategoryPage() {
                       setMaxPrice(1000);
                       setOnlyFreeShipping(false);
                       setOnlyOffers(false);
+                      setBrand("");
                     }}
                   >
                     Limpar filtros

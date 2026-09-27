@@ -1,12 +1,25 @@
+import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { SearchX } from "lucide-react";
 import { StoreLayout } from "@/components/store/StoreLayout";
 import { ProductCard, ProductCardSkeleton } from "@/components/store/ProductCard";
 import { EmptyState } from "@/components/store/EmptyState";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { supabase } from "@/integrations/supabase/client";
 import { productSelect, type Product } from "@/lib/types";
-import { searchLocalProducts } from "@/lib/catalog-data";
+import {
+  diversifyProducts,
+  getLocalBrands,
+  getLocalProductBrand,
+  searchLocalProducts,
+} from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/busca")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -26,7 +39,9 @@ export const Route = createFileRoute("/busca")({
 
 function SearchPage() {
   const { q } = Route.useSearch();
+  const [brand, setBrand] = useState("");
   const localResults = searchLocalProducts(q);
+  const brands = getLocalBrands();
 
   const { data = [], isLoading } = useQuery({
     queryKey: ["search", q],
@@ -37,6 +52,13 @@ function SearchPage() {
     initialData: localResults,
   });
 
+  const filtered = useMemo(() => {
+    const matching = brand
+      ? data.filter((product) => getLocalProductBrand(product) === brand)
+      : data;
+    return brand ? matching : diversifyProducts(matching);
+  }, [data, brand]);
+
   return (
     <StoreLayout>
       <div className="container-page py-10">
@@ -44,8 +66,30 @@ function SearchPage() {
           Resultados para <span className="text-primary">“{q}”</span>
         </h1>
         <p className="mb-8 text-sm text-muted-foreground">
-          {isLoading ? "Buscando..." : `${data.length} produtos encontrados`}
+          {isLoading ? "Buscando..." : `${filtered.length} produtos encontrados`}
         </p>
+
+        <div className="mb-8 max-w-xs">
+          <label className="mb-2 block text-sm font-semibold" htmlFor="search-brand-filter">
+            Marca
+          </label>
+          <Select
+            value={brand || "all"}
+            onValueChange={(value) => setBrand(value === "all" ? "" : value)}
+          >
+            <SelectTrigger id="search-brand-filter" aria-label="Filtrar busca por marca">
+              <SelectValue placeholder="Todas as marcas" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">Todas</SelectItem>
+              {brands.map((option) => (
+                <SelectItem key={option} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
 
         {isLoading ? (
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -53,7 +97,7 @@ function SearchPage() {
               <ProductCardSkeleton key={i} />
             ))}
           </div>
-        ) : data.length === 0 ? (
+        ) : filtered.length === 0 ? (
           <EmptyState
             icon={SearchX}
             title="Nada encontrado por aqui"
@@ -61,7 +105,7 @@ function SearchPage() {
           />
         ) : (
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-            {data.map((product) => (
+            {filtered.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
