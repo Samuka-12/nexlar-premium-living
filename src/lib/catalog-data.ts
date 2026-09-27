@@ -154,22 +154,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62132146-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62132146PDM001E.jpg",
+        "id": "prod-tram-62132146-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62132146PDM001E.jpg",
         "alt": "Fervedor Tramontina Solar Ceramic em Aço Inox com Fundo Triplo Interior Cerâmico Grafite Cabo de Silicone 14 cm 2 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62132146-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62132146PDM001M.jpg",
-        "alt": "Fervedor Tramontina Solar Ceramic em Aço Inox com Fundo Triplo Interior Cerâmico Grafite Cabo de Silicone 14 cm 2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62132146-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62132146PDM001C.jpg",
-        "alt": "Fervedor Tramontina Solar Ceramic em Aço Inox com Fundo Triplo Interior Cerâmico Grafite Cabo de Silicone 14 cm 2 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -499,19 +487,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28596323-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28596323PDM001E.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Starflon Max Off-white 2,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28596323-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28596323PDM001M.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Starflon Max Off-white 2,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28596323-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28596323PDM001C.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Starflon Max Off-white 2,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -640,19 +628,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28722120-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722120PDM001E.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 20 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28722120-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722120PDM001M.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 20 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28722120-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722120PDM001C.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 20 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -721,19 +709,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28506728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28506728PDM001E.jpg",
         "alt": "Panquequeira Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 28 cm 1,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28506728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28506728PDM001M.jpg",
         "alt": "Panquequeira Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 28 cm 1,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28506728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28506728PDM001C.jpg",
         "alt": "Panquequeira Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 28 cm 1,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -802,19 +790,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531710-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531710PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531710-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531710PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531710-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531710PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -883,19 +871,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262618PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262618PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262618PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -1102,19 +1090,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599706-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599706PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 7 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599706-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599706PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 7 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599706-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599706PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 7 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -1176,22 +1164,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65160000-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65160000PDM001E.jpg",
+        "id": "prod-tram-65160000-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65160000PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Grano Baquelite em Aço Inox com Corpo Triplo e Cabos e Alças em Baquelite Preto 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65160000-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65160000PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Baquelite em Aço Inox com Corpo Triplo e Cabos e Alças em Baquelite Preto 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65160000-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65160000PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Baquelite em Aço Inox com Corpo Triplo e Cabos e Alças em Baquelite Preto 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -1256,19 +1232,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20550619-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20550619PDM001E.jpg",
         "alt": "Chaleira Tramontina Paris em Alumínio com Revestimento Antiaderente Starflon Max Grafite 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20550619-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20550619PDM001M.jpg",
         "alt": "Chaleira Tramontina Paris em Alumínio com Revestimento Antiaderente Starflon Max Grafite 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20550619-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20550619PDM001C.jpg",
         "alt": "Chaleira Tramontina Paris em Alumínio com Revestimento Antiaderente Starflon Max Grafite 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -1337,19 +1313,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28508630-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508630PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 30 cm 2,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28508630-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508630PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 30 cm 2,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28508630-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508630PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 30 cm 2,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -1414,19 +1390,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299005-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299005PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 05 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299005-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299005PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 05 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299005-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299005PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 05 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -1490,26 +1460,7 @@ export const PRODUCTS: Product[] = [
         "value": "62643455"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62643455-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643455PDM001E.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 45 cm 35 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62643455-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643455PDM001M.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 45 cm 35 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62643455-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643455PDM001C.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 45 cm 35 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "cacarolas-e-avulsas"
@@ -1572,19 +1523,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20998553-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998553PDM001E.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Carmim 6 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20998553-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998553PDM001M.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Carmim 6 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20998553-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998553PDM001C.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Carmim 6 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -1603,7 +1554,7 @@ export const PRODUCTS: Product[] = [
     "price": 139,
     "compare_at_price": 187.65,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -1653,24 +1604,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20392724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20392724PDM001E.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 26 cm 1,0 L Vermelha",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20392724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20392724PDM001M.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 26 cm 1,0 L Vermelha - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20392724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20392724PDM001C.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 26 cm 1,0 L Vermelha - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -1827,19 +1778,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297309-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297309PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Mocaccino 03 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297309-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297309PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Mocaccino 03 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20297309-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297309PDM001C.jpg",
-        "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Mocaccino 03 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -1901,22 +1846,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65240200-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65240200PDM001E.jpg",
+        "id": "prod-tram-65240200-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65240200PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Grano Compact em Aço Inox com Corpo Triplo e Alças com Revestimento em Silicone Preto 3 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65240200-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65240200PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Compact em Aço Inox com Corpo Triplo e Alças com Revestimento em Silicone Preto 3 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65240200-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65240200PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Compact em Aço Inox com Corpo Triplo e Alças com Revestimento em Silicone Preto 3 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -2109,19 +2042,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20499715-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499715PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Vermelho 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20499715-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499715PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Vermelho 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20499715-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499715PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Vermelho 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -2268,19 +2201,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20264822-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264822PDM001E.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 22 cm 0,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20264822-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264822PDM001M.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 22 cm 0,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20264822-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264822PDM001C.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 22 cm 0,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -2572,22 +2505,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65510200-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510200PDM001E.jpg",
+        "id": "prod-tram-65510200-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510200PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox  6 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65510200-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510200PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox  6 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65510200-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510200PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox  6 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -2941,19 +2862,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20125038-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125038PDM001E.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 38 cm 5,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20125038-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125038PDM001M.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 38 cm 5,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20125038-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125038PDM001C.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 38 cm 5,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3022,19 +2943,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20395728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395728PDM001E.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 28 cm 3,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20395728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395728PDM001M.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 28 cm 3,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20395728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395728PDM001C.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 28 cm 3,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3200,19 +3121,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27899204-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899204PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Everyday em Alumínio com Revestimento Interno Antiaderente Starflon Basic 3 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27899204-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899204PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Everyday em Alumínio com Revestimento Interno Antiaderente Starflon Basic 3 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27899204-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899204PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina Everyday em Alumínio com Revestimento Interno Antiaderente Starflon Basic 3 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3340,19 +3261,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28518726-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518726PDM001E.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 3,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28518726-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518726PDM001M.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 3,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28518726-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518726PDM001C.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 3,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3417,19 +3338,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297008-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297008PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Caribe com Revestimento Interno em Antiaderente Starflon Max e Externo de Poliéster Preto 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297008-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297008PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Caribe com Revestimento Interno em Antiaderente Starflon Max e Externo de Poliéster Preto 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297008-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297008PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Caribe com Revestimento Interno em Antiaderente Starflon Max e Externo de Poliéster Preto 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3498,19 +3419,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28722420-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722420PDM001E.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 20 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28722420-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722420PDM001M.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 20 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28722420-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722420PDM001C.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 20 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3575,19 +3496,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20499615-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499615PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Avelã 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20499615-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499615PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Avelã 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20499615-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499615PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Avelã 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3656,19 +3577,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260616PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 0,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260616PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 0,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260616PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 0,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3737,19 +3658,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260628-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260628PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 28 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260628-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260628PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 28 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260628-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260628PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 28 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3818,19 +3739,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20273610-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20273610PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 10 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20273610-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20273610PDM001M.jpg",
         "alt": "Cuscuzeira Tramontina em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 10 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20273610-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20273610PDM001C.jpg",
         "alt": "Cuscuzeira Tramontina em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 10 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3899,19 +3820,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20384714-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384714PDM001E.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo de Baquelite 14 cm 1,7 L Vermelho",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20384714-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384714PDM001M.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo de Baquelite 14 cm 1,7 L Vermelho - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20384714-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384714PDM001C.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo de Baquelite 14 cm 1,7 L Vermelho - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -3976,19 +3897,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299004-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299004PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299004-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299004PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299004-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299004PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 4 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -4159,7 +4074,7 @@ export const PRODUCTS: Product[] = [
     "price": 127,
     "compare_at_price": 171.45,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -4209,24 +4124,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20274724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20274724PDM001E.jpg",
         "alt": "Bistequeira Tramontina Turim em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Vermelho 24 cm 1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20274724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20274724PDM001M.jpg",
         "alt": "Bistequeira Tramontina Turim em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Vermelho 24 cm 1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20274724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20274724PDM001C.jpg",
         "alt": "Bistequeira Tramontina Turim em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Vermelho 24 cm 1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -4416,22 +4331,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65510623-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510623PDM001E.jpg",
+        "id": "prod-tram-65510623-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510623PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina em Aço Inox com Fundo Triplo 6 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65510623-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510623PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina em Aço Inox com Fundo Triplo 6 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65510623-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510623PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina em Aço Inox com Fundo Triplo 6 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -4580,26 +4483,7 @@ export const PRODUCTS: Product[] = [
         "value": "62643365"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62643365-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643365PDM001E.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 36 cm 15 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62643365-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643365PDM001M.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 36 cm 15 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62643365-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643365PDM001C.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 36 cm 15 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "cacarolas-e-avulsas"
@@ -4666,19 +4550,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20268614-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268614PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20268614-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268614PDM001M.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20268614-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268614PDM001C.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -4806,22 +4690,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65300310-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65300310PDM001E.jpg",
+        "id": "prod-tram-65300310-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65300310PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Brava Antiaderente em Aço Inox com Fundo Triplo Cabos e Alças com Acabamento Efeito Amadeirado 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65300310-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65300310PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava Antiaderente em Aço Inox com Fundo Triplo Cabos e Alças com Acabamento Efeito Amadeirado 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65300310-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65300310PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava Antiaderente em Aço Inox com Fundo Triplo Cabos e Alças com Acabamento Efeito Amadeirado 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -5020,19 +4892,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28538622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28538622PDM001E.jpg",
         "alt": "Jogo 4 Funções Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28538622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28538622PDM001M.jpg",
         "alt": "Jogo 4 Funções Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28538622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28538622PDM001C.jpg",
         "alt": "Jogo 4 Funções Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -5216,19 +5088,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20765038-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20765038PDM001E.jpg",
         "alt": "Paellera Tramontina Profissional em Ferro 38 cm 5,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20765038-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20765038PDM001M.jpg",
         "alt": "Paellera Tramontina Profissional em Ferro 38 cm 5,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20765038-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20765038PDM001C.jpg",
         "alt": "Paellera Tramontina Profissional em Ferro 38 cm 5,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -5841,19 +5713,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297509-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297509PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 03 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297509-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297509PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 03 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297509-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297509PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 03 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -6503,19 +6375,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260618PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 0,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260618PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 0,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260618PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 0,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -6584,19 +6456,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530718PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 3,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530718PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 3,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530718PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 3,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -6986,22 +6858,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62419140-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62419140PDM001E.jpg",
+        "id": "prod-tram-62419140-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62419140PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina Brava em Aço Inox com Alças e Tampa 14 cm 2,1 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62419140-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62419140PDM001M.jpg",
-        "alt": "Cuscuzeira Tramontina Brava em Aço Inox com Alças e Tampa 14 cm 2,1 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62419140-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62419140PDM001C.jpg",
-        "alt": "Cuscuzeira Tramontina Brava em Aço Inox com Alças e Tampa 14 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -7348,19 +7208,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28509624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509624PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 2,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28509624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509624PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 2,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28509624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509624PDM001C.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 2,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -7576,19 +7436,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20264718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264718PDM001E.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20264718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264718PDM001M.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20264718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264718PDM001C.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -7728,7 +7588,7 @@ export const PRODUCTS: Product[] = [
     "price": 139,
     "compare_at_price": 187.65,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -7774,24 +7634,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20396724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20396724PDM001E.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Exterior Siliconado Vermelho 26 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20396724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20396724PDM001M.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Exterior Siliconado Vermelho 26 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20396724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20396724PDM001C.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Exterior Siliconado Vermelho 26 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -7851,19 +7711,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27899586-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899586PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 10 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27899586-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899586PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 10 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-27899586-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899586PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 10 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -8023,19 +7877,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261820-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261820PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261820-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261820PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261820-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261820PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -8168,22 +8022,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65510740-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510740PDM001E.jpg",
+        "id": "prod-tram-65510740-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510740PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo 3 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65510740-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510740PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo 3 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65510740-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510740PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo 3 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -8379,19 +8221,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524720PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524720PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524720PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -8460,19 +8302,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28505622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505622PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28505622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505622PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28505622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505622PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -8541,19 +8383,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20387720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387720PDM001E.jpg",
         "alt": "Pipoqueira Tramontina Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Vermelho 20 cm 3,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20387720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387720PDM001M.jpg",
         "alt": "Pipoqueira Tramontina Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Vermelho 20 cm 3,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20387720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387720PDM001C.jpg",
         "alt": "Pipoqueira Tramontina Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Vermelho 20 cm 3,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -8672,22 +8514,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62484160-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62484160PDM001E.jpg",
+        "id": "prod-tram-62484160-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62484160PDM001E.jpg",
         "alt": "Caçarola Tramontina Duo Silicone Funda em Aço Inox Fundo Triplo com Tampa e Alças em Silicone 16 cm 1,8 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62484160-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62484160PDM001M.jpg",
-        "alt": "Caçarola Tramontina Duo Silicone Funda em Aço Inox Fundo Triplo com Tampa e Alças em Silicone 16 cm 1,8 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62484160-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62484160PDM001C.jpg",
-        "alt": "Caçarola Tramontina Duo Silicone Funda em Aço Inox Fundo Triplo com Tampa e Alças em Silicone 16 cm 1,8 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -9189,19 +9019,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28723418-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723418PDM001E.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado em Rosa Trufado 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28723418-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723418PDM001M.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado em Rosa Trufado 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28723418-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723418PDM001C.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado em Rosa Trufado 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -9338,19 +9168,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20298661-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298661PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20298661-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298661PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20298661-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298661PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -9770,19 +9600,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525620PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525620PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525620PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -9851,19 +9681,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28711022-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28711022PDM001E.jpg",
         "alt": "Pipoqueira Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 22 cm 5,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28711022-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28711022PDM001M.jpg",
         "alt": "Pipoqueira Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 22 cm 5,4 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28711022-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28711022PDM001C.jpg",
-        "alt": "Pipoqueira Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 22 cm 5,4 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -9932,19 +9756,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28509628-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509628PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 28 cm 3,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28509628-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509628PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 28 cm 3,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28509628-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509628PDM001C.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 28 cm 3,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -10068,19 +9892,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530624PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 7,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530624PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 7,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530624PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 7,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -10369,19 +10193,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20899050-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20899050PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco em Alumínio com Revestimento Interno e Externo em Starflon Premium Preto 05 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20899050-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20899050PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco em Alumínio com Revestimento Interno e Externo em Starflon Premium Preto 05 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20899050-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20899050PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco em Alumínio com Revestimento Interno e Externo em Starflon Premium Preto 05 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -10446,19 +10270,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28699416-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699416PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Veronese em Alumínio Reciclado com Revestimento Interno Cerâmico e Externo Siliconado Argila 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28699416-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699416PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Veronese em Alumínio Reciclado com Revestimento Interno Cerâmico e Externo Siliconado Argila 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28699416-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699416PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Veronese em Alumínio Reciclado com Revestimento Interno Cerâmico e Externo Siliconado Argila 5 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -10610,22 +10428,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62416990-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416990PDM001E.jpg",
+        "id": "prod-tram-62416990-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62416990PDM001E.jpg",
         "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Brava 22 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62416990-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416990PDM001M.jpg",
-        "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Brava 22 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62416990-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416990PDM001C.jpg",
-        "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Brava 22 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -10970,19 +10776,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28545632-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28545632PDM001E.jpg",
         "alt": "Wok Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 32 cm 4,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28545632-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28545632PDM001M.jpg",
         "alt": "Wok Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 32 cm 4,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28545632-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28545632PDM001C.jpg",
         "alt": "Wok Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 32 cm 4,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -11125,19 +10931,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20499616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499616PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Avelã 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20499616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499616PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Avelã 4 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20499616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499616PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Avelã 4 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -11304,19 +11110,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28399342-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399342PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Areia 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28399342-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399342PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Areia 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28399342-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399342PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Areia 5 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -11518,19 +11318,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530716PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 2,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530716PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 2,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530716PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -11735,22 +11535,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65620410-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620410PDM001E.jpg",
+        "id": "prod-tram-65620410-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65620410PDM001E.jpg",
         "alt": "Jogo Cozi-Pasta Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 2 Peças 20 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65620410-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620410PDM001M.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 2 Peças 20 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65620410-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620410PDM001C.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 2 Peças 20 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -11815,19 +11603,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20998053-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998053PDM001E.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Chumbo 6 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20998053-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998053PDM001M.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Chumbo 6 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20998053-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998053PDM001C.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Chumbo 6 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -11999,19 +11787,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260726-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260726PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 26 cm 1,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260726-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260726PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 26 cm 1,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260726-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260726PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 26 cm 1,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -12149,19 +11937,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20399083-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399083PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Grafite 7 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20399083-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399083PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Grafite 7 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20399083-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399083PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Grafite 7 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -12230,19 +12018,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28509724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509724PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 2,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28509724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509724PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 2,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28509724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509724PDM001C.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 2,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -12307,19 +12095,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297964-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297964PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297964-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297964PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297964-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297964PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -12624,19 +12412,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27812100-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812100PDM001E.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27812100-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812100PDM001M.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-27812100-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812100PDM001C.jpg",
-        "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -12910,19 +12692,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20298761-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298761PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20298761-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298761PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20298761-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298761PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -12984,22 +12766,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65180310-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65180310PDM001E.jpg",
+        "id": "prod-tram-65180310-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65180310PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Brava Baquelite em Aço Inox com Fundo Triplo Cabos e Alças com Acabamento Efeito Amadeirado 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65180310-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65180310PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava Baquelite em Aço Inox com Fundo Triplo Cabos e Alças com Acabamento Efeito Amadeirado 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65180310-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65180310PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava Baquelite em Aço Inox com Fundo Triplo Cabos e Alças com Acabamento Efeito Amadeirado 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -13064,19 +12834,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27803073-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803073PDM001E.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Cinza &Oslash; 20cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27803073-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803073PDM001M.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Cinza &Oslash; 20cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27803073-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803073PDM001C.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Cinza &Oslash; 20cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -13138,22 +12908,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65650280-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650280PDM001E.jpg",
+        "id": "prod-tram-65650280-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65650280PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65650280-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650280PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65650280-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650280PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -13222,19 +12980,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20384012-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384012PDM001E.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 12 cm 1,1 L Grafite",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20384012-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384012PDM001M.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 12 cm 1,1 L Grafite - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20384012-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384012PDM001C.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 12 cm 1,1 L Grafite - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -13393,19 +13151,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28504620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504620PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 20 cm 1,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28504620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504620PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 20 cm 1,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28504620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504620PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 20 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -13469,26 +13227,7 @@ export const PRODUCTS: Product[] = [
         "value": "62643405"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62643405-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643405PDM001E.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 40 cm 23 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62643405-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643405PDM001M.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 40 cm 23 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62643405-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62643405PDM001C.jpg",
-        "alt": "Caçarola Rasa Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 40 cm 23 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "cacarolas-e-avulsas"
@@ -13670,19 +13409,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599602-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599602PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 7 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599602-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599602PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 7 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599602-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599602PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 7 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -13751,19 +13490,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530620PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 4,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530620PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 4,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530620PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 4,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -13950,22 +13689,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65500410-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500410PDM001E.jpg",
+        "id": "prod-tram-65500410-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65500410PDM001E.jpg",
         "alt": "Jogo Cozi-Pasta Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 Peças 20 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65500410-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500410PDM001M.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 Peças 20 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65500410-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500410PDM001C.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 Peças 20 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -14178,19 +13905,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524728PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 28 cm 8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524728PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 28 cm 8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524728PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 28 cm 8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -14259,19 +13986,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20395028-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395028PDM001E.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Grafite 28 cm 3,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20395028-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395028PDM001M.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Grafite 28 cm 3,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20395028-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395028PDM001C.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Grafite 28 cm 3,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -14340,19 +14067,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28532614-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532614PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28532614-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532614PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28532614-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532614PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -14421,19 +14148,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261622PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 22 cm 3,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261622PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 22 cm 3,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261622PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 22 cm 3,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -14506,19 +14233,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27816078-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27816078PDM001E.jpg",
         "alt": "Caçarola Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Preto com Tampa de Vidro 22 cm 3,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27816078-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27816078PDM001M.jpg",
         "alt": "Caçarola Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Preto com Tampa de Vidro 22 cm 3,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-27816078-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27816078PDM001C.jpg",
-        "alt": "Caçarola Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Preto com Tampa de Vidro 22 cm 3,5 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -14660,19 +14381,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27817120-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27817120PDM001E.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 28 cm 3,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27817120-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27817120PDM001M.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 28 cm 3,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27817120-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27817120PDM001C.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 28 cm 3,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -14757,7 +14478,7 @@ export const PRODUCTS: Product[] = [
     "price": 139,
     "compare_at_price": 187.65,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -14807,24 +14528,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20391724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20391724PDM001E.jpg",
         "alt": "Bistequeira Lisa Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 26 cm 1 L Vermelha",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20391724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20391724PDM001M.jpg",
         "alt": "Bistequeira Lisa Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 26 cm 1 L Vermelha - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20391724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20391724PDM001C.jpg",
         "alt": "Bistequeira Lisa Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 26 cm 1 L Vermelha - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -15082,19 +14803,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27812099-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812099PDM001E.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27812099-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812099PDM001M.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-27812099-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812099PDM001C.jpg",
-        "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -15314,19 +15029,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530720PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 4,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530720PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 4,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530720PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 4,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -15391,19 +15106,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299497-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299497PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Michigan em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Siena Natural 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299497-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299497PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Michigan em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Siena Natural 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299497-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299497PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Michigan em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Siena Natural 5 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -15472,19 +15181,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20764022-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20764022PDM001E.jpg",
         "alt": "Frigideira Pergaminho Tramontina Profissional em Ferro 22 cm 1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20764022-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20764022PDM001M.jpg",
         "alt": "Frigideira Pergaminho Tramontina Profissional em Ferro 22 cm 1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20764022-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20764022PDM001C.jpg",
         "alt": "Frigideira Pergaminho Tramontina Profissional em Ferro 22 cm 1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -15550,22 +15259,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62492140-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62492140PDM001E.jpg",
+        "id": "prod-tram-62492140-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62492140PDM001E.jpg",
         "alt": "Fervedor Tramontina Solar Silicone em Aço Inox Fundo Triplo com Cabo de Silicone 14 cm 2,0 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62492140-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62492140PDM001M.jpg",
-        "alt": "Fervedor Tramontina Solar Silicone em Aço Inox Fundo Triplo com Cabo de Silicone 14 cm 2,0 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62492140-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62492140PDM001C.jpg",
-        "alt": "Fervedor Tramontina Solar Silicone em Aço Inox Fundo Triplo com Cabo de Silicone 14 cm 2,0 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -16235,19 +15932,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20266716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20266716PDM001E.jpg",
         "alt": "Jogo 4 Funções Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20266716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20266716PDM001M.jpg",
         "alt": "Jogo 4 Funções Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20266716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20266716PDM001C.jpg",
         "alt": "Jogo 4 Funções Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -16316,19 +16013,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260722PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260722PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260722PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -16858,19 +16555,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27815875-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815875PDM001E.jpg",
         "alt": "Pipoqueira Tramontina Ravena em Alumínio com Revestimento em Antiaderente Starflon Max 20 cm 3,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27815875-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815875PDM001M.jpg",
         "alt": "Pipoqueira Tramontina Ravena em Alumínio com Revestimento em Antiaderente Starflon Max 20 cm 3,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27815875-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815875PDM001C.jpg",
         "alt": "Pipoqueira Tramontina Ravena em Alumínio com Revestimento em Antiaderente Starflon Max 20 cm 3,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -17180,19 +16877,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525720PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525720PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525720PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 20 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -17402,19 +17099,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28799330-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799330PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Romagna em Aço Inox e Alumínio com Revestimento Interno Cerâmico Marfim 4 peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28799330-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799330PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Romagna em Aço Inox e Alumínio com Revestimento Interno Cerâmico Marfim 4 peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28799330-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799330PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Romagna em Aço Inox e Alumínio com Revestimento Interno Cerâmico Marfim 4 peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -17725,19 +17416,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20332712-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332712PDM001E.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20332712-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332712PDM001M.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20332712-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332712PDM001C.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -17806,19 +17497,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28504624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504624PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 24 cm 2,0 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28504624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504624PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 24 cm 2,0 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28504624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504624PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 24 cm 2,0 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -17936,19 +17627,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28799030-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799030PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Romagna em Aço Inox e Alumínio com Revestimento Interno Cerâmico Black Stone 4 peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28799030-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799030PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Romagna em Aço Inox e Alumínio com Revestimento Interno Cerâmico Black Stone 4 peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28799030-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799030PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Romagna em Aço Inox e Alumínio com Revestimento Interno Cerâmico Black Stone 4 peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -18393,19 +18078,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28699709-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699709PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno Cerâmico e Externo em Poliéster Vermelho 04 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28699709-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699709PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno Cerâmico e Externo em Poliéster Vermelho 04 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28699709-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699709PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno Cerâmico e Externo em Poliéster Vermelho 04 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -18567,19 +18252,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28399142-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399142PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul Ardósia 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28399142-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399142PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul Ardósia 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28399142-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399142PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul Ardósia 5 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -18644,19 +18323,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20399783-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399783PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Vermelho 7 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20399783-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399783PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Vermelho 7 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20399783-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399783PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Vermelho 7 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -18718,22 +18397,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62509160-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509160PDM001E.jpg",
+        "id": "prod-tram-62509160-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62509160PDM001E.jpg",
         "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 16 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62509160-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509160PDM001M.jpg",
-        "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 16 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62509160-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509160PDM001C.jpg",
-        "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 16 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -18797,26 +18464,7 @@ export const PRODUCTS: Product[] = [
         "value": "62518223"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62518223-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62518223PDM001E.jpg",
-        "alt": "Panela de Pressão Tramontina Presto em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 6 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62518223-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62518223PDM001M.jpg",
-        "alt": "Panela de Pressão Tramontina Presto em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 6 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62518223-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62518223PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Presto em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 6 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "panelas-de-pressao"
@@ -18883,19 +18531,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531610-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531610PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 10 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531610-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531610PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 10 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531610-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531610PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 10 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -19174,22 +18822,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65620010-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620010PDM001E.jpg",
+        "id": "prod-tram-65620010-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65620010PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65620010-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620010PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65620010-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620010PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -19397,19 +19033,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28399205-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399205PDM001E.jpg",
         "alt": "Kit Cozinha Tramontina Lyf Verde Natureza 25 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28399205-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399205PDM001M.jpg",
         "alt": "Kit Cozinha Tramontina Lyf Verde Natureza 25 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28399205-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399205PDM001C.jpg",
         "alt": "Kit Cozinha Tramontina Lyf Verde Natureza 25 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -19478,19 +19114,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260720PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 20 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260720PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 20 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260720PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 20 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -19509,7 +19145,7 @@ export const PRODUCTS: Product[] = [
     "price": 217,
     "compare_at_price": 292.95,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -19559,24 +19195,18 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28766018-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28766018PDM001E.jpg",
         "alt": "Chapa Oval Tramontina Fargo em Ferro Fundido com Acabamento Pre-Seasoned com tábua 18 cm 0,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28766018-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28766018PDM001M.jpg",
         "alt": "Chapa Oval Tramontina Fargo em Ferro Fundido com Acabamento Pre-Seasoned com tábua 18 cm 0,4 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28766018-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28766018PDM001C.jpg",
-        "alt": "Chapa Oval Tramontina Fargo em Ferro Fundido com Acabamento Pre-Seasoned com tábua 18 cm 0,4 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -20001,19 +19631,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20558920-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20558920PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Torino em Alumínio com Revestimento Interno e Externo Cerâmico Vermelho Framboesa com Fundo de Indução 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20558920-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20558920PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Torino em Alumínio com Revestimento Interno e Externo Cerâmico Vermelho Framboesa com Fundo de Indução 20 cm 4,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20558920-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20558920PDM001C.jpg",
         "alt": "Panela de Pressão Tramontina Torino em Alumínio com Revestimento Interno e Externo Cerâmico Vermelho Framboesa com Fundo de Indução 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -20446,19 +20076,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28596123-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28596123PDM001E.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Azul Marinho 2,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28596123-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28596123PDM001M.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Azul Marinho 2,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28596123-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28596123PDM001C.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Azul Marinho 2,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -20611,19 +20241,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500726-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500726PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 26 cm 1,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500726-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500726PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 26 cm 1,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500726-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500726PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 26 cm 1,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -20692,19 +20322,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500620PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 20 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500620PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 20 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500620PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 20 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -20930,22 +20560,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62509200-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509200PDM001E.jpg",
+        "id": "prod-tram-62509200-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62509200PDM001E.jpg",
         "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 20 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62509200-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509200PDM001M.jpg",
-        "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 20 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62509200-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509200PDM001C.jpg",
-        "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 20 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -21042,7 +20660,7 @@ export const PRODUCTS: Product[] = [
     "price": 133,
     "compare_at_price": 179.55,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -21092,24 +20710,18 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28765018-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28765018PDM001E.jpg",
         "alt": "Chapa Oval Tramontina Fargo em Ferro Fundido com Acabamento Pre-Seasoned 18 cm 0,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28765018-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28765018PDM001M.jpg",
         "alt": "Chapa Oval Tramontina Fargo em Ferro Fundido com Acabamento Pre-Seasoned 18 cm 0,4 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28765018-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28765018PDM001C.jpg",
-        "alt": "Chapa Oval Tramontina Fargo em Ferro Fundido com Acabamento Pre-Seasoned 18 cm 0,4 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -21263,19 +20875,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20384014-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384014PDM001E.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 14 cm 1,7 L Grafite",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20384014-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384014PDM001M.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 14 cm 1,7 L Grafite - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20384014-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384014PDM001C.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 14 cm 1,7 L Grafite - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -21423,19 +21035,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261624PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 4,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261624PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 4,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261624PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 4,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -21497,22 +21109,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65570000-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65570000PDM001E.jpg",
+        "id": "prod-tram-65570000-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65570000PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Lótus em Aço Inox com Fundo Triplo e Alças Dobráveis 3 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65570000-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65570000PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Lótus em Aço Inox com Fundo Triplo e Alças Dobráveis 3 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65570000-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65570000PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Lótus em Aço Inox com Fundo Triplo e Alças Dobráveis 3 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -21677,19 +21277,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260718PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 0,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260718PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 0,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260718PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 0,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -21754,19 +21354,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20298764-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298764PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 7 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20298764-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298764PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 7 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20298764-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298764PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 7 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -21962,19 +21562,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599461-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599461PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599461-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599461PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599461-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599461PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -22353,19 +21953,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28535624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28535624PDM001E.jpg",
         "alt": "Espagueteira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max com Tampa de Alumínio Chumbo 24 cm 7,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28535624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28535624PDM001M.jpg",
         "alt": "Espagueteira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max com Tampa de Alumínio Chumbo 24 cm 7,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28535624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28535624PDM001C.jpg",
         "alt": "Espagueteira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max com Tampa de Alumínio Chumbo 24 cm 7,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -22527,7 +22127,7 @@ export const PRODUCTS: Product[] = [
     "price": 377,
     "compare_at_price": 508.95,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -22568,29 +22168,10 @@ export const PRODUCTS: Product[] = [
         "value": "62159220"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62159220-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159220PDM001E.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox 1,2 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62159220-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159220PDM001M.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox 1,2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62159220-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159220PDM001C.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox 1,2 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -22651,22 +22232,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62480200-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62480200PDM001E.jpg",
+        "id": "prod-tram-62480200-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62480200PDM001E.jpg",
         "alt": "Frigideira Tramontina Duo Silicone em Aço Inox Fundo Triplo com Tampa e Cabo de Silicone 20 cm 2,1 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62480200-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62480200PDM001M.jpg",
-        "alt": "Frigideira Tramontina Duo Silicone em Aço Inox Fundo Triplo com Tampa e Cabo de Silicone 20 cm 2,1 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62480200-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62480200PDM001C.jpg",
-        "alt": "Frigideira Tramontina Duo Silicone em Aço Inox Fundo Triplo com Tampa e Cabo de Silicone 20 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -22893,19 +22462,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260622PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 22 cm 1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260622PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 22 cm 1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260622PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 22 cm 1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -23127,22 +22696,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65660280-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660280PDM001E.jpg",
+        "id": "prod-tram-65660280-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65660280PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65660280-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660280PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65660280-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660280PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -23609,19 +23166,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500626-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500626PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 26 cm 1,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500626-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500626PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 26 cm 1,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500626-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500626PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 26 cm 1,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -23751,19 +23308,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28317220-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317220PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina LYF em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28317220-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317220PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina LYF em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28317220-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317220PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina LYF em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -23832,19 +23389,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28504720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504720PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 20 cm 1,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28504720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504720PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 20 cm 1,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28504720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504720PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 20 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -23906,22 +23463,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65650060-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650060PDM001E.jpg",
+        "id": "prod-tram-65650060-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65650060PDM001E.jpg",
         "alt": "Jogo Cozi-Pasta Tramontina Allegra em Aço Inox com Fundo Triplo 2 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65650060-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650060PDM001M.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Allegra em Aço Inox com Fundo Triplo 2 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65650060-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650060PDM001C.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Allegra em Aço Inox com Fundo Triplo 2 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -23940,7 +23485,7 @@ export const PRODUCTS: Product[] = [
     "price": 276.5,
     "compare_at_price": 373.28,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -23981,29 +23526,10 @@ export const PRODUCTS: Product[] = [
         "value": "62159287"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62159287-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159287PDM001E.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox com Revestimento Interno Antiaderente 1,9 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62159287-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159287PDM001M.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox com Revestimento Interno Antiaderente 1,9 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62159287-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159287PDM001C.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox com Revestimento Interno Antiaderente 1,9 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -24067,19 +23593,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20329712-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20329712PDM001E.jpg",
         "alt": "Fervedor Tramontina em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20329712-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20329712PDM001M.jpg",
         "alt": "Fervedor Tramontina em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20329712-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20329712PDM001C.jpg",
         "alt": "Fervedor Tramontina em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -24148,19 +23674,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28505624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505624PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 2,0 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28505624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505624PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 2,0 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28505624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505624PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 2,0 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -24225,19 +23751,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299496-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299496PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Michigan em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Siena Siena Natural 2 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299496-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299496PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Michigan em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Siena Siena Natural 2 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299496-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299496PDM001C.jpg",
-        "alt": "Jogo de Frigideiras Tramontina Michigan em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Siena Siena Natural 2 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -24302,19 +23822,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20998453-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998453PDM001E.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Dourado 6 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20998453-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998453PDM001M.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Dourado 6 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20998453-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998453PDM001C.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Dourado 6 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -24383,19 +23903,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262620PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262620PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262620PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -24688,19 +24208,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530722PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 5,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530722PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 5,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530722PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 5,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -24872,19 +24392,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28723416-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723416PDM001E.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 16 cm 1,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28723416-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723416PDM001M.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 16 cm 1,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28723416-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723416PDM001C.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 16 cm 1,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -24953,19 +24473,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28532716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532716PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 2,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28532716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532716PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 2,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28532716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532716PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 2,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -25034,19 +24554,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525622PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 3,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525622PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 3,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525622PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 3,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -25118,7 +24638,7 @@ export const PRODUCTS: Product[] = [
     "price": 139,
     "compare_at_price": 187.65,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -25168,24 +24688,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20392024-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20392024PDM001E.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 26 cm 1,0 L Grafite",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20392024-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20392024PDM001M.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 26 cm 1,0 L Grafite - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20392024-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20392024PDM001C.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 26 cm 1,0 L Grafite - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -25242,22 +24762,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65650170-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650170PDM001E.jpg",
+        "id": "prod-tram-65650170-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65650170PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 7 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65650170-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650170PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 7 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65650170-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650170PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 7 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -25326,19 +24834,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530616PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 2,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530616PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 2,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530616PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -25407,19 +24915,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260728PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 28 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260728PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 28 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260728PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 28 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -25488,19 +24996,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500618PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 18 cm 0,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500618PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 18 cm 0,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500618PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 18 cm 0,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -25569,19 +25077,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262716PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 16 cm 1,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262716PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 16 cm 1,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262716PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 16 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -25892,19 +25400,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599460-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599460PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599460-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599460PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 4 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599460-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599460PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 4 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -25969,19 +25477,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599462-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599462PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 7 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599462-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599462PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 7 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599462-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599462PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 7 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -26129,19 +25637,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20380724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380724PDM001E.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 24 cm 1,4 L Vermelha",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20380724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380724PDM001M.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 24 cm 1,4 L Vermelha - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20380724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380724PDM001C.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 24 cm 1,4 L Vermelha - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -26160,7 +25668,7 @@ export const PRODUCTS: Product[] = [
     "price": 127,
     "compare_at_price": 171.45,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -26210,24 +25718,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20274624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20274624PDM001E.jpg",
         "alt": "Bistequeira Tramontina Turim em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 24 cm 1 L Grafite",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20274624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20274624PDM001M.jpg",
         "alt": "Bistequeira Tramontina Turim em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 24 cm 1 L Grafite - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20274624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20274624PDM001C.jpg",
         "alt": "Bistequeira Tramontina Turim em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 24 cm 1 L Grafite - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -26396,22 +25904,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62934120-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62934120PDM001E.jpg",
+        "id": "prod-tram-62934120-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62934120PDM001E.jpg",
         "alt": "Fervedor Tramontina Allegra em Aço inox e Cabo de Baquelite 12 cm 1,4 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62934120-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62934120PDM001M.jpg",
-        "alt": "Fervedor Tramontina Allegra em Aço inox e Cabo de Baquelite 12 cm 1,4 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62934120-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62934120PDM001C.jpg",
-        "alt": "Fervedor Tramontina Allegra em Aço inox e Cabo de Baquelite 12 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -26584,19 +26080,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599601-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599601PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599601-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599601PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599601-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599601PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -26665,19 +26161,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27805358-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27805358PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 10 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27805358-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27805358PDM001M.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 10 cm 0,8 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-27805358-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27805358PDM001C.jpg",
-        "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 10 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -26746,19 +26236,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20395828-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395828PDM001E.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20395828-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395828PDM001M.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20395828-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395828PDM001C.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -27085,19 +26575,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260624PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 1,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260624PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 1,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260624PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -27279,22 +26769,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62509240-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509240PDM001E.jpg",
+        "id": "prod-tram-62509240-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62509240PDM001E.jpg",
         "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 24 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62509240-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509240PDM001M.jpg",
-        "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 24 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62509240-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62509240PDM001C.jpg",
-        "alt": "Tampa Avulsa Tramontina Solar em Aço Inox 24 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -27360,22 +26838,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62416220-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416220PDM001E.jpg",
+        "id": "prod-tram-62416220-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62416220PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Brava em Aço Inox com Fundo Triplo 22 cm 6 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62416220-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416220PDM001M.jpg",
-        "alt": "Panela de Pressão Tramontina Brava em Aço Inox com Fundo Triplo 22 cm 6 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62416220-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416220PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Brava em Aço Inox com Fundo Triplo 22 cm 6 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -27444,19 +26910,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20380028-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380028PDM001E.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Cabo Baquelite 28 cm 2 L Grafite",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20380028-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380028PDM001M.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Cabo Baquelite 28 cm 2 L Grafite - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20380028-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380028PDM001C.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Cabo Baquelite 28 cm 2 L Grafite - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -27525,19 +26991,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261718PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261718PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261718PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -27662,19 +27128,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27899281-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899281PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Coimbra em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Poliéster 02 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27899281-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899281PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Coimbra em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Poliéster 02 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27899281-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899281PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina Coimbra em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Poliéster 02 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -27740,22 +27206,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65500400-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500400PDM001E.jpg",
+        "id": "prod-tram-65500400-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65500400PDM001E.jpg",
         "alt": "Jogo Cozi-Pasta Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 Peças 24 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65500400-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500400PDM001M.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 Peças 24 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65500400-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500400PDM001C.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 Peças 24 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -27920,19 +27374,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525716PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 1,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525716PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 1,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525716PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 16 cm 1,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -28232,19 +27686,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20999400-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999400PDM001E.jpg",
         "alt": "Jogo de Panelas Multiuso Tramontina Itria em Alumínio com Revestimento Cerâmico Marfim e Cabo Removível 10 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20999400-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999400PDM001M.jpg",
         "alt": "Jogo de Panelas Multiuso Tramontina Itria em Alumínio com Revestimento Cerâmico Marfim e Cabo Removível 10 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20999400-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999400PDM001C.jpg",
-        "alt": "Jogo de Panelas Multiuso Tramontina Itria em Alumínio com Revestimento Cerâmico Marfim e Cabo Removível 10 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -28313,19 +27761,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20182013-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20182013PDM001E.jpg",
         "alt": "Frigideira para Ovo Tramontina Turim em Alumínio com Revestimento Antiaderente Starflon Max e Cabo Baquelite Chumbo 13 cm 0,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20182013-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20182013PDM001M.jpg",
         "alt": "Frigideira para Ovo Tramontina Turim em Alumínio com Revestimento Antiaderente Starflon Max e Cabo Baquelite Chumbo 13 cm 0,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20182013-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20182013PDM001C.jpg",
         "alt": "Frigideira para Ovo Tramontina Turim em Alumínio com Revestimento Antiaderente Starflon Max e Cabo Baquelite Chumbo 13 cm 0,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -28477,22 +27925,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65120040-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120040PDM001E.jpg",
+        "id": "prod-tram-65120040-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65120040PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar Silicone em Aço Inox com Fundo Triplo 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65120040-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120040PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Silicone em Aço Inox com Fundo Triplo 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65120040-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120040PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Silicone em Aço Inox com Fundo Triplo 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -28734,22 +28170,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62416200-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416200PDM001E.jpg",
+        "id": "prod-tram-62416200-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62416200PDM002E.jpg",
         "alt": "Panela de Pressão Tramontina Brava em Aço Inox com Fundo Triplo 20 cm 4,5 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62416200-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416200PDM001M.jpg",
-        "alt": "Panela de Pressão Tramontina Brava em Aço Inox com Fundo Triplo 20 cm 4,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62416200-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416200PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Brava em Aço Inox com Fundo Triplo 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -28878,19 +28302,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20999319-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999319PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Refinatta em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Premium 03 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20999319-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999319PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Refinatta em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Premium 03 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20999319-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999319PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Refinatta em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Premium 03 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -28959,19 +28383,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531712-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531712PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531712-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531712PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531712-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531712PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -29128,22 +28552,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62513223-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62513223PDM001E.jpg",
+        "id": "prod-tram-62513223-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62513223PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 4,5 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62513223-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62513223PDM001M.jpg",
-        "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 4,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62513223-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62513223PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -29208,19 +28620,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20263724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263724PDM001E.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20263724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263724PDM001M.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20263724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263724PDM001C.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -29357,19 +28769,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20579001-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20579001PDM001E.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina Vancouver e Valência em Silicone 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20579001-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20579001PDM001M.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina Vancouver e Valência em Silicone 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20579001-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20579001PDM001C.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina Vancouver e Valência em Silicone 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -29388,7 +28800,7 @@ export const PRODUCTS: Product[] = [
     "price": 51.92,
     "compare_at_price": 70.09,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -29438,24 +28850,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20390722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20390722PDM001E.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 22 cm 0,6 L Vermelha",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20390722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20390722PDM001M.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 22 cm 0,6 L Vermelha - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20390722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20390722PDM001C.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Cabo Baquelite 22 cm 0,6 L Vermelha - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -29519,19 +28931,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27812101-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812101PDM001E.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27812101-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812101PDM001M.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-27812101-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812101PDM001C.jpg",
-        "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Estampado 24 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -29651,19 +29057,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20999254-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999254PDM001E.jpg",
         "alt": "Kit de Panelas Tramontina Lyon em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon High Perfomance Verde Esmeralda 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20999254-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999254PDM001M.jpg",
         "alt": "Kit de Panelas Tramontina Lyon em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon High Perfomance Verde Esmeralda 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20999254-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999254PDM001C.jpg",
-        "alt": "Kit de Panelas Tramontina Lyon em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon High Perfomance Verde Esmeralda 4 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -30149,19 +29549,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28505722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505722PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28505722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505722PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28505722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28505722PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -30317,19 +29717,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28575414-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28575414PDM001E.jpg",
         "alt": "Fervedor Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 14 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28575414-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28575414PDM001M.jpg",
         "alt": "Fervedor Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 14 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28575414-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28575414PDM001C.jpg",
         "alt": "Fervedor Tramontina Milazzo em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Amêndoa 14 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -30775,19 +30175,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531614-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531614PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531614-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531614PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531614-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531614PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -30856,19 +30256,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28518626-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518626PDM001E.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 3,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28518626-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518626PDM001M.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 3,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28518626-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518626PDM001C.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 3,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -30933,19 +30333,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297909-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297909PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Preto 03 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297909-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297909PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Preto 03 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297909-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297909PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Preto 03 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -31079,7 +30479,7 @@ export const PRODUCTS: Product[] = [
     "price": 204,
     "compare_at_price": 275.4,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -31129,24 +30529,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28515628-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28515628PDM001E.jpg",
         "alt": "Bistequeira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Preto 28 cm 2,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28515628-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28515628PDM001M.jpg",
         "alt": "Bistequeira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Preto 28 cm 2,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28515628-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28515628PDM001C.jpg",
         "alt": "Bistequeira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Preto 28 cm 2,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -31348,22 +30748,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65120030-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120030PDM001E.jpg",
+        "id": "prod-tram-65120030-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65120030PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar Silicone em Aço Inox 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65120030-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120030PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Silicone em Aço Inox 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65120030-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120030PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Silicone em Aço Inox 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -31432,19 +30820,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530628-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530628PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 28 cm 11,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530628-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530628PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 28 cm 11,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530628-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530628PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 28 cm 11,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -31510,22 +30898,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62519140-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62519140PDM001E.jpg",
+        "id": "prod-tram-62519140-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62519140PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina Solar em Aço Inox com Alças e Tampa 14 cm 2,2 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62519140-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62519140PDM001M.jpg",
-        "alt": "Cuscuzeira Tramontina Solar em Aço Inox com Alças e Tampa 14 cm 2,2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62519140-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62519140PDM001C.jpg",
-        "alt": "Cuscuzeira Tramontina Solar em Aço Inox com Alças e Tampa 14 cm 2,2 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -31678,19 +31054,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20332714-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332714PDM001E.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20332714-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332714PDM001M.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20332714-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332714PDM001C.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -31887,19 +31263,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20264618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264618PDM001E.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20264618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264618PDM001M.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20264618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264618PDM001C.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -32028,19 +31404,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260630-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260630PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 30 cm 2,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260630-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260630PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 30 cm 2,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260630-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260630PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 30 cm 2,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -32109,19 +31485,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530726-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530726PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 9,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530726-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530726PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 9,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530726-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530726PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 9,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -32190,19 +31566,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20394728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20394728PDM001E.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20394728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20394728PDM001M.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20394728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20394728PDM001C.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -32361,19 +31737,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261620PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261620PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261620PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -32442,19 +31818,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20265722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265722PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20265722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265722PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20265722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265722PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -32686,19 +32062,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262816-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262816PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm 1,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262816-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262816PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm 1,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262816-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262816PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -32999,19 +32375,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297761-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297761PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 07 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297761-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297761PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 07 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297761-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297761PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 07 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -33177,19 +32553,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530724PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 7,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530724PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 7,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530724PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 7,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -33255,22 +32631,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62932140-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62932140PDM001E.jpg",
+        "id": "prod-tram-62932140-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62932140PDM001E.jpg",
         "alt": "Fervedor Tramontina Allegra em Aço inox com Fundo Triplo e Cabo de Baquelite 14 cm  2 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62932140-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62932140PDM001M.jpg",
-        "alt": "Fervedor Tramontina Allegra em Aço inox com Fundo Triplo e Cabo de Baquelite 14 cm  2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62932140-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62932140PDM001C.jpg",
-        "alt": "Fervedor Tramontina Allegra em Aço inox com Fundo Triplo e Cabo de Baquelite 14 cm  2 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -33335,19 +32699,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20499716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499716PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Vermelho 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20499716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499716PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Vermelho 4 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20499716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499716PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Excellent Vermelho 4 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -33412,19 +32776,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299404-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299404PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Rosa 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299404-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299404PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Rosa 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299404-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299404PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Linz em Aluminio com Revestimento Interno e Externo em Antiaderente Starflon Max Rosa 4 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -33562,19 +32920,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28534619-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28534619PDM001E.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28534619-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28534619PDM001M.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28534619-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28534619PDM001C.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -33639,19 +32997,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297009-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297009PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 03 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297009-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297009PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 03 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297009-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297009PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 03 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -33716,19 +33074,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27812098-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812098PDM001E.jpg",
         "alt": "Panquequeira Tramontina em Alumínio com Revest. Interno em Antiaderente Starflon Max e Ext. Siliconado Estampado Colorido 22 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27812098-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812098PDM001M.jpg",
         "alt": "Panquequeira Tramontina em Alumínio com Revest. Interno em Antiaderente Starflon Max e Ext. Siliconado Estampado Colorido 22 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-27812098-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27812098PDM001C.jpg",
-        "alt": "Panquequeira Tramontina em Alumínio com Revest. Interno em Antiaderente Starflon Max e Ext. Siliconado Estampado Colorido 22 cm - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -33936,19 +33288,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20896060-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20896060PDM001E.jpg",
         "alt": "Paellera Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 60 cm 18,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20896060-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20896060PDM001M.jpg",
         "alt": "Paellera Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 60 cm 18,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20896060-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20896060PDM001C.jpg",
         "alt": "Paellera Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 60 cm 18,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -34013,19 +33365,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27899307-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899307PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Glenz em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Vermelho 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27899307-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899307PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Glenz em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Vermelho 4 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27899307-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899307PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Glenz em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Vermelho 4 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -34193,22 +33545,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62490160-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62490160PDM001E.jpg",
+        "id": "prod-tram-62490160-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62490160PDM001E.jpg",
         "alt": "Cozi-Vapore Tramontina Duo Silicone em Aço Inox com Alças em Silicone 16 cm 1,6 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62490160-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62490160PDM001M.jpg",
-        "alt": "Cozi-Vapore Tramontina Duo Silicone em Aço Inox com Alças em Silicone 16 cm 1,6 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62490160-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62490160PDM001C.jpg",
-        "alt": "Cozi-Vapore Tramontina Duo Silicone em Aço Inox com Alças em Silicone 16 cm 1,6 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -34277,19 +33617,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20593420-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20593420PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Preto 20 cm 3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20593420-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20593420PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Preto 20 cm 3 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20593420-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20593420PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Preto 20 cm 3 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -34351,22 +33685,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65720740-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65720740PDM001E.jpg",
+        "id": "prod-tram-65720740-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65720740PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar Baquelite em Aço Inox com Fundo Triplo e Cabos e Alças de Baquelite 3 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65720740-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65720740PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Baquelite em Aço Inox com Fundo Triplo e Cabos e Alças de Baquelite 3 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65720740-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65720740PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Baquelite em Aço Inox com Fundo Triplo e Cabos e Alças de Baquelite 3 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -34435,19 +33757,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20255820-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20255820PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20255820-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20255820PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20255820-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20255820PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -34774,19 +34096,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524726-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524726PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 6,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524726-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524726PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 6,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524726-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524726PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 6,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -34855,19 +34177,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262818-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262818PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262818-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262818PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262818-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262818PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -34936,19 +34258,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524618PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 2,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524618PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 2,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524618PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -35013,19 +34335,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20399782-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399782PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Vermelho 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20399782-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399782PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Vermelho 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20399782-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399782PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabos e Alças Vermelho 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -35094,19 +34416,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525722PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 3,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525722PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 3,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525722PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 3,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -35350,19 +34672,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20558620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20558620PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Torino em Alumínio com Revestimento Interno e Externo Cerâmico Verde Petróleo e Fundo de Indução 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20558620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20558620PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Torino em Alumínio com Revestimento Interno e Externo Cerâmico Verde Petróleo e Fundo de Indução 20 cm 4,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20558620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20558620PDM001C.jpg",
         "alt": "Panela de Pressão Tramontina Torino em Alumínio com Revestimento Interno e Externo Cerâmico Verde Petróleo e Fundo de Indução 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -35580,19 +34902,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20576006-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20576006PDM001E.jpg",
         "alt": "Filtro Metálico de Proteção Tramontina Torino",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20576006-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20576006PDM001M.jpg",
         "alt": "Filtro Metálico de Proteção Tramontina Torino - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20576006-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20576006PDM001C.jpg",
         "alt": "Filtro Metálico de Proteção Tramontina Torino - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -35654,22 +34976,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62676970-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62676970PDM001E.jpg",
+        "id": "prod-tram-62676970-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62676970PDM001E.jpg",
         "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Allegra 22 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62676970-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62676970PDM001M.jpg",
-        "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Allegra 22 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62676970-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62676970PDM001C.jpg",
-        "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Allegra 22 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -35738,19 +35048,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524724PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 4,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524724PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 4,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524724PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 4,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -35819,19 +35129,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530626-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530626PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 9,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530626-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530626PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 9,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530626-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530626PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 9,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -35897,22 +35207,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65620411-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620411PDM001E.jpg",
+        "id": "prod-tram-65620411-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65620411PDM001E.jpg",
         "alt": "Cozi-Pasta Tramontina Professional em Aço Inox com 4 Divisórias &Oslash;30 cm 13,5 L Sem Embalagem Litografada",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65620411-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620411PDM001M.jpg",
-        "alt": "Cozi-Pasta Tramontina Professional em Aço Inox com 4 Divisórias &Oslash;30 cm 13,5 L Sem Embalagem Litografada - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65620411-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620411PDM001C.jpg",
-        "alt": "Cozi-Pasta Tramontina Professional em Aço Inox com 4 Divisórias &Oslash;30 cm 13,5 L Sem Embalagem Litografada - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -36047,19 +35345,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20565424-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20565424PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Valência Black em Alumínio com Revestimento Cerâmico Preto 24 cm 7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20565424-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20565424PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Valência Black em Alumínio com Revestimento Cerâmico Preto 24 cm 7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20565424-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20565424PDM001C.jpg",
         "alt": "Panela de Pressão Tramontina Valência Black em Alumínio com Revestimento Cerâmico Preto 24 cm 7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -36181,22 +35479,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65720000-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65720000PDM001E.jpg",
+        "id": "prod-tram-65720000-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65720000PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar Baquelite em Aço Inox Fundo Triplo com Cabos e Alças de Baquelite 6 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65720000-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65720000PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Baquelite em Aço Inox Fundo Triplo com Cabos e Alças de Baquelite 6 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65720000-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65720000PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Baquelite em Aço Inox Fundo Triplo com Cabos e Alças de Baquelite 6 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -36368,19 +35654,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28722424-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722424PDM001E.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado  Rosa Trufado 24 cm 4,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28722424-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722424PDM001M.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado  Rosa Trufado 24 cm 4,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28722424-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722424PDM001C.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado  Rosa Trufado 24 cm 4,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -36445,19 +35731,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599717-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599717PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 07 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599717-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599717PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 07 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599717-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599717PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 07 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -36522,19 +35808,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20399082-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399082PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Grafite 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20399082-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399082PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Grafite 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20399082-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399082PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Grafite 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -36599,19 +35885,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28399141-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399141PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul Ardósia 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28399141-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399141PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul Ardósia 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28399141-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399141PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul Ardósia 4 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -36673,22 +35953,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-61483013-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61483013PDM001E.jpg",
+        "id": "prod-tram-61483013-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/61483013PDM001E.jpg",
         "alt": "Chaleira Tramontina com Apito em Aço Inox Cabo Preto 2,1  L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-61483013-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61483013PDM001M.jpg",
-        "alt": "Chaleira Tramontina com Apito em Aço Inox Cabo Preto 2,1  L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-61483013-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61483013PDM001C.jpg",
-        "alt": "Chaleira Tramontina com Apito em Aço Inox Cabo Preto 2,1  L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -36761,19 +36029,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28316224-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316224PDM001E.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 24 cm 4,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28316224-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316224PDM001M.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 24 cm 4,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28316224-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316224PDM001C.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 24 cm 4,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -36835,22 +36103,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62516970-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62516970PDM001E.jpg",
+        "id": "prod-tram-62516970-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62516970PDM001E.jpg",
         "alt": "Anel de Vedação  em Silicone para Panela de Pressão Tramontina Solar 22 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62516970-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62516970PDM001M.jpg",
-        "alt": "Anel de Vedação  em Silicone para Panela de Pressão Tramontina Solar 22 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62516970-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62516970PDM001C.jpg",
-        "alt": "Anel de Vedação  em Silicone para Panela de Pressão Tramontina Solar 22 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -36919,19 +36175,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20560520-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20560520PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Arizona Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Titânio 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20560520-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20560520PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Arizona Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Titânio 20 cm 4,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20560520-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20560520PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Arizona Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Titânio 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -37227,19 +36477,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27817499-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27817499PDM001E.jpg",
         "alt": "Frigideira Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul 28 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27817499-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27817499PDM001M.jpg",
         "alt": "Frigideira Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul 28 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27817499-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27817499PDM001C.jpg",
         "alt": "Frigideira Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Azul 28 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -37304,19 +36554,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20577011-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20577011PDM001E.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina em Silicone 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20577011-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20577011PDM001M.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina em Silicone 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20577011-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20577011PDM001C.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina em Silicone 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -37505,19 +36755,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260730-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260730PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 30 cm 2,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260730-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260730PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 30 cm 2,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260730-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260730PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 30 cm 2,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -37536,7 +36786,7 @@ export const PRODUCTS: Product[] = [
     "price": 204,
     "compare_at_price": 275.4,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -37586,24 +36836,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28515728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28515728PDM001E.jpg",
         "alt": "Bistequeira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Vermelho 28 cm 2,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28515728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28515728PDM001M.jpg",
         "alt": "Bistequeira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Vermelho 28 cm 2,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28515728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28515728PDM001C.jpg",
         "alt": "Bistequeira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo de Silicone Vermelho 28 cm 2,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -37664,22 +36914,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62512145-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62512145PDM001E.jpg",
+        "id": "prod-tram-62512145-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62512145PDM001E.jpg",
         "alt": "Fervedor Tramontina Solar em Aço Inox Fundo Triplo com Tampa 14 cm 2 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62512145-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62512145PDM001M.jpg",
-        "alt": "Fervedor Tramontina Solar em Aço Inox Fundo Triplo com Tampa 14 cm 2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62512145-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62512145PDM001C.jpg",
-        "alt": "Fervedor Tramontina Solar em Aço Inox Fundo Triplo com Tampa 14 cm 2 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -37748,19 +36986,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261818-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261818PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261818-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261818PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261818-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261818PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -37901,19 +37139,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20395024-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395024PDM001E.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 24 cm 2,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20395024-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395024PDM001M.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 24 cm 2,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20395024-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395024PDM001C.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 24 cm 2,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -38101,22 +37339,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65960000-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65960000PDM001E.jpg",
+        "id": "prod-tram-65960000-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65960000PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Chrono em Aço Inox com Corpo Triplo 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65960000-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65960000PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Chrono em Aço Inox com Corpo Triplo 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65960000-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65960000PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Chrono em Aço Inox com Corpo Triplo 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -38340,19 +37566,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28316228-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316228PDM001E.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 28 cm 7,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28316228-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316228PDM001M.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 28 cm 7,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28316228-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316228PDM001C.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 28 cm 7,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -38553,19 +37779,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28723116-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723116PDM001E.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 16 cm 1,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28723116-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723116PDM001M.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 16 cm 1,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28723116-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723116PDM001C.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 16 cm 1,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -38706,19 +37932,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261724PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 24 cm 4,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261724PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 24 cm 4,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261724PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 24 cm 4,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -38787,19 +38013,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20591320-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591320PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20591320-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591320PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 20 cm 4,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20591320-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591320PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Vancouver em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Bege 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -38864,19 +38084,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299006-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299006PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 07 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299006-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299006PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 07 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299006-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299006PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 07 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -38995,19 +38209,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28318224-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28318224PDM001E.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde 24 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28318224-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28318224PDM001M.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde 24 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28318224-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28318224PDM001C.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde 24 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -39161,19 +38375,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530622PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 5,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530622PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 5,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530622PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 5,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -39295,22 +38509,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65510760-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510760PDM001E.jpg",
+        "id": "prod-tram-65510760-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510760PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65510760-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510760PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65510760-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510760PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -39607,19 +38809,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28518724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518724PDM001E.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28518724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518724PDM001M.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28518724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518724PDM001C.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 24 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -39688,19 +38890,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20380726-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380726PDM001E.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 26 cm 1,8 L Vermelha",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20380726-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380726PDM001M.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 26 cm 1,8 L Vermelha - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20380726-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380726PDM001C.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo Baquelite 26 cm 1,8 L Vermelha - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -39769,19 +38971,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28508618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508618PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 18 cm 0,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28508618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508618PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 18 cm 0,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28508618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508618PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 18 cm 0,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -40078,19 +39280,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20395724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395724PDM001E.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 2,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20395724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395724PDM001M.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 2,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20395724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20395724PDM001C.jpg",
         "alt": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 2,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -40431,19 +39633,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27803075-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803075PDM001E.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Cinza 30 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27803075-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803075PDM001M.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Cinza 30 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27803075-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803075PDM001C.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Cinza 30 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -40508,19 +39710,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28534719-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28534719PDM001E.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28534719-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28534719PDM001M.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28534719-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28534719PDM001C.jpg",
         "alt": "Chaleira Tramontina em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -40589,19 +39791,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524628-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524628PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 28 cm 8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524628-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524628PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 28 cm 8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524628-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524628PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 28 cm 8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -40663,22 +39865,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65650270-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650270PDM001E.jpg",
+        "id": "prod-tram-65650270-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65650270PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65650270-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650270PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65650270-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650270PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -40740,22 +39930,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65580000-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65580000PDM001E.jpg",
+        "id": "prod-tram-65580000-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65580000PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Grano Black em Aço Inox Corpo Triplo 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65580000-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65580000PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Black em Aço Inox Corpo Triplo 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65580000-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65580000PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Black em Aço Inox Corpo Triplo 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -40820,19 +39998,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299007-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299007PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 10 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299007-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299007PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 10 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299007-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299007PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 10 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -40990,19 +40162,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260724PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 24 cm 1,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260724PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 24 cm 1,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260724PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 24 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -41227,19 +40399,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20564024-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20564024PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Valência em Alumínio Polido 24 cm 10 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20564024-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20564024PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Valência em Alumínio Polido 24 cm 10 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20564024-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20564024PDM001C.jpg",
         "alt": "Panela de Pressão Tramontina Valência em Alumínio Polido 24 cm 10 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -41308,19 +40480,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525616PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 1,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525616PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 1,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525616PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 1,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -41522,19 +40694,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297508-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297508PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Caribe com Revestimento Interno e Externo em antiaderente Starflon Max Vermelho 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297508-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297508PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Caribe com Revestimento Interno e Externo em antiaderente Starflon Max Vermelho 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297508-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297508PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Caribe com Revestimento Interno e Externo em antiaderente Starflon Max Vermelho 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -41692,22 +40864,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65120026-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120026PDM001E.jpg",
+        "id": "prod-tram-65120026-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65120026PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar Ceramic em Aço Inox Fundo Triplo com Revestimento Interno Cerâmico Grafite 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65120026-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120026PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Ceramic em Aço Inox Fundo Triplo com Revestimento Interno Cerâmico Grafite 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65120026-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65120026PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar Ceramic em Aço Inox Fundo Triplo com Revestimento Interno Cerâmico Grafite 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -41773,22 +40933,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65500300-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500300PDM001E.jpg",
+        "id": "prod-tram-65500300-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65500300PDM001E.jpg",
         "alt": "Jogo de Cozi-Vapore Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 peças 16 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65500300-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500300PDM001M.jpg",
-        "alt": "Jogo de Cozi-Vapore Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 peças 16 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65500300-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500300PDM001C.jpg",
-        "alt": "Jogo de Cozi-Vapore Tramontina Solar em Aço Inox Fundo Triplo com Alças 2 peças 16 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -41857,19 +41005,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524624PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 4,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524624PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 4,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524624PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 4,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -41935,22 +41083,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65400410-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400410PDM001E.jpg",
+        "id": "prod-tram-65400410-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65400410PDM001E.jpg",
         "alt": "Jogo Cozi-Pasta Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana e Alças 2 Peças 20 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65400410-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400410PDM001M.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana e Alças 2 Peças 20 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65400410-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400410PDM001C.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana e Alças 2 Peças 20 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -42015,19 +41151,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20998853-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998853PDM001E.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Azul Elementar 6 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20998853-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998853PDM001M.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Azul Elementar 6 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20998853-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20998853PDM001C.jpg",
         "alt": "Kit Tramontina Lyon em Alumínio Forjado com Revestimento Interno e Externo em Antiaderente Starflon High Performance Azul Elementar 6 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -42231,19 +41367,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20298664-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298664PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 7 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20298664-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298664PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 7 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20298664-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20298664PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 7 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -42396,19 +41532,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28532616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532616PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 2,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28532616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532616PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 2,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28532616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532616PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 16 cm 2,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -42473,19 +41609,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28799002-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799002PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28799002-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799002PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28799002-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799002PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -42554,19 +41690,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531714-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531714PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531714-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531714PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531714-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531714PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -42985,19 +42121,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28504622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504622PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28504622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504622PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28504622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504622PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -43070,19 +42206,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27815868-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815868PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Ravena em Alumínio com Revestimento Interno Antiaderente Starflon Max 28 cm 3,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27815868-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815868PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Ravena em Alumínio com Revestimento Interno Antiaderente Starflon Max 28 cm 3,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27815868-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27815868PDM001C.jpg",
         "alt": "Frigideira Funda Tramontina Ravena em Alumínio com Revestimento Interno Antiaderente Starflon Max 28 cm 3,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -43151,19 +42287,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28722124-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722124PDM001E.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 24 cm 4,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28722124-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722124PDM001M.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 24 cm 4,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28722124-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28722124PDM001C.jpg",
         "alt": "Caçarola Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 24 cm 4,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -43229,22 +42365,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62485200-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62485200PDM001E.jpg",
+        "id": "prod-tram-62485200-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62485200PDM001E.jpg",
         "alt": "Caldeirão Tramontina Duo Silicone em Aço Inox Fundo Triplo com Tampa e Alças em Silicone 20 cm 4,5 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62485200-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62485200PDM001M.jpg",
-        "alt": "Caldeirão Tramontina Duo Silicone em Aço Inox Fundo Triplo com Tampa e Alças em Silicone 20 cm 4,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62485200-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62485200PDM001C.jpg",
-        "alt": "Caldeirão Tramontina Duo Silicone em Aço Inox Fundo Triplo com Tampa e Alças em Silicone 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -43313,19 +42437,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28520626-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28520626PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28520626-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28520626PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 2,9 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28520626-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28520626PDM001C.jpg",
-        "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -43690,19 +42808,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20559420-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20559420PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Arizona em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20559420-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20559420PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Arizona em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 20 cm 4,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20559420-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20559420PDM001C.jpg",
         "alt": "Panela de Pressão Tramontina Arizona em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -43771,19 +42889,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20892024-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20892024PDM001E.jpg",
         "alt": "Frigideira Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 24 cm 1,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20892024-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20892024PDM001M.jpg",
         "alt": "Frigideira Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 24 cm 1,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20892024-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20892024PDM001C.jpg",
         "alt": "Frigideira Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 24 cm 1,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -43987,19 +43105,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20263620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263620PDM001E.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20263620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263620PDM001M.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20263620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263620PDM001C.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -44068,19 +43186,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530728PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 28 cm 11,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530728PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 28 cm 11,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530728PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 28 cm 11,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -44245,19 +43363,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28509728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509728PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28509728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509728PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28509728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28509728PDM001C.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 28 cm 3,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -44326,19 +43444,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20380026-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380026PDM001E.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Cabo Baquelite 26 cm 1,8 L Grafite",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20380026-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380026PDM001M.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Cabo Baquelite 26 cm 1,8 L Grafite - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20380026-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20380026PDM001C.jpg",
         "alt": "Frigideira Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Cabo Baquelite 26 cm 1,8 L Grafite - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -44407,19 +43525,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500630-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500630PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 30 cm 2,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500630-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500630PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 30 cm 2,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500630-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500630PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 30 cm 2,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -44479,26 +43597,7 @@ export const PRODUCTS: Product[] = [
         "value": "20549000"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-20549000-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20549000PDM001E.jpg",
-        "alt": "Haste para Pipoqueira Tramontina com Tampa de Vidro 22 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-20549000-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20549000PDM001M.jpg",
-        "alt": "Haste para Pipoqueira Tramontina com Tampa de Vidro 22 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20549000-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20549000PDM001C.jpg",
-        "alt": "Haste para Pipoqueira Tramontina com Tampa de Vidro 22 cm - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "panelas-especiais"
@@ -44611,22 +43710,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65500000-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500000PDM001E.jpg",
+        "id": "prod-tram-65500000-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65500000PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar em Aço Inox Fundo Triplo  6 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65500000-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500000PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox Fundo Triplo  6 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65500000-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500000PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox Fundo Triplo  6 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -45213,19 +44300,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524722PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 3,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524722PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 3,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524722PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 3,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -45294,19 +44381,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20125034-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125034PDM001E.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 34 cm 3,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20125034-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125034PDM001M.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 34 cm 3,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20125034-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125034PDM001C.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 34 cm 3,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -45375,19 +44462,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260716PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 16 cm 0,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260716PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 16 cm 0,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260716PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 16 cm 0,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -45456,19 +44543,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261720PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 20 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261720PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 20 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261720PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 20 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -45537,19 +44624,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500720PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 20 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500720PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 20 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500720PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 20 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -45691,19 +44778,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28319218-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319218PDM001E.jpg",
         "alt": "Panela Tramontina LYF em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde Natureza 18 cm 2,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28319218-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319218PDM001M.jpg",
         "alt": "Panela Tramontina LYF em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde Natureza 18 cm 2,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28319218-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319218PDM001C.jpg",
         "alt": "Panela Tramontina LYF em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde Natureza 18 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -45916,19 +45003,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28520726-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28520726PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28520726-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28520726PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 2,9 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28520726-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28520726PDM001C.jpg",
-        "alt": "Frigideira Funda Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 26 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -45997,19 +45078,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20268714-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268714PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20268714-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268714PDM001M.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20268714-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268714PDM001C.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -46190,22 +45271,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62511223-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62511223PDM001E.jpg",
+        "id": "prod-tram-62511223-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62511223PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 3 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62511223-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62511223PDM001M.jpg",
-        "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 3 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62511223-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62511223PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 3 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -46726,19 +45795,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28508628-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508628PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 28 cm 2,0 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28508628-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508628PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 28 cm 2,0 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28508628-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508628PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 28 cm 2,0 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -46800,22 +45869,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65660230-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660230PDM001E.jpg",
+        "id": "prod-tram-65660230-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65660230PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 2 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65660230-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660230PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 2 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65660230-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660230PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 2 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -46963,19 +46020,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500622PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 22 cm 1,0 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500622PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 22 cm 1,0 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500622PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 22 cm 1,0 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -47113,26 +46170,7 @@ export const PRODUCTS: Product[] = [
         "value": "62649450"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62649450-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62649450PDM001E.jpg",
-        "alt": "Tampa Avulsa Tramontina Professional em Aço Inox 45 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62649450-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62649450PDM001M.jpg",
-        "alt": "Tampa Avulsa Tramontina Professional em Aço Inox 45 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62649450-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62649450PDM001C.jpg",
-        "alt": "Tampa Avulsa Tramontina Professional em Aço Inox 45 cm - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "cacarolas-e-avulsas"
@@ -47199,19 +46237,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531612-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531612PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 12 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531612-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531612PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 12 cm 1,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531612-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531612PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 12 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -47280,19 +46318,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20193713-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20193713PDM001E.jpg",
         "alt": "Frigideira para Ovo Tramontina Turim em Alumínio com Revestimento Antiaderente Starflon Max e Cabo Baquelite Vermelho 13 cm 0,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20193713-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20193713PDM001M.jpg",
         "alt": "Frigideira para Ovo Tramontina Turim em Alumínio com Revestimento Antiaderente Starflon Max e Cabo Baquelite Vermelho 13 cm 0,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20193713-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20193713PDM001C.jpg",
         "alt": "Frigideira para Ovo Tramontina Turim em Alumínio com Revestimento Antiaderente Starflon Max e Cabo Baquelite Vermelho 13 cm 0,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -47352,26 +46390,7 @@ export const PRODUCTS: Product[] = [
         "value": "62639360"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62639360-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62639360PDM001E.jpg",
-        "alt": "Tampa Avulsa Tramontina Professional em Aço Inox 36 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62639360-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62639360PDM001M.jpg",
-        "alt": "Tampa Avulsa Tramontina Professional em Aço Inox 36 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62639360-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62639360PDM001C.jpg",
-        "alt": "Tampa Avulsa Tramontina Professional em Aço Inox 36 cm - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "cacarolas-e-avulsas"
@@ -47427,22 +46446,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62416921-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416921PDM001E.jpg",
+        "id": "prod-tram-62416921-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62416921PDM001E.jpg",
         "alt": "Válvula de Trabalho Tramontina para Panela de Pressão Allegra e Brava",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62416921-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416921PDM001M.jpg",
-        "alt": "Válvula de Trabalho Tramontina para Panela de Pressão Allegra e Brava - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62416921-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416921PDM001C.jpg",
-        "alt": "Válvula de Trabalho Tramontina para Panela de Pressão Allegra e Brava - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -47692,19 +46699,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20268814-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268814PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20268814-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268814PDM001M.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20268814-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20268814PDM001C.jpg",
         "alt": "Cuscuzeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -47773,19 +46780,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28518624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518624PDM001E.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28518624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518624PDM001M.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28518624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28518624PDM001C.jpg",
         "alt": "Fritadeira Multiuso Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 24 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -48012,19 +47019,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261618PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261618PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261618PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -48242,19 +47249,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20265822-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265822PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20265822-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265822PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20265822-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265822PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -48407,19 +47414,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20125030-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125030PDM001E.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 30 cm 2,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20125030-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125030PDM001M.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 30 cm 2,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20125030-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20125030PDM001C.jpg",
         "alt": "Paellera Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max com Alças Metálicas Grafite 30 cm 2,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -48484,19 +47491,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599701-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599701PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599701-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599701PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599701-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599701PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -48561,19 +47568,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20263720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263720PDM001E.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20263720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263720PDM001M.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20263720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263720PDM001C.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -48642,19 +47649,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500624PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 24 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500624PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 24 cm 1,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500624PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Espátula de Nylon 24 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -48716,22 +47723,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65180510-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65180510PDM001E.jpg",
+        "id": "prod-tram-65180510-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65180510PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Brava Baquelite em Aço Inox com Fundo Triplo e Cabos e Alças de Baquelite Preto 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65180510-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65180510PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava Baquelite em Aço Inox com Fundo Triplo e Cabos e Alças de Baquelite Preto 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65180510-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65180510PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava Baquelite em Aço Inox com Fundo Triplo e Cabos e Alças de Baquelite Preto 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -48800,19 +47795,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20593720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20593720PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 20 cm 3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20593720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20593720PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 20 cm 3 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20593720-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20593720PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Vermelho 20 cm 3 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -48971,19 +47960,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500722PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 22 cm 1,0 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500722PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 22 cm 1,0 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500722PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 22 cm 1,0 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -49107,19 +48096,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28318220-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28318220PDM001E.jpg",
         "alt": "Caçarola Tramontina LYF em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde Natureza 20 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28318220-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28318220PDM001M.jpg",
         "alt": "Caçarola Tramontina LYF em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde Natureza 20 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28318220-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28318220PDM001C.jpg",
         "alt": "Caçarola Tramontina LYF em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Verde Natureza 20 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -49188,19 +48177,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20332612-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332612PDM001E.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 12 cm 1,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20332612-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332612PDM001M.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 12 cm 1,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20332612-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332612PDM001C.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 12 cm 1,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -49408,19 +48397,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531716-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531716PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm 2,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531716-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531716PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm 2,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531716-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531716PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 16 cm 2,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -49485,19 +48474,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20266616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20266616PDM001E.jpg",
         "alt": "Jogo 4 Funções Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20266616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20266616PDM001M.jpg",
         "alt": "Jogo 4 Funções Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20266616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20266616PDM001C.jpg",
         "alt": "Jogo 4 Funções Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -49562,19 +48551,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20999700-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999700PDM001E.jpg",
         "alt": "Jogo de Panelas Multiuso Tramontina Itria em Alumínio com Revestimento Interno e Externo Cerâmico Vermelho 10 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20999700-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999700PDM001M.jpg",
         "alt": "Jogo de Panelas Multiuso Tramontina Itria em Alumínio com Revestimento Interno e Externo Cerâmico Vermelho 10 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20999700-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20999700PDM001C.jpg",
         "alt": "Jogo de Panelas Multiuso Tramontina Itria em Alumínio com Revestimento Interno e Externo Cerâmico Vermelho 10 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -49636,22 +48625,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-61485160-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61485160PDM001E.jpg",
+        "id": "prod-tram-61485160-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/61485160PDM001E.jpg",
         "alt": "Chaleira Tramontina em Aço Inox com Fundo Triplo Cabo Preto 1,5 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-61485160-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61485160PDM001M.jpg",
-        "alt": "Chaleira Tramontina em Aço Inox com Fundo Triplo Cabo Preto 1,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-61485160-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61485160PDM001C.jpg",
-        "alt": "Chaleira Tramontina em Aço Inox com Fundo Triplo Cabo Preto 1,5 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -49866,19 +48843,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297612-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297612PDM001E.jpg",
         "alt": "Kit Tramontina 47 peças para Cozinha com Panelas Antiaderentes em Alumínio, Talheres, Facas e Utensílios Domésticos",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297612-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297612PDM001M.jpg",
         "alt": "Kit Tramontina 47 peças para Cozinha com Panelas Antiaderentes em Alumínio, Talheres, Facas e Utensílios Domésticos - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20297612-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297612PDM001C.jpg",
-        "alt": "Kit Tramontina 47 peças para Cozinha com Panelas Antiaderentes em Alumínio, Talheres, Facas e Utensílios Domésticos - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -49947,19 +48918,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28723118-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723118PDM001E.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28723118-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723118PDM001M.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28723118-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28723118PDM001C.jpg",
         "alt": "Panela Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -50028,19 +48999,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20591420-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591420PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20591420-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591420PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 20 cm 4,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20591420-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591420PDM001C.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -50106,22 +49077,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62516223-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62516223PDM001E.jpg",
+        "id": "prod-tram-62516223-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62516223PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 6 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62516223-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62516223PDM001M.jpg",
-        "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 6 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62516223-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62516223PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Solar em Aço Inox Fundo Triplo com 5 Dispositivos de Segurança 22 cm 6 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -50321,19 +49280,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28504724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504724PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 24 cm 2,0 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28504724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504724PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 24 cm 2,0 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28504724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504724PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 24 cm 2,0 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -50402,19 +49361,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262616PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 1,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262616PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 1,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262616PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -50433,7 +49392,7 @@ export const PRODUCTS: Product[] = [
     "price": 269,
     "compare_at_price": 363.15,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -50478,29 +49437,10 @@ export const PRODUCTS: Product[] = [
         "value": "28702024"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-28702024-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28702024PDM001E.jpg",
-        "alt": "Bistequeira Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 24 cm 1,5 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-28702024-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28702024PDM001M.jpg",
-        "alt": "Bistequeira Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 24 cm 1,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28702024-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28702024PDM001C.jpg",
-        "alt": "Bistequeira Tramontina Mônaco Induction em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Premium Preto 24 cm 1,5 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -50616,22 +49556,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65650050-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650050PDM001E.jpg",
+        "id": "prod-tram-65650050-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65650050PDM001E.jpg",
         "alt": "Cuscuzeira Tramontina Allegra em Aço Inox com Fundo Triplo 2 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65650050-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650050PDM001M.jpg",
-        "alt": "Cuscuzeira Tramontina Allegra em Aço Inox com Fundo Triplo 2 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65650050-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650050PDM001C.jpg",
-        "alt": "Cuscuzeira Tramontina Allegra em Aço Inox com Fundo Triplo 2 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -50881,19 +49809,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500718PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 18 cm 0,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500718PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 18 cm 0,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500718PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 18 cm 0,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -50958,19 +49886,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20387000-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387000PDM001E.jpg",
         "alt": "Haste para Pipoqueira Tramontina 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20387000-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387000PDM001M.jpg",
         "alt": "Haste para Pipoqueira Tramontina 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20387000-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387000PDM001C.jpg",
         "alt": "Haste para Pipoqueira Tramontina 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -51331,19 +50259,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599727-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599727PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599727-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599727PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599727-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599727PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 10 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -51655,19 +50583,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20263624-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263624PDM001E.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20263624-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263624PDM001M.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20263624-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20263624PDM001C.jpg",
         "alt": "Caldeirão Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 24 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -51877,19 +50805,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28299406-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299406PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Rosa 07 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28299406-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299406PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Rosa 07 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28299406-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28299406PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Linz em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Rosa 07 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -51958,19 +50880,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28504722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504722PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28504722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504722PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28504722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28504722PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -52172,19 +51094,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28319216-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319216PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 16 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28319216-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319216PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 16 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28319216-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28319216PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 16 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -52253,19 +51175,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28721424-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28721424PDM001E.jpg",
         "alt": "Frigideira Funda Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 24 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28721424-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28721424PDM001M.jpg",
         "alt": "Frigideira Funda Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 24 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28721424-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28721424PDM001C.jpg",
         "alt": "Frigideira Funda Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Rosa Trufado 24 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -52334,19 +51256,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20592724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20592724PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20592724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20592724PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 6 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20592724-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20592724PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 24 cm 6 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -52411,19 +51327,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27803070-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803070PDM001E.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Vermelho &Oslash; 20cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27803070-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803070PDM001M.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Vermelho &Oslash; 20cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27803070-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27803070PDM001C.jpg",
         "alt": "Frigideira Tramontina em Alumínio com Revestimento Interno com Antiaderente Starflon Excellent Vermelho &Oslash; 20cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -52492,19 +51408,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28535724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28535724PDM001E.jpg",
         "alt": "Espagueteira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max com Tampa de Alumínio Vermelho 24 cm 7,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28535724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28535724PDM001M.jpg",
         "alt": "Espagueteira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max com Tampa de Alumínio Vermelho 24 cm 7,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28535724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28535724PDM001C.jpg",
         "alt": "Espagueteira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max com Tampa de Alumínio Vermelho 24 cm 7,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -52566,22 +51482,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65400010-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400010PDM001E.jpg",
+        "id": "prod-tram-65400010-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65400010PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65400010-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400010PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65400010-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400010PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -52650,19 +51554,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500724PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 24 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500724PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 24 cm 1,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500724PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 24 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -52731,19 +51635,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28500730-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500730PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 30 cm 2,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28500730-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500730PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 30 cm 2,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28500730-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28500730PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Espátula de Nylon 30 cm 2,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -52805,22 +51709,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65660220-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660220PDM001E.jpg",
+        "id": "prod-tram-65660220-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65660220PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 3 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65660220-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660220PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 3 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65660220-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65660220PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo e Tampas de Inox 3 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -52885,19 +51777,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20579016-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20579016PDM001E.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina Vancouver, Valência e Valência Black em Silicone 24 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20579016-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20579016PDM001M.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina Vancouver, Valência e Valência Black em Silicone 24 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20579016-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20579016PDM001C.jpg",
         "alt": "Anel de Vedação para Panela de Pressão Tramontina Vancouver, Valência e Valência Black em Silicone 24 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -53044,22 +51936,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-61483023-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61483023PDM001E.jpg",
+        "id": "prod-tram-61483023-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/61483023PDM001E.jpg",
         "alt": "Chaleira Tramontina com Apito em Aço Inox Cabo Preto 3 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-61483023-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61483023PDM001M.jpg",
-        "alt": "Chaleira Tramontina com Apito em Aço Inox Cabo Preto 3 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-61483023-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61483023PDM001C.jpg",
-        "alt": "Chaleira Tramontina com Apito em Aço Inox Cabo Preto 3 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -53305,19 +52185,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20499159-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499159PDM001E.jpg",
         "alt": "Kit 7 peças All in one Plus  Tramontina com Revestimento Interno Cerâmico e Externo Siliconado",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20499159-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499159PDM001M.jpg",
         "alt": "Kit 7 peças All in one Plus  Tramontina com Revestimento Interno Cerâmico e Externo Siliconado - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20499159-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20499159PDM001C.jpg",
         "alt": "Kit 7 peças All in one Plus  Tramontina com Revestimento Interno Cerâmico e Externo Siliconado - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -53482,19 +52362,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20384712-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384712PDM001E.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo de Baquelite 12 cm 1,1 L Vermelho",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20384712-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384712PDM001M.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo de Baquelite 12 cm 1,1 L Vermelho - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20384712-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20384712PDM001C.jpg",
         "alt": "Fervedor Tramontina Loreto em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max com Cabo de Baquelite 12 cm 1,1 L Vermelho - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -53563,19 +52443,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524626-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524626PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 6,3 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524626-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524626PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 6,3 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524626-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524626PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 26 cm 6,3 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -53640,19 +52520,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20549001-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20549001PDM001E.jpg",
         "alt": "Haste para Pipoqueira Tramontina com Tampa de Alumínio em Zitel 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20549001-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20549001PDM001M.jpg",
         "alt": "Haste para Pipoqueira Tramontina com Tampa de Alumínio em Zitel 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20549001-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20549001PDM001C.jpg",
         "alt": "Haste para Pipoqueira Tramontina com Tampa de Alumínio em Zitel 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -53718,22 +52598,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-61482183-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61482183PDM001E.jpg",
+        "id": "prod-tram-61482183-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/61482183PDM001E.jpg",
         "alt": "Chaleira Tramontina em Aço Inox Cabo Preto 14,5 cm  2,25 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-61482183-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61482183PDM001M.jpg",
-        "alt": "Chaleira Tramontina em Aço Inox Cabo Preto 14,5 cm  2,25 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-61482183-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/61482183PDM001C.jpg",
-        "alt": "Chaleira Tramontina em Aço Inox Cabo Preto 14,5 cm  2,25 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -53752,7 +52620,7 @@ export const PRODUCTS: Product[] = [
     "price": 276.5,
     "compare_at_price": 373.28,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -53795,27 +52663,15 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62159227-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159227PDM001E.jpg",
+        "id": "prod-tram-62159227-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62159227PDM001E.jpg",
         "alt": "Bistequeira Tramontina Grano em Aço Inox comRevestimento Interno em Antiaderente 1,2 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62159227-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159227PDM001M.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox comRevestimento Interno em Antiaderente 1,2 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62159227-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159227PDM001C.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox comRevestimento Interno em Antiaderente 1,2 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -53879,19 +52735,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28532714-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532714PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28532714-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532714PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28532714-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28532714PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -54241,22 +53097,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62658220-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62658220PDM001E.jpg",
+        "id": "prod-tram-62658220-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62658220PDM001E.jpg",
         "alt": "Pipoqueira Tramontina Allegra em Aço Inox com Fundo Triplo e Tampa de Vidro com Borda de Silicone 22 cm 5,6 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62658220-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62658220PDM001M.jpg",
-        "alt": "Pipoqueira Tramontina Allegra em Aço Inox com Fundo Triplo e Tampa de Vidro com Borda de Silicone 22 cm 5,6 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62658220-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62658220PDM001C.jpg",
-        "alt": "Pipoqueira Tramontina Allegra em Aço Inox com Fundo Triplo e Tampa de Vidro com Borda de Silicone 22 cm 5,6 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -54325,19 +53169,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20560320-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20560320PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Arizona Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Mocaccino 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20560320-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20560320PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Arizona Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Mocaccino 20 cm 4,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20560320-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20560320PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Arizona Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Mocaccino 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -54399,22 +53237,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65510780-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510780PDM001E.jpg",
+        "id": "prod-tram-65510780-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510780PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65510780-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510780PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65510780-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510780PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -54479,19 +53305,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599617-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599617PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 07 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599617-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599617PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 07 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599617-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599617PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 07 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -54613,19 +53439,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20591720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591720PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 4,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20591720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591720PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 4,5 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-20591720-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20591720PDM001C.jpg",
-        "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 4,5 L - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -54694,19 +53514,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525618PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 2,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525618PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 2,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525618PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -54775,19 +53595,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20592424-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20592424PDM001E.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 24 cm 6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20592424-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20592424PDM001M.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 24 cm 6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20592424-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20592424PDM001C.jpg",
         "alt": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto 24 cm 6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -55157,19 +53977,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20265622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265622PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Cinza 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20265622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265622PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Cinza 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20265622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20265622PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Cinza 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -55601,19 +54421,13 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28399341-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399341PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Areia 4 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28399341-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399341PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Areia 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-28399341-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399341PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Spezia Induction em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Areia 4 Peças - Detalhe",
-        "position": 3
+        "position": 1
       }
     ],
     "categories": {
@@ -55807,22 +54621,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-62664120-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62664120PDM001E.jpg",
+        "id": "prod-tram-62664120-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62664120PDM001E.jpg",
         "alt": "Fervedor Tramontina Allegra em Aço Inox 12 cm 1,4 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62664120-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62664120PDM001M.jpg",
-        "alt": "Fervedor Tramontina Allegra em Aço Inox 12 cm 1,4 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62664120-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62664120PDM001C.jpg",
-        "alt": "Fervedor Tramontina Allegra em Aço Inox 12 cm 1,4 L - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -56043,19 +54845,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20896045-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20896045PDM001E.jpg",
         "alt": "Paellera Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 45 cm 9,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20896045-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20896045PDM001M.jpg",
         "alt": "Paellera Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 45 cm 9,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20896045-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20896045PDM001C.jpg",
         "alt": "Paellera Tramontina Profissional em Alumínio com Revestimento Interno Antiaderente Starflon Premium e Acabamento Externo Lixado 45 cm 9,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -56200,22 +55002,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65140004-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65140004PDM001E.jpg",
+        "id": "prod-tram-65140004-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65140004PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Grano Glass em Aço Inox com Corpo Triplo e Tampa de Vidro 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65140004-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65140004PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Glass em Aço Inox com Corpo Triplo e Tampa de Vidro 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65140004-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65140004PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Grano Glass em Aço Inox com Corpo Triplo e Tampa de Vidro 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -56429,19 +55219,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28531616-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531616PDM001E.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 2,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28531616-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531616PDM001M.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 2,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28531616-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28531616PDM001C.jpg",
         "alt": "Fervedor Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 16 cm 2,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -56613,19 +55403,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524622-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524622PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 3,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524622-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524622PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 3,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524622-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524622PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 22 cm 3,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -56749,19 +55539,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28317224-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317224PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 24 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28317224-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317224PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 24 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28317224-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28317224PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 24 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -56830,19 +55620,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20332614-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332614PDM001E.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20332614-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332614PDM001M.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20332614-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20332614PDM001C.jpg",
         "alt": "Fervedor Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 14 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -56861,7 +55651,7 @@ export const PRODUCTS: Product[] = [
     "price": 139,
     "compare_at_price": 187.65,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -56911,24 +55701,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20391024-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20391024PDM001E.jpg",
         "alt": "Bistequeira Lisa Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 26 cm 1 L Grafite",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20391024-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20391024PDM001M.jpg",
         "alt": "Bistequeira Lisa Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 26 cm 1 L Grafite - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20391024-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20391024PDM001C.jpg",
         "alt": "Bistequeira Lisa Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Cabo Baquelite 26 cm 1 L Grafite - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -56988,19 +55778,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20297409-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297409PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Rosa 03 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20297409-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297409PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Rosa 03 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20297409-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20297409PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina Linz em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Rosa 03 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -57062,22 +55852,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65420003-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65420003PDM001E.jpg",
+        "id": "prod-tram-65420003-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65420003PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina &Iacute;sis em Aço Inox com Fundo Triplo 05 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65420003-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65420003PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina &Iacute;sis em Aço Inox com Fundo Triplo 05 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65420003-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65420003PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina &Iacute;sis em Aço Inox com Fundo Triplo 05 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -57267,19 +56045,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20387020-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387020PDM001E.jpg",
         "alt": "Pipoqueira Tramontina Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Grafite 20 cm 3,5 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20387020-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387020PDM001M.jpg",
         "alt": "Pipoqueira Tramontina Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Grafite 20 cm 3,5 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20387020-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20387020PDM001C.jpg",
         "alt": "Pipoqueira Tramontina Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Grafite 20 cm 3,5 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -57557,22 +56335,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65420013-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65420013PDM001E.jpg",
+        "id": "prod-tram-65420013-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65420013PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina &Iacute;sis em Aço Inox com Fundo Triplo 04 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65420013-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65420013PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina &Iacute;sis em Aço Inox com Fundo Triplo 04 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65420013-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65420013PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina &Iacute;sis em Aço Inox com Fundo Triplo 04 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -57704,19 +56470,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27899375-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899375PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina em Alumínio com Revestimento Interno de Antiaderente Starflon Max e Externo Siliconado Vermelho 02 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27899375-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899375PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina em Alumínio com Revestimento Interno de Antiaderente Starflon Max e Externo Siliconado Vermelho 02 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27899375-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899375PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina em Alumínio com Revestimento Interno de Antiaderente Starflon Max e Externo Siliconado Vermelho 02 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -57785,19 +56551,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28508728-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508728PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Vermelho com Espátula 28 cm 2,0 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28508728-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508728PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Vermelho com Espátula 28 cm 2,0 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28508728-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508728PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Vermelho com Espátula 28 cm 2,0 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -57866,19 +56632,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28508620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508620PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 20 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28508620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508620PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 20 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28508620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508620PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Preto com Espátula 20 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -57947,19 +56713,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20261722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261722PDM001E.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 3,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20261722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261722PDM001M.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 3,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20261722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20261722PDM001C.jpg",
         "alt": "Caçarola Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 3,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -58221,19 +56987,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260620PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 0,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260620PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 0,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260620PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 20 cm 0,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -58299,22 +57065,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65620400-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620400PDM001E.jpg",
+        "id": "prod-tram-65620400-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65620400PDM001E.jpg",
         "alt": "Jogo Cozi-Pasta Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 2 Peças 24 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65620400-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620400PDM001M.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 2 Peças 24 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65620400-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65620400PDM001C.jpg",
-        "alt": "Jogo Cozi-Pasta Tramontina Professional em Aço Inox Fundo Triplo com Tampa Plana Detalhe Satinado 2 Peças 24 cm - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -58379,19 +57133,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28599600-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599600PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 2 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28599600-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599600PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 2 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28599600-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599600PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 2 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -58460,19 +57214,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20260626-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260626PDM001E.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 26 cm 1,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20260626-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260626PDM001M.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 26 cm 1,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20260626-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20260626PDM001C.jpg",
         "alt": "Frigideira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo 26 cm 1,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -58727,19 +57481,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28316220-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316220PDM001E.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 20 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28316220-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316220PDM001M.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 20 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28316220-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28316220PDM001C.jpg",
         "alt": "Caçarola Tramontina Lyf em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max e Tampa de Vidro 20 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -58808,19 +57562,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524620-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524620PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 2,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524620-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524620PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 2,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524620-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524620PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 20 cm 2,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -58889,19 +57643,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20405714-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20405714PDM001E.jpg",
         "alt": "Fervedor Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Vermelho 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20405714-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20405714PDM001M.jpg",
         "alt": "Fervedor Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Vermelho 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20405714-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20405714PDM001C.jpg",
         "alt": "Fervedor Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Vermelho 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -59228,19 +57982,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28524718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524718PDM001E.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 2,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28524718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524718PDM001M.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 2,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28524718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28524718PDM001C.jpg",
         "alt": "Caçarola Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -59388,26 +58142,7 @@ export const PRODUCTS: Product[] = [
         "value": "62644365"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62644365-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62644365PDM001E.jpg",
-        "alt": "Caçarola Funda Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 36 cm 22,3 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62644365-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62644365PDM001M.jpg",
-        "alt": "Caçarola Funda Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 36 cm 22,3 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62644365-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62644365PDM001C.jpg",
-        "alt": "Caçarola Funda Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 36 cm 22,3 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "cacarolas-e-avulsas"
@@ -59469,26 +58204,7 @@ export const PRODUCTS: Product[] = [
         "value": "62645500"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62645500-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62645500PDM001E.jpg",
-        "alt": "Caldeirão Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 50 cm 58 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62645500-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62645500PDM001M.jpg",
-        "alt": "Caldeirão Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 50 cm 58 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62645500-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62645500PDM001C.jpg",
-        "alt": "Caldeirão Tramontina Professional em Aço Inox com Fundo Triplo sem Tampa 50 cm 58 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "cacarolas-e-avulsas"
@@ -59555,19 +58271,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20264722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264722PDM001E.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 0,6 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20264722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264722PDM001M.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 0,6 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20264722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20264722PDM001C.jpg",
         "alt": "Panquequeira Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 22 cm 0,6 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -59696,19 +58412,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20267722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20267722PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 1,7 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20267722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20267722PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 1,7 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20267722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20267722PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 22 cm 1,7 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -59770,22 +58486,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65650190-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650190PDM001E.jpg",
+        "id": "prod-tram-65650190-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65650190PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65650190-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650190PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65650190-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65650190PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Allegra em Aço Inox com Fundo Triplo 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -59919,19 +58623,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262720-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262720PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 2,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262720-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262720PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 2,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262720-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262720PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm 2,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -59996,19 +58700,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28799111-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799111PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28799111-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799111PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28799111-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28799111PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Tunis em Alumínio com Revestimento Interno Cerâmico e Externo Siliconado Azul Mediterrâneo 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -60069,19 +58773,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28538722-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28538722PDM001E.jpg",
         "alt": "Jogo 4 Funções Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28538722-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28538722PDM001M.jpg",
         "alt": "Jogo 4 Funções Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28538722-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28538722PDM001C.jpg",
         "alt": "Jogo 4 Funções Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -60361,19 +59065,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27899286-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899286PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Ravena em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 5 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27899286-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899286PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Ravena em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 5 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27899286-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27899286PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Ravena em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max 5 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -60802,22 +59506,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65400020-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400020PDM001E.jpg",
+        "id": "prod-tram-65400020-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65400020PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana 4 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65400020-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400020PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana 4 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65400020-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65400020PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Brava em Aço Inox Fundo Triplo com Tampa Plana 4 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -61172,22 +59864,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65500040-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500040PDM001E.jpg",
+        "id": "prod-tram-65500040-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65500040PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar em Aço Inox Fundo Triplo 6 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65500040-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500040PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox Fundo Triplo 6 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65500040-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65500040PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox Fundo Triplo 6 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -61206,7 +59886,7 @@ export const PRODUCTS: Product[] = [
     "price": 139,
     "compare_at_price": 187.65,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -61252,24 +59932,24 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20396024-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20396024PDM001E.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Exterior Siliconado Grafite 26 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20396024-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20396024PDM001M.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Exterior Siliconado Grafite 26 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20396024-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20396024PDM001C.jpg",
         "alt": "Bistequeira Tramontina Loreto em Alumínio com Revestimento Interno Antiaderente Starflon Max e Exterior Siliconado Grafite 26 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -61411,19 +60091,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28530618-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530618PDM001E.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 3,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28530618-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530618PDM001M.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 3,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28530618-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28530618PDM001C.jpg",
         "alt": "Caldeirão Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Chumbo com Tampa de Vidro 18 cm 3,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -61488,19 +60168,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20198459-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20198459PDM001E.jpg",
         "alt": "Jogo de Frigideiras Tramontina em Alumínio com Revestimento Interno em Starflon Excellent e Externo Siliconado Laranja 2 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20198459-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20198459PDM001M.jpg",
         "alt": "Jogo de Frigideiras Tramontina em Alumínio com Revestimento Interno em Starflon Excellent e Externo Siliconado Laranja 2 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20198459-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20198459PDM001C.jpg",
         "alt": "Jogo de Frigideiras Tramontina em Alumínio com Revestimento Interno em Starflon Excellent e Externo Siliconado Laranja 2 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -61560,26 +60240,7 @@ export const PRODUCTS: Product[] = [
         "value": "62416980"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62416980-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416980PDM001E.jpg",
-        "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Brava 20 cm",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62416980-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416980PDM001M.jpg",
-        "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Brava 20 cm - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62416980-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62416980PDM001C.jpg",
-        "alt": "Anel de Vedação em Silicone para Panela de Pressão Tramontina Brava 20 cm - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
       "name": "Panelas Tramontina",
       "slug": "panelas-de-pressao"
@@ -61646,19 +60307,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28545732-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28545732PDM001E.jpg",
         "alt": "Wok Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 32 cm 4,4 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28545732-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28545732PDM001M.jpg",
         "alt": "Wok Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 32 cm 4,4 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28545732-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28545732PDM001C.jpg",
         "alt": "Wok Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 32 cm 4,4 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -61908,19 +60569,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28525718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525718PDM001E.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 2,1 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28525718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525718PDM001M.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 2,1 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28525718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28525718PDM001C.jpg",
         "alt": "Panela Tramontina Paris em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho com Tampa de Vidro 18 cm 2,1 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -62045,19 +60706,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20123820-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20123820PDM001E.jpg",
         "alt": "Omeleteira Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20123820-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20123820PDM001M.jpg",
         "alt": "Omeleteira Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20123820-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20123820PDM001C.jpg",
         "alt": "Omeleteira Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 20 cm - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -62122,19 +60783,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20899750-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20899750PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco em Alumínio com Revestimento Interno em Starflon Premium e Externo Siliconado Vermelho 05 Peças",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20899750-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20899750PDM001M.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco em Alumínio com Revestimento Interno em Starflon Premium e Externo Siliconado Vermelho 05 Peças - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20899750-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20899750PDM001C.jpg",
         "alt": "Jogo de Panelas Tramontina Mônaco em Alumínio com Revestimento Interno em Starflon Premium e Externo Siliconado Vermelho 05 Peças - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -62199,19 +60860,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20550719-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20550719PDM001E.jpg",
         "alt": "Chaleira Tramontina Paris em Alumínio com Revestimento Antiaderente Starflon Max Vermelho 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20550719-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20550719PDM001M.jpg",
         "alt": "Chaleira Tramontina Paris em Alumínio com Revestimento Antiaderente Starflon Max Vermelho 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20550719-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20550719PDM001C.jpg",
         "alt": "Chaleira Tramontina Paris em Alumínio com Revestimento Antiaderente Starflon Max Vermelho 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -62341,19 +61002,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-27806017-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27806017PDM001E.jpg",
         "alt": "Frigideira Reta Tramontina Vermont em Alumínio com Revestimento Interno Cobre Antiaderente Starflon Max com Cabo Baquelite Grafite 24 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-27806017-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27806017PDM001M.jpg",
         "alt": "Frigideira Reta Tramontina Vermont em Alumínio com Revestimento Interno Cobre Antiaderente Starflon Max com Cabo Baquelite Grafite 24 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-27806017-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27806017PDM001C.jpg",
         "alt": "Frigideira Reta Tramontina Vermont em Alumínio com Revestimento Interno Cobre Antiaderente Starflon Max com Cabo Baquelite Grafite 24 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -62422,19 +61083,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20262718-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262718PDM001E.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20262718-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262718PDM001M.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20262718-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20262718PDM001C.jpg",
         "alt": "Panela Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelha 18 cm 2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -62453,7 +61114,7 @@ export const PRODUCTS: Product[] = [
     "price": 377,
     "compare_at_price": 508.95,
     "stock": 50,
-    "category_id": "cat-frigideiras-e-woks",
+    "category_id": "cat-panelas-especiais",
     "featured": false,
     "is_new": false,
     "rating": 4.5,
@@ -62494,29 +61155,10 @@ export const PRODUCTS: Product[] = [
         "value": "62159280"
       }
     ],
-    "images": [
-      {
-        "id": "img-tram-62159280-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159280PDM001E.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox 1,9 L",
-        "position": 1
-      },
-      {
-        "id": "img-tram-62159280-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159280PDM001M.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox 1,9 L - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-62159280-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/62159280PDM001C.jpg",
-        "alt": "Bistequeira Tramontina Grano em Aço Inox 1,9 L - Detalhe",
-        "position": 3
-      }
-    ],
+    "images": [],
     "categories": {
-      "name": "Panelas Tramontina",
-      "slug": "frigideiras-e-woks"
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
     }
   },
   {
@@ -62652,19 +61294,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20405614-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20405614PDM001E.jpg",
         "alt": "Fervedor Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Avelã 14 cm 1,9 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20405614-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20405614PDM001M.jpg",
         "alt": "Fervedor Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Avelã 14 cm 1,9 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20405614-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20405614PDM001C.jpg",
         "alt": "Fervedor Tramontina Sicília em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Excellent Avelã 14 cm 1,9 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -62726,22 +61368,10 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "id": "img-tram-65510560-1",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510560PDM001E.jpg",
+        "id": "prod-tram-65510560-img-0",
+        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510560PDM001E.jpg",
         "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças",
-        "position": 1
-      },
-      {
-        "id": "img-tram-65510560-2",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510560PDM001M.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças - Vista 2",
-        "position": 2
-      },
-      {
-        "id": "img-tram-65510560-3",
-        "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/65510560PDM001C.jpg",
-        "alt": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox 5 Peças - Detalhe",
-        "position": 3
+        "position": 0
       }
     ],
     "categories": {
@@ -62959,19 +61589,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-20917000-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20917000PDM001E.jpg",
         "alt": "Cabo Removível Tramontina &Iacute;tria em Material Antitérmico",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-20917000-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20917000PDM001M.jpg",
         "alt": "Cabo Removível Tramontina &Iacute;tria em Material Antitérmico - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-20917000-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20917000PDM001C.jpg",
         "alt": "Cabo Removível Tramontina &Iacute;tria em Material Antitérmico - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -63040,19 +61670,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28506628-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28506628PDM001E.jpg",
         "alt": "Panquequeira Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 28 cm 1,8 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28506628-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28506628PDM001M.jpg",
         "alt": "Panquequeira Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 28 cm 1,8 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28506628-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28506628PDM001C.jpg",
         "alt": "Panquequeira Tramontina Paris em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Chumbo 28 cm 1,8 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
@@ -63181,19 +61811,19 @@ export const PRODUCTS: Product[] = [
         "id": "img-tram-28508724-1",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508724PDM001E.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Vermelho com Espátula 24 cm 1,2 L",
-        "position": 1
+        "position": 0
       },
       {
         "id": "img-tram-28508724-2",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508724PDM001M.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Vermelho com Espátula 24 cm 1,2 L - Vista 2",
-        "position": 2
+        "position": 1
       },
       {
         "id": "img-tram-28508724-3",
         "url": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28508724PDM001C.jpg",
         "alt": "Frigideira Tramontina Paris em Alumínio com Revestimento Interno em Antiaderente Starflon Max e Externo Siliconado Vermelho com Espátula 24 cm 1,2 L - Detalhe",
-        "position": 3
+        "position": 2
       }
     ],
     "categories": {
