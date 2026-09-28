@@ -122151,7 +122151,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-panelas-de-ferro-fundido-esmaltado"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Panela Redonda Signature | Le Creuset | Nexlar",
+    "meta_description": "panela redonda de ferro fundido esmaltado para cozimento lento, distribuição e retenção homogêneas de calor, uso do fogão ao forno e à mesa."
   },
   {
     "id": "lecreuset-21180",
@@ -122204,7 +122223,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-panelas-de-ferro-fundido-esmaltado"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caçarola Buffet Signature | Le Creuset | Nexlar",
+    "meta_description": "caçarola de ferro fundido esmaltado, indicada para levar do forno à mesa ou usar como peça decorativa."
   },
   {
     "id": "lecreuset-20182",
@@ -122259,7 +122297,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-panelas-de-ferro-fundido-esmaltado"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Skillet Redonda Signature | Le Creuset | Nexlar",
+    "meta_description": "frigideira/skillet redonda em ferro fundido esmaltado, com interior preto acetinado para altas temperaturas e sem necessidade de tempero tradicional."
   },
   {
     "id": "lecreuset-21178",
@@ -122313,7 +122370,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-panelas-de-ferro-fundido-esmaltado"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Panela Oval Signature | Le Creuset | Nexlar",
+    "meta_description": "panela oval de ferro fundido esmaltado para cozimento lento, refogado, assar, cozinhar e fritar, do fogão à mesa."
   },
   {
     "id": "lecreuset-21301240600430",
@@ -122366,7 +122442,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Panelas Especiais",
       "slug": "panelas-especiais"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-panelas-de-ferro-fundido-esmaltado"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Panela Para Pão Signature | Le Creuset | Nexlar",
+    "meta_description": "panela de ferro fundido com tampa em cúpula para reter/circular vapor, base para crosta dourada e interior Matte Black."
   },
   {
     "id": "lecreuset-20183",
@@ -122421,7 +122516,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-panelas-de-ferro-fundido-esmaltado"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Grelha Quadrada Signature | Le Creuset | Nexlar",
+    "meta_description": "grelha quadrada de ferro fundido esmaltado para carnes e vegetais, com superfície resistente e adequada a apresentação à mesa."
   },
   {
     "id": "lecreuset-219642",
@@ -122473,7 +122587,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-oficial-le-creuset-brasil-cacarolas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caçarola Buffet Signature Petal | Le Creuset | Nexlar",
+    "meta_description": "caçarola Buffet Signature em ferro fundido esmaltado, com exterior resistente, interior vitrificado cor areia, tampa vedada e alças amplas."
   },
   {
     "id": "lecreuset-21180301834479",
@@ -122525,7 +122658,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-oficial-le-creuset-brasil-cacarolas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caçarola Buffet Signature Flamme Dorée | Le Creuset | Nexlar",
+    "meta_description": "Caçarola Buffet Signature de 30 cm em ferro fundido, edição limitada Flamme Dorée, com esmalte enriquecido com minerais naturais e pegador dourado."
   },
   {
     "id": "lecreuset-213382",
@@ -122577,7 +122729,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-oficial-le-creuset-brasil-cacarolas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caçarola Buffet Abóbora | Le Creuset | Nexlar",
+    "meta_description": "caçarola de ferro fundido esmaltado em formato de abóbora, com pegador dourado de aço inox, indicada para sopas, refogados e assados."
   },
   {
     "id": "lecreuset-9660062",
@@ -122629,7 +122800,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-oficial-le-creuset-brasil-cacarolas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caçarola Funda 3-Ply Signature | Le Creuset | Nexlar",
+    "meta_description": "caçarola funda de aço inoxidável 3-Ply, com transferência rápida e uniforme de calor, alças ergonômicas e borda de despejo sem respingos."
   },
   {
     "id": "lecreuset-56002204",
@@ -122681,7 +122871,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Caçarolas & Panelas Avulsas",
       "slug": "cacarolas-e-avulsas"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-oficial-le-creuset-brasil-cacarolas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caçarola Aço Esmaltado | Le Creuset | Nexlar",
+    "meta_description": "caçarola leve de aço carbono esmaltado, com aquecimento rápido, interior não reativo e uso para sopas, caldos, molhos, massas e acompanhamentos."
   },
   {
     "id": "lecreuset-20502130000425",
@@ -122733,7 +122942,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Panelas Especiais",
       "slug": "panelas-especiais"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-oficial-le-creuset-brasil-cacarolas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set com 4 Mini Buffet Gourmand | Le Creuset | Nexlar",
+    "meta_description": "conjunto de quatro mini buffets Gourmand de 13 cm, redondos e baixos, em ferro fundido esmaltado, para preparar e servir pratos individuais, acompanhamento"
   },
   {
     "id": "lecreuset-5131420",
@@ -122786,7 +123014,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Frigideiras e Skillets — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "frigideiras-e-skillets-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Frigideira Rasa Non-Stick Ceramic Essential | Le Creuset | Nexlar",
+    "meta_description": "frigideira rasa com laterais arredondadas e capacidade generosa, indicada para grelhar, saltear e receitas variadas; o revestimento cerâmico antiaderente f"
   },
   {
     "id": "lecreuset-51826000010098",
@@ -122839,7 +123086,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Frigideiras e Skillets — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "frigideiras-e-skillets-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set 2 Frigideiras Non-Stick Ceramic Essential (20 cm e 26 cm) | Le Creuset | Nexlar",
+    "meta_description": "conjunto de duas frigideiras rasas, de 20 cm e 26 cm, com revestimento cerâmico antiaderente para grelhar, saltear e preparar receitas variadas."
   },
   {
     "id": "lecreuset-20187",
@@ -122892,7 +123158,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Frigideiras e Skillets — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "frigideiras-e-skillets-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Skillet Redonda Funda Signature | Le Creuset | Nexlar",
+    "meta_description": "skillet funda de ferro fundido esmaltado com interior preto acetinado, indicada para tostar, refogar, fritar e cozinhar em altas temperaturas."
   },
   {
     "id": "lecreuset-9660022",
@@ -122945,7 +123230,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Frigideiras e Skillets — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "frigideiras-e-skillets-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Frigideira Funda 3-Ply Signature | Le Creuset | Nexlar",
+    "meta_description": "frigideira funda de aço inoxidável 3-Ply, com núcleo de alumínio e exterior de aço inoxidável com infusão de titânio, indicada para carnes grelhadas e legu"
   },
   {
     "id": "lecreuset-202592",
@@ -122998,7 +123302,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Frigideiras e Skillets — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "frigideiras-e-skillets-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Frigideira Saute com Cabo de Madeira Signature | Le Creuset | Nexlar",
+    "meta_description": "frigideira saute de ferro fundido com cabo de madeira, indicada para refogar legumes, fritar peixe e grelhar carne."
   },
   {
     "id": "lecreuset-2020232",
@@ -123057,7 +123380,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Grelhas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-grelhas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Grelha Retangular Tradicional | Le Creuset | Nexlar",
+    "meta_description": "Grelha retangular de ferro fundido para preparar frango, bifes, peixes, vegetais e outros alimentos, selando a superfície e criando linhas de grelha semelh"
   },
   {
     "id": "lecreuset-20271300000005",
@@ -123122,7 +123464,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Grelhas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-grelhas"
+    ],
+    "availability": "in stock",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Cesta Perfurada Quadrada Alpine 30cm | Le Creuset | Nexlar",
+    "meta_description": "Cesta quadrada perfurada Alpine de ferro fundido esmaltado, com esmalte preto fosco, projetada para grelhar, assar, selar e tostar sobre fontes de calor ao"
   },
   {
     "id": "lecreuset-51313240010598",
@@ -123175,7 +123536,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Panelas Especiais",
       "slug": "panelas-especiais"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "ceramica-non-stick-ceramic-essential-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Stockpot Non-Stick Ceramic Essential | Le Creuset | Nexlar",
+    "meta_description": "panela Stockpot antiaderente de cerâmica Essential, com laterais arredondadas e capacidade de 6 L, indicada para selar e preparar receitas variadas. O reve"
   },
   {
     "id": "lecreuset-51824000010098",
@@ -123229,7 +123609,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Frigideiras, Woks & Grills",
       "slug": "frigideiras-e-woks"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "ceramica-non-stick-ceramic-essential-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set 2 Frigideiras Rasa e Funda Non-Stick Ceramic Essential | Le Creuset | Nexlar",
+    "meta_description": "conjunto de uma frigideira rasa de 24 cm e uma frigideira funda de 28 cm, com laterais arredondadas e capacidade generosa, indicado para grelhar, saltear e"
   },
   {
     "id": "lecreuset-513161",
@@ -123282,7 +123681,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Panelas Especiais",
       "slug": "panelas-especiais"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "ceramica-non-stick-ceramic-essential-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Molheira com Alça Non-Stick Ceramic Essential | Le Creuset | Nexlar",
+    "meta_description": "molheira com alça e revestimento antiaderente de Cerâmica Essential, com laterais arredondadas, indicada para grelhar, saltear e preparar receitas variadas"
   },
   {
     "id": "lecreuset-910050",
@@ -123338,7 +123756,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "mini-cocotte-e-ramekins-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Mini Cocotte | Le Creuset | Nexlar",
+    "meta_description": "Mini cocotte para servir porções individuais ou decorar bancada/estante, com estilo clássico e cores atraentes."
   },
   {
     "id": "lecreuset-70403",
@@ -123391,7 +123828,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "mini-cocotte-e-ramekins-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Ramekin 200ml | Le Creuset | Nexlar",
+    "meta_description": "Ramekin de 200 ml para bolos, gratinados, tortas, servir porções individuais e preparar ou armazenar ingredientes; possui saliência interna para empilhamen"
   },
   {
     "id": "lecreuset-70401",
@@ -123443,7 +123899,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "mini-cocotte-e-ramekins-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Ramekin 240ml | Le Creuset | Nexlar",
+    "meta_description": "Ramekin de 240 ml para preparar, servir e armazenar; a saliência interna permite empilhar verticalmente sem grudar ou tombar."
   },
   {
     "id": "lecreuset-89109108159030",
@@ -123495,7 +123970,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "mini-cocotte-e-ramekins-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set 4 Mini Ramekin Elements | Le Creuset | Nexlar",
+    "meta_description": "Conjunto de 4 mini ramekins Elements, cada um com 100 ml, para porções individuais e serviço."
   },
   {
     "id": "lecreuset-7913410",
@@ -123547,7 +124041,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "mini-cocotte-e-ramekins-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set Mini Ramekins Gift Collection | Le Creuset | Nexlar",
+    "meta_description": "Conjunto Mini Ramekins Gift Collection em multicor, de cerâmica esmaltada, com unidades de 7,8 × 7,8 × 4,6 cm."
   },
   {
     "id": "lecreuset-71102",
@@ -123600,7 +124113,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Assadeiras e Travessas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-assadeiras-e-travessas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Travessa Retangular Heritage | Le Creuset | Nexlar",
+    "meta_description": "Travessa de cerâmica premium para assar sobremesas e vegetais, marinar carnes, armazenar sobras e servir."
   },
   {
     "id": "lecreuset-910047",
@@ -123653,7 +124185,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Assadeiras e Travessas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-assadeiras-e-travessas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Travessa Retangular Clássica | Le Creuset | Nexlar",
+    "meta_description": "Travessa retangular de cerâmica premium, projetada para uso diário, assar e servir."
   },
   {
     "id": "lecreuset-71120",
@@ -123706,7 +124257,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Assadeiras e Travessas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-assadeiras-e-travessas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Travessa Canelada | Le Creuset | Nexlar",
+    "meta_description": "Travessa de cerâmica para pratos caseiros, sobremesas e doces, incluindo tortas de frutas e tortas rasas."
   },
   {
     "id": "lecreuset-810024",
@@ -123759,7 +124329,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Assadeiras e Travessas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-assadeiras-e-travessas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Travessa Retangular Heritage com Tampa | Le Creuset | Nexlar",
+    "meta_description": "Travessa de cerâmica premium com tampa para sobremesas, carnes e peixes no forno, transporte e armazenamento de sobras."
   },
   {
     "id": "lecreuset-46093310010000",
@@ -123812,7 +124401,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Assadeiras e Travessas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-assadeiras-e-travessas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Assadeira Quadrada Rasa | Le Creuset | Nexlar",
+    "meta_description": "Assadeira quadrada rasa de aço carbono de grande calibre, leve e durável, para forno e congelador."
   },
   {
     "id": "lecreuset-assadeira-oval-signature",
@@ -123865,7 +124473,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Assadeiras, Travessas & Cerâmica para Forno",
       "slug": "assadeiras-travessas-ceramica"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Assadeiras e Travessas",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-assadeiras-e-travessas"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Assadeira Oval Signature | Le Creuset | Nexlar",
+    "meta_description": "Assadeira oval Signature listada oficialmente na categoria, com opção exibida de 36 cm."
   },
   {
     "id": "lecreuset-9104440",
@@ -123918,7 +124545,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "potes-e-porta-mantimentos-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Pote Com Tampa de Madeira 220ml | Le Creuset | Nexlar",
+    "meta_description": "pote de armazenamento de 220 ml com tampa de madeira de faia e vedação hermética, concebido para armazenar alimentos secos, decorar e organizar a cozinha."
   },
   {
     "id": "lecreuset-910078",
@@ -123971,7 +124617,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "potes-e-porta-mantimentos-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Porta Mantimentos | Le Creuset | Nexlar",
+    "meta_description": "porta-mantimentos de cerâmica premium com anéis característicos da Le Creuset e vedação de silicone na tampa para impedir passagem de ar e preservar ingred"
   },
   {
     "id": "lecreuset-4241734",
@@ -124024,7 +124689,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "potes-e-porta-mantimentos-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Pote de Silicone (página de variação 1000 ml) | Le Creuset | Nexlar",
+    "meta_description": "pote de silicone colorido, empilhável e fácil de limpar, indicado para armazenar lanches e alimentos prontos, organizar a despensa ou transportar refeições"
   },
   {
     "id": "lecreuset-910022",
@@ -124077,7 +124761,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "potes-e-porta-mantimentos-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Porta Sal | Le Creuset | Nexlar",
+    "meta_description": "porta-sal de estilo antigo com grande abertura lateral para acesso ao sal, especiarias ou temperos."
   },
   {
     "id": "lecreuset-910114",
@@ -124130,7 +124833,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "potes-e-porta-mantimentos-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Porta Condimento | Le Creuset | Nexlar",
+    "meta_description": "porta-condimento de cerâmica premium com tampa de vedação de silicone, disponível em três tamanhos para armazenamento."
   },
   {
     "id": "lecreuset-960019",
@@ -124185,7 +124907,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Moedores e Galheteiros",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-moedores-e-galheteiros"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Moedor de Pimenta 21cm | Le Creuset | Nexlar",
+    "meta_description": "moedor para pimenta com exterior em acrílico ABS, design ergonômico e sistema de moagem cerâmico ajustável para controlar a granulação."
   },
   {
     "id": "lecreuset-960020",
@@ -124240,7 +124981,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Moedores e Galheteiros",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-moedores-e-galheteiros"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Moedor de Sal 21cm | Le Creuset | Nexlar",
+    "meta_description": "moedor de sal em ABS com moagem cerâmica ajustável por pino superior, pensado para controlar o tamanho da granulação e combinar funcionalidade com decoraçã"
   },
   {
     "id": "lecreuset-910017",
@@ -124295,7 +125055,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Moedores e Galheteiros",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-moedores-e-galheteiros"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set Azeite & Vinagre Clássico | Le Creuset | Nexlar",
+    "meta_description": "set de azeite e vinagre em cerâmica premium esmaltada, concebido para uso e armazenagem na bancada ou mesa; a superfície facilita a limpeza e é adequada à "
   },
   {
     "id": "lecreuset-960027",
@@ -124348,7 +125127,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Moedores e Galheteiros",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-moedores-e-galheteiros"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Moedor de Pimenta 30cm | Le Creuset | Nexlar",
+    "meta_description": "moedor de pimenta de 30 cm com exterior em acrílico ABS, mecanismo cerâmico ajustável, design ergonômico e garantia de 10 anos. A página também recomenda c"
   },
   {
     "id": "lecreuset-96002500169000",
@@ -124401,7 +125199,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Moedores e Galheteiros",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-moedores-e-galheteiros"
+    ],
+    "availability": "in stock",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set Mini Moedores de Sal e Pimenta | Le Creuset | Nexlar",
+    "meta_description": "set de mini moedores de sal e pimenta com ajuste de moagem por pino superior, exterior em ABS e mecanismo cerâmico ajustável."
   },
   {
     "id": "lecreuset-690954",
@@ -124456,7 +125273,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-acessorios-de-cozinha"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Pote para Mel | Le Creuset | Nexlar",
+    "meta_description": "pote de cerâmica para armazenar e servir até 450 ml de mel, com tampa e concha de mel de silicone."
   },
   {
     "id": "lecreuset-910086",
@@ -124511,7 +125347,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-acessorios-de-cozinha"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Pote de Manteiga | Le Creuset | Nexlar",
+    "meta_description": "recipiente cerâmico hermético inspirado em manteigueiras clássicas, criado para manter a manteiga macia em temperatura ambiente razoável."
   },
   {
     "id": "lecreuset-910267",
@@ -124566,7 +125421,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-acessorios-de-cozinha"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Pote para Biscoito 2,4L | Le Creuset | Nexlar",
+    "meta_description": "pote de cerâmica de 2,4 L com tampa hermética para conservar biscoitos crocantes."
   },
   {
     "id": "lecreuset-7083230",
@@ -124621,7 +125495,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Potes & Organização de Cozinha",
       "slug": "potes-organizacao-cozinha"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "pesquisa-le-creuset-brasil-acessorios-de-cozinha"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Pote de Alho | Le Creuset | Nexlar",
+    "meta_description": "pote especial de cerâmica para servir ou armazenar alho; orifícios na base controlam a umidade."
   },
   {
     "id": "lecreuset-920095",
@@ -124675,7 +125568,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Chaleiras",
       "slug": "chaleiras"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios para bebidas — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-para-bebidas-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Chaleira Clássica | Le Creuset | Nexlar",
+    "meta_description": "Chaleira clássica em aço carbono esmaltado, com apito quando a água ferve, marcações internas de nível e alça resistente ao calor."
   },
   {
     "id": "lecreuset-607060",
@@ -124730,7 +125642,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Bebidas: Canecas, Bules & Jarras",
       "slug": "bebidas-canecas-bules-jarras"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios para bebidas — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-para-bebidas-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Prensa Francesa | Le Creuset | Nexlar",
+    "meta_description": "Prensa de cerâmica para café por infusão, com filtro de malha que separa o café moído e preserva mais óleos naturais para uma bebida mais encorpada."
   },
   {
     "id": "lecreuset-70901",
@@ -124784,7 +125715,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Bebidas: Canecas, Bules & Jarras",
       "slug": "bebidas-canecas-bules-jarras"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios para bebidas — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-para-bebidas-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Jarra Scandinavia 1.5L | Le Creuset | Nexlar",
+    "meta_description": "Jarra de cerâmica premium para servir bebidas quentes ou frias, com esmalte vibrante, limpeza fácil e resistência a lascas, arranhões e manchas."
   },
   {
     "id": "lecreuset-80705",
@@ -124838,7 +125788,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Bebidas: Canecas, Bules & Jarras",
       "slug": "bebidas-canecas-bules-jarras"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios para bebidas — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-para-bebidas-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Bule com Infusor | Le Creuset | Nexlar",
+    "meta_description": "Bule de cerâmica de 600 ml com infusor, dimensionado para duas porções e para consumo individual ou pequenas reuniões."
   },
   {
     "id": "lecreuset-7030235",
@@ -124892,7 +125861,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Bebidas: Canecas, Bules & Jarras",
       "slug": "bebidas-canecas-bules-jarras"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios para bebidas — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-para-bebidas-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caneca London | Le Creuset | Nexlar",
+    "meta_description": "Caneca de cerâmica premium para café, chá e chocolate quente; a versão de 350 ml também é indicada para porções individuais de sopa e sobremesa."
   },
   {
     "id": "lecreuset-7030440",
@@ -124946,7 +125934,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Bebidas: Canecas, Bules & Jarras",
       "slug": "bebidas-canecas-bules-jarras"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios para bebidas — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-para-bebidas-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Caneca Bistrô 400ml | Le Creuset | Nexlar",
+    "meta_description": "Caneca de cerâmica premium de 400 ml para café, chá, chocolate quente, sopa e sorvete quente ou frio."
   },
   {
     "id": "lecreuset-59142510000000",
@@ -124999,7 +126006,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Cooler Bag | Le Creuset | Nexlar",
+    "meta_description": "capa portátil projetada para refrigerar vinho e manter a temperatura ideal em piqueniques e jantares ao ar livre, inclusive em dias quentes."
   },
   {
     "id": "lecreuset-59142",
@@ -125052,7 +126078,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Cooler Sleeve | Le Creuset | Nexlar",
+    "meta_description": "cooler de gel para vinho ou espumante; a página informa congelamento por até 3 horas, resfriamento em até 15 minutos e manutenção por até 45 minutos, ou at"
   },
   {
     "id": "lecreuset-59814017808074",
@@ -125105,7 +126150,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Saca-Rolhas Garçom Aço Inox WT-110 | Le Creuset | Nexlar",
+    "meta_description": "modelo garçom compacto, com sistema de extração em duas etapas para abertura precisa e elegante."
   },
   {
     "id": "lecreuset-5913901",
@@ -125159,7 +126223,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Abridor de Champanhe | Le Creuset | Nexlar",
+    "meta_description": "desenvolvido para espumantes, oferecendo segurança e controle na abertura de garrafas com pressão interna."
   },
   {
     "id": "lecreuset-49905000010002",
@@ -125212,7 +126295,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set Saca-Rolha e Tampa Gs191 | Le Creuset | Nexlar",
+    "meta_description": "conjunto de saca-rolha e tampa; a página oficial confirma o nome e o conjunto, sem descrição narrativa detalhada no conteúdo recuperado."
   },
   {
     "id": "lecreuset-4913200",
@@ -125265,7 +126367,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Saca-Rolhas Modelo Garçom | Le Creuset | Nexlar",
+    "meta_description": "saca-rolhas patenteado de duas etapas, com lâmina de corte de folha embutida e abridor de garrafa; remove rolhas longas e frágeis verticalmente."
   },
   {
     "id": "lecreuset-59058013009410",
@@ -125318,7 +126439,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "LM 250 Abridor de Alavanca | Le Creuset | Nexlar",
+    "meta_description": "abridor de alavanca que transforma a abertura em ritual; a página orienta baixar a alavanca para inserir a espiral e levantá-la para retirar a rolha."
   },
   {
     "id": "lecreuset-49104001400101",
@@ -125371,7 +126511,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios para Vinho",
       "slug": "acessorios-vinho"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Acessórios de vinho — Le Creuset Brasil",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "acessorios-de-vinho-le-creuset-brasil"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Saca-Rolhas TM100 | Le Creuset | Nexlar",
+    "meta_description": "corpo em policarbonato, sistema autocentrante e extração automática da rolha ao continuar girando a espiral no sentido horário."
   },
   {
     "id": "lecreuset-41906001400100",
@@ -125424,7 +126583,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-outros-produtos-relevantes-com-potencial-comercial"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Set 4 Utensílios Inox Alpine | Le Creuset | Nexlar",
+    "meta_description": "conjunto para virar, pegar, pincelar e servir, voltado à cozinha ou churrasco, acompanhado de bolsa Le Creuset."
   },
   {
     "id": "lecreuset-96001900687000",
@@ -125477,7 +126655,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-outros-produtos-relevantes-com-potencial-comercial"
+    ],
+    "availability": "in stock",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Moedor de Pimenta em Madeira 21cm | Le Creuset | Nexlar",
+    "meta_description": "moedor de madeira natural de 21 cm, com mecanismo interno para moagem uniforme de pimenta."
   },
   {
     "id": "lecreuset-96002000687000",
@@ -125530,7 +126727,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-outros-produtos-relevantes-com-potencial-comercial"
+    ],
+    "availability": "in stock",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Moedor de Sal em Madeira 21cm | Le Creuset | Nexlar",
+    "meta_description": "moedor de madeira natural de 21 cm com mecanismo interno para moagem uniforme de sal e ajuste da textura."
   },
   {
     "id": "lecreuset-47415200010003",
@@ -125583,7 +126799,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-outros-produtos-relevantes-com-potencial-comercial"
+    ],
+    "availability": "in stock",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Suporte Magnético de Madeira Coração | Le Creuset | Nexlar",
+    "meta_description": "suporte de madeira em formato de coração, com sistema magnético para fixação a panelas e chaleiras e detalhe de silicone para estabilidade."
   },
   {
     "id": "lecreuset-984012",
@@ -125636,7 +126871,26 @@ export const PRODUCTS: Product[] = [
     "categories": {
       "name": "Acessórios de Cozinha & Mesa",
       "slug": "acessorios-cozinha-mesa"
-    }
+    },
+    "sale_price": null,
+    "price_is_reference": true,
+    "cost_price": null,
+    "previous_price": null,
+    "margin": null,
+    "discount_percent": 0,
+    "subcategory": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+    "tags": [
+      "Le Creuset",
+      "cozinha premium",
+      "Meta Ads",
+      "le-creuset-brasil-outros-produtos-relevantes-com-potencial-comercial"
+    ],
+    "availability": "unknown",
+    "condition": "new",
+    "image_link": null,
+    "additional_image_links": [],
+    "meta_title": "Tela Protetora Para Frituras | Le Creuset | Nexlar",
+    "meta_description": "tela que reduz respingos de óleo/gordura; deixa o vapor passar e possui pegador dobrável para armazenagem."
   }
 ];
 export function getLocalCategories(): Category[] { return CATEGORIES; }

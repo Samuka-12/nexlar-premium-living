@@ -113,6 +113,12 @@ def make_product(product: dict, category_by_id: dict[str, dict]) -> dict:
         "category_id": category_id,
         "price": price,
         "compare_at_price": None,
+        "sale_price": None,
+        "price_is_reference": True,
+        "cost_price": None,
+        "previous_price": None,
+        "margin": None,
+        "discount_percent": 0,
         "pix_discount_percent": 0,
         "stock": 1,
         "rating": 0,
@@ -137,12 +143,20 @@ def make_product(product: dict, category_by_id: dict[str, dict]) -> dict:
         "source_url": product["url"],
         "source_urls": product.get("source_urls") or [product["url"]],
         "price_reference": product["price_reference"],
+        "subcategory": product.get("category_name") or "Le Creuset",
+        "tags": ["Le Creuset", "cozinha premium", "Meta Ads", slugify(product.get("category_name") or "cozinha")],
+        "availability": "in stock" if availability(product).lower() == "em estoque" else "unknown",
+        "condition": "new",
+        "image_link": (product.get("image_urls") or [None])[0],
+        "additional_image_links": (product.get("image_urls") or [])[1:],
         "official_availability": availability(product),
         "popularity_evidence": popularity_text,
         "commercial_inference": product.get("commercial_inference") or "",
         "image_source_status": product.get("image_extraction_status") or "not_extracted",
         "seo_title": f"{product['name']} | Le Creuset | Nexlar",
         "seo_description": short[:155],
+        "meta_title": f"{product['name']} | Le Creuset | Nexlar",
+        "meta_description": short[:155],
         "product_images": [
             {"id": f"img-{product['id']}-{i}", "url": url, "alt": f"{product['name']} Le Creuset", "position": i}
             for i, url in enumerate(product.get("image_urls") or [])
@@ -167,13 +181,22 @@ def main() -> None:
     products_end = source.index("\n];", products_start) + 2
     products = json.loads(source[products_start:products_end])
     existing_ids = {p["id"] for p in products}
-    imported = [make_product(p, category_by_id) for p in dataset["products"] if p["id"] not in existing_ids]
-    products.extend(imported)
+    imported = []
+    updated = 0
+    for source_product in dataset["products"]:
+        normalized = make_product(source_product, category_by_id)
+        existing_index = next((i for i, current in enumerate(products) if current["id"] == source_product["id"]), None)
+        if existing_index is None:
+            products.append(normalized)
+            imported.append(normalized)
+        else:
+            products[existing_index] = {**products[existing_index], **normalized}
+            updated += 1
     # Keep the existing file's stable JSON style and only replace the two data blocks.
     rendered = source[:categories_start] + json.dumps(categories, ensure_ascii=False, indent=2) + source[categories_end:products_start]
     rendered += json.dumps(products, ensure_ascii=False, indent=2) + source[products_end:]
     CATALOG.write_text(rendered)
-    print(json.dumps({"categories_added": len(NEW_CATEGORIES), "products_added": len(imported), "products_total": len(products), "images_imported": sum(bool(p["product_images"]) for p in imported)}, ensure_ascii=False))
+    print(json.dumps({"categories_added": len(NEW_CATEGORIES), "products_added": len(imported), "products_updated": updated, "products_total": len(products), "images_imported": sum(bool(p["product_images"]) for p in imported)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

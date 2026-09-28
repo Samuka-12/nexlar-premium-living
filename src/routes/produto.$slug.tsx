@@ -1,15 +1,7 @@
 import { useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
-import {
-  Check,
-  Heart,
-  Minus,
-  MessageCircleQuestion,
-  Plus,
-  Star,
-  Truck,
-} from "lucide-react";
+import { Check, Heart, Minus, MessageCircleQuestion, Plus, Star, Truck } from "lucide-react";
 import { toast } from "sonner";
 import { StoreLayout } from "@/components/store/StoreLayout";
 import { ProductCard } from "@/components/store/ProductCard";
@@ -34,9 +26,14 @@ import { getLocalProductBySlug, getLocalProductsByCategory } from "@/lib/catalog
 
 export const Route = createFileRoute("/produto/$slug")({
   head: ({ params }) => {
-    const name = params.slug.replace(/-/g, " ");
-    const title = `${name.charAt(0).toUpperCase()}${name.slice(1)} | NEXLAR`;
-    const description = `Compre ${name} na NEXLAR. Frete grátis acima de R$ 299, até 8x sem juros e troca em 30 dias.`;
+    const localProduct = getLocalProductBySlug(params.slug);
+    const name = localProduct?.name ?? params.slug.replace(/-/g, " ");
+    const title = localProduct?.meta_title ?? localProduct?.seo_title ?? `${name} | NEXLAR`;
+    const description =
+      localProduct?.meta_description ??
+      localProduct?.seo_description ??
+      `Compre ${name} na NEXLAR. Frete grátis acima de R$ 299, até 8x sem juros e troca em 30 dias.`;
+    const image = localProduct?.image_link ?? null;
     return {
       meta: [
         { title },
@@ -44,12 +41,12 @@ export const Route = createFileRoute("/produto/$slug")({
         { property: "og:title", content: title },
         { property: "og:description", content: description },
         { property: "og:type", content: "product" },
+        ...(image ? [{ property: "og:image", content: image }] : []),
       ],
     };
   },
   component: ProductPage,
 });
-
 
 function ProductPage() {
   const { slug } = Route.useParams();
@@ -95,7 +92,9 @@ function ProductPage() {
   });
 
   const localRelated = product?.category_id
-    ? getLocalProductsByCategory(product.category_id).filter((p) => p.id !== product.id).slice(0, 4)
+    ? getLocalProductsByCategory(product.category_id)
+        .filter((p) => p.id !== product.id)
+        .slice(0, 4)
     : [];
 
   const { data: related = [] } = useQuery({
@@ -123,7 +122,6 @@ function ProductPage() {
       return [] as { id: string; question: string; answer: string }[];
     },
   });
-
 
   const images = useMemo(() => (product ? sortedImages(product) : []), [product]);
   const variants = product?.product_variants ?? [];
@@ -416,7 +414,10 @@ function ProductPage() {
             <TabsTrigger value="faq">Perguntas</TabsTrigger>
           </TabsList>
 
-          <TabsContent value="description" className="max-w-3xl py-6 leading-relaxed text-muted-foreground">
+          <TabsContent
+            value="description"
+            className="max-w-3xl py-6 leading-relaxed text-muted-foreground"
+          >
             {product.description}
           </TabsContent>
 
