@@ -42,6 +42,14 @@ export type Product = {
   specs: Record<string, string>;
   created_at: string;
   source_url?: string;
+  source_urls?: string[];
+  price_reference?: string;
+  official_availability?: string;
+  popularity_evidence?: string;
+  commercial_inference?: string;
+  image_source_status?: string;
+  seo_title?: string;
+  seo_description?: string;
   product_images?: ProductImage[];
   images?: ProductImage[];
   product_variants?: ProductVariant[];

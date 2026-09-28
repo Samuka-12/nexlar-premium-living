@@ -1,0 +1,3574 @@
+{
+  "schema_version": 1,
+  "brand": "Le Creuset",
+  "market": "Brasil",
+  "research_date": "2026-09-28",
+  "currency": "BRL",
+  "deduplication_policy": "Deduplicated across the 14 research reports by official product URL, SKU and normalized product name. Repeated category evidence/source URLs are merged. Variant SKUs are preserved separately only when specified in source research; image URLs were not exposed in source text and are left empty.",
+  "counts": {
+    "research_reports": 14,
+    "source_product_rows": 78,
+    "duplicate_rows_removed": 12,
+    "unique_products": 66
+  },
+  "categories": [
+    {
+      "id": "01-ferro-fundido",
+      "name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+      "research_product_rows": 6,
+      "unique_selected_products": 6,
+      "official_listing_results_reported": 52,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+      ],
+      "research_report": "01-ferro-fundido.md"
+    },
+    {
+      "id": "02-cacarolas",
+      "name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+      "research_product_rows": 7,
+      "unique_selected_products": 7,
+      "official_listing_results_reported": 8,
+      "category_source_urls": [],
+      "research_report": "02-cacarolas.md"
+    },
+    {
+      "id": "03-frigideiras-skillets",
+      "name": "Frigideiras e Skillets — Le Creuset Brasil",
+      "research_product_rows": 6,
+      "unique_selected_products": 6,
+      "official_listing_results_reported": null,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "research_report": "03-frigideiras-skillets.md"
+    },
+    {
+      "id": "04-grelhas",
+      "name": "Le Creuset Brasil — Grelhas",
+      "research_product_rows": 3,
+      "unique_selected_products": 3,
+      "official_listing_results_reported": 3,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/cozinhar/grelhas/"
+      ],
+      "research_report": "04-grelhas.md"
+    },
+    {
+      "id": "05-ceramica-nonstick",
+      "name": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+      "research_product_rows": 3,
+      "unique_selected_products": 3,
+      "official_listing_results_reported": 11,
+      "category_source_urls": [],
+      "research_report": "05-ceramica-nonstick.md"
+    },
+    {
+      "id": "06-mini-cocotte-ramekins",
+      "name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+      "research_product_rows": 5,
+      "unique_selected_products": 5,
+      "official_listing_results_reported": 22,
+      "category_source_urls": [],
+      "research_report": "06-mini-cocotte-ramekins.md"
+    },
+    {
+      "id": "07-assadeiras-travessas",
+      "name": "Le Creuset Brasil — Assadeiras e Travessas",
+      "research_product_rows": 6,
+      "unique_selected_products": 6,
+      "official_listing_results_reported": 24,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+      ],
+      "research_report": "07-assadeiras-travessas.md"
+    },
+    {
+      "id": "08-potes-porta-mantimentos",
+      "name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+      "research_product_rows": 5,
+      "unique_selected_products": 5,
+      "official_listing_results_reported": 27,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+      ],
+      "research_report": "08-potes-porta-mantimentos.md"
+    },
+    {
+      "id": "09-moedores-galheteiros",
+      "name": "Le Creuset Brasil — Moedores e Galheteiros",
+      "research_product_rows": 5,
+      "unique_selected_products": 5,
+      "official_listing_results_reported": 15,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+      ],
+      "research_report": "09-moedores-galheteiros.md"
+    },
+    {
+      "id": "10-acessorios-cozinha",
+      "name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+      "research_product_rows": 8,
+      "unique_selected_products": 8,
+      "official_listing_results_reported": null,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "research_report": "10-acessorios-cozinha.md"
+    },
+    {
+      "id": "11-acessorios-bebidas",
+      "name": "Acessórios para bebidas — Le Creuset Brasil",
+      "research_product_rows": 6,
+      "unique_selected_products": 6,
+      "official_listing_results_reported": null,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/"
+      ],
+      "research_report": "11-acessorios-bebidas.md"
+    },
+    {
+      "id": "12-acessorios-vinho",
+      "name": "Acessórios de vinho — Le Creuset Brasil",
+      "research_product_rows": 8,
+      "unique_selected_products": 8,
+      "official_listing_results_reported": 8,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "research_report": "12-acessorios-vinho.md"
+    },
+    {
+      "id": "13-churrasco",
+      "name": "Pesquisa oficial Le Creuset Brasil — Churrasco",
+      "research_product_rows": 4,
+      "unique_selected_products": 4,
+      "official_listing_results_reported": 32,
+      "category_source_urls": [],
+      "research_report": "13-churrasco.md"
+    },
+    {
+      "id": "14-outros-comerciais",
+      "name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+      "research_product_rows": 6,
+      "unique_selected_products": 6,
+      "official_listing_results_reported": 11,
+      "category_source_urls": [
+        "https://www.lecreuset.com.br/outros/"
+      ],
+      "research_report": "14-outros-comerciais.md"
+    }
+  ],
+  "existing_nexlar_categories": [
+    {
+      "id": "cat-jogos-de-panelas",
+      "name": "Jogos de Panelas",
+      "slug": "jogos-de-panelas"
+    },
+    {
+      "id": "cat-panelas-de-pressao",
+      "name": "Panelas de Pressão",
+      "slug": "panelas-de-pressao"
+    },
+    {
+      "id": "cat-frigideiras-e-woks",
+      "name": "Frigideiras, Woks & Grills",
+      "slug": "frigideiras-e-woks"
+    },
+    {
+      "id": "cat-cacarolas-e-avulsas",
+      "name": "Caçarolas & Panelas Avulsas",
+      "slug": "cacarolas-e-avulsas"
+    },
+    {
+      "id": "cat-panelas-especiais",
+      "name": "Panelas Especiais",
+      "slug": "panelas-especiais"
+    },
+    {
+      "id": "cat-panelas-de-inducao",
+      "name": "Panelas de Indução",
+      "slug": "panelas-de-inducao"
+    },
+    {
+      "id": "cat-chaleiras",
+      "name": "Chaleiras",
+      "slug": "chaleiras"
+    }
+  ],
+  "new_categories_recommended": [
+    {
+      "name": "Assadeiras, Travessas & Cerâmica para Forno",
+      "slug_suggestion": "assadeiras-travessas-ceramica",
+      "covers": "Travessas e assadeiras de cerâmica/metal, mini cocottes e ramekins."
+    },
+    {
+      "name": "Potes & Organização de Cozinha",
+      "slug_suggestion": "potes-organizacao-cozinha",
+      "covers": "Potes de armazenamento, porta-mantimentos e itens para sal, condimentos, mel, manteiga, biscoitos, alho e recipientes de silicone."
+    },
+    {
+      "name": "Acessórios de Cozinha & Mesa",
+      "slug_suggestion": "acessorios-cozinha-mesa",
+      "covers": "Moedores, galheteiros, utensílios, suportes e telas protetoras."
+    },
+    {
+      "name": "Bebidas: Canecas, Bules & Jarras",
+      "slug_suggestion": "bebidas-canecas-bules-jarras",
+      "covers": "Prensas francesas, jarras, bules com infusor e canecas; Chaleira Clássica pode usar a categoria Chaleiras existente."
+    },
+    {
+      "name": "Acessórios para Vinho",
+      "slug_suggestion": "acessorios-vinho",
+      "covers": "Coolers, saca-rolhas, abridores e conjuntos para vinho/espumante."
+    }
+  ],
+  "products": [
+    {
+      "name": "Panela Redonda Signature",
+      "sku": "21177",
+      "sku_raw": "21177",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/panela-redonda-signature/21177.html",
+      "price_reference": "R$ 1.263,20 – R$ 4.399,00 (varia por tamanho/cor)",
+      "short_description": "panela redonda de ferro fundido esmaltado para cozimento lento, distribuição e retenção homogêneas de calor, uso do fogão ao forno e à mesa.",
+      "attributes": [
+        "material ferro fundido; interior esmaltado cor areia; tampa com vedação/circulação de calor e umidade; pegador de aço inoxidável; alças espaçosas; fontes: vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; lava-louças/lavagem à mão; origem França; garantia vitalícia; tamanhos exibidos de 14 a 34 cm."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**Best Seller** na página do produto; também aparece no carrossel de Ferro Fundido da página oficial Best-sellers."
+      },
+      "commercial_inference": "produto-ícone, maior força de marca e ampla grade de tamanhos/cores; forte candidato a anúncio de aquisição e remarketing. O potencial comercial é inferido do posicionamento oficial e do design, não de volume de vendas divulgado.",
+      "availability_observed": "",
+      "category_id": "01-ferro-fundido",
+      "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+      "source_urls": [
+        "https://www.lecreuset.com.br/panela-redonda-signature/21177.html",
+        "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+      ],
+      "source_category_ids": [
+        "01-ferro-fundido"
+      ],
+      "source_categories": [
+        "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado"
+      ],
+      "source_observations": [
+        {
+          "category_id": "01-ferro-fundido",
+          "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+          "source_urls": [
+            "https://www.lecreuset.com.br/panela-redonda-signature/21177.html",
+            "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-21177",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caçarola Buffet Signature",
+      "sku": "21180",
+      "sku_raw": "21180",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/cacarola-buffet-signature/21180.html",
+      "price_reference": "R$ 2.139,00 – R$ 3.269,00",
+      "short_description": "caçarola de ferro fundido esmaltado, indicada para levar do forno à mesa ou usar como peça decorativa.",
+      "attributes": [
+        "ferro fundido esmaltado; distribuição/retenção superior de calor; não requer tempero; esmalte resistente e fácil de limpar; tampa hermética que circula vapor; pegador inox seguro no forno; compatível com vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; lava-louças/lavagem à mão; França; garantia vitalícia; tamanhos 22, 26, 30 e 32 cm (22 cm fora de estoque na página consultada)."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**Best Seller** — a página afirma que pertence à lista dos mais vendidos do catálogo. Avaliações numéricas: não informadas."
+      },
+      "commercial_inference": "é o sinal mais forte de demanda comprovada entre os itens verificados; tem formato baixo, visual premium e uso forno–mesa, combinação direta para criativos de Meta Ads. O ticket alto é claro na própria página.",
+      "availability_observed": "",
+      "category_id": "01-ferro-fundido",
+      "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+      "source_urls": [
+        "https://www.lecreuset.com.br/cacarola-buffet-signature/21180.html",
+        "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+      ],
+      "source_category_ids": [
+        "01-ferro-fundido",
+        "02-cacarolas"
+      ],
+      "source_categories": [
+        "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+        "Pesquisa oficial — Le Creuset Brasil: Caçarolas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "01-ferro-fundido",
+          "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cacarola-buffet-signature/21180.html",
+            "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+          ]
+        },
+        {
+          "category_id": "02-cacarolas",
+          "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cacarola-buffet-signature/21180.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-21180",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Skillet Redonda Signature",
+      "sku": "20182",
+      "sku_raw": "20182 (a variante consultada também aparece em URL com SKU 20182261730422)",
+      "variant_skus": [
+        "20182261730422"
+      ],
+      "url": "https://www.lecreuset.com.br/skillet-redonda-signature-lecreuset/20182.html",
+      "price_reference": "R$ 1.304,25 – R$ 1.999,00 na categoria; variante consultada: R$ 1.304,25",
+      "short_description": "frigideira/skillet redonda em ferro fundido esmaltado, com interior preto acetinado para altas temperaturas e sem necessidade de tempero tradicional.",
+      "attributes": [
+        "material ferro fundido; esmalte interno preto acetinado; compatível com vitrocerâmico, indução, elétrico, gás, radiante, grill e forno até 260 °C; 26 cm na variante consultada; comprimento 44,2 cm, largura 29,9 cm, altura 5,5 cm; interior 3,6 × 26 × 26 cm; lavagem à mão; França; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**Best Seller** na página do produto e presente no carrossel de Ferro Fundido da página Best-sellers; página da variante consultada informa “últimas unidades”, “em estoque” e “restam apenas 6”."
+      },
+      "commercial_inference": "é uma peça versátil e reconhecível, com boa capacidade de servir tanto a criativos de churrasco quanto a anúncios de uso diário. O visual colorido da linha e a demonstração de tostar, selar e fritar favorecem variações de anúncio; a faixa de preço cobre diferentes tamanhos.",
+      "availability_observed": "",
+      "category_id": "01-ferro-fundido",
+      "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+      "source_urls": [
+        "https://www.lecreuset.com.br/skillet-redonda-signature-lecreuset/20182.html",
+        "https://www.lecreuset.com.br/skillet-redonda-signature-thyme-26cm/20182261730422.html",
+        "https://www.lecreuset.com.br/ferro-fundido-esmaltado/",
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "source_category_ids": [
+        "01-ferro-fundido",
+        "03-frigideiras-skillets",
+        "13-churrasco"
+      ],
+      "source_categories": [
+        "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+        "Frigideiras e Skillets — Le Creuset Brasil",
+        "Pesquisa oficial Le Creuset Brasil — Churrasco"
+      ],
+      "source_observations": [
+        {
+          "category_id": "01-ferro-fundido",
+          "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+          "source_urls": [
+            "https://www.lecreuset.com.br/skillet-redonda-signature-lecreuset/20182.html",
+            "https://www.lecreuset.com.br/skillet-redonda-signature-thyme-26cm/20182261730422.html",
+            "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+          ]
+        },
+        {
+          "category_id": "03-frigideiras-skillets",
+          "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/skillet-redonda-signature-lecreuset/20182.html",
+            "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+          ]
+        },
+        {
+          "category_id": "13-churrasco",
+          "category_name": "Pesquisa oficial Le Creuset Brasil — Churrasco",
+          "source_urls": [
+            "https://www.lecreuset.com.br/skillet-redonda-signature-lecreuset/20182.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-20182",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Panela Oval Signature",
+      "sku": "21178",
+      "sku_raw": "21178 na página de categoria; variante Artichaut consultada: 21178317954430",
+      "variant_skus": [
+        "21178317954430"
+      ],
+      "url": "https://www.lecreuset.com.br/panela-oval-signature/21178.html",
+      "price_reference": "R$ 2.549,25 – R$ 4.889,00 na categoria; variante Artichaut 31 cm: R$ 2.549,25, com 25% OFF.",
+      "short_description": "panela oval de ferro fundido esmaltado para cozimento lento, refogado, assar, cozinhar e fritar, do fogão à mesa.",
+      "attributes": [
+        "variante Artichaut 31 cm; capacidade 6,3 L; porções 6–8; 40,4 × 25,7 × 17,9 cm; interior 11,6 × 24 × 31 cm; ferro fundido esmaltado; compatível com todos os cooktops e forno até 260 °C; lava-louças/lavagem à mão; França; garantia vitalícia; não requer tempero."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado como Best Seller na página consultada; presença comprovada na categoria. Desconto de 25% é sinal comercial, não popularidade."
+      },
+      "commercial_inference": "forma oval e exemplos de uso (cortes maiores, frango inteiro e pães ovais) criam criativos de demonstração fortes; ticket premium. Potencial comercial é inferido.",
+      "availability_observed": "",
+      "category_id": "01-ferro-fundido",
+      "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+      "source_urls": [
+        "https://www.lecreuset.com.br/panela-oval-signature/21178.html",
+        "https://www.lecreuset.com.br/panela-oval-signature-artichaut-31cm/21178317954430.html",
+        "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+      ],
+      "source_category_ids": [
+        "01-ferro-fundido"
+      ],
+      "source_categories": [
+        "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado"
+      ],
+      "source_observations": [
+        {
+          "category_id": "01-ferro-fundido",
+          "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+          "source_urls": [
+            "https://www.lecreuset.com.br/panela-oval-signature/21178.html",
+            "https://www.lecreuset.com.br/panela-oval-signature-artichaut-31cm/21178317954430.html",
+            "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-21178",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Panela Para Pão Signature",
+      "sku": "21301240600430",
+      "sku_raw": "21301240600430",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/panela-para-pao-signature-24cm-lecreuset-vermelho/21301240600430.html",
+      "price_reference": "R$ 2.399,20, com 20% OFF",
+      "short_description": "panela de ferro fundido com tampa em cúpula para reter/circular vapor, base para crosta dourada e interior Matte Black.",
+      "attributes": [
+        "vermelho; 24 cm; capacidade 1,6 L; 24 × 21,2 × 13,6 cm; interior 8,5 × 17 × 20 cm; forno até 250 °C; fontes forno, indução, gás e elétrico; pode ir à lava-louças (recomenda-se lavagem à mão); França; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado como Best Seller; variante consultada estava em estoque. Desconto e estoque não são prova de popularidade."
+      },
+      "commercial_inference": "proposta altamente visual e específica (pães, vapor, crosta e marca dos três anéis), adequada a criativos de transformação/receita. Potencial comercial inferido.",
+      "availability_observed": "",
+      "category_id": "01-ferro-fundido",
+      "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+      "source_urls": [
+        "https://www.lecreuset.com.br/panela-para-pao-signature-24cm-lecreuset-vermelho/21301240600430.html",
+        "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+      ],
+      "source_category_ids": [
+        "01-ferro-fundido"
+      ],
+      "source_categories": [
+        "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado"
+      ],
+      "source_observations": [
+        {
+          "category_id": "01-ferro-fundido",
+          "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+          "source_urls": [
+            "https://www.lecreuset.com.br/panela-para-pao-signature-24cm-lecreuset-vermelho/21301240600430.html",
+            "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-panelas-especiais",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-21301240600430",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Grelha Quadrada Signature",
+      "sku": "20183",
+      "sku_raw": "20183 na categoria; variante consultada: 20183269490422",
+      "variant_skus": [
+        "20183269490422"
+      ],
+      "url": "https://www.lecreuset.com.br/grelha-quadrada-lecreuset/20183.html",
+      "price_reference": "R$ 1.394,25 – R$ 1.859,00 na categoria; variante consultada: R$ 1.394,25, com 25% OFF.",
+      "short_description": "grelha quadrada de ferro fundido esmaltado para carnes e vegetais, com superfície resistente e adequada a apresentação à mesa.",
+      "attributes": [
+        "variante Rhone 26 cm; 44,3 × 29,9 × 5,3 cm; interior 3,6 × 26 × 26 cm; interior preto esmaltado; fontes vitrocerâmico, indução, elétrico, gás e forno; lava-louças/lavagem à mão; França; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "não informado. Sinais de catálogo comprovados: aparece na categoria Churrasco e na categoria oficial Grelhas, que lista 3 resultados; a página oferece ordenação “Mais populares/Mais Vendido”, sem marcar este item como best seller."
+      },
+      "commercial_inference": "formato quadrado reconhecível, forte apelo visual da paleta de cores Le Creuset, ticket premium e uso demonstrável em carnes e vegetais. É uma boa candidata para criativos de Meta Ads que mostrem selagem, apresentação à mesa e variedade de cores. Isso é uma inferência comercial, não prova de vendas.",
+      "availability_observed": "",
+      "category_id": "01-ferro-fundido",
+      "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+      "source_urls": [
+        "https://www.lecreuset.com.br/grelha-quadrada-lecreuset/20183.html",
+        "https://www.lecreuset.com.br/grelha-quadrada-signature-rhone/20183269490422.html",
+        "https://www.lecreuset.com.br/ferro-fundido-esmaltado/",
+        "https://www.lecreuset.com.br/cozinhar/grelhas/"
+      ],
+      "source_category_ids": [
+        "01-ferro-fundido",
+        "04-grelhas",
+        "13-churrasco"
+      ],
+      "source_categories": [
+        "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+        "Le Creuset Brasil — Grelhas",
+        "Pesquisa oficial Le Creuset Brasil — Churrasco"
+      ],
+      "source_observations": [
+        {
+          "category_id": "01-ferro-fundido",
+          "category_name": "Pesquisa Le Creuset Brasil — Panelas de ferro fundido esmaltado",
+          "source_urls": [
+            "https://www.lecreuset.com.br/grelha-quadrada-lecreuset/20183.html",
+            "https://www.lecreuset.com.br/grelha-quadrada-signature-rhone/20183269490422.html",
+            "https://www.lecreuset.com.br/ferro-fundido-esmaltado/"
+          ]
+        },
+        {
+          "category_id": "04-grelhas",
+          "category_name": "Le Creuset Brasil — Grelhas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/grelha-quadrada-lecreuset/20183.html",
+            "https://www.lecreuset.com.br/cozinhar/grelhas/"
+          ]
+        },
+        {
+          "category_id": "13-churrasco",
+          "category_name": "Pesquisa oficial Le Creuset Brasil — Churrasco",
+          "source_urls": [
+            "https://www.lecreuset.com.br/grelha-quadrada-lecreuset/20183.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-20183",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caçarola Buffet Signature Petal",
+      "sku": "219642",
+      "sku_raw": "219642",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/ca%C3%A7arola-buffet-signature-petal/219642.html",
+      "price_reference": "R$ 2.949,00–R$ 3.079,00; 10x R$ 307,90 sem juros.",
+      "short_description": "caçarola Buffet Signature em ferro fundido esmaltado, com exterior resistente, interior vitrificado cor areia, tampa vedada e alças amplas.",
+      "attributes": [
+        "ferro fundido; compatível com vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; dimensões exibidas de 26 × 26 × 9,8 cm; lavagem manual; origem França; garantia vitalícia; cores visíveis incluem Bleu Riviera, Branco, Shell Pink, Coastal Blue e Sea Salt, com algumas indisponíveis."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "a página exibe **Lançamento** e também o selo textual **Best Seller**. Avaliações numéricas: não informadas."
+      },
+      "commercial_inference": "combina novidade oficial, paleta de cores e o mesmo apelo de servir diretamente à mesa; o contraste visual e as cores são adequados para anúncios de produto premium. Potencial comercial é inferido a partir desses atributos, não de vendas não publicadas.",
+      "availability_observed": "",
+      "category_id": "02-cacarolas",
+      "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/ca%C3%A7arola-buffet-signature-petal/219642.html"
+      ],
+      "source_category_ids": [
+        "02-cacarolas"
+      ],
+      "source_categories": [
+        "Pesquisa oficial — Le Creuset Brasil: Caçarolas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "02-cacarolas",
+          "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/ca%C3%A7arola-buffet-signature-petal/219642.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-219642",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caçarola Buffet Signature Flamme Dorée",
+      "sku": "21180301834479",
+      "sku_raw": "21180301834479 (SKU exibido para a variação Flamme Doree, 30 cm)",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/cacarola-buffet-signature-flamme-doree-30cm/2118030.html",
+      "price_reference": "R$ 3.449,00; 10x R$ 344,90 sem juros; indicada como em estoque na captura.",
+      "short_description": "Caçarola Buffet Signature de 30 cm em ferro fundido, edição limitada Flamme Dorée, com esmalte enriquecido com minerais naturais e pegador dourado.",
+      "attributes": [
+        "3,5 L; ferro fundido; interior vitrificado cor areia; pegador dourado; 30 cm; 40,2 × 31,7 × 13,5 cm; fontes: vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; lavagem manual; origem França; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado**. A página comprova **Edição limitada** e lançamento da cor, mas isso não equivale a Best Seller."
+      },
+      "commercial_inference": "forte apelo visual para anúncio — esmalte com reflexos dourados, pegador dourado e edição comemorativa — com disponibilidade indicada no momento da consulta. O potencial de conversão por escassez/novidade é inferido do posicionamento de edição limitada, não de dados de vendas.",
+      "availability_observed": "",
+      "category_id": "02-cacarolas",
+      "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/cacarola-buffet-signature-flamme-doree-30cm/2118030.html"
+      ],
+      "source_category_ids": [
+        "02-cacarolas"
+      ],
+      "source_categories": [
+        "Pesquisa oficial — Le Creuset Brasil: Caçarolas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "02-cacarolas",
+          "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cacarola-buffet-signature-flamme-doree-30cm/2118030.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-21180301834479",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caçarola Buffet Abóbora",
+      "sku": "213382",
+      "sku_raw": "213382",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/ca%C3%A7arola-buffet-signature-abobora-pegador-dourado-marronnier-28cm/213382.html",
+      "price_reference": "R$ 4.269,00; 10x R$ 426,90 sem juros.",
+      "short_description": "caçarola de ferro fundido esmaltado em formato de abóbora, com pegador dourado de aço inox, indicada para sopas, refogados e assados.",
+      "attributes": [
+        "ferro fundido; distribuição e retenção de calor; base com três anéis; resistente a manchas, lascas e fissuras; indicada para lava-louças, com recomendação de lavagem manual; segura para forno a 250 °C; fontes listadas incluem indução e forno; origem França; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "a página exibe **Best Seller**. Avaliações numéricas: não informadas. Disponibilidade de compra não confirmada na captura, que mostra seleção pendente/aviso de estoque."
+      },
+      "commercial_inference": "formato de abóbora e pegador dourado são diferenciais visuais imediatamente comunicáveis em Meta Ads; é o maior ticket unitário observado na categoria, atendendo a uma estratégia de peça-ícone/presente. O apelo comercial é inferido do design e ticket, não de métricas de venda.",
+      "availability_observed": "",
+      "category_id": "02-cacarolas",
+      "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/ca%C3%A7arola-buffet-signature-abobora-pegador-dourado-marronnier-28cm/213382.html"
+      ],
+      "source_category_ids": [
+        "02-cacarolas"
+      ],
+      "source_categories": [
+        "Pesquisa oficial — Le Creuset Brasil: Caçarolas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "02-cacarolas",
+          "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/ca%C3%A7arola-buffet-signature-abobora-pegador-dourado-marronnier-28cm/213382.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-213382",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caçarola Funda 3-Ply Signature",
+      "sku": "9660062",
+      "sku_raw": "9660062",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/cacarola-funda-3ply/9660062.html",
+      "price_reference": "R$ 1.799,00–R$ 2.129,00; 10x R$ 212,90 sem juros.",
+      "short_description": "caçarola funda de aço inoxidável 3-Ply, com transferência rápida e uniforme de calor, alças ergonômicas e borda de despejo sem respingos.",
+      "attributes": [
+        "construção 3-Ply com núcleo de alumínio da base ao aro; exterior de aço inox com titânio; tamanhos 20 e 24 cm; fontes: vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; lava-louças/lavagem manual; origem Portugal; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado**. A página exibe **Design Premiado** (Red Dot Awards 2014), mas isso é reconhecimento de design, não popularidade."
+      },
+      "commercial_inference": "oferece entrada de ticket relativamente menor dentro da categoria e uma proposta técnica diferente do ferro fundido: aço inoxidável triplo, núcleo de alumínio e uso para sopas/ensopados. É uma oportunidade de criativo focado em desempenho; potencial comercial inferido.",
+      "availability_observed": "",
+      "category_id": "02-cacarolas",
+      "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/cacarola-funda-3ply/9660062.html"
+      ],
+      "source_category_ids": [
+        "02-cacarolas"
+      ],
+      "source_categories": [
+        "Pesquisa oficial — Le Creuset Brasil: Caçarolas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "02-cacarolas",
+          "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cacarola-funda-3ply/9660062.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-9660062",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caçarola Aço Esmaltado",
+      "sku": "56002204",
+      "sku_raw": "56002204",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/ca%C3%A7arola-redonda-aco-esmaltado/56002204.html",
+      "price_reference": "R$ 789,00–R$ 849,00; 8x R$ 106,13 sem juros.",
+      "short_description": "caçarola leve de aço carbono esmaltado, com aquecimento rápido, interior não reativo e uso para sopas, caldos, molhos, massas e acompanhamentos.",
+      "attributes": [
+        "aço esmaltado; aro de aço inoxidável; compatível com cooktops incluindo indução; lavagem manual; dimensões exibidas de 20 × 20 × 16,9 cm; origem Tailândia; garantia de 5 anos. A descrição informa que não é indicada para forno ou micro-ondas, embora a ficha de fontes liste forno; essa contradição deve ser esclarecida antes de anúncio técnico."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado**. Avaliações numéricas: não informadas."
+      },
+      "commercial_inference": "menor ticket visível da categoria e promessa de leveza/aquecimento rápido, o que pode ampliar o público de anúncios além do comprador tradicional de ferro fundido. O potencial de alcance e entrada é inferido; a página mostra algumas cores indisponíveis e não confirma estoque da variação selecionada.",
+      "availability_observed": "",
+      "category_id": "02-cacarolas",
+      "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/ca%C3%A7arola-redonda-aco-esmaltado/56002204.html"
+      ],
+      "source_category_ids": [
+        "02-cacarolas"
+      ],
+      "source_categories": [
+        "Pesquisa oficial — Le Creuset Brasil: Caçarolas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "02-cacarolas",
+          "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/ca%C3%A7arola-redonda-aco-esmaltado/56002204.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-cacarolas-e-avulsas",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-56002204",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set com 4 Mini Buffet Gourmand",
+      "sku": "20502130000425",
+      "sku_raw": "20502130000425",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-com-4-buffet-gourmand-13cm/20502130000425.html",
+      "price_reference": "R$ 2.624,25, com desconto visível de R$ 874,75 (25% OFF); 10x R$ 262,43 sem juros. Variação Matte Black indicada como fora de estoque.",
+      "short_description": "conjunto de quatro mini buffets Gourmand de 13 cm, redondos e baixos, em ferro fundido esmaltado, para preparar e servir pratos individuais, acompanhamentos, massas ou sobremesas.",
+      "attributes": [
+        "ferro fundido esmaltado; paredes internas curvas e fundo plano; alças largas; empilháveis; esmalte preto fosco; compatível com indução e fontes listadas; uso até 450 °C; lava-louças; 12,7 × 12,7 × 3,3 cm por peça; origem França; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado**. O desconto de 25% é comprovado, mas não indica popularidade."
+      },
+      "commercial_inference": "conjunto com quatro unidades, apresentação individual forno–mesa e estética profissional; bom candidato a criativos de mesa posta, hospitalidade e presente. A promoção é um gancho publicitário verificável, enquanto a atratividade comercial é inferida.",
+      "availability_observed": "",
+      "category_id": "02-cacarolas",
+      "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-com-4-buffet-gourmand-13cm/20502130000425.html"
+      ],
+      "source_category_ids": [
+        "02-cacarolas"
+      ],
+      "source_categories": [
+        "Pesquisa oficial — Le Creuset Brasil: Caçarolas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "02-cacarolas",
+          "category_name": "Pesquisa oficial — Le Creuset Brasil: Caçarolas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-com-4-buffet-gourmand-13cm/20502130000425.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-panelas-especiais",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-20502130000425",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Frigideira Rasa Non-Stick Ceramic Essential",
+      "sku": "5131420",
+      "sku_raw": "5131420",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/frigideira-rasa-antiaderente-de-ceramica/5131420.html",
+      "price_reference": "R$ 599,25–R$ 1.139,00 (faixa exibida por tamanho); tamanhos visíveis: 20 cm e 24 cm fora de estoque, 26/28/30 cm listados.",
+      "short_description": "frigideira rasa com laterais arredondadas e capacidade generosa, indicada para grelhar, saltear e receitas variadas; o revestimento cerâmico antiaderente facilita a liberação dos alimentos e a limpeza.",
+      "attributes": [
+        "material Cerâmica Antiaderente Essential; compatível com vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; suporta até 280 °C; lava-louças ou lavagem à mão; garantia de 10 anos; livre de PFOA, PFAS e PTFE; não acompanha tampa."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. O produto aparece na categoria Frigideiras e Skillets e também na categoria Antiaderente; a página de categoria mostra ordenação por “Mais populares/Mais Vendido”, mas não marca este item individualmente."
+      },
+      "commercial_inference": "é o menor ticket de entrada entre os principais itens recomendados, tem apelo visual e mensagem simples para Meta Ads: antiaderente cerâmico, limpeza prática e uso diário. O potencial é **inferido**, não uma prova de vendas.",
+      "availability_observed": "",
+      "category_id": "03-frigideiras-skillets",
+      "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/frigideira-rasa-antiaderente-de-ceramica/5131420.html",
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "source_category_ids": [
+        "03-frigideiras-skillets"
+      ],
+      "source_categories": [
+        "Frigideiras e Skillets — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "03-frigideiras-skillets",
+          "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/frigideira-rasa-antiaderente-de-ceramica/5131420.html",
+            "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-5131420",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set 2 Frigideiras Non-Stick Ceramic Essential (20 cm e 26 cm)",
+      "sku": "51826000010098",
+      "sku_raw": "51826000010098",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-2-frigideiras-rasas-20cm-26cm-antiaderente-de-ceramica/51826000010098.html",
+      "price_reference": "R$ 1.649,00.",
+      "short_description": "conjunto de duas frigideiras rasas, de 20 cm e 26 cm, com revestimento cerâmico antiaderente para grelhar, saltear e preparar receitas variadas.",
+      "attributes": [
+        "Cerâmica Antiaderente Essential; tamanhos 20 cm e 26 cm; compatível com vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; suporta até 280 °C; lava-louças ou lavagem à mão; garantia de 10 anos; livre de PFOA, PFAS e PTFE; resistente a riscos e seguro para utensílios metálicos com cuidado; dimensões informadas: 20 cm C20 × L20 × A7 e 26 cm C26 × L26 × A7; não acompanha tampa."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. O conjunto aparece tanto na categoria Frigideiras e Skillets quanto na categoria Antiaderente; não há selo individual de best seller, avaliações ou vendas visíveis."
+      },
+      "commercial_inference": "conjunto comunica valor e variedade em uma única peça publicitária, com ticket intermediário e benefício fácil de demonstrar em criativos. Potencial comercial **inferido** pela composição do kit e pela recorrência em duas categorias oficiais.",
+      "availability_observed": "",
+      "category_id": "03-frigideiras-skillets",
+      "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-2-frigideiras-rasas-20cm-26cm-antiaderente-de-ceramica/51826000010098.html",
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "source_category_ids": [
+        "03-frigideiras-skillets"
+      ],
+      "source_categories": [
+        "Frigideiras e Skillets — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "03-frigideiras-skillets",
+          "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-2-frigideiras-rasas-20cm-26cm-antiaderente-de-ceramica/51826000010098.html",
+            "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-51826000010098",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Skillet Redonda Funda Signature",
+      "sku": "20187",
+      "sku_raw": "20187",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/skillet-redonda-funda-le-creuset/20187.html",
+      "price_reference": "R$ 1.739,00–R$ 1.859,00.",
+      "short_description": "skillet funda de ferro fundido esmaltado com interior preto acetinado, indicada para tostar, refogar, fritar e cozinhar em altas temperaturas.",
+      "attributes": [
+        "ferro fundido esmaltado; 26 cm de comprimento/largura e 6,1 cm de altura; compatível com vitrocerâmico, indução, forno, gás, elétrico e radiante; forno até 260 °C; lava-louças ou lavagem à mão; origem França; garantia vitalícia; não requer tempero."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Produto listado na categoria e apresentado no artigo oficial como referência da família de ferro fundido; não há selo individual, avaliações ou dados de venda visíveis."
+      },
+      "commercial_inference": "profundidade e formato ampliam o repertório de receitas, mantendo a assinatura visual do ferro fundido colorido. Potencial para criativos de receita e ticket premium é **inferido**.",
+      "availability_observed": "",
+      "category_id": "03-frigideiras-skillets",
+      "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/skillet-redonda-funda-le-creuset/20187.html",
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "source_category_ids": [
+        "03-frigideiras-skillets"
+      ],
+      "source_categories": [
+        "Frigideiras e Skillets — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "03-frigideiras-skillets",
+          "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/skillet-redonda-funda-le-creuset/20187.html",
+            "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-20187",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Frigideira Funda 3-Ply Signature",
+      "sku": "9660022",
+      "sku_raw": "9660022",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/frigideira-funda-3ply-signature/9660022.html",
+      "price_reference": "R$ 1.259,00–R$ 1.869,00; tamanhos 20, 24, 26 e 30 cm listados, com algumas variações fora de estoque.",
+      "short_description": "frigideira funda de aço inoxidável 3-Ply, com núcleo de alumínio e exterior de aço inoxidável com infusão de titânio, indicada para carnes grelhadas e legumes salteados.",
+      "attributes": [
+        "aço inox 3-Ply; núcleo de alumínio da base ao aro; exterior com infusão de titânio; borda de vazamento sem gotejamento; compatível com vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; lava-louças ou lavagem à mão; origem Portugal; garantia vitalícia; design premiado Red Dot Awards 2014."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. A página oficial informa design premiado Red Dot Awards 2014, que é um atributo institucional, não prova de popularidade ou vendas. Também é citada no artigo oficial sobre frigideiras."
+      },
+      "commercial_inference": "diferencia o portfólio com estética inox premium, profundidade e argumento técnico claro de construção tripla. Potencial de atingir públicos de cozinha sofisticada é **inferido**.",
+      "availability_observed": "",
+      "category_id": "03-frigideiras-skillets",
+      "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/frigideira-funda-3ply-signature/9660022.html",
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "source_category_ids": [
+        "03-frigideiras-skillets"
+      ],
+      "source_categories": [
+        "Frigideiras e Skillets — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "03-frigideiras-skillets",
+          "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/frigideira-funda-3ply-signature/9660022.html",
+            "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-9660022",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Frigideira Saute com Cabo de Madeira Signature",
+      "sku": "202592",
+      "sku_raw": "202592",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/frigideira-saute-com-cabo-de-madeira-signature/202592.html",
+      "price_reference": "R$ 2.279,00; 28 cm; cores Laranja e Vermelho listadas.",
+      "short_description": "frigideira saute de ferro fundido com cabo de madeira, indicada para refogar legumes, fritar peixe e grelhar carne.",
+      "attributes": [
+        "28 cm; ferro fundido; compatível com vitrocerâmico, indução, radiante, elétrico e gás; dimensões 56,3 cm × 28,9 cm × 10,4 cm; lava-louças ou lavagem à mão; origem França; garantia vitalícia."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. A presença na categoria é comprovada, mas não há avaliações, vendas ou selo individual visível."
+      },
+      "commercial_inference": "ticket alto, cabo de madeira e cores fortes criam diferenciação visual para anúncios e conteúdo de receita. Potencial de desejo/premiumização é **inferido**. O cabo de madeira também exige comunicação cuidadosa de uso e manutenção.",
+      "availability_observed": "",
+      "category_id": "03-frigideiras-skillets",
+      "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/frigideira-saute-com-cabo-de-madeira-signature/202592.html",
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "source_category_ids": [
+        "03-frigideiras-skillets"
+      ],
+      "source_categories": [
+        "Frigideiras e Skillets — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "03-frigideiras-skillets",
+          "category_name": "Frigideiras e Skillets — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/frigideira-saute-com-cabo-de-madeira-signature/202592.html",
+            "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-202592",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Grelha Retangular Tradicional",
+      "sku": "2020232",
+      "sku_raw": "2020232",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/grelha-retangular-tradicional-lecreuset/2020232.html",
+      "price_reference": "R$ 1.429,00; a página também exibe 10x de R$ 142,90 sem juros.",
+      "short_description": "Grelha retangular de ferro fundido para preparar frango, bifes, peixes, vegetais e outros alimentos, selando a superfície e criando linhas de grelha semelhantes às de um churrasco.",
+      "attributes": [
+        "Material: ferro fundido.",
+        "Fontes de calor: vitrocerâmico, indução, elétrico, gás, grill e forno.",
+        "Lavagem: lava-louças e lavagem à mão.",
+        "País de origem: França.",
+        "Garantia: vitalícia.",
+        "Cores exibidas: Bleu Riviera disponível na consulta; Laranja, Vermelho, Marseille e Matte Black marcadas como não disponíveis.",
+        "Na consulta, a página indicava “Out of Stock — Avise-me quando estiver disponível”."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "não informado. Sinais de catálogo comprovados: aparece na categoria Churrasco e na categoria oficial Grelhas; a página individual mostra recomendações de acessórios, mas não mostra avaliações ou selo de best seller."
+      },
+      "commercial_inference": "o retângulo comunica capacidade para preparar mais alimentos e a promessa visual de “linhas de carvão” é adequada a anúncios de transformação antes/depois. O ticket é premium, mas ainda ligeiramente abaixo da faixa máxima da categoria. Trata-se de potencial comercial inferido, não evidência de desempenho.",
+      "availability_observed": "",
+      "category_id": "04-grelhas",
+      "category_name": "Le Creuset Brasil — Grelhas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/grelha-retangular-tradicional-lecreuset/2020232.html",
+        "https://www.lecreuset.com.br/cozinhar/grelhas/"
+      ],
+      "source_category_ids": [
+        "04-grelhas",
+        "13-churrasco"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Grelhas",
+        "Pesquisa oficial Le Creuset Brasil — Churrasco"
+      ],
+      "source_observations": [
+        {
+          "category_id": "04-grelhas",
+          "category_name": "Le Creuset Brasil — Grelhas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/grelha-retangular-tradicional-lecreuset/2020232.html",
+            "https://www.lecreuset.com.br/cozinhar/grelhas/"
+          ]
+        },
+        {
+          "category_id": "13-churrasco",
+          "category_name": "Pesquisa oficial Le Creuset Brasil — Churrasco",
+          "source_urls": [
+            "https://www.lecreuset.com.br/grelha-retangular-tradicional-lecreuset/2020232.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-2020232",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Cesta Perfurada Quadrada Alpine 30cm",
+      "sku": "20271300000005",
+      "sku_raw": "20271300000005",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/cesta-perfurada-quadrada-alpine-matte-black/2027130.html",
+      "price_reference": "R$ 1.669,00; a página também exibe 10x de R$ 166,90 sem juros.",
+      "short_description": "Cesta quadrada perfurada Alpine de ferro fundido esmaltado, com esmalte preto fosco, projetada para grelhar, assar, selar e tostar sobre fontes de calor ao ar livre. A marca destaca distribuição e retenção de calor, alças amplas e perfil baixo.",
+      "attributes": [
+        "Cor: Matte Black.",
+        "Tamanho: 30 cm.",
+        "Material: ferro fundido esmaltado.",
+        "Dimensões visíveis: comprimento 38,8 cm; largura 30,6 cm; altura 8,2 cm; dimensões internas 3,7 × 29,8 × 29,8 cm.",
+        "Fontes de calor: vitrocerâmico, elétrico, gás, radiante, grill e forno.",
+        "Não compatível com indução.",
+        "Uso seguro em fontes de calor reguladas ou não até 450 °C, conforme a página.",
+        "Compatível com lava-louças e utensílios metálicos na descrição; a especificação de modo de lavagem também informa lavagem à mão.",
+        "País de origem: França.",
+        "Garantia: vitalícia limitada/vitalícia, conforme os campos apresentados na página.",
+        "Alças amplas, laterais baixas e fundo com relevo de montanhas.",
+        "Indicada pela marca para fogão a lenha, churrasqueira, fogueira e assar pizzas.",
+        "Na consulta, a página indicava “Em estoque”."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. A página de categoria não apresenta selo de popularidade ou avaliação para o item. A página do produto informa “Em estoque”, que é sinal de disponibilidade, não de popularidade."
+      },
+      "commercial_inference": "diferenciação visual forte, uso em churrasqueira, fogueira, forno a lenha e preparo ao ar livre, além de bons ganchos para criativos de lifestyle e camping. O apelo é especialmente adequado a anúncios demonstrativos, mas a página não comprova demanda ou vendas.",
+      "availability_observed": "",
+      "category_id": "04-grelhas",
+      "category_name": "Le Creuset Brasil — Grelhas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/cesta-perfurada-quadrada-alpine-matte-black/2027130.html",
+        "https://www.lecreuset.com.br/cozinhar/grelhas/"
+      ],
+      "source_category_ids": [
+        "04-grelhas",
+        "13-churrasco"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Grelhas",
+        "Pesquisa oficial Le Creuset Brasil — Churrasco"
+      ],
+      "source_observations": [
+        {
+          "category_id": "04-grelhas",
+          "category_name": "Le Creuset Brasil — Grelhas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cesta-perfurada-quadrada-alpine-matte-black/2027130.html",
+            "https://www.lecreuset.com.br/cozinhar/grelhas/"
+          ]
+        },
+        {
+          "category_id": "13-churrasco",
+          "category_name": "Pesquisa oficial Le Creuset Brasil — Churrasco",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cesta-perfurada-quadrada-alpine-matte-black/2027130.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-20271300000005",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Stockpot Non-Stick Ceramic Essential",
+      "sku": "51313240010598",
+      "sku_raw": "51313240010598",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/stockpot-antiaderente-de-ceramica/5131324.html",
+      "price_reference": "R$ 1.221,75, com desconto de R$ 407,25; a página exibe “25% OFF” e “Em estoque” no momento da consulta.",
+      "short_description": "panela Stockpot antiaderente de cerâmica Essential, com laterais arredondadas e capacidade de 6 L, indicada para selar e preparar receitas variadas. O revestimento facilita a liberação dos alimentos e a limpeza.",
+      "attributes": [
+        "24 cm; capacidade 6 L; material Cerâmica Antiaderente Essential; fontes de calor vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; dimensões indicadas de comprimento 24, largura 24 e altura 21; lava-louças ou lavagem à mão; garantia de 10 anos; resistente a riscos e segura para utensílios de metal, segundo a descrição oficial; galeria oficial com 3 vistas e selo visual “25% OFF”."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "não informado. O produto aparece na coleção oficial; não foi encontrado selo Best Seller nem avaliação numérica na página consultada."
+      },
+      "commercial_inference": "é o produto com sinal comercial mais objetivo entre os verificados: desconto visível, estoque indicado e ticket ainda abaixo de muitos itens da linha. A capacidade de 6 L e o formato de panela alta dão apelo visual e uma promessa de uso amplo para campanhas de preparo de receitas volumosas. A atratividade comercial é uma inferência baseada nesses sinais, não uma afirmação de vendas.",
+      "availability_observed": "",
+      "category_id": "05-ceramica-nonstick",
+      "category_name": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/stockpot-antiaderente-de-ceramica/5131324.html",
+        "https://www.lecreuset.com.br/non-stick-ceramic-essential/"
+      ],
+      "source_category_ids": [
+        "05-ceramica-nonstick"
+      ],
+      "source_categories": [
+        "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "05-ceramica-nonstick",
+          "category_name": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/stockpot-antiaderente-de-ceramica/5131324.html",
+            "https://www.lecreuset.com.br/non-stick-ceramic-essential/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-panelas-especiais",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-51313240010598",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set 2 Frigideiras Rasa e Funda Non-Stick Ceramic Essential",
+      "sku": "51824000010098",
+      "sku_raw": "51824000010098",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-2-frigideiras-rasa-24cm-antiaderente-de-ceramica/5182400.html",
+      "price_reference": "R$ 2.019,00; a página exibe “Em estoque”.",
+      "short_description": "conjunto de uma frigideira rasa de 24 cm e uma frigideira funda de 28 cm, com laterais arredondadas e capacidade generosa, indicado para grelhar, saltear e preparar receitas variadas.",
+      "attributes": [
+        "tamanhos 24 cm e 28 cm; material Cerâmica Antiaderente Essential; fontes de calor vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; dimensões declaradas para as peças: rasa C24 x L24 x A07 e funda C28 x L28 x A07; comprimento geral 35, largura 30, altura 10; lava-louças ou lavagem à mão; garantia de 10 anos; revestimento livre de PFOA, PFAS e PTFE; linha suporta até 280 °C; não acompanha tampa de vidro."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. O item aparece tanto na coleção Non-Stick Ceramic Essential quanto na categoria oficial “Frigideiras e Skillets”; isso comprova frequência de merchandising/categorização, não vendas ou popularidade."
+      },
+      "commercial_inference": "conjunto com proposta imediatamente compreensível para Meta Ads: duas peças, dois formatos e demonstração visual fácil em receitas. Tem ticket premium, mas a composição do kit ajuda a comunicar valor por conjunto. A facilidade de anúncio é uma inferência comercial; não há dado oficial de conversão.",
+      "availability_observed": "",
+      "category_id": "05-ceramica-nonstick",
+      "category_name": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-2-frigideiras-rasa-24cm-antiaderente-de-ceramica/5182400.html",
+        "https://www.lecreuset.com.br/non-stick-ceramic-essential/",
+        "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+      ],
+      "source_category_ids": [
+        "05-ceramica-nonstick"
+      ],
+      "source_categories": [
+        "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "05-ceramica-nonstick",
+          "category_name": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-2-frigideiras-rasa-24cm-antiaderente-de-ceramica/5182400.html",
+            "https://www.lecreuset.com.br/non-stick-ceramic-essential/",
+            "https://www.lecreuset.com.br/cozinhar/frigideiras-e-skillets/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-frigideiras-e-woks",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-51824000010098",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Molheira com Alça Non-Stick Ceramic Essential",
+      "sku": "513161",
+      "sku_raw": "513161 (a página também apresenta variantes de tamanho 16 cm, 18 cm e 20 cm; 16 cm aparece fora de estoque e a página exige seleção de tamanho).",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/molheira-com-alca--antiaderente-de-ceramica/513161.html",
+      "price_reference": "R$ 1.149,00–R$ 1.394,25, dependendo do tamanho selecionado; a página exibe parcelamento em até 10x e “Faça uma seleção”.",
+      "short_description": "molheira com alça e revestimento antiaderente de Cerâmica Essential, com laterais arredondadas, indicada para grelhar, saltear e preparar receitas variadas.",
+      "attributes": [
+        "tamanhos 16 cm, 18 cm e 20 cm; material Cerâmica Antiaderente Essential; fontes de calor vitrocerâmico, indução, elétrico, gás, radiante, grill e forno; lava-louças ou lavagem à mão; garantia de 10 anos; revestimento livre de PFOA, PFAS e PTFE; linha suporta até 280 °C; página com galeria oficial de 4 vistas; variante de 16 cm indicada como fora de estoque."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "não informado. Não foi encontrado selo Best Seller nem avaliação numérica."
+      },
+      "commercial_inference": "é uma peça visualmente diferenciada e de uso específico, com ticket de entrada menor que diversos conjuntos da linha. Pode funcionar em criativos de molhos, salteados e porções menores. O potencial de nicho e de demonstração é inferido do formato e da descrição, não de dados de vendas.",
+      "availability_observed": "",
+      "category_id": "05-ceramica-nonstick",
+      "category_name": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/molheira-com-alca--antiaderente-de-ceramica/513161.html",
+        "https://www.lecreuset.com.br/non-stick-ceramic-essential/"
+      ],
+      "source_category_ids": [
+        "05-ceramica-nonstick"
+      ],
+      "source_categories": [
+        "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "05-ceramica-nonstick",
+          "category_name": "Cerâmica / Non-Stick Ceramic Essential — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/molheira-com-alca--antiaderente-de-ceramica/513161.html",
+            "https://www.lecreuset.com.br/non-stick-ceramic-essential/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-panelas-especiais",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-513161",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Mini Cocotte",
+      "sku": "910050",
+      "sku_raw": "910050",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/mini-cocotte-lecreuset/910050.html",
+      "price_reference": "R$ 179,25–R$ 239,00 (variação por cor)",
+      "short_description": "Mini cocotte para servir porções individuais ou decorar bancada/estante, com estilo clássico e cores atraentes.",
+      "attributes": [
+        "Cerâmica; 1 porção; forno, micro-ondas e congelador; não usar em fogo direto; 14 × 11 × 8 cm; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos. A página também afirma retenção de calor e superfície esmaltada de limpeza facilitada. [2]"
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "incluída no carrossel/bloco oficial de cerâmicas Best Seller; avaliações não informadas."
+      },
+      "commercial_inference": "É o produto mais diretamente representativo da categoria, tem várias cores e ticket de entrada relativamente menor que os conjuntos. O formato individual e a paleta colorida têm potencial visual para anúncios de mesa posta, sobremesa e presente — avaliação comercial inferida.",
+      "availability_observed": "",
+      "category_id": "06-mini-cocotte-ramekins",
+      "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/mini-cocotte-lecreuset/910050.html",
+        "https://www.lecreuset.com.br/assar/mini-cocotte-e-ramekins/",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/ceramica/",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "06-mini-cocotte-ramekins",
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Mini Cocotte e Ramekins — Le Creuset Brasil",
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "06-mini-cocotte-ramekins",
+          "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/mini-cocotte-lecreuset/910050.html",
+            "https://www.lecreuset.com.br/assar/mini-cocotte-e-ramekins/"
+          ]
+        },
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/mini-cocotte-lecreuset/910050.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/ceramica/",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-910050",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Ramekin 200ml",
+      "sku": "70403",
+      "sku_raw": "70403",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/ramekin-200ml-medio/70403.html",
+      "price_reference": "R$ 139,00",
+      "short_description": "Ramekin de 200 ml para bolos, gratinados, tortas, servir porções individuais e preparar ou armazenar ingredientes; possui saliência interna para empilhamento vertical.",
+      "attributes": [
+        "Cerâmica; forno, micro-ondas e congelador; não usar em fogo direto; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos; capacidade de 200 ml conforme o nome do produto. [3]"
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**não informado**. O item aparece na listagem da categoria, sem avaliação ou selo de best seller visível. [1]"
+      },
+      "commercial_inference": "Menor ticket entre os itens verificados e uso fácil de comunicar: porções individuais, molhos, sobremesas e preparo de ingredientes. É uma opção de entrada com forte potencial de teste em Meta Ads — inferência, não evidência de vendas.",
+      "availability_observed": "",
+      "category_id": "06-mini-cocotte-ramekins",
+      "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/ramekin-200ml-medio/70403.html",
+        "https://www.lecreuset.com.br/assar/mini-cocotte-e-ramekins/"
+      ],
+      "source_category_ids": [
+        "06-mini-cocotte-ramekins"
+      ],
+      "source_categories": [
+        "Mini Cocotte e Ramekins — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "06-mini-cocotte-ramekins",
+          "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/ramekin-200ml-medio/70403.html",
+            "https://www.lecreuset.com.br/assar/mini-cocotte-e-ramekins/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-70403",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Ramekin 240ml",
+      "sku": "70401",
+      "sku_raw": "70401",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/ramekin-lecreuset-240ml/70401.html",
+      "price_reference": "R$ 149,00",
+      "short_description": "Ramekin de 240 ml para preparar, servir e armazenar; a saliência interna permite empilhar verticalmente sem grudar ou tombar.",
+      "attributes": [
+        "Cerâmica; forno, micro-ondas e congelador; não usar em fogo direto; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos; capacidade indicada no nome do produto. [4]"
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado**. Não foram exibidas avaliações ou selo de “Mais Vendido” na página consultada. [4]"
+      },
+      "commercial_inference": "Complementa o Ramekin 200ml com ticket ainda acessível e aplicação clara em gratinados, bolos, tortas e porções individuais. O discurso de apresentação elegante e preparo rápido é adequado a criativos de receita — potencial inferido.",
+      "availability_observed": "",
+      "category_id": "06-mini-cocotte-ramekins",
+      "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/ramekin-lecreuset-240ml/70401.html"
+      ],
+      "source_category_ids": [
+        "06-mini-cocotte-ramekins"
+      ],
+      "source_categories": [
+        "Mini Cocotte e Ramekins — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "06-mini-cocotte-ramekins",
+          "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/ramekin-lecreuset-240ml/70401.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-70401",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set 4 Mini Ramekin Elements",
+      "sku": "89109108159030",
+      "sku_raw": "89109108159030",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-4mini-ramekin-elements/89109108159030.html",
+      "price_reference": "R$ 359,00",
+      "short_description": "Conjunto de 4 mini ramekins Elements, cada um com 100 ml, para porções individuais e serviço.",
+      "attributes": [
+        "Cor/linha Elements; 4 porções; capacidade de 100 ml; cerâmica; forno, micro-ondas e congelador; não usar em fogo direto; conjunto com dimensões informadas de 16,1 × 16,1 × 5,3 cm; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos. [5]"
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado**. A página mostra o produto como “Fora de estoque”, sem avaliações ou selo de best seller. [5]"
+      },
+      "commercial_inference": "Conjunto de quatro aumenta o valor percebido e oferece uma composição visual pronta para mesa, além de elevar o ticket em relação ao ramekin unitário. Isso é potencial comercial inferido; o estoque indisponível reduz a prontidão imediata para mídia.",
+      "availability_observed": "",
+      "category_id": "06-mini-cocotte-ramekins",
+      "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-4mini-ramekin-elements/89109108159030.html"
+      ],
+      "source_category_ids": [
+        "06-mini-cocotte-ramekins"
+      ],
+      "source_categories": [
+        "Mini Cocotte e Ramekins — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "06-mini-cocotte-ramekins",
+          "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-4mini-ramekin-elements/89109108159030.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-89109108159030",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set Mini Ramekins Gift Collection",
+      "sku": "7913410",
+      "sku_raw": "7913410",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-mini-ramekins-gift-collection-lecreuset/7913410.html",
+      "price_reference": "R$ 469,00",
+      "short_description": "Conjunto Mini Ramekins Gift Collection em multicor, de cerâmica esmaltada, com unidades de 7,8 × 7,8 × 4,6 cm.",
+      "attributes": [
+        "Cor multicor; cerâmica; 7,8 cm de comprimento, 7,8 cm de largura e 4,6 cm de altura; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos. [6]"
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado**. A página oficial mostra o item como fora de estoque e não apresenta avaliação ou selo de best seller no conteúdo consultado. [6]"
+      },
+      "commercial_inference": "Produto explicitamente apresentado como gift collection, com paleta multicor e formato compacto. É visualmente forte para anúncios de presente e mesa posta; esse apelo é inferido, enquanto a indisponibilidade é comprovada e deve ser considerada antes de qualquer campanha.",
+      "availability_observed": "",
+      "category_id": "06-mini-cocotte-ramekins",
+      "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-mini-ramekins-gift-collection-lecreuset/7913410.html"
+      ],
+      "source_category_ids": [
+        "06-mini-cocotte-ramekins"
+      ],
+      "source_categories": [
+        "Mini Cocotte e Ramekins — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "06-mini-cocotte-ramekins",
+          "category_name": "Mini Cocotte e Ramekins — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-mini-ramekins-gift-collection-lecreuset/7913410.html"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-7913410",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Travessa Retangular Heritage",
+      "sku": "71102",
+      "sku_raw": "71102",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/travessa-retangular-heritage/71102.html",
+      "price_reference": "R$ 349,00–R$ 1.389,00 (varia por tamanho/cor)",
+      "short_description": "Travessa de cerâmica premium para assar sobremesas e vegetais, marinar carnes, armazenar sobras e servir.",
+      "attributes": [
+        "cerâmica; forno e micro-ondas; lava-louças e lavagem manual; faixa térmica informada de -22 °C a 260 °C; esmalte não poroso, não reativo e resistente a manchas/arranhões; segura para freezer; garantia de 10 anos; origem Tailândia; tamanhos 19/26/32/36 cm."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Sinal comercial comprovado: é o primeiro produto exibido na listagem da categoria; a página oferece 4 tamanhos (19, 26, 32 e 36 cm) e ampla seleção de cores."
+      },
+      "commercial_inference": "amplitude de ticket e tamanhos, uso cotidiano muito claro e forte apelo visual de cores. A versatilidade descrita oficialmente favorece criativos de receitas, forno-à-mesa e organização de sobras. O potencial é inferido; não equivale a vendas ou avaliações.",
+      "availability_observed": "",
+      "category_id": "07-assadeiras-travessas",
+      "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/travessa-retangular-heritage/71102.html",
+        "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+      ],
+      "source_category_ids": [
+        "07-assadeiras-travessas"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Assadeiras e Travessas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "07-assadeiras-travessas",
+          "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/travessa-retangular-heritage/71102.html",
+            "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-71102",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Travessa Retangular Clássica",
+      "sku": "910047",
+      "sku_raw": "910047",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/travessa-retangular-classica/910047.html",
+      "price_reference": "R$ 519,00–R$ 709,00 (26 cm e 32 cm)",
+      "short_description": "Travessa retangular de cerâmica premium, projetada para uso diário, assar e servir.",
+      "attributes": [
+        "cerâmica; forno, micro-ondas e congelador; não usar fogo direto; lava-louças/lavagem manual; retenção de calor; garantia de 10 anos; origem Tailândia; 26 cm e 32 cm."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Sinal comercial comprovado: presença na categoria e duas opções de tamanho, com 26 cm disponível e 32 cm fora de estoque no momento da verificação."
+      },
+      "commercial_inference": "produto de entrada/intermediário de cerâmica premium, visual forte e aplicações diárias. O contraste de preço com peças Signature pode facilitar segmentações de aquisição e remarketing; isso é inferência comercial.",
+      "availability_observed": "",
+      "category_id": "07-assadeiras-travessas",
+      "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/travessa-retangular-classica/910047.html",
+        "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+      ],
+      "source_category_ids": [
+        "07-assadeiras-travessas"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Assadeiras e Travessas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "07-assadeiras-travessas",
+          "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/travessa-retangular-classica/910047.html",
+            "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-910047",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Travessa Canelada",
+      "sku": "71120",
+      "sku_raw": "71120",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/travessa-canelada-lecreuset/71120.html",
+      "price_reference": "R$ 399,00–R$ 529,00 (24 cm e 28 cm)",
+      "short_description": "Travessa de cerâmica para pratos caseiros, sobremesas e doces, incluindo tortas de frutas e tortas rasas.",
+      "attributes": [
+        "cerâmica premium; 24 cm e 28 cm (a especificação exibida destaca 28 cm); forno, micro-ondas e freezer; lava-louças/lavagem manual; esmalte não poroso e resistente a manchas; garantia de 10 anos; origem Tailândia; cores Laranja, Vermelho e Bleu Riviera."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Sinal comercial comprovado: aparece na listagem da categoria com três cores e dois tamanhos; a página relaciona receita oficial de crumble de maçã."
+      },
+      "commercial_inference": "acabamento canelado e cores são elementos visuais úteis para Meta Ads; aplicações em tortas e sobremesas são fáceis de demonstrar. O potencial de criativo é inferido, não uma métrica de demanda.",
+      "availability_observed": "",
+      "category_id": "07-assadeiras-travessas",
+      "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/travessa-canelada-lecreuset/71120.html",
+        "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+      ],
+      "source_category_ids": [
+        "07-assadeiras-travessas"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Assadeiras e Travessas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "07-assadeiras-travessas",
+          "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/travessa-canelada-lecreuset/71120.html",
+            "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-71120",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Travessa Retangular Heritage com Tampa",
+      "sku": "810024",
+      "sku_raw": "810024",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/travessa-retangular-heritage-com-tampa/810024.html",
+      "price_reference": "R$ 1.059,00",
+      "short_description": "Travessa de cerâmica premium com tampa para sobremesas, carnes e peixes no forno, transporte e armazenamento de sobras.",
+      "attributes": [
+        "cerâmica; forno, micro-ondas e congelador; não usar fogo direto; lava-louças/lavagem manual; tampa retém umidade e calor; garantia de 10 anos; origem Tailândia."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Sinal comercial comprovado: presença na categoria e destaque oficial de tampa de cerâmica; a variação verificada estava fora de estoque."
+      },
+      "commercial_inference": "tampa amplia a narrativa de transporte, armazenamento e manutenção de umidade/calor. É uma proposta visual e funcional diferenciada para anúncios, mas não há prova de conversão ou popularidade.",
+      "availability_observed": "",
+      "category_id": "07-assadeiras-travessas",
+      "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/travessa-retangular-heritage-com-tampa/810024.html",
+        "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+      ],
+      "source_category_ids": [
+        "07-assadeiras-travessas"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Assadeiras e Travessas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "07-assadeiras-travessas",
+          "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/travessa-retangular-heritage-com-tampa/810024.html",
+            "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-810024",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Assadeira Quadrada Rasa",
+      "sku": "46093310010000",
+      "sku_raw": "46093310010000",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/assadeira-quadrada-rada-lecreuset/46093310010000.html",
+      "price_reference": "R$ 369,00; em estoque na verificação",
+      "short_description": "Assadeira quadrada rasa de aço carbono de grande calibre, leve e durável, para forno e congelador.",
+      "attributes": [
+        "Matte Black; 31 cm; 6 porções; Metal Bakeware; forno e congelador; 37 × 35 × 2 cm; lavagem manual; origem China; garantia vitalícia; revestimento para facilitar limpeza."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Sinal comercial comprovado: disponibilidade em estoque e garantia vitalícia da linha Bakeware."
+      },
+      "commercial_inference": "menor ticket entre os itens recomendados, formato simples e especificações objetivas; pode reduzir barreira de entrada em anúncios. O potencial é inferido.",
+      "availability_observed": "",
+      "category_id": "07-assadeiras-travessas",
+      "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/assadeira-quadrada-rada-lecreuset/46093310010000.html",
+        "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+      ],
+      "source_category_ids": [
+        "07-assadeiras-travessas"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Assadeiras e Travessas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "07-assadeiras-travessas",
+          "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/assadeira-quadrada-rada-lecreuset/46093310010000.html",
+            "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-46093310010000",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Assadeira Oval Signature",
+      "sku": null,
+      "sku_raw": "não informado na página da categoria consultada; não inventado",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/assadeira-oval-signature/201883.html",
+      "price_reference": "R$ 2.489,00",
+      "short_description": "Assadeira oval Signature listada oficialmente na categoria, com opção exibida de 36 cm.",
+      "attributes": [
+        "36 cm e preço de R$ 2.489,00 são visíveis na categoria; demais atributos não foram confirmados na página de produto durante esta pesquisa e foram omitidos."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Sinal comercial comprovado: aparece na categoria como produto de maior ticket e com opção de 36 cm; não há prova de best seller."
+      },
+      "commercial_inference": "peça premium com alto valor visual e ticket elevado, adequada a campanhas de inspiração e forno-à-mesa. O potencial comercial é inferido pelo posicionamento, não por vendas.",
+      "availability_observed": "",
+      "category_id": "07-assadeiras-travessas",
+      "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+      "source_urls": [
+        "https://www.lecreuset.com.br/assadeira-oval-signature/201883.html",
+        "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+      ],
+      "source_category_ids": [
+        "07-assadeiras-travessas"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Assadeiras e Travessas"
+      ],
+      "source_observations": [
+        {
+          "category_id": "07-assadeiras-travessas",
+          "category_name": "Le Creuset Brasil — Assadeiras e Travessas",
+          "source_urls": [
+            "https://www.lecreuset.com.br/assadeira-oval-signature/201883.html",
+            "https://www.lecreuset.com.br/assar/assadeiras-e-travessas/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
+      "image_urls": [],
+      "id": "lecreuset-assadeira-oval-signature",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Pote Com Tampa de Madeira 220ml",
+      "sku": "9104440",
+      "sku_raw": "9104440",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/pote-com-tampa-de-madeira-220ml/9104440.html",
+      "price_reference": "R$ 349,00",
+      "short_description": "pote de armazenamento de 220 ml com tampa de madeira de faia e vedação hermética, concebido para armazenar alimentos secos, decorar e organizar a cozinha.",
+      "attributes": [
+        "cerâmica; tampa de madeira; 10 × 10 × 6 cm; cerâmica lavável à mão ou em lava-louças; tampa deve ser lavada à mão; não usar fogo direto; origem China; garantia de 10 anos; cores listadas: Laranja, Vermelho, Caribe, Branco e Black Onyx."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. A página da categoria o lista entre os 27 resultados; não há selo de Best Seller nem avaliação visível no conteúdo acessível."
+      },
+      "commercial_inference": "contraste visual entre cerâmica esmaltada colorida e tampa de madeira; formato compacto e empilhável; bom item de entrada para criativos de organização de bancada e composição com os tamanhos de 420 ml, 1,1 L e 1,9 L recomendados na própria página.",
+      "availability_observed": "",
+      "category_id": "08-potes-porta-mantimentos",
+      "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/pote-com-tampa-de-madeira-220ml/9104440.html",
+        "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+      ],
+      "source_category_ids": [
+        "08-potes-porta-mantimentos"
+      ],
+      "source_categories": [
+        "Potes e Porta-Mantimentos — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "08-potes-porta-mantimentos",
+          "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/pote-com-tampa-de-madeira-220ml/9104440.html",
+            "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-9104440",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Porta Mantimentos",
+      "sku": "910078",
+      "sku_raw": "910078",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/porta-mantimentos/910078.html",
+      "price_reference": "R$ 549,00–R$ 659,00",
+      "short_description": "porta-mantimentos de cerâmica premium com anéis característicos da Le Creuset e vedação de silicone na tampa para impedir passagem de ar e preservar ingredientes.",
+      "attributes": [
+        "cerâmica; capacidades de 2,1 L e 3,3 L; superfície esmaltada; lava-louças ou lavagem à mão; não usar fogo direto; origem não especificada na descrição resumida da página; garantia de 10 anos; cores listadas: Laranja, Vermelho e Branco. A página sinaliza 2,1 L como fora de estoque no momento da consulta."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. Listado na categoria; sem selo Best Seller/Mais Vendido ou avaliação visível na página do produto."
+      },
+      "commercial_inference": "é o item mais diretamente alinhado ao termo “porta-mantimentos”, possui faixa de ticket premium e comunica benefício funcional forte (frescor/vedação) em um visual de marca muito reconhecível.",
+      "availability_observed": "",
+      "category_id": "08-potes-porta-mantimentos",
+      "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/porta-mantimentos/910078.html",
+        "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+      ],
+      "source_category_ids": [
+        "08-potes-porta-mantimentos"
+      ],
+      "source_categories": [
+        "Potes e Porta-Mantimentos — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "08-potes-porta-mantimentos",
+          "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/porta-mantimentos/910078.html",
+            "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-910078",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Pote de Silicone (página de variação 1000 ml)",
+      "sku": "4241734",
+      "sku_raw": "4241734",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/recipiente-de-armazenamento-de-silicone-1000ml/4241734.html",
+      "price_reference": "R$ 219,00–R$ 449,00 (variações de capacidade)",
+      "short_description": "pote de silicone colorido, empilhável e fácil de limpar, indicado para armazenar lanches e alimentos prontos, organizar a despensa ou transportar refeições.",
+      "attributes": [
+        "silicone premium de qualidade alimentar; capacidades de 500 ml, 1 L e 2 L; compatível com micro-ondas; suporta temperaturas próximas a 230 °C; seguro para freezer; seguro para lava-louças segundo os destaques; página de especificações também informa lavagem à mão; origem China; garantia de 5 anos; cores Laranja, Vermelho e Vapeur."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. A página marca o item como “Novo”; isso é um destaque de novidade, não prova de vendas ou popularidade."
+      },
+      "commercial_inference": "ticket de entrada mais baixo na categoria, demonstração visual simples (empilhar, armazenar, levar) e atributos de uso cotidiano que podem facilitar criativos de problema/solução para Meta Ads.",
+      "availability_observed": "",
+      "category_id": "08-potes-porta-mantimentos",
+      "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/recipiente-de-armazenamento-de-silicone-1000ml/4241734.html",
+        "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+      ],
+      "source_category_ids": [
+        "08-potes-porta-mantimentos"
+      ],
+      "source_categories": [
+        "Potes e Porta-Mantimentos — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "08-potes-porta-mantimentos",
+          "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/recipiente-de-armazenamento-de-silicone-1000ml/4241734.html",
+            "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-4241734",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Porta Sal",
+      "sku": "910022",
+      "sku_raw": "910022",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/porta-sal-lecreuset/910022.html",
+      "price_reference": "R$ 379,00",
+      "short_description": "porta-sal de estilo antigo com grande abertura lateral para acesso ao sal, especiarias ou temperos.",
+      "attributes": [
+        "cerâmica; 12 × 12 × 13 cm; lava-louças ou lavagem à mão; não usar fogo direto; origem Tailândia; garantia de 10 anos; cores listadas incluem Laranja, Vermelho, Azure, Caribe, Marseille, Meringue, Bamboo, Branco, Flint e Nectar. A página indica várias cores indisponíveis no momento da consulta."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "não informado. Listado na categoria; sem avaliação ou selo de Best Seller visível."
+      },
+      "commercial_inference": "silhueta e abertura lateral são facilmente demonstráveis em vídeo curto; produto pequeno, colorido e com função imediata, adequado para anúncios de organização e bancada.",
+      "availability_observed": "",
+      "category_id": "08-potes-porta-mantimentos",
+      "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/porta-sal-lecreuset/910022.html",
+        "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+      ],
+      "source_category_ids": [
+        "08-potes-porta-mantimentos"
+      ],
+      "source_categories": [
+        "Potes e Porta-Mantimentos — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "08-potes-porta-mantimentos",
+          "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/porta-sal-lecreuset/910022.html",
+            "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-910022",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Porta Condimento",
+      "sku": "910114",
+      "sku_raw": "910114",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/porta-condimento-lecreuset/910114.html",
+      "price_reference": "R$ 289,00–R$ 439,00 (variações de capacidade)",
+      "short_description": "porta-condimento de cerâmica premium com tampa de vedação de silicone, disponível em três tamanhos para armazenamento.",
+      "attributes": [
+        "cerâmica; capacidades de 200 ml, 400 ml e 800 ml; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos; cores Laranja, Vermelho, Caribe, Marseille e Branco. A página marca 200 ml e 800 ml como fora de estoque; o preço varia por capacidade."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "não informado. Listado na categoria; sem avaliação ou selo Best Seller visível."
+      },
+      "commercial_inference": "produto visualmente colecionável, com três capacidades e tampa de silicone; permite criativos com conjunto de temperos e organização por cor, embora a página sinalize disponibilidade limitada em algumas combinações.",
+      "availability_observed": "",
+      "category_id": "08-potes-porta-mantimentos",
+      "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/porta-condimento-lecreuset/910114.html",
+        "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+      ],
+      "source_category_ids": [
+        "08-potes-porta-mantimentos"
+      ],
+      "source_categories": [
+        "Potes e Porta-Mantimentos — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "08-potes-porta-mantimentos",
+          "category_name": "Potes e Porta-Mantimentos — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/porta-condimento-lecreuset/910114.html",
+            "https://www.lecreuset.com.br/acessorios/potes-e-porta-mantimentos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-910114",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Moedor de Pimenta 21cm",
+      "sku": "960019",
+      "sku_raw": "960019",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/moedor-de-pimenta/960019.html",
+      "price_reference": "R$ 276,75–R$ 369,00 (a página informa seleção de cor; status pode variar por variante).",
+      "short_description": "moedor para pimenta com exterior em acrílico ABS, design ergonômico e sistema de moagem cerâmico ajustável para controlar a granulação.",
+      "attributes": [
+        "plástico ABS; 6 cm de comprimento; 6 cm de largura; 21 cm de altura; limpeza da base e do moinho a seco, com pano ou pincel; origem China; garantia de 10 anos; indicado pela página para temperar, decorar a mesa e presentear."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**Best Seller** exibido na página do produto e incluído no bloco oficial de Best Seller “Moedores”."
+      },
+      "commercial_inference": "produto central da categoria, com forte reconhecimento de marca, várias cores icônicas e demonstração visual simples para anúncios (giro, ajuste e uso à mesa). Ticket de entrada inferior ao galheteiro e ao set premium, o que tende a facilitar teste de aquisição — inferência comercial, não dado de conversão.",
+      "availability_observed": "",
+      "category_id": "09-moedores-galheteiros",
+      "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+      "source_urls": [
+        "https://www.lecreuset.com.br/moedor-de-pimenta/960019.html",
+        "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "09-moedores-galheteiros",
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Moedores e Galheteiros",
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "09-moedores-galheteiros",
+          "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+          "source_urls": [
+            "https://www.lecreuset.com.br/moedor-de-pimenta/960019.html",
+            "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+          ]
+        },
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/moedor-de-pimenta/960019.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-960019",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Moedor de Sal 21cm",
+      "sku": "960020",
+      "sku_raw": "960020",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/moedor-de-sal-lecreuset/960020.html",
+      "price_reference": "R$ 276,75–R$ 369,00.",
+      "short_description": "moedor de sal em ABS com moagem cerâmica ajustável por pino superior, pensado para controlar o tamanho da granulação e combinar funcionalidade com decoração de mesa.",
+      "attributes": [
+        "plástico ABS; 6 × 6 × 21 cm; limpeza a seco da base e do moinho com pano ou pincel; origem China; garantia de 10 anos; indicado para temperar, decorar a mesa e presentear."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**Best Seller** exibido na página do produto e incluído no bloco oficial de Best Seller “Moedores”."
+      },
+      "commercial_inference": "par natural do moedor de pimenta, ampla seleção de cores, posicionamento explícito como saleiro de mesa e uso em churrasco/sal grosso. O preço promocional visível em uma faixa de cores reforça o apelo de oferta — sem assumir que todas as variantes tenham o mesmo estoque.",
+      "availability_observed": "",
+      "category_id": "09-moedores-galheteiros",
+      "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+      "source_urls": [
+        "https://www.lecreuset.com.br/moedor-de-sal-lecreuset/960020.html",
+        "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "09-moedores-galheteiros",
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Moedores e Galheteiros",
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "09-moedores-galheteiros",
+          "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+          "source_urls": [
+            "https://www.lecreuset.com.br/moedor-de-sal-lecreuset/960020.html",
+            "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+          ]
+        },
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/moedor-de-sal-lecreuset/960020.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-960020",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set Azeite & Vinagre Clássico",
+      "sku": "910017",
+      "sku_raw": "910017",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-azeite-e-vinagre-classico/910017.html",
+      "price_reference": "R$ 579,00.",
+      "short_description": "set de azeite e vinagre em cerâmica premium esmaltada, concebido para uso e armazenagem na bancada ou mesa; a superfície facilita a limpeza e é adequada à lava-louças conforme a descrição.",
+      "attributes": [
+        "cerâmica; não usar em fogo direto; 7 cm de comprimento; 7 cm de largura; 17 cm de altura; origem Tailândia; garantia de 10 anos; cores listadas: Laranja, Vermelho, Branco (não disponível), Caribe (não disponível), Marseille (não disponível) e Onyx."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "incluído no bloco oficial Best Seller “Moedores e Galheteiro”; avaliações não informadas."
+      },
+      "commercial_inference": "é o galheteiro explicitamente destacado pela marca, com uso de bancada/mesa, cerâmica colorida e ticket premium acima de R$ 500. O conjunto tem leitura visual imediata para Meta Ads e potencial de presente; isso é inferência baseada no formato e no posicionamento, não evidência de vendas.",
+      "availability_observed": "",
+      "category_id": "09-moedores-galheteiros",
+      "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-azeite-e-vinagre-classico/910017.html",
+        "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "09-moedores-galheteiros",
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Moedores e Galheteiros",
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "09-moedores-galheteiros",
+          "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-azeite-e-vinagre-classico/910017.html",
+            "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+          ]
+        },
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-azeite-e-vinagre-classico/910017.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-910017",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Moedor de Pimenta 30cm",
+      "sku": "960027",
+      "sku_raw": "960027",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/moedor-de-pimenta-30cm/960027.html",
+      "price_reference": "R$ 359,25, com desconto informado de R$ 119,75 (preço anterior implícito de R$ 479,00; não tratar como preço atual uniforme de todas as variantes).",
+      "short_description": "moedor de pimenta de 30 cm com exterior em acrílico ABS, mecanismo cerâmico ajustável, design ergonômico e garantia de 10 anos. A página também recomenda combinar com o Moedor de Sal 30cm.",
+      "attributes": [
+        "plástico ABS; limpeza da base e do moinho a seco, com pano ou pincel; origem China; garantia de 10 anos; cores Laranja, Vermelho e Black Onyx."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**Best Seller** na página do produto e listado na página oficial de Best Sellers."
+      },
+      "commercial_inference": "formato de 30 cm cria impacto visual e diferenciação em criativos, mantendo preço de referência abaixo do galheteiro. A página oferece Laranja, Vermelho e Black Onyx. O destaque visual e o desconto são sinais de potencial para anúncio, não prova de performance.",
+      "availability_observed": "",
+      "category_id": "09-moedores-galheteiros",
+      "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+      "source_urls": [
+        "https://www.lecreuset.com.br/moedor-de-pimenta-30cm/960027.html",
+        "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+      ],
+      "source_category_ids": [
+        "09-moedores-galheteiros"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Moedores e Galheteiros"
+      ],
+      "source_observations": [
+        {
+          "category_id": "09-moedores-galheteiros",
+          "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+          "source_urls": [
+            "https://www.lecreuset.com.br/moedor-de-pimenta-30cm/960027.html",
+            "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-960027",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set Mini Moedores de Sal e Pimenta",
+      "sku": "96002500169000",
+      "sku_raw": "96002500169000",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-mini-moedores-de-sal-e-pimenta/96002500.html",
+      "price_reference": "R$ 479,00.",
+      "short_description": "set de mini moedores de sal e pimenta com ajuste de moagem por pino superior, exterior em ABS e mecanismo cerâmico ajustável.",
+      "attributes": [
+        "cor Preto e Branco; plástico ABS; limpeza da base e do moinho a seco com pano ou pincel; origem China; garantia de 10 anos; página informa “Em estoque”."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "**não informado** na página do produto e não identificado como item individual na página de Best Sellers recuperada."
+      },
+      "commercial_inference": "conjunto com dois mini moedores, contraste Preto e Branco e posicionamento natural para presente ou mesa posta. É uma oportunidade comercial inferida pelo formato de kit e pelo apelo visual, não por dados de popularidade.",
+      "availability_observed": "",
+      "category_id": "09-moedores-galheteiros",
+      "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-mini-moedores-de-sal-e-pimenta/96002500.html",
+        "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+      ],
+      "source_category_ids": [
+        "09-moedores-galheteiros"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Moedores e Galheteiros"
+      ],
+      "source_observations": [
+        {
+          "category_id": "09-moedores-galheteiros",
+          "category_name": "Le Creuset Brasil — Moedores e Galheteiros",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-mini-moedores-de-sal-e-pimenta/96002500.html",
+            "https://www.lecreuset.com.br/acessorios/moedores-e-galheteiro/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-96002500169000",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Pote para Mel",
+      "sku": "690954",
+      "sku_raw": "690954",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/pote-para-mel/690954.html",
+      "price_reference": "R$ 379,00 (a página informa indisponibilidade para a seleção consultada)",
+      "short_description": "pote de cerâmica para armazenar e servir até 450 ml de mel, com tampa e concha de mel de silicone.",
+      "attributes": [
+        "cerâmica; micro-ondas e congelador; não usar fogo direto; 13 × 13 × 15 cm; lava-louças para o pote e concha/cabo devem ser lavados à mão; origem China; garantia de 10 anos."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "incluído no carrossel/bloco oficial de cerâmicas Best Seller; avaliações não informadas."
+      },
+      "commercial_inference": "proposta de uso muito clara, diferencial visual (pote + concha de mel) e bom apelo para criativos de café da manhã/presente; potencial é inferido a partir do destaque oficial e da apresentação, não de dados de vendas.",
+      "availability_observed": "",
+      "category_id": "10-acessorios-cozinha",
+      "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+      "source_urls": [
+        "https://www.lecreuset.com.br/pote-para-mel/690954.html",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/ceramica/",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/pote-para-mel/690954.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/ceramica/",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-690954",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Pote de Manteiga",
+      "sku": "910086",
+      "sku_raw": "910086",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/pote-de-manteiga-lecreuset/910086.html",
+      "price_reference": "R$ 319,00 (a página informa indisponibilidade para a seleção consultada)",
+      "short_description": "recipiente cerâmico hermético inspirado em manteigueiras clássicas, criado para manter a manteiga macia em temperatura ambiente razoável.",
+      "attributes": [
+        "cerâmica; esmalte não poroso, não reativo e resistente a lascas, arranhões e manchas; lava-louças e lavagem à mão; origem Tailândia; garantia de 10 anos."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "incluído no carrossel/bloco oficial de cerâmicas Best Seller; avaliações não informadas."
+      },
+      "commercial_inference": "resolve uma necessidade cotidiana e tem narrativa visual/educacional (manteiga macia sem derreter), com ticket acessível para a marca.",
+      "availability_observed": "",
+      "category_id": "10-acessorios-cozinha",
+      "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+      "source_urls": [
+        "https://www.lecreuset.com.br/pote-de-manteiga-lecreuset/910086.html",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/ceramica/",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/pote-de-manteiga-lecreuset/910086.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/ceramica/",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-910086",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Pote para Biscoito 2,4L",
+      "sku": "910267",
+      "sku_raw": "910267",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/pote-para-biscoito/910267.html",
+      "price_reference": "R$ 486,75–R$ 649,00 (a página informa indisponibilidade para a seleção consultada)",
+      "short_description": "pote de cerâmica de 2,4 L com tampa hermética para conservar biscoitos crocantes.",
+      "attributes": [
+        "cerâmica; 17 × 17 × 20,4 cm; não usar fogo direto; lava-louças/lavagem à mão; origem China; garantia de 10 anos; esmalte e retenção térmica destacados."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "incluído no carrossel/bloco oficial de cerâmicas Best Seller; avaliações não informadas."
+      },
+      "commercial_inference": "grande área visual, capacidade e benefício fácil de comunicar (“manter crocante”), além de ticket premium e apelo para organização da cozinha.",
+      "availability_observed": "",
+      "category_id": "10-acessorios-cozinha",
+      "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+      "source_urls": [
+        "https://www.lecreuset.com.br/pote-para-biscoito/910267.html",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/ceramica/",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/pote-para-biscoito/910267.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/ceramica/",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-910267",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Pote de Alho",
+      "sku": "7083230",
+      "sku_raw": "7083230",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/pote-de-alho-lecreuset/7083230.html",
+      "price_reference": "R$ 229,00 (fora de estoque na página consultada)",
+      "short_description": "pote especial de cerâmica para servir ou armazenar alho; orifícios na base controlam a umidade.",
+      "attributes": [
+        "cerâmica; 9,8 × 7 × 12,3 cm; lava-louças/lavagem à mão; origem Tailândia; garantia de 10 anos; esmalte externo resistente a manchas e arranhões."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "incluído no carrossel/bloco oficial de cerâmicas Best Seller; avaliações não informadas."
+      },
+      "commercial_inference": "ticket de entrada baixo, uso específico e criativo visual forte; bom candidato para anúncio de organização/decoração, mas potencial comercial é inferido.",
+      "availability_observed": "",
+      "category_id": "10-acessorios-cozinha",
+      "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+      "source_urls": [
+        "https://www.lecreuset.com.br/pote-de-alho-lecreuset/7083230.html",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+        "https://www.lecreuset.com.br/ceramica/",
+        "https://www.lecreuset.com.br/acessorios/"
+      ],
+      "source_category_ids": [
+        "10-acessorios-cozinha"
+      ],
+      "source_categories": [
+        "Pesquisa — Le Creuset Brasil: Acessórios de cozinha"
+      ],
+      "source_observations": [
+        {
+          "category_id": "10-acessorios-cozinha",
+          "category_name": "Pesquisa — Le Creuset Brasil: Acessórios de cozinha",
+          "source_urls": [
+            "https://www.lecreuset.com.br/pote-de-alho-lecreuset/7083230.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html;",
+            "https://www.lecreuset.com.br/ceramica/",
+            "https://www.lecreuset.com.br/acessorios/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Potes & Organização de Cozinha",
+      "image_urls": [],
+      "id": "lecreuset-7083230",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Chaleira Clássica",
+      "sku": "920095",
+      "sku_raw": "920095",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/chaleira-classica/920095.html",
+      "price_reference": "R$ 696,75 – R$ 1.059,00 (varia conforme configuração/cor/pegador)",
+      "short_description": "Chaleira clássica em aço carbono esmaltado, com apito quando a água ferve, marcações internas de nível e alça resistente ao calor.",
+      "attributes": [
+        "aço esmaltado; porções 6; fontes de calor vitrocerâmico, indução, elétrico, gás e radiante; lavagem à mão; origem Tailândia; garantia de 5 anos; base generosa; pegadores disponíveis em inox dourado, inox prata, fenólico e formato de coração (este último fora de estoque na página consultada)."
+      ],
+      "popularity_evidence": {
+        "status": "explicit_best_seller",
+        "details": "**Best Seller** na página oficial Best Seller, na seção Chaleiras; a própria página de produto também apresenta o item."
+      },
+      "commercial_inference": "sinal oficial forte de demanda; apelo visual elevado pelas cores e configurações de pegador; benefício fácil de demonstrar em Meta Ads (fervura rápida, apito e compatibilidade com indução). O potencial comercial é uma inferência, não uma garantia de vendas.",
+      "availability_observed": "",
+      "category_id": "11-acessorios-bebidas",
+      "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/chaleira-classica/920095.html",
+        "https://www.lecreuset.com.br/best-seller/best-seller.html",
+        "https://www.lecreuset.com.br/"
+      ],
+      "source_category_ids": [
+        "11-acessorios-bebidas"
+      ],
+      "source_categories": [
+        "Acessórios para bebidas — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "11-acessorios-bebidas",
+          "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/chaleira-classica/920095.html",
+            "https://www.lecreuset.com.br/best-seller/best-seller.html",
+            "https://www.lecreuset.com.br/"
+          ]
+        }
+      ],
+      "nexlar_category_id": "cat-chaleiras",
+      "nexlar_category_mapping": "reuse_existing",
+      "suggested_new_category": null,
+      "image_urls": [],
+      "id": "lecreuset-920095",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Prensa Francesa",
+      "sku": "607060",
+      "sku_raw": "607060",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/prensa-francesa/607060.html",
+      "price_reference": "R$ 709,00",
+      "short_description": "Prensa de cerâmica para café por infusão, com filtro de malha que separa o café moído e preserva mais óleos naturais para uma bebida mais encorpada.",
+      "attributes": [
+        "cerâmica; não usar fogo direto; 12 cm de comprimento, 9 cm de largura e 21 cm de altura; lava-louças ou lavagem à mão; origem China; garantia de 10 anos; superfície esmaltada lisa, não porosa, resistente a manchas e à absorção de sabores; também pode preparar chá."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "produto de preparo de café com narrativa visual e demonstrável: moagem, infusão, êmbolo e serviço. Ticket alto e combinação natural com canecas; a página oficial oferece “Combine com” o Set 2 Canecas 200 ml com Pires. O potencial comercial é inferido a partir desses atributos, não de vendas comprovadas.",
+      "availability_observed": "",
+      "category_id": "11-acessorios-bebidas",
+      "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/prensa-francesa/607060.html",
+        "https://www.lecreuset.com.br/preparar-e-servir/bules-e-jarras/",
+        "https://www.lecreuset.com.br/caneca-london-lecreuset/7030235.html",
+        "https://www.lecreuset.com.br/"
+      ],
+      "source_category_ids": [
+        "11-acessorios-bebidas"
+      ],
+      "source_categories": [
+        "Acessórios para bebidas — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "11-acessorios-bebidas",
+          "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/prensa-francesa/607060.html",
+            "https://www.lecreuset.com.br/preparar-e-servir/bules-e-jarras/",
+            "https://www.lecreuset.com.br/caneca-london-lecreuset/7030235.html",
+            "https://www.lecreuset.com.br/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
+      "image_urls": [],
+      "id": "lecreuset-607060",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Jarra Scandinavia 1.5L",
+      "sku": "70901",
+      "sku_raw": "70901",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/jarra-1.5l/70901.html",
+      "price_reference": "R$ 449,00",
+      "short_description": "Jarra de cerâmica premium para servir bebidas quentes ou frias, com esmalte vibrante, limpeza fácil e resistência a lascas, arranhões e manchas.",
+      "attributes": [
+        "capacidade 1,5 L; cerâmica; não usar fogo direto; 17 cm de comprimento, 12 cm de largura e 19 cm de altura; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos; retenção de calor para manter líquidos quentes ou frios."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "capacidade explícita de 1,5 L e uso para bebidas quentes ou frias tornam a proposta fácil de comunicar em anúncios de mesa posta e hospitalidade. O formato também tem apelo decorativo, pois a própria descrição informa que pode ser usada como vaso; isso é potencial inferido, não sinal de vendas.",
+      "availability_observed": "",
+      "category_id": "11-acessorios-bebidas",
+      "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/jarra-1.5l/70901.html",
+        "https://www.lecreuset.com.br/preparar-e-servir/bules-e-jarras/",
+        "https://www.lecreuset.com.br/"
+      ],
+      "source_category_ids": [
+        "11-acessorios-bebidas"
+      ],
+      "source_categories": [
+        "Acessórios para bebidas — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "11-acessorios-bebidas",
+          "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/jarra-1.5l/70901.html",
+            "https://www.lecreuset.com.br/preparar-e-servir/bules-e-jarras/",
+            "https://www.lecreuset.com.br/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
+      "image_urls": [],
+      "id": "lecreuset-70901",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Bule com Infusor",
+      "sku": "80705",
+      "sku_raw": "80705",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/bule-com-infusor-lecreuset/80705.html",
+      "price_reference": "R$ 299,00",
+      "short_description": "Bule de cerâmica de 600 ml com infusor, dimensionado para duas porções e para consumo individual ou pequenas reuniões.",
+      "attributes": [
+        "capacidade 600 ml; 2 porções; cerâmica; 20 cm de comprimento, 13 cm de largura e 12 cm de altura; lava-louças ou lavagem à mão; origem Tailândia; garantia de 10 anos; superfície esmaltada e apta à lava-louças."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "benefício muito claro para criativos de chá — infusor para folhas soltas —, ticket de entrada inferior aos itens maiores e formato visualmente reconhecível. A página consultada indicava “Out of Stock”; disponibilidade deve ser rechecada antes de qualquer campanha.",
+      "availability_observed": "",
+      "category_id": "11-acessorios-bebidas",
+      "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/bule-com-infusor-lecreuset/80705.html",
+        "https://www.lecreuset.com.br/preparar-e-servir/bules-e-jarras/",
+        "https://www.lecreuset.com.br/"
+      ],
+      "source_category_ids": [
+        "11-acessorios-bebidas"
+      ],
+      "source_categories": [
+        "Acessórios para bebidas — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "11-acessorios-bebidas",
+          "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/bule-com-infusor-lecreuset/80705.html",
+            "https://www.lecreuset.com.br/preparar-e-servir/bules-e-jarras/",
+            "https://www.lecreuset.com.br/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
+      "image_urls": [],
+      "id": "lecreuset-80705",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caneca London",
+      "sku": "7030235",
+      "sku_raw": "7030235",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/caneca-london-lecreuset/7030235.html",
+      "price_reference": "R$ 96,75 – R$ 159,00 (varia conforme capacidade/cor)",
+      "short_description": "Caneca de cerâmica premium para café, chá e chocolate quente; a versão de 350 ml também é indicada para porções individuais de sopa e sobremesa.",
+      "attributes": [
+        "capacidades 100 ml, 200 ml e 350 ml; cerâmica; segura para forno, micro-ondas, congelador e lava-louças; lavagem à mão também indicada; origem Tailândia; garantia de 10 anos; superfície esmaltada e retenção de temperatura."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "menor ticket entre os produtos recomendados, ampla paleta de cores e três capacidades (100, 200 e 350 ml), o que facilita testes de criativos e comunicação de presente/uso diário. O potencial comercial é inferido; não há avaliação ou venda divulgada na página.",
+      "availability_observed": "",
+      "category_id": "11-acessorios-bebidas",
+      "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/caneca-london-lecreuset/7030235.html",
+        "https://www.lecreuset.com.br/preparar-e-servir/canecas-e-xicaras/",
+        "https://www.lecreuset.com.br/"
+      ],
+      "source_category_ids": [
+        "11-acessorios-bebidas"
+      ],
+      "source_categories": [
+        "Acessórios para bebidas — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "11-acessorios-bebidas",
+          "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/caneca-london-lecreuset/7030235.html",
+            "https://www.lecreuset.com.br/preparar-e-servir/canecas-e-xicaras/",
+            "https://www.lecreuset.com.br/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
+      "image_urls": [],
+      "id": "lecreuset-7030235",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Caneca Bistrô 400ml",
+      "sku": "7030440",
+      "sku_raw": "7030440",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/caneca-bistro-400ml/7030440.html",
+      "price_reference": "R$ 141,75 – R$ 189,00 (varia conforme cor)",
+      "short_description": "Caneca de cerâmica premium de 400 ml para café, chá, chocolate quente, sopa e sorvete quente ou frio.",
+      "attributes": [
+        "capacidade 400 ml; cerâmica; 11 cm de comprimento, 15 cm de largura e 8 cm de altura; segura para forno, micro-ondas, congelador e lava-louças; lavagem à mão também indicada; origem Tailândia; garantia de 10 anos; retenção de calor e superfície esmaltada."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "capacidade generosa e formato inspirado em bistrô francês produzem uma mensagem visual simples para café, chá e chocolate quente. Ticket intermediário e recomendação cruzada oficial com a Caneca London favorecem composição de anúncios e kits; isso é potencial inferido.",
+      "availability_observed": "",
+      "category_id": "11-acessorios-bebidas",
+      "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/caneca-bistro-400ml/7030440.html",
+        "https://www.lecreuset.com.br/preparar-e-servir/canecas-e-xicaras/",
+        "https://www.lecreuset.com.br/"
+      ],
+      "source_category_ids": [
+        "11-acessorios-bebidas"
+      ],
+      "source_categories": [
+        "Acessórios para bebidas — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "11-acessorios-bebidas",
+          "category_name": "Acessórios para bebidas — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/caneca-bistro-400ml/7030440.html",
+            "https://www.lecreuset.com.br/preparar-e-servir/canecas-e-xicaras/",
+            "https://www.lecreuset.com.br/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
+      "image_urls": [],
+      "id": "lecreuset-7030440",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Cooler Bag",
+      "sku": "59142510000000",
+      "sku_raw": "59142510000000",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/cooler-bag-lecreuset/591425.html",
+      "price_reference": "R$ 399,00; página indica “Em estoque”.",
+      "short_description": "capa portátil projetada para refrigerar vinho e manter a temperatura ideal em piqueniques e jantares ao ar livre, inclusive em dias quentes.",
+      "attributes": [
+        "cor Matte Black; 40 cm de comprimento; 10,5 cm de largura; 8 cm de altura; origem China; garantia de 5 anos."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. A categoria apenas oferece ordenação “Mais populares/Mais Vendido”; não há badge ou avaliação visível."
+      },
+      "commercial_inference": "forte apelo visual e uso lifestyle (piquenique/jantar ao ar livre), demonstração simples em anúncio e ticket intermediário. A disponibilidade visível favorece conversão imediata.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/cooler-bag-lecreuset/591425.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cooler-bag-lecreuset/591425.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-59142510000000",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Cooler Sleeve",
+      "sku": "59142",
+      "sku_raw": "59142",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/cooler-sleeve-lecreuset/59142.html",
+      "price_reference": "R$ 309,00; página exibiu “Out of Stock/Avise-me” na seleção consultada.",
+      "short_description": "cooler de gel para vinho ou espumante; a página informa congelamento por até 3 horas, resfriamento em até 15 minutos e manutenção por até 45 minutos, ou até 90 minutos quando a garrafa já está gelada. Também pode ser usado com cerveja e refrigerante.",
+      "attributes": [
+        "material nylon; lavagem à mão; origem China; garantia de 5 anos; cores listadas Laranja, Vermelho, Bleu Riviera, Caribe (indisponível), Marseille (indisponível), Matte Black, Burgundy e Foret (indisponível)."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "benefício visual e demonstrável: resfriamento em minutos, manutenção da temperatura e várias cores. Bom criativo de antes/depois, embora o estoque observado seja um risco comercial.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/cooler-sleeve-lecreuset/59142.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/cooler-sleeve-lecreuset/59142.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-59142",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Saca-Rolhas Garçom Aço Inox WT-110",
+      "sku": "59814017808074",
+      "sku_raw": "59814017808074",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/saca-rolhas-garcom-wt-110/59814017808074.html",
+      "price_reference": "R$ 309,00; página indica “Em estoque”.",
+      "short_description": "modelo garçom compacto, com sistema de extração em duas etapas para abertura precisa e elegante.",
+      "attributes": [
+        "aço inox; 12,2 cm de comprimento; 3,2 cm de largura; 1,5 cm de altura; lavagem à mão; origem China; garantia de 10 anos."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "preço acessível dentro da marca, função universal e visual metálico fácil de comunicar. Pode funcionar como presente e como acessório de uso recorrente.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/saca-rolhas-garcom-wt-110/59814017808074.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/saca-rolhas-garcom-wt-110/59814017808074.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-59814017808074",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Abridor de Champanhe",
+      "sku": "5913901",
+      "sku_raw": "5913901",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/abridor-de-campanhe-lecreuset/5913901.html",
+      "price_reference": "R$ 469,00; a variante consultada exigia seleção e apareceu sem disponibilidade.",
+      "short_description": "desenvolvido para espumantes, oferecendo segurança e controle na abertura de garrafas com pressão interna.",
+      "attributes": [
+        "23 cm de comprimento; 4,9 cm de largura; 4,9 cm de altura; lavagem à mão; origem China; garantia de 10 anos; cores Black Nickel e Granite Crystal (indisponível)."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "produto de ocasião, presenteável e com benefício de segurança fácil de explicar; bom para campanhas sazonais de celebração, casamento e fim de ano. Disponibilidade deve ser checada antes de mídia.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/abridor-de-campanhe-lecreuset/5913901.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/",
+        "https://www.lecreuset.com.br/outros/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho",
+        "14-outros-comerciais"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil",
+        "Le Creuset Brasil — Outros produtos relevantes com potencial comercial"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/abridor-de-campanhe-lecreuset/5913901.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        },
+        {
+          "category_id": "14-outros-comerciais",
+          "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+          "source_urls": [
+            "https://www.lecreuset.com.br/abridor-de-campanhe-lecreuset/5913901.html",
+            "https://www.lecreuset.com.br/outros/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-5913901",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set Saca-Rolha e Tampa Gs191",
+      "sku": "49905000010002",
+      "sku_raw": "49905000010002",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/saca-rolhas-gar%C3%A7on-saca-rolhas-wt110/49905000010002.html",
+      "price_reference": "R$ 559,00; página indica “Em estoque”.",
+      "short_description": "conjunto de saca-rolha e tampa; a página oficial confirma o nome e o conjunto, sem descrição narrativa detalhada no conteúdo recuperado.",
+      "attributes": [
+        "cor/material informados como aço inox/aço inoxidável; origem China; garantia de 5 anos."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "kit com valor-presente claro e ticket acima do frete grátis informado no site (frete grátis acima de R$ 500). O conjunto facilita comunicação de “abrir e conservar”, mas a descrição funcional completa não ficou exposta no extrato textual.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/saca-rolhas-gar%C3%A7on-saca-rolhas-wt110/49905000010002.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/saca-rolhas-gar%C3%A7on-saca-rolhas-wt110/49905000010002.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-49905000010002",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Saca-Rolhas Modelo Garçom",
+      "sku": "4913200",
+      "sku_raw": "4913200",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/saca-rolhas-gar%C3%A7om/4913200.html",
+      "price_reference": "R$ 224,25–R$ 299,00; variantes Vermelho e Black Onyx; página consultada exigia seleção e exibiu aviso de indisponibilidade.",
+      "short_description": "saca-rolhas patenteado de duas etapas, com lâmina de corte de folha embutida e abridor de garrafa; remove rolhas longas e frágeis verticalmente.",
+      "attributes": [
+        "aço inox; cabo de plástico ABS; 12 cm de comprimento; 3 cm de largura; 2,1 cm de altura; origem China; garantia de 5 anos."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "menor ticket da categoria, cores proprietárias e benefício funcional facilmente demonstrável. É o candidato mais acessível para aquisição de novos públicos, condicionado à reposição.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/saca-rolhas-gar%C3%A7om/4913200.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/saca-rolhas-gar%C3%A7om/4913200.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-4913200",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "LM 250 Abridor de Alavanca",
+      "sku": "59058013009410",
+      "sku_raw": "59058013009410",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/lm-250-abridor-de-alavanca/5905801.html",
+      "price_reference": "R$ 1.296,75, com desconto visível de R$ 432,25; página indica “Em estoque”.",
+      "short_description": "abridor de alavanca que transforma a abertura em ritual; a página orienta baixar a alavanca para inserir a espiral e levantá-la para retirar a rolha.",
+      "attributes": [
+        "Cromo Satin; metal e policarbonato; 20,5 cm de comprimento; 14 cm de largura; 6 cm de altura; origem França; garantia de 10 anos; selo promocional “25% OFF” visível na página."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "maior ticket, fabricação francesa declarada e forte demonstração visual do mecanismo de alavanca. Bom candidato para público premium/remarketing, não para aquisição ampla de baixo custo.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/lm-250-abridor-de-alavanca/5905801.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/lm-250-abridor-de-alavanca/5905801.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-59058013009410",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Saca-Rolhas TM100",
+      "sku": "49104001400101",
+      "sku_raw": "49104001400101",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/saca-rolhas-tm100-onyx/49104001400101.html",
+      "price_reference": "R$ 309,00; página indica “Fora de estoque”.",
+      "short_description": "corpo em policarbonato, sistema autocentrante e extração automática da rolha ao continuar girando a espiral no sentido horário.",
+      "attributes": [
+        "Onyx; policarbonato; 7,1 cm de comprimento; 5,1 cm de largura; 16 cm de altura; lavagem à mão; origem China; garantia de 5 anos."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "solução de uso intuitivo e visualmente explicável: sistema autocentrante e extração automática. Potencial comercial inferido, mas estoque inviabiliza campanha imediata.",
+      "availability_observed": "",
+      "category_id": "12-acessorios-vinho",
+      "category_name": "Acessórios de vinho — Le Creuset Brasil",
+      "source_urls": [
+        "https://www.lecreuset.com.br/saca-rolhas-tm100-onyx/49104001400101.html",
+        "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+      ],
+      "source_category_ids": [
+        "12-acessorios-vinho"
+      ],
+      "source_categories": [
+        "Acessórios de vinho — Le Creuset Brasil"
+      ],
+      "source_observations": [
+        {
+          "category_id": "12-acessorios-vinho",
+          "category_name": "Acessórios de vinho — Le Creuset Brasil",
+          "source_urls": [
+            "https://www.lecreuset.com.br/saca-rolhas-tm100-onyx/49104001400101.html",
+            "https://www.lecreuset.com.br/acessorios/acessorios-de-vinhos/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios para Vinho",
+      "image_urls": [],
+      "id": "lecreuset-49104001400101",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Set 4 Utensílios Inox Alpine",
+      "sku": "41906001400100",
+      "sku_raw": "41906001400100",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/set-4-utensilios-inox-alpine/41906001400100.html",
+      "price_reference": "R$ 1.429,00",
+      "short_description": "conjunto para virar, pegar, pincelar e servir, voltado à cozinha ou churrasco, acompanhado de bolsa Le Creuset.",
+      "attributes": [
+        "aço inoxidável; cabo escovado; ranhuras na espátula e pinça; pinça com mola e ampla abertura; espátula com abridor de garrafa; alças para pendurar; resistente a riscos e ferrugem; apto para lava-louças; cor inox; 49 × 21 × 7 cm; origem China."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado. A listagem “Outros” possui ordenação “Mais populares/Mais Vendido”, mas não marca este produto como best seller."
+      },
+      "commercial_inference": "ticket premium, conjunto presenteável e forte apelo visual para criativos de churrasco/cozinha; a bolsa e a variedade de peças facilitam demonstração “kit completo”.",
+      "availability_observed": "",
+      "category_id": "14-outros-comerciais",
+      "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+      "source_urls": [
+        "https://www.lecreuset.com.br/set-4-utensilios-inox-alpine/41906001400100.html",
+        "https://www.lecreuset.com.br/outros/"
+      ],
+      "source_category_ids": [
+        "14-outros-comerciais"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Outros produtos relevantes com potencial comercial"
+      ],
+      "source_observations": [
+        {
+          "category_id": "14-outros-comerciais",
+          "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+          "source_urls": [
+            "https://www.lecreuset.com.br/set-4-utensilios-inox-alpine/41906001400100.html",
+            "https://www.lecreuset.com.br/outros/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-41906001400100",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Moedor de Pimenta em Madeira 21cm",
+      "sku": "96001900687000",
+      "sku_raw": "96001900687000 (variante Madeira)",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/moedor-de-pimenta-21cm-madeira/96001900.html",
+      "price_reference": "R$ 369,00",
+      "short_description": "moedor de madeira natural de 21 cm, com mecanismo interno para moagem uniforme de pimenta.",
+      "attributes": [
+        "madeira; cor Madeira; tamanho 21 cm; 6 × 6 × 20,6 cm; limpeza a seco com pano ou pincel; origem China; garantia de 10 anos; em estoque na página consultada."
+      ],
+      "popularity_evidence": {
+        "status": "reported_non_sales_signal",
+        "details": "**o produto “Moedor de Pimenta 21cm” aparece na seção oficial “Best Sellers” da página inicial, SKU-base 960019; a página da variante Madeira é SKU 96001900687000.** Isso comprova destaque do produto/família, não necessariamente desta variante específica."
+      },
+      "commercial_inference": "ticket de entrada relativamente menor para a marca, objeto visual/decorativo e demonstração simples em anúncio; pode funcionar como presente e compra de complemento.",
+      "availability_observed": "",
+      "category_id": "14-outros-comerciais",
+      "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+      "source_urls": [
+        "https://www.lecreuset.com.br/moedor-de-pimenta-21cm-madeira/96001900.html",
+        "https://www.lecreuset.com.br/outros/"
+      ],
+      "source_category_ids": [
+        "14-outros-comerciais"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Outros produtos relevantes com potencial comercial"
+      ],
+      "source_observations": [
+        {
+          "category_id": "14-outros-comerciais",
+          "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+          "source_urls": [
+            "https://www.lecreuset.com.br/moedor-de-pimenta-21cm-madeira/96001900.html",
+            "https://www.lecreuset.com.br/outros/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-96001900687000",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Moedor de Sal em Madeira 21cm",
+      "sku": "96002000687000",
+      "sku_raw": "96002000687000 (variante Madeira)",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/moedor-de-sal-21cm-madeira/96002000.html",
+      "price_reference": "R$ 369,00",
+      "short_description": "moedor de madeira natural de 21 cm com mecanismo interno para moagem uniforme de sal e ajuste da textura.",
+      "attributes": [
+        "madeira; cor Madeira; tamanho 21 cm; 6 × 6 × 20,6 cm; limpeza a seco com pano ou pincel; origem China; garantia de 10 anos; em estoque na página consultada."
+      ],
+      "popularity_evidence": {
+        "status": "reported_non_sales_signal",
+        "details": "**o produto “Moedor de Sal 21cm” aparece na seção oficial “Best Sellers” da página inicial, SKU-base 960020; a página da variante Madeira é SKU 96002000687000.** Isso comprova destaque do produto/família, não necessariamente desta variante específica."
+      },
+      "commercial_inference": "produto complementar ao moedor de pimenta, visual coordenável e fácil de comunicar em criativos de mesa/cozinha; preço abaixo de R$500 pode ampliar teste de aquisição.",
+      "availability_observed": "",
+      "category_id": "14-outros-comerciais",
+      "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+      "source_urls": [
+        "https://www.lecreuset.com.br/moedor-de-sal-21cm-madeira/96002000.html",
+        "https://www.lecreuset.com.br/outros/"
+      ],
+      "source_category_ids": [
+        "14-outros-comerciais"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Outros produtos relevantes com potencial comercial"
+      ],
+      "source_observations": [
+        {
+          "category_id": "14-outros-comerciais",
+          "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+          "source_urls": [
+            "https://www.lecreuset.com.br/moedor-de-sal-21cm-madeira/96002000.html",
+            "https://www.lecreuset.com.br/outros/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-96002000687000",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Suporte Magnético de Madeira Coração",
+      "sku": "47415200010003",
+      "sku_raw": "47415200010003 (variante Madeira)",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/suporte-de-madeira-cora%C3%A7%C3%A3o/47415200.html",
+      "price_reference": "R$ 429,00",
+      "short_description": "suporte de madeira em formato de coração, com sistema magnético para fixação a panelas e chaleiras e detalhe de silicone para estabilidade.",
+      "attributes": [
+        "madeira; tamanho 20 cm; 20,3 × 19,1 × 1,53 cm; protege superfícies contra calor; sistema magnético; detalhe em silicone; origem China; garantia de 10 anos; em estoque."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "formato de coração com apelo de presente e forte diferenciação visual; demonstração do ímã fixado à panela e proteção térmica é adequada para vídeo curto/Meta Ads.",
+      "availability_observed": "",
+      "category_id": "14-outros-comerciais",
+      "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+      "source_urls": [
+        "https://www.lecreuset.com.br/suporte-de-madeira-cora%C3%A7%C3%A3o/47415200.html",
+        "https://www.lecreuset.com.br/outros/"
+      ],
+      "source_category_ids": [
+        "14-outros-comerciais"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Outros produtos relevantes com potencial comercial"
+      ],
+      "source_observations": [
+        {
+          "category_id": "14-outros-comerciais",
+          "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+          "source_urls": [
+            "https://www.lecreuset.com.br/suporte-de-madeira-cora%C3%A7%C3%A3o/47415200.html",
+            "https://www.lecreuset.com.br/outros/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-47415200010003",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    },
+    {
+      "name": "Tela Protetora Para Frituras",
+      "sku": "984012",
+      "sku_raw": "984012 (página possui seleção de tamanho P/G)",
+      "variant_skus": [],
+      "url": "https://www.lecreuset.com.br/tela-protetora-para-frituras/984012.html",
+      "price_reference": "R$ 619,00–R$ 689,00",
+      "short_description": "tela que reduz respingos de óleo/gordura; deixa o vapor passar e possui pegador dobrável para armazenagem.",
+      "attributes": [
+        "aço inox; aro de silicone para proteger contra arranhões; tamanhos P para panelas 20–24 cm e G para 26–30 cm; compatível com vitrocerâmico, indução, elétrico, gás e grill; lava-louças ou lavagem manual; origem Portugal; garantia de 3 anos; 6 vistas de galeria confirmadas."
+      ],
+      "popularity_evidence": {
+        "status": "not_reported",
+        "details": "não informado."
+      },
+      "commercial_inference": "problema claro e fácil de demonstrar (“evita respingos”), benefício funcional imediato e compatibilidade com vários diâmetros; bom ângulo de anúncio antes/depois. Ticket alto para um acessório deve ser validado com criativos de qualidade e prova de marca.",
+      "availability_observed": "",
+      "category_id": "14-outros-comerciais",
+      "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+      "source_urls": [
+        "https://www.lecreuset.com.br/tela-protetora-para-frituras/984012.html",
+        "https://www.lecreuset.com.br/outros/"
+      ],
+      "source_category_ids": [
+        "14-outros-comerciais"
+      ],
+      "source_categories": [
+        "Le Creuset Brasil — Outros produtos relevantes com potencial comercial"
+      ],
+      "source_observations": [
+        {
+          "category_id": "14-outros-comerciais",
+          "category_name": "Le Creuset Brasil — Outros produtos relevantes com potencial comercial",
+          "source_urls": [
+            "https://www.lecreuset.com.br/tela-protetora-para-frituras/984012.html",
+            "https://www.lecreuset.com.br/outros/"
+          ]
+        }
+      ],
+      "nexlar_category_id": null,
+      "nexlar_category_mapping": "requires_new_category",
+      "suggested_new_category": "Acessórios de Cozinha & Mesa",
+      "image_urls": [],
+      "id": "lecreuset-984012",
+      "brand": "Le Creuset",
+      "market": "Brasil",
+      "currency": "BRL"
+    }
+  ]
+}
