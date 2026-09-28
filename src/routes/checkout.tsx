@@ -360,83 +360,6 @@ function CheckoutPage() {
             ))}
           </ul>
 
-          {bumpProducts.length > 0 && (
-            <section
-              className="space-y-3 rounded-xl border border-primary/20 bg-primary/5 p-4"
-              aria-labelledby="order-bumps-title"
-            >
-              <div>
-                <h3 id="order-bumps-title" className="font-semibold">
-                  Complete sua compra
-                </h3>
-                <p className="text-xs text-muted-foreground">
-                  Adicione itens que combinam com o que você escolheu.
-                </p>
-              </div>
-              <div className="space-y-3">
-                {bumpProducts.map((product) => {
-                  const image = (product.product_images ?? product.images ?? []).find((item) =>
-                    item.url?.trim(),
-                  );
-                  const selected = selectedBumpIds.includes(product.id);
-                  if (!image) return null;
-                  return (
-                    <div
-                      key={product.id}
-                      className="flex gap-3 rounded-lg border border-border bg-background p-2.5"
-                    >
-                      <img
-                        src={image.url}
-                        alt={product.name}
-                        className="h-16 w-16 shrink-0 rounded-md object-cover"
-                        loading="lazy"
-                      />
-                      <div className="min-w-0 flex-1">
-                        <p className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
-                          {product.brand ?? product.specs.Marca ?? "Complemento"}
-                        </p>
-                        <p className="line-clamp-2 text-sm font-medium">{product.name}</p>
-                        <p className="text-xs text-muted-foreground">{bumpBenefit(product)}</p>
-                        <div className="mt-1 flex items-center justify-between gap-2">
-                          <div>
-                            {product.compare_at_price &&
-                              product.compare_at_price > product.price && (
-                                <span className="mr-1 text-[11px] text-muted-foreground line-through">
-                                  {brl(product.compare_at_price)}
-                                </span>
-                              )}
-                            <span className="text-sm font-semibold text-primary">
-                              {brl(product.price)}
-                            </span>
-                          </div>
-                          <Button
-                            type="button"
-                            size="sm"
-                            variant={selected ? "secondary" : "default"}
-                            onClick={() => toggleBump(product)}
-                            className="h-8 shrink-0 gap-1 px-2.5"
-                          >
-                            {selected ? (
-                              <X className="h-3.5 w-3.5" />
-                            ) : (
-                              <Plus className="h-3.5 w-3.5" />
-                            )}
-                            {selected ? "Remover" : "Adicionar"}
-                          </Button>
-                        </div>
-                        {selected && (
-                          <p className="mt-1 flex items-center gap-1 text-[11px] text-primary">
-                            <Check className="h-3 w-3" /> Adicionado ao pedido
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </section>
-          )}
-
           <Separator />
 
           <div className="flex gap-2">
@@ -475,6 +398,87 @@ function CheckoutPage() {
           <Button type="submit" size="lg" className="w-full" disabled={loading}>
             {loading ? "Processando..." : "Finalizar pedido"}
           </Button>
+
+          {bumpProducts.length > 0 && (
+            <section
+              className="space-y-3 rounded-2xl border border-primary/15 bg-primary/[0.04] p-3 shadow-sm sm:p-4"
+              aria-labelledby="order-bumps-title"
+            >
+              <div className="space-y-0.5">
+                <h3 id="order-bumps-title" className="text-sm font-semibold sm:text-base">
+                  Complete sua compra
+                </h3>
+                <p className="text-xs leading-5 text-muted-foreground">
+                  Adicione itens que combinam com o que você escolheu.
+                </p>
+              </div>
+              <div className="space-y-2.5">
+                {bumpProducts.map((product) => {
+                  const image = (product.product_images ?? product.images ?? []).find((item) =>
+                    item.url?.trim(),
+                  );
+                  const selected = selectedBumpIds.includes(product.id);
+                  if (!image) return null;
+                  return (
+                    <div
+                      key={product.id}
+                      className="flex min-w-0 flex-col gap-3 rounded-xl border border-border/80 bg-background p-3 sm:flex-row sm:items-center"
+                    >
+                      <img
+                        src={image.url}
+                        alt={product.name}
+                        className="h-14 w-14 shrink-0 rounded-lg object-cover sm:h-16 sm:w-16"
+                        loading="lazy"
+                      />
+                      <div className="min-w-0 flex-1">
+                        <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
+                          {product.brand ?? product.specs.Marca ?? "Complemento"}
+                        </p>
+                        <p className="mt-0.5 line-clamp-2 text-sm font-medium leading-snug">
+                          {product.name}
+                        </p>
+                        <p className="mt-1 text-xs leading-4 text-muted-foreground">
+                          {bumpBenefit(product)}
+                        </p>
+                        <div className="mt-2 flex min-w-0 flex-wrap items-center justify-between gap-x-3 gap-y-2">
+                          <div className="flex min-w-0 items-baseline gap-1.5">
+                            {product.compare_at_price &&
+                              product.compare_at_price > product.price && (
+                                <span className="text-[11px] text-muted-foreground line-through">
+                                  {brl(product.compare_at_price)}
+                                </span>
+                              )}
+                            <span className="text-sm font-semibold text-primary">
+                              {brl(product.price)}
+                            </span>
+                          </div>
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant={selected ? "secondary" : "default"}
+                            onClick={() => toggleBump(product)}
+                            className="h-8 shrink-0 px-2.5 text-xs"
+                          >
+                            {selected ? (
+                              <X className="h-3.5 w-3.5" />
+                            ) : (
+                              <Plus className="h-3.5 w-3.5" />
+                            )}
+                            <span>{selected ? "Remover" : "Adicionar"}</span>
+                          </Button>
+                        </div>
+                        {selected && (
+                          <p className="mt-1 flex items-center gap-1 text-[11px] text-primary">
+                            <Check className="h-3 w-3" /> Adicionado ao pedido
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
         </aside>
       </form>
     </StoreLayout>
