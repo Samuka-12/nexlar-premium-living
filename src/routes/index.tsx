@@ -1,15 +1,33 @@
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
-import { ArrowRight, ChevronLeft, ChevronRight, CreditCard, Lock, RefreshCw, Truck } from "lucide-react";
+import {
+  ArrowRight,
+  Check,
+  ChefHat,
+  CreditCard,
+  Lock,
+  RefreshCw,
+  RotateCcw,
+  SlidersHorizontal,
+  Sparkles,
+  Truck,
+} from "lucide-react";
 import { StoreLayout } from "@/components/store/StoreLayout";
 import { ProductCard, ProductCardSkeleton } from "@/components/store/ProductCard";
 import { useCategories } from "@/components/store/Header";
 import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { supabase } from "@/integrations/supabase/client";
-import { productSelect, type Banner, type Post, type Product } from "@/lib/types";
+import { diversifyProducts, getLocalProducts } from "@/lib/catalog-data";
+import { primaryImage, type Post, type Product } from "@/lib/types";
 import { dateBR } from "@/lib/format";
-import { getLocalBanners, getLocalProducts } from "@/lib/catalog-data";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -47,99 +65,291 @@ function useProducts(filter: "featured" | "new" | "offers") {
   });
 }
 
-function Hero() {
-  const { data: banners = [] } = useQuery({
-    queryKey: ["banners"],
-    queryFn: async () => {
-      return getLocalBanners();
-    },
-    initialData: getLocalBanners(),
+type QuizAnswers = {
+  cooktop: string;
+  people: string;
+  type: string;
+  priority: string;
+  budget: string;
+};
+
+const quizQuestions = [
+  {
+    key: "cooktop",
+    title: "Qual é o seu tipo de fogão?",
+    options: ["Gás", "Indução", "Elétrico", "Não tenho certeza"],
+  },
+  {
+    key: "people",
+    title: "Para quantas pessoas você costuma cozinhar?",
+    options: ["1–2 pessoas", "3–4 pessoas", "5 ou mais"],
+  },
+  {
+    key: "type",
+    title: "O que você procura?",
+    options: [
+      "Jogo completo",
+      "Frigideira",
+      "Panela de pressão",
+      "Panelas avulsas",
+      "Quero conhecer as opções",
+    ],
+  },
+  {
+    key: "priority",
+    title: "O que é mais importante para você?",
+    options: ["Antiaderência", "Durabilidade", "Praticidade", "Custo-benefício", "Design"],
+  },
+  {
+    key: "budget",
+    title: "Quanto pretende investir?",
+    options: ["Até R$150", "R$150–300", "R$300–500", "Acima de R$500"],
+  },
+] as const;
+
+function recommendProducts(answers: QuizAnswers) {
+  const budgetMax = {
+    "Até R$150": 150,
+    "R$150–300": 300,
+    "R$300–500": 500,
+    "Acima de R$500": Infinity,
+  }[answers.budget];
+  const allProducts = getLocalProducts();
+  const scored = allProducts.map((product) => {
+    const text = [
+      product.name,
+      product.short_description,
+      product.description,
+      ...product.highlights,
+      ...Object.values(product.specs),
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    let score = 0;
+    if (answers.cooktop === "Indução")
+      score += /indu[cç][aã]o|fundo triplo|magn[eé]tic/i.test(text) ? 8 : -3;
+    if (answers.cooktop === "Gás" || answers.cooktop === "Elétrico")
+      score += /g[aá]s|el[eé]tric/i.test(text) ? 2 : 0;
+    if (answers.type === "Jogo completo")
+      score += product.category_id === "cat-jogos-de-panelas" ? 9 : 0;
+    if (answers.type === "Frigideira")
+      score += product.category_id === "cat-frigideiras-e-woks" ? 9 : 0;
+    if (answers.type === "Panela de pressão")
+      score += product.category_id === "cat-panelas-de-pressao" ? 9 : 0;
+    if (answers.type === "Panelas avulsas")
+      score += product.category_id === "cat-cacarolas-e-avulsas" ? 7 : 0;
+    if (answers.priority === "Antiaderência")
+      score += /antiaderent|ceramic|starflon|mineral resist/i.test(text) ? 5 : 0;
+    if (answers.priority === "Durabilidade")
+      score += /durab|a[cç]o inox|fundo triplo|garantia/i.test(text) ? 4 : 0;
+    if (answers.priority === "Praticidade")
+      score += /pr[aá]tic|f[aá]cil|soft-touch|remov[ií]vel/i.test(text) ? 4 : 0;
+    if (answers.priority === "Custo-benefício")
+      score += product.compare_at_price && product.compare_at_price > product.price ? 4 : 0;
+    if (answers.priority === "Design")
+      score += /design|sofistic|moderno|elegante/i.test(text) ? 3 : 0;
+    if (product.price <= budgetMax) score += 3;
+    if (answers.budget && product.price > budgetMax && budgetMax !== Infinity) score -= 5;
+    if (
+      answers.people === "5 ou mais" &&
+      /[4-9][,.]?[0-9]*\s*l|5,4|5 litros|6 litros|8 litros/i.test(text)
+    )
+      score += 3;
+    return { product, score };
   });
-  const [index, setIndex] = useState(0);
+  return diversifyProducts(
+    scored.sort((a, b) => b.score - a.score).map(({ product }) => product),
+  ).slice(0, 6);
+}
 
-  useEffect(() => {
-    if (banners.length < 2) return;
-    const timer = setInterval(() => setIndex((i) => (i + 1) % banners.length), 6000);
-    return () => clearInterval(timer);
-  }, [banners.length]);
+function QuizDialog({
+  open,
+  onOpenChange,
+}: {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}) {
+  const [step, setStep] = useState(0);
+  const [answers, setAnswers] = useState<QuizAnswers>({
+    cooktop: "",
+    people: "",
+    type: "",
+    priority: "",
+    budget: "",
+  });
+  const [finished, setFinished] = useState(false);
+  const recommendations = useMemo(() => recommendProducts(answers), [answers]);
+  const question = quizQuestions[step];
 
-  if (!banners.length) {
-    return <div className="h-[420px] animate-pulse bg-muted" aria-hidden />;
-  }
-
-  const banner = banners[index % banners.length]!;
+  const reset = () => {
+    setStep(0);
+    setAnswers({ cooktop: "", people: "", type: "", priority: "", budget: "" });
+    setFinished(false);
+  };
+  const choose = (answer: string) => {
+    const next = { ...answers, [question.key]: answer };
+    setAnswers(next);
+    if (step === quizQuestions.length - 1) setFinished(true);
+    else setStep((value) => value + 1);
+  };
 
   return (
-    <section className="relative overflow-hidden bg-ink text-ink-foreground">
-      <div className="container-page grid items-center gap-8 py-12 md:grid-cols-2 md:py-16">
-        <div className="space-y-5">
-          {banner.eyebrow && (
-            <span className="inline-block rounded-full border border-white/20 px-3 py-1 text-xs tracking-[0.2em]">
-              {banner.eyebrow}
-            </span>
-          )}
-          <h1 className="text-4xl font-bold leading-tight md:text-5xl">{banner.title}</h1>
-          <p className="max-w-md text-white/70">{banner.subtitle}</p>
-          <div className="flex flex-wrap gap-3">
-            <Button asChild size="lg" className="gap-2">
-              <Link to={banner.cta_url ?? "/categoria/$slug"} params={{ slug: "jogos-de-panelas" }}>
-                {banner.cta_label ?? "Comprar agora"} <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-white/30 bg-transparent text-ink-foreground hover:bg-white/10 hover:text-ink-foreground"
-            >
-              <Link to="/blog">Guias e inspirações</Link>
-            </Button>
-          </div>
-          <div className="flex items-center gap-3 pt-2">
-            <button
-              type="button"
-              aria-label="Banner anterior"
-              onClick={() => setIndex((i) => (i - 1 + banners.length) % banners.length)}
-              className="grid h-9 w-9 place-items-center rounded-full border border-white/20 hover:bg-white/10"
-            >
-              <ChevronLeft className="h-4 w-4" />
-            </button>
-            <div className="flex gap-1.5">
-              {banners.map((item, i) => (
-                <button
-                  key={item.id}
-                  type="button"
-                  aria-label={`Ir para o banner ${i + 1}`}
-                  onClick={() => setIndex(i)}
-                  className={`h-1.5 rounded-full transition-all ${
-                    i === index % banners.length ? "w-8 bg-primary" : "w-4 bg-white/30"
-                  }`}
+    <Dialog
+      open={open}
+      onOpenChange={(value) => {
+        onOpenChange(value);
+        if (!value) reset();
+      }}
+    >
+      <DialogContent className="max-h-[90vh] max-w-5xl overflow-y-auto p-5 sm:p-8">
+        {!finished ? (
+          <>
+            <DialogHeader>
+              <div className="mb-2 flex items-center justify-between text-xs font-medium text-muted-foreground">
+                <span>Descubra em poucos passos</span>
+                <span>
+                  {step + 1} de {quizQuestions.length}
+                </span>
+              </div>
+              <div className="mb-4 h-1.5 overflow-hidden rounded-full bg-muted">
+                <div
+                  className="h-full rounded-full bg-primary transition-all"
+                  style={{ width: `${((step + 1) / quizQuestions.length) * 100}%` }}
                 />
+              </div>
+              <DialogTitle className="text-2xl sm:text-3xl">{question.title}</DialogTitle>
+              <DialogDescription>
+                Escolha a opção que mais combina com a sua rotina.
+              </DialogDescription>
+            </DialogHeader>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {question.options.map((option) => (
+                <button
+                  key={option}
+                  type="button"
+                  onClick={() => choose(option)}
+                  className="group flex min-h-16 items-center justify-between rounded-2xl border border-border bg-card px-5 text-left font-medium transition-all hover:-translate-y-0.5 hover:border-primary hover:bg-primary/5 hover:shadow-[var(--shadow-soft)] focus:outline-none focus:ring-2 focus:ring-ring"
+                >
+                  <span>{option}</span>
+                  <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary" />
+                </button>
               ))}
             </div>
-            <button
-              type="button"
-              aria-label="Próximo banner"
-              onClick={() => setIndex((i) => (i + 1) % banners.length)}
-              className="grid h-9 w-9 place-items-center rounded-full border border-white/20 hover:bg-white/10"
-            >
-              <ChevronRight className="h-4 w-4" />
-            </button>
+            <div className="flex justify-between pt-2">
+              <Button
+                variant="ghost"
+                disabled={step === 0}
+                onClick={() => setStep((value) => value - 1)}
+              >
+                Voltar
+              </Button>
+              <Button variant="ghost" onClick={reset} className="gap-2">
+                <RotateCcw className="h-4 w-4" /> Reiniciar
+              </Button>
+            </div>
+          </>
+        ) : (
+          <>
+            <DialogHeader className="mb-4">
+              <div className="mx-auto mb-2 grid h-12 w-12 place-items-center rounded-full bg-primary/10 text-primary">
+                <Check className="h-6 w-6" />
+              </div>
+              <DialogTitle className="text-center text-2xl sm:text-3xl">
+                Encontramos opções para a sua cozinha.
+              </DialogTitle>
+              <DialogDescription className="text-center">
+                Com base nas suas respostas, selecionamos produtos que combinam com o que você
+                procura.
+              </DialogDescription>
+            </DialogHeader>
+            <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
+              {recommendations.map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+            </div>
+            <div className="flex flex-wrap justify-center gap-3 pt-3">
+              <Button variant="outline" onClick={reset} className="gap-2">
+                <RotateCcw className="h-4 w-4" /> Refazer quiz
+              </Button>
+              <Button asChild>
+                <a href="#ofertas" onClick={() => onOpenChange(false)}>
+                  Ver todos os resultados
+                </a>
+              </Button>
+            </div>
+          </>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+function Hero() {
+  const [quizOpen, setQuizOpen] = useState(false);
+  const heroProducts = getLocalProducts("featured").slice(0, 3);
+  return (
+    <>
+      <section className="overflow-hidden bg-ink text-ink-foreground">
+        <div className="container-page grid items-center gap-10 py-10 md:grid-cols-[0.9fr_1.1fr] md:py-16 lg:gap-16">
+          <div className="max-w-xl space-y-5">
+            <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-white/60">
+              <Sparkles className="h-3.5 w-3.5 text-primary" /> Escolha sem dúvida
+            </span>
+            <h1 className="text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl">
+              Qual panela combina com a sua cozinha?
+            </h1>
+            <p className="max-w-lg text-base leading-relaxed text-white/70 sm:text-lg">
+              Encontre o jogo, frigideira ou panela ideal para a sua rotina.
+            </p>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <Button size="lg" onClick={() => setQuizOpen(true)} className="gap-2">
+                <ChefHat className="h-5 w-5" /> Descobrir minha panela
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="border-white/30 bg-transparent text-ink-foreground hover:bg-white/10 hover:text-ink-foreground"
+              >
+                <a href="#ofertas">
+                  Ver ofertas <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+            </div>
+            <p className="flex items-center gap-2 text-xs text-white/55">
+              <SlidersHorizontal className="h-3.5 w-3.5" /> Leva menos de 1 minuto · Prefere
+              escolher sozinho? Explore nossas panelas.
+            </p>
+          </div>
+          <div className="relative min-h-[300px] overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-4 sm:min-h-[390px] sm:p-7">
+            <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-primary/25 blur-3xl" />
+            <div className="relative grid h-full grid-cols-2 gap-3 sm:gap-5">
+              {heroProducts.map((product, index) => (
+                <Link
+                  key={product.id}
+                  to="/produto/$slug"
+                  params={{ slug: product.slug }}
+                  className={`${index === 0 ? "row-span-2" : ""} group overflow-hidden rounded-2xl bg-white/10`}
+                >
+                  <img
+                    src={primaryImage(product)}
+                    alt={product.name}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    fetchPriority={index === 0 ? "high" : undefined}
+                  />
+                </Link>
+              ))}
+            </div>
+            <div className="absolute bottom-7 left-7 rounded-xl border border-white/15 bg-ink/80 px-4 py-3 backdrop-blur">
+              <p className="text-xs text-white/60">Na NEXLAR você encontra</p>
+              <p className="text-sm font-semibold">panelas para cada jeito de cozinhar</p>
+            </div>
           </div>
         </div>
-
-        <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
-          {banner.image_url && (
-            <img
-              src={banner.image_url}
-              alt={banner.title}
-              className="h-full w-full object-cover"
-              fetchPriority="high"
-            />
-          )}
-        </div>
-      </div>
-    </section>
+      </section>
+      <QuizDialog open={quizOpen} onOpenChange={setQuizOpen} />
+    </>
   );
 }
 
@@ -165,9 +375,9 @@ function Showcase({
       <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
         {isLoading
           ? Array.from({ length: 4 }).map((_, i) => <ProductCardSkeleton key={i} />)
-          : (data ?? []).slice(0, 8).map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
+          : (data ?? [])
+              .slice(0, 8)
+              .map((product) => <ProductCard key={product.id} product={product} />)}
       </div>
     </section>
   );
@@ -235,9 +445,17 @@ function HomePage() {
         </div>
       </section>
 
+      <div id="ofertas">
+        <Showcase
+          title="Ofertas para sua cozinha"
+          subtitle="Produtos reais do catálogo com preço especial"
+          filter="offers"
+        />
+      </div>
+
       <Showcase
-        title="Destaques da NEXLAR"
-        subtitle="Os produtos mais desejados da nossa curadoria"
+        title="Escolhas para sua cozinha"
+        subtitle="Produtos reais do nosso catálogo para você comparar"
         filter="featured"
       />
 
@@ -299,7 +517,9 @@ function HomePage() {
               </div>
               <div className="space-y-2 p-4">
                 <p className="text-xs text-muted-foreground">{dateBR(post.published_at)}</p>
-                <h3 className="line-clamp-2 font-semibold group-hover:text-primary">{post.title}</h3>
+                <h3 className="line-clamp-2 font-semibold group-hover:text-primary">
+                  {post.title}
+                </h3>
                 <p className="line-clamp-2 text-sm text-muted-foreground">{post.excerpt}</p>
               </div>
             </Link>
