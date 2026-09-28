@@ -122099,3 +122099,43 @@ export function getLocalProducts(filter?: "featured" | "new" | "offers"): Produc
 export function getLocalProductsByCategory(categorySlugOrId: string): Product[] { const cat = CATEGORIES.find((c) => c.slug === categorySlugOrId || c.id === categorySlugOrId); if (!cat) return []; return PRODUCTS.filter((p) => p.category_id === cat.id || p.categories?.slug === cat.slug); }
 export function getLocalProductBySlug(slug: string): Product | undefined { return PRODUCTS.find((p) => p.slug === slug || p.id === slug || p.sku === slug); }
 export function searchLocalProducts(term: string): Product[] { const q = term.toLowerCase().trim(); if (!q) return []; return diversifyProducts(PRODUCTS.filter((p) => p.name.toLowerCase().includes(q) || p.short_description?.toLowerCase().includes(q) || p.categories?.name.toLowerCase().includes(q) || p.highlights.some((h) => h.toLowerCase().includes(q)))); }
+export function getLocalOrderBumpRecommendations(cartProductIds: string[], selectedBumpIds: string[] = []): Product[] {
+  const cartIds = new Set(cartProductIds);
+  const selectedIds = new Set(selectedBumpIds);
+  const cartProducts = PRODUCTS.filter((product) => cartIds.has(product.id));
+  const cartCategories = new Set(cartProducts.map((product) => product.categories?.slug ?? product.category_id));
+  const wantsInduction = cartProducts.some((product) =>
+    Object.entries(product.specs).some(([key, value]) =>
+      /indu[cç][aã]o/i.test(`${key} ${value}`) && /sim|compat/i.test(value),
+    ),
+  );
+  const hasCategory = (slug: string) => cartCategories.has(slug) || cartCategories.has(`cat-${slug}`);
+  const isEligible = (product: Product) => {
+    const image = (product.product_images ?? product.images ?? []).find((item) => item.url?.trim());
+    return (selectedIds.has(product.id) || !cartIds.has(product.id)) && product.active && product.stock > 0 && product.price > 0 && Boolean(image);
+  };
+  const category = (product: Product) => product.categories?.slug ?? product.category_id?.replace(/^cat-/, "");
+  const candidates = PRODUCTS.filter(isEligible).filter((product) => {
+    if (!wantsInduction) return true;
+    const text = Object.entries(product.specs).map(([key, value]) => `${key} ${value}`).join(" ");
+    return /indu[cç][aã]o/i.test(text) && /sim|compat/i.test(text);
+  });
+  const ranked = (slugs: string[], excluded = new Set<string>()) =>
+    candidates
+      .filter((product) => slugs.includes(category(product) ?? "") && !excluded.has(product.id))
+      .sort((a, b) => Number(b.featured) - Number(a.featured) || b.rating - a.rating || a.price - b.price);
+  const selected: Product[] = [];
+  const selectedSet = new Set<string>();
+  const addBest = (slugs: string[]) => {
+    const product = ranked(slugs, selectedSet)[0];
+    if (product) { selected.push(product); selectedSet.add(product.id); }
+  };
+  const hasCookware = hasCategory("jogos-de-panelas") || hasCategory("cacarolas-e-avulsas") || hasCategory("panelas-especiais");
+  const hasPan = hasCategory("frigideiras-e-woks");
+  const hasPressure = hasCategory("panelas-de-pressao");
+  if (hasCookware || hasPressure || hasPan) addBest(["frigideiras-e-woks"]);
+  if (hasCookware || hasPan || hasPressure) addBest(["panelas-de-pressao"]);
+  if (selected.length < 2 && (hasPan || hasCookware)) addBest(["cacarolas-e-avulsas"]);
+  if (selected.length < 2 && !hasCookware && !hasPan && !hasPressure) addBest(["jogos-de-panelas", "cacarolas-e-avulsas"]);
+  return selected.slice(0, 2);
+}

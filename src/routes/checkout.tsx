@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
-import { ShoppingCart } from "lucide-react";
+import { Check, Plus, ShoppingCart, X } from "lucide-react";
 import { toast } from "sonner";
 import { StoreLayout } from "@/components/store/StoreLayout";
 import { EmptyState } from "@/components/store/EmptyState";
@@ -13,7 +13,8 @@ import { supabase } from "@/integrations/supabase/client";
 import { useCart } from "@/lib/cart";
 import { useAuth } from "@/lib/auth";
 import { brl, installment, maskCEP, maskCPF, maskPhone, pixPrice } from "@/lib/format";
-import type { Coupon } from "@/lib/types";
+import { getLocalOrderBumpRecommendations } from "@/lib/catalog-data";
+import type { Coupon, Product } from "@/lib/types";
 
 export const Route = createFileRoute("/checkout")({
   head: () => ({
@@ -29,7 +30,7 @@ export const Route = createFileRoute("/checkout")({
 });
 
 function CheckoutPage() {
-  const { items, subtotal, clear } = useCart();
+  const { items, subtotal, clear, add, remove } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
 
@@ -49,6 +50,46 @@ function CheckoutPage() {
   const [coupon, setCoupon] = useState<Coupon | null>(null);
   const [payment, setPayment] = useState("pix");
   const [loading, setLoading] = useState(false);
+  const [selectedBumpIds, setSelectedBumpIds] = useState<string[]>([]);
+
+  const bumpProducts = useMemo(
+    () =>
+      getLocalOrderBumpRecommendations(
+        items.map((item) => item.productId),
+        selectedBumpIds,
+      ),
+    [items, selectedBumpIds],
+  );
+
+  function toggleBump(product: Product) {
+    const image = (product.product_images ?? product.images ?? []).find((item) => item.url?.trim());
+    if (!image) return;
+    if (selectedBumpIds.includes(product.id)) {
+      remove(product.id);
+      setSelectedBumpIds((current) => current.filter((id) => id !== product.id));
+      return;
+    }
+    add(
+      {
+        productId: product.id,
+        slug: product.slug,
+        name: product.name,
+        image: image.url,
+        price: product.price,
+      },
+      1,
+      false,
+    );
+    setSelectedBumpIds((current) => [...current, product.id].slice(-2));
+  }
+
+  function bumpBenefit(product: Product) {
+    const category = product.categories?.slug ?? product.category_id;
+    if (category?.includes("frigideiras")) return "Complemento ideal para sua cozinha";
+    if (category?.includes("pressao")) return "Mais praticidade para suas receitas";
+    if (category?.includes("cacarolas")) return "Mais espaço para preparar suas receitas";
+    return "Complemente seu conjunto";
+  }
 
   const baseShipping = subtotal >= 299 || coupon?.free_shipping ? 0 : 29.9;
   const discount = coupon
@@ -169,19 +210,40 @@ function CheckoutPage() {
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="space-y-1.5 sm:col-span-2">
                 <Label htmlFor="nome">Nome completo</Label>
-                <Input id="nome" required value={form.name} onChange={(e) => set("name", e.target.value)} />
+                <Input
+                  id="nome"
+                  required
+                  value={form.name}
+                  onChange={(e) => set("name", e.target.value)}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="mail">E-mail</Label>
-                <Input id="mail" type="email" required value={form.email} onChange={(e) => set("email", e.target.value)} />
+                <Input
+                  id="mail"
+                  type="email"
+                  required
+                  value={form.email}
+                  onChange={(e) => set("email", e.target.value)}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="cpf">CPF</Label>
-                <Input id="cpf" required value={form.cpf} onChange={(e) => set("cpf", maskCPF(e.target.value))} />
+                <Input
+                  id="cpf"
+                  required
+                  value={form.cpf}
+                  onChange={(e) => set("cpf", maskCPF(e.target.value))}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="tel">Telefone</Label>
-                <Input id="tel" required value={form.phone} onChange={(e) => set("phone", maskPhone(e.target.value))} />
+                <Input
+                  id="tel"
+                  required
+                  value={form.phone}
+                  onChange={(e) => set("phone", maskPhone(e.target.value))}
+                />
               </div>
             </div>
           </section>
@@ -191,27 +253,58 @@ function CheckoutPage() {
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="space-y-1.5">
                 <Label htmlFor="cep">CEP</Label>
-                <Input id="cep" required value={form.cep} onChange={(e) => set("cep", maskCEP(e.target.value))} />
+                <Input
+                  id="cep"
+                  required
+                  value={form.cep}
+                  onChange={(e) => set("cep", maskCEP(e.target.value))}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="rua">Rua</Label>
-                <Input id="rua" required value={form.street} onChange={(e) => set("street", e.target.value)} />
+                <Input
+                  id="rua"
+                  required
+                  value={form.street}
+                  onChange={(e) => set("street", e.target.value)}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="num">Número</Label>
-                <Input id="num" required value={form.number} onChange={(e) => set("number", e.target.value)} />
+                <Input
+                  id="num"
+                  required
+                  value={form.number}
+                  onChange={(e) => set("number", e.target.value)}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="bairro">Bairro</Label>
-                <Input id="bairro" required value={form.district} onChange={(e) => set("district", e.target.value)} />
+                <Input
+                  id="bairro"
+                  required
+                  value={form.district}
+                  onChange={(e) => set("district", e.target.value)}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="cidade">Cidade</Label>
-                <Input id="cidade" required value={form.city} onChange={(e) => set("city", e.target.value)} />
+                <Input
+                  id="cidade"
+                  required
+                  value={form.city}
+                  onChange={(e) => set("city", e.target.value)}
+                />
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="uf">Estado</Label>
-                <Input id="uf" required maxLength={2} value={form.state} onChange={(e) => set("state", e.target.value.toUpperCase())} />
+                <Input
+                  id="uf"
+                  required
+                  maxLength={2}
+                  value={form.state}
+                  onChange={(e) => set("state", e.target.value.toUpperCase())}
+                />
               </div>
             </div>
           </section>
@@ -221,8 +314,16 @@ function CheckoutPage() {
             <RadioGroup value={payment} onValueChange={setPayment} className="space-y-3">
               {[
                 { value: "pix", label: "PIX", hint: "5% de desconto, aprovação imediata" },
-                { value: "credit_card", label: "Cartão de crédito", hint: installment(totalBefore) },
-                { value: "boleto", label: "Boleto bancário", hint: "Compensação em até 2 dias úteis" },
+                {
+                  value: "credit_card",
+                  label: "Cartão de crédito",
+                  hint: installment(totalBefore),
+                },
+                {
+                  value: "boleto",
+                  label: "Boleto bancário",
+                  hint: "Compensação em até 2 dias úteis",
+                },
               ].map((option) => (
                 <label
                   key={option.value}
@@ -244,7 +345,11 @@ function CheckoutPage() {
           <ul className="space-y-3">
             {items.map((item) => (
               <li key={item.productId + (item.variant ?? "")} className="flex gap-3 text-sm">
-                <img src={item.image} alt={item.name} className="h-14 w-14 rounded-lg object-cover" />
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="h-14 w-14 rounded-lg object-cover"
+                />
                 <div className="flex-1">
                   <p className="line-clamp-2">{item.name}</p>
                   <p className="text-xs text-muted-foreground">
@@ -254,6 +359,83 @@ function CheckoutPage() {
               </li>
             ))}
           </ul>
+
+          {bumpProducts.length > 0 && (
+            <section
+              className="space-y-3 rounded-xl border border-primary/20 bg-primary/5 p-4"
+              aria-labelledby="order-bumps-title"
+            >
+              <div>
+                <h3 id="order-bumps-title" className="font-semibold">
+                  Complete sua compra
+                </h3>
+                <p className="text-xs text-muted-foreground">
+                  Adicione itens que combinam com o que você escolheu.
+                </p>
+              </div>
+              <div className="space-y-3">
+                {bumpProducts.map((product) => {
+                  const image = (product.product_images ?? product.images ?? []).find((item) =>
+                    item.url?.trim(),
+                  );
+                  const selected = selectedBumpIds.includes(product.id);
+                  if (!image) return null;
+                  return (
+                    <div
+                      key={product.id}
+                      className="flex gap-3 rounded-lg border border-border bg-background p-2.5"
+                    >
+                      <img
+                        src={image.url}
+                        alt={product.name}
+                        className="h-16 w-16 shrink-0 rounded-md object-cover"
+                        loading="lazy"
+                      />
+                      <div className="min-w-0 flex-1">
+                        <p className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
+                          {product.brand ?? product.specs.Marca ?? "Complemento"}
+                        </p>
+                        <p className="line-clamp-2 text-sm font-medium">{product.name}</p>
+                        <p className="text-xs text-muted-foreground">{bumpBenefit(product)}</p>
+                        <div className="mt-1 flex items-center justify-between gap-2">
+                          <div>
+                            {product.compare_at_price &&
+                              product.compare_at_price > product.price && (
+                                <span className="mr-1 text-[11px] text-muted-foreground line-through">
+                                  {brl(product.compare_at_price)}
+                                </span>
+                              )}
+                            <span className="text-sm font-semibold text-primary">
+                              {brl(product.price)}
+                            </span>
+                          </div>
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant={selected ? "secondary" : "default"}
+                            onClick={() => toggleBump(product)}
+                            className="h-8 shrink-0 gap-1 px-2.5"
+                          >
+                            {selected ? (
+                              <X className="h-3.5 w-3.5" />
+                            ) : (
+                              <Plus className="h-3.5 w-3.5" />
+                            )}
+                            {selected ? "Remover" : "Adicionar"}
+                          </Button>
+                        </div>
+                        {selected && (
+                          <p className="mt-1 flex items-center gap-1 text-[11px] text-primary">
+                            <Check className="h-3 w-3" /> Adicionado ao pedido
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
 
           <Separator />
 

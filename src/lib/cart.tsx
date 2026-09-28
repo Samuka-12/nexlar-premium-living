@@ -16,7 +16,7 @@ type CartState = {
   ready: boolean;
   open: () => void;
   close: () => void;
-  add: (item: Omit<CartItem, "quantity">, quantity?: number) => void;
+  add: (item: Omit<CartItem, "quantity">, quantity?: number, openCart?: boolean) => void;
   remove: (productId: string, variant?: string) => void;
   setQuantity: (productId: string, quantity: number, variant?: string) => void;
   clear: () => void;
@@ -50,7 +50,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   }, [items, ready]);
 
-  const add = useCallback((item: Omit<CartItem, "quantity">, quantity = 1) => {
+  const add = useCallback((item: Omit<CartItem, "quantity">, quantity = 1, openCart = true) => {
     setItems((prev) => {
       const existing = prev.find((i) => sameLine(i, item.productId, item.variant));
       if (existing) {
@@ -60,7 +60,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       }
       return [...prev, { ...item, quantity }];
     });
-    setIsOpen(true);
+    if (openCart) setIsOpen(true);
   }, []);
 
   const remove = useCallback((productId: string, variant?: string) => {
