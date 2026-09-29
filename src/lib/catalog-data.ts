@@ -126897,7 +126897,11 @@ const PUBLIC_CATEGORY_CUTOFF_ID = "cat-assadeiras-travessas-ceramica";
 const PUBLIC_CATEGORY_CUTOFF_INDEX = CATEGORIES.findIndex((category) => category.id === PUBLIC_CATEGORY_CUTOFF_ID);
 const PUBLIC_CATEGORIES = CATEGORIES.slice(0, PUBLIC_CATEGORY_CUTOFF_INDEX < 0 ? CATEGORIES.length : PUBLIC_CATEGORY_CUTOFF_INDEX);
 const PUBLIC_CATEGORY_IDS = new Set(PUBLIC_CATEGORIES.map((category) => category.id));
-const PUBLIC_PRODUCTS = PRODUCTS.filter((product) => product.category_id == null || PUBLIC_CATEGORY_IDS.has(product.category_id));
+const HIDDEN_PUBLIC_PRODUCT_IDS = new Set(["lecreuset-920095"]);
+const PUBLIC_PRODUCTS = PRODUCTS.filter((product) =>
+  !HIDDEN_PUBLIC_PRODUCT_IDS.has(product.id) &&
+  (product.category_id == null || PUBLIC_CATEGORY_IDS.has(product.category_id)),
+);
 
 export function getLocalCategories(): Category[] { return PUBLIC_CATEGORIES; }
 export function getLocalCategoryBySlug(slug: string): Category | undefined { return PUBLIC_CATEGORIES.find((c) => c.slug === slug || c.id === slug); }
