@@ -266,12 +266,15 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwdc6347e6/images/produto-lecreuset-panela-redonda-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw492943fa/images/produto-lecreuset-panela-redonda-vermelha.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-21177",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caçarola Buffet Signature",
@@ -324,12 +327,16 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb398291e/images/produto-lecreuset-ca%C3%A7arola-redonda-peche.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwff6c498d/images/produto-lecreuset-ca%C3%A7arola-redonda-cotton.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwff69be8c/images/cacarola-buffet-signature-bluebell.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-21180",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Skillet Redonda Signature",
@@ -397,12 +404,17 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw3a6991b9/images/produto-lecreuset-skillet-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw02921f58/images/produto-lecreuset-skillet-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw32dc5870/images/produto-lecreuset-skillet-bamboo.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwadde9fdc/images/produto-lecreuset-skillet-marseille.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-20182",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Panela Oval Signature",
@@ -450,12 +462,19 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe9d467ec/images/produto-lecreuset-panela-oval-chambray.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw2efcacf8/images/produto-lecreuset-panela-oval-nectar.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw180546c7/images/produto-lecreuset-panela-oval-artichaut.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1c6eb7f5/images/produto-lecreuset-panela-oval-caribe.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw6df5e152/images/produto-lecreuset-panela-oval-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8bb2f0c6/images/produto-lecreuset-panela-oval-laranja.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-21178",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Panela Para Pão Signature",
@@ -499,12 +518,19 @@
       "nexlar_category_id": "cat-panelas-especiais",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwa54a74bf/images/panela-vermelha-pao-1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1576a4db/images/panela-para-pao-signature-vermelho-lecreuset1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw196b2f1b/images/panela-para-pao-signature-vermelho-lecreuset2.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf47b4b79/images/panela-para-pao-signature-vermelho-lecreuset4.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw058af1a5/images/panela-para-pao-signature-vermelho-lecreuset3.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwa8da36e6/images/panela-para-pao-signature-vermelho-lecreuset5.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-21301240600430",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Grelha Quadrada Signature",
@@ -572,12 +598,18 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc458a909/images/produto-lecreuset-grelha-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw846f0217/images/grelha_quadrada_signature_flame.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5313f16e/images/grelha_quadrada_signature_flame%20(1).jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwcc1759e0/images/grelha_quadrada_signature_flame%20(2).jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd512d464/images/grelha_quadrada_signature_flame%20(3).jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-20183",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caçarola Buffet Signature Petal",
@@ -619,12 +651,15 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwdc236776/images/ca%C3%A7arola-buffet-signature-petal-seasalt%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw567dc9cc/images/ca%C3%A7arola-buffet-signature-petal-honey.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-219642",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caçarola Buffet Signature Flamme Dorée",
@@ -666,12 +701,19 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe3d241cf/images/100%20Anos/Cacarola-redonda-flame-doree.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1b23f8e9/images/100%20Anos/Cacarola-redonda-flame-doree%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw398b98f3/images/100%20Anos/Cacarola-redonda-flame-doree%20(3).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd0664960/images/100%20Anos/Cacarola-redonda-flame-doree%20(4).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwaddb41c9/images/100%20Anos/Cacarola-redonda-flame-doree%20(5).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb3020ff8/images/100%20Anos/Cacarola-redonda-flame-doree%20(6).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-21180301834479",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caçarola Buffet Abóbora",
@@ -713,12 +755,18 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw37d8acb7/images/ca%C3%A7arola-buffet-signature-abobora-pegador-dourado-marronnier-28cm.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwca6362ac/images/ca%C3%A7arola-buffet-signature-abobora-pegador-dourado-meringue-28cm.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw149ec2b5/images/ca%C3%A7arola-buffet-signature-abobora-pegador-dourado-white-28cm.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwadd86866/images/bandeja-de-servir-vermelho-36cm-1%20(3).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb507904a/images/bandeja-de-servir-vermelho-36cm-1%20(4).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-213382",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caçarola Funda 3-Ply Signature",
@@ -760,12 +808,16 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwcaff767a/images/ca%C3%A7arola-funda-3ply-lc.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7ad7a385/images/ca%C3%A7arola-funda-3ply-lc%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw28561f5d/images/ca%C3%A7arola-funda-3ply-lc%20(3).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-9660062",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caçarola Aço Esmaltado",
@@ -807,12 +859,15 @@
       "nexlar_category_id": "cat-cacarolas-e-avulsas",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf6a52a4e/images/Ca%C3%A7arola%20Redonda%20A%C3%A7o%20Inox-cool-mint%20(3).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw13f9acc8/images/Ca%C3%A7arola%20Redonda%20A%C3%A7o%20Inox-cool-mint%20(2).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-56002204",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set com 4 Mini Buffet Gourmand",
@@ -854,12 +909,16 @@
       "nexlar_category_id": "cat-panelas-especiais",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8eda217c/images/SET-4-BUFFET-13CM-GOURMAND7.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd357d8a4/images/SET-4-BUFFET-13CM-GOURMAND8.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwa51ceb31/images/SET-4-BUFFET-13CM-GOURMAND9.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-20502130000425",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Frigideira Rasa Non-Stick Ceramic Essential",
@@ -903,12 +962,16 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwca6c3202/images/FrigideiraRasaAntiaderentedeCer%C3%A2micaEssential.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwab2421dc/images/Frigideira%20Rasa%20Antiaderente%20de%20Cer%C3%A2mica%20Essential%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw01ce759d/images/Frigideira%20Rasa%20Antiaderente%20de%20Cer%C3%A2mica%20Essential%20(3).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-5131420",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set 2 Frigideiras Non-Stick Ceramic Essential (20 cm e 26 cm)",
@@ -952,12 +1015,14 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw50af4581/images/Set2FrigideirasRasascomantiaderentedeCer%C3%A2micaEssential.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-51826000010098",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Skillet Redonda Funda Signature",
@@ -1001,12 +1066,19 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw533b94b2/images/produto-lecreuset-skillet-funda-vermelha.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw9e15a31d/images/produto-lecreuset-skillet-funda-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw830e03d7/images/produto-lecreuset-skillet-funda-marseille.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwad7cc008/images/produto-lecreuset-skillet-funda-meringue.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw21a21c88/images/2K_JPG-20251107_GS_20187300980422_200.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5b0b3203/images/skillet_funda_vermelho_cerise_lecreuset%20(4).jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-20187",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Frigideira Funda 3-Ply Signature",
@@ -1050,12 +1122,17 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7f480efc/images/frigideira_sem_anti_aderente_3ply_lecreuset_5.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw4d83c196/images/frigideira_sem_anti_aderente_3ply_lecreuset_6.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw0c6c0702/images/frigideira_sem_anti_aderente_3ply_lecreuset_7.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw79a9e916/images/frigideira_sem_anti_aderente_3ply_lecreuset_8.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-9660022",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Frigideira Saute com Cabo de Madeira Signature",
@@ -1099,12 +1176,17 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8af30b99/images/frigideira-cabo-de-madeira-vermelho-signature-lecreuset1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw2639b1cd/images/frigideira-cabo-de-madeira-vermelho-signature-lecreuset2.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw9d3d4fc1/images/frigideira-cabo-de-madeira-vermelho-signature-lecreuset.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1e7a54bb/images/frigideira-cabo-de-madeira-vermelho-signature-lecreuset4.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-202592",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Grelha Retangular Tradicional",
@@ -1163,12 +1245,14 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw72b74c98/images/travessa-retangular-tradicional-matteblack-lecreuset.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-2020232",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Cesta Perfurada Quadrada Alpine 30cm",
@@ -1233,12 +1317,18 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw66555050/images/alpine-lifestyle%20(3).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw0dcca70f/images/cesta-perfurada-quadrada-alpine-matte%20black.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf2076b7a/images/cesta-perfurada-quadrada-alpine-matte%20black%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw2532c86b/images/alpine-lifestyle%20(4).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw9f5836cc/images/alpine-lifestyle%20(5).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-20271300000005",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Stockpot Non-Stick Ceramic Essential",
@@ -1282,12 +1372,16 @@
       "nexlar_category_id": "cat-panelas-especiais",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1030da30/images/stockpot-essential-ceramic.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw144aa0df/images/stockpot-essential-ceramic%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd87b7322/images/stockpot-essential-ceramic%20(3).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-51313240010598",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set 2 Frigideiras Rasa e Funda Non-Stick Ceramic Essential",
@@ -1333,12 +1427,14 @@
       "nexlar_category_id": "cat-frigideiras-e-woks",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw03a3330f/images/Set2FrigideirasRasaeFundacomAntiaderentedeCer%C3%A2micaEssential.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-51824000010098",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Molheira com Alça Non-Stick Ceramic Essential",
@@ -1382,12 +1478,17 @@
       "nexlar_category_id": "cat-panelas-especiais",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw09944880/images/MolheiracomAl%C3%A7aAntiaderentedeCer%C3%A2micaEssential.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwdc2ac649/images/Molheira%20com%20Al%C3%A7a%20Antiaderente%20de%20Cer%C3%A2mica%20Essential%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw235a5a31/images/Molheira%20com%20Al%C3%A7a%20Antiaderente%20de%20Cer%C3%A2mica%20Essential%20(3).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd1b65fe6/images/Molheira%20com%20Al%C3%A7a%20Antiaderente%20de%20Cer%C3%A2mica%20Essential%20(4).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-513161",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Mini Cocotte",
@@ -1446,12 +1547,17 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc027de66/images/produto-lecreuset-minicocotte-laranja-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw11ea8ba7/images/produto-lecreuset-minicocotte-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1d08d118/images/produto-lecreuset-minicocotte-laranja-caribe.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwa20bf558/images/produto-lecreuset-minicocotte-laranja-bamboo.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910050",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Ramekin 200ml",
@@ -1495,12 +1601,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf126f9dd/images/ramekin_medio_azul_marseille_galeria-2.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-70403",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Ramekin 240ml",
@@ -1542,12 +1650,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw40102e99/images/ramekin_240ml_deepteal_lecreuset%20(1).jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-70401",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set 4 Mini Ramekin Elements",
@@ -1589,12 +1699,19 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe7aff49c/images/lecreuset-ellements-ramekin5.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw521a0c72/images/lecreuset-ellements-ramekin2.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw0b0430bf/images/lecreuset-ellements-ramekin.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe2c3b631/images/lecreuset-ellements-ramekin3.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwa5fcb7f8/images/lecreuset-ellements-ramekin1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf1c36ec1/images/elementes-lecreuset-lancamento1.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-89109108159030",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set Mini Ramekins Gift Collection",
@@ -1636,12 +1753,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw74d32585/images/set-gift-collection-ramekin-azure.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-7913410",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Travessa Retangular Heritage",
@@ -1685,12 +1804,17 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe1816222/images/travessa-retangular-heritage-nuit-23cm.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf31b1dc6/images/travessas-produto-lecreuset-heritage-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw49913c7c/images/travessas-produto-lecreuset-heritage-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwaa2a8d47/images/travessas-produto-lecreuset-heritage-caribe.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-71102",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Travessa Retangular Clássica",
@@ -1734,12 +1858,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwfe78ea59/images/tardes%20de%20verao/travessa-classica-azure-blue.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910047",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Travessa Canelada",
@@ -1783,12 +1909,18 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw678a9329/images/travessa-canelada-vermelho-lecreuset.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8937f1cb/images/Travessa-canelada-laranja-lecreuset.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw405261b9/images/travessa-canelada-vermelho-lecreuset11.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw43dc8e67/images/torta-para-flan-canelada-lecreuset1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwaadde728/images/travessa-canelada-laranja-lecreuset10.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-71120",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Travessa Retangular Heritage com Tampa",
@@ -1832,12 +1964,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc7eb44f2/images/71002400990080-travessa-retantular-com-tampa.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-810024",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Assadeira Quadrada Rasa",
@@ -1881,12 +2015,18 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw15421bb2/images/assadeira_quadrada_rasa_lecreuset_metal.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw913cf3e1/images/assadeira_quadrada_rasa_lecreuset_metal(1).jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8b334b85/images/assadeira_quadrada_rasa_lecreuset_metal_bakeware.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw75485afd/images/assadeira_quadrada_rasa_lecreuset_metal_bakeware%20(2).jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd6ced2a7/images/assadeira_quadrada_rasa_lecreuset_metal_bakeware%20(6).jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-46093310010000",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Assadeira Oval Signature",
@@ -1930,12 +2070,16 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Assadeiras, Travessas & Cerâmica para Forno",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw638b22c9/images/produto-lecreuset-assadeira-oval-artichaut2.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1f10ad06/images/produto-lecreuset-assadeira-oval-artichaut1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc7ffa254/images/produto-lecreuset-assadeira-oval-artichaut3.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-assadeira-oval-signature",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Pote Com Tampa de Madeira 220ml",
@@ -1979,12 +2123,18 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd587fe8b/images/Pote-tampa-420-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7cb82ef8/images/Pote-tampa-420-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw2c765ea8/images/Pote-tampa-420-onyx.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd7261ae0/images/Pote-tampa-420-branco.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw64d077ab/images/Pote-tampa-420-caribe.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-9104440",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Porta Mantimentos",
@@ -2028,12 +2178,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc773011e/images/porta-mantimentos-vermelho-lecreuset.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910078",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Pote de Silicone (página de variação 1000 ml)",
@@ -2077,12 +2229,17 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw9e436629/images/Recipiente-de-armazenamento-de-silicone7.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf3ca0876/images/Recipiente-de-armazenamento-de-silicone1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw97fd22d5/images/Recipiente-de-armazenamento-de-silicone3.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8bc743f1/images/Recipiente-de-armazenamento-de-silicone5.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-4241734",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Porta Sal",
@@ -2126,12 +2283,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw3b75d249/images/porta_sal_vermelho_cerise.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910022",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Porta Condimento",
@@ -2175,12 +2334,18 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw96391238/images/porta-condimento-laranja-lecreuset4.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwdf451dfa/images/porta-condimento-vermelho-lecreuset1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw88496a9c/images/porta-condimento-marseille-lecreuset1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dweab9487f/images/porta-condimento-caribe-lecreuset1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw499c819d/images/porta-condimento-branco-lecreuset1.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910114",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Moedor de Pimenta 21cm",
@@ -2238,12 +2403,26 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7138e9be/images/produto-lecreuset-moedores-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb7c75690/images/produto-lecreuset-moedores-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1393a88f/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_moagem.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1c9e547e/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw99f959e8/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_2.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5efd1ead/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_3.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw681921c8/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_4.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw30e171df/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_5.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwdb7d37b5/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_6.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5247f369/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_7.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw941cc9f3/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_8.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8823ca69/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_9.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw91dc7ddc/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_10.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-960019",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Moedor de Sal 21cm",
@@ -2300,12 +2479,26 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7138e9be/images/produto-lecreuset-moedores-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb7c75690/images/produto-lecreuset-moedores-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1393a88f/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_moagem.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1c9e547e/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw99f959e8/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_2.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5efd1ead/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_3.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw681921c8/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_4.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw30e171df/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_5.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwdb7d37b5/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_6.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5247f369/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_7.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw941cc9f3/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_8.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8823ca69/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_9.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw91dc7ddc/images/moedores_de_sal_Pimenta_Le-Creuset_saleiros_e_pimenteiros_10.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-960020",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set Azeite & Vinagre Clássico",
@@ -2363,12 +2556,15 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe9691760/images/80803020600003.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc74a4d92/images/conjunto-de-oleo-e-vinagre-lecreuset.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910017",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Moedor de Pimenta 30cm",
@@ -2412,12 +2608,18 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw385cddde/images/tardes%20de%20verao/moedor-de-pimenta-30cm-laranja.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw848b44d3/images/tardes%20de%20verao/moedor-de-pimenta-30cm%20(2).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw6de01276/images/tardes%20de%20verao/moedor-de-pimenta-30cm-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb0164288/images/tardes%20de%20verao/moedor-de-pimenta-30cm.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw703f2293/images/tardes%20de%20verao/moedor-de-pimenta-30cm-blackonyx.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-960027",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set Mini Moedores de Sal e Pimenta",
@@ -2461,12 +2663,15 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7c9d9db2/images/mini-moedor-preto-e-branco.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw82210790/images/mini-moedor-preto-e-branco1.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-96002500169000",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Pote para Mel",
@@ -2514,12 +2719,16 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7ad6078c/images/pote-para-mel-lecreuset-nectar7.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw994af47b/images/pote-para-mel-lecreuset-nectar6.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw17bc0b0c/images/pote-para-mel-lecreuset-nectar5.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-690954",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Pote de Manteiga",
@@ -2567,12 +2776,18 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe2c6a579/images/produto-lecreuset-pote-manteiga-vermelho%20(1).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8c56f795/images/produto-lecreuset-pote-manteiga-vermelho%20(4).png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1fdaab83/images/lifestyle-pote-manteiga-1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw689c8715/images/lifestyle-pote-manteiga.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwea4c1f64/images/lifestyle-pote-manteiga-2.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910086",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Pote para Biscoito 2,4L",
@@ -2620,12 +2835,15 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw374a4000/images/produto-lecreuset-vermelho-pote.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw6ee94a55/images/pote-biscoito-vermelho-lecreuset.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-910267",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Pote de Alho",
@@ -2673,12 +2891,15 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Potes & Organização de Cozinha",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7e6363f0/images/porta-alho-meringue.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw84fd544b/images/pote-para-alho-vermelho.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-7083230",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Chaleira Clássica",
@@ -2724,12 +2945,15 @@
       "nexlar_category_id": "cat-chaleiras",
       "nexlar_category_mapping": "reuse_existing",
       "suggested_new_category": null,
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw2b9f3ed7/images/92009500060000.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc63ba8a3/images/92009500090000.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-920095",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Prensa Francesa",
@@ -2777,12 +3001,16 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5b3e342c/images/prensa-francesa-lecreuset-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw9da66cf9/images/prensa-francesa-lecreuset-cayenne.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwd741331c/images/prensa-francesa-lecreuset-cayenne%20(2).png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-607060",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Jarra Scandinavia 1.5L",
@@ -2828,12 +3056,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc515a766/images/jarra-1,5-lecreuset-artichaut.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-70901",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Bule com Infusor",
@@ -2879,12 +3109,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb7efafdb/images/bule_de_cha_com_infusor_branco_le_creuset.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-80705",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caneca London",
@@ -2930,12 +3162,15 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwf07f51d0/images/produto-lecreuset-caneca-200ml-vermelho.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc383cbab/images/produto-lecreuset-caneca-200ml-laranja.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-7030235",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Caneca Bistrô 400ml",
@@ -2981,12 +3216,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Bebidas: Canecas, Bules & Jarras",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw2bd91f79/images/Caneca-azure-400ml.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-7030440",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Cooler Bag",
@@ -3030,12 +3267,18 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw56fd0544/images/cooler_bag_termica_vinhos.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw4b8edd14/images/cooler_bag_termica_vinhos%20(1).jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwac6ea258/images/cooler_bag_termica_vinhos%20(2).jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw5f1e7cec/images/cooler_bag_termica_vinhos%20(3).jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw2e2ac542/images/cooler_bag_termica_vinhos%20(4).jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-59142510000000",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Cooler Sleeve",
@@ -3079,12 +3322,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw821097d3/images/59142014306068.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-59142",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Saca-Rolhas Garçom Aço Inox WT-110",
@@ -3128,12 +3373,17 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw79ccdc0b/images/59814017808074-saca-rolha.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7981104e/images/59814017808074-saca-rolha-2.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw799f75e0/images/59814017808074-saca-rolha-3.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwcf427110/images/59814017808074-saca-rolha-1.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-59814017808074",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Abridor de Champanhe",
@@ -3188,12 +3438,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw3c42d241/images/abridor_champagne_satin_chrome_le_creuset_1.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-5913901",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set Saca-Rolha e Tampa Gs191",
@@ -3237,12 +3489,17 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwddb96904/images/49905000010002-saca-rolha3.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwff0a28ff/images/49905000010002-saca-rolha.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw26d930b3/images/49905000010002-saca-rolha1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw06f2277a/images/49905000010002-saca-rolha2.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-49905000010002",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Saca-Rolhas Modelo Garçom",
@@ -3286,12 +3543,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwb6c04dfb/images/844x660-produto-lecreuset-black.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-4913200",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "LM 250 Abridor de Alavanca",
@@ -3335,12 +3594,19 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc13fc613/images/59058013009410.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1b21a599/images/abridor_de_vinho_alavanca_lm250_galeria-1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwbec9f01b/images/abridor_de_vinho_alavanca_lm250_galeria-2.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc8f02663/images/abridor_de_vinho_alavanca_lm250_galeria-3.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw178a46e3/images/abridor_de_vinho_alavanca_lm250_galeria-4.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw911523f8/images/abridor_de_vinho_alavanca_lm250_galeria-5.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-59058013009410",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Saca-Rolhas TM100",
@@ -3384,12 +3650,14 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios para Vinho",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw0b39468d/images/produto-lecreuset-saca-rolhas-tm100.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-49104001400101",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Set 4 Utensílios Inox Alpine",
@@ -3433,12 +3701,17 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw6d406278/images/conjunto-alpine-4-pecas-inox.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe7f0ac12/images/conjunto-alpine-4-pecas-inox1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwc128b1d5/images/conjunto-alpine-4-pecas-inox2.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwa83a33d7/images/conjunto-alpine-4-pecas-inox3.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-41906001400100",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Moedor de Pimenta em Madeira 21cm",
@@ -3482,12 +3755,16 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwef3671a4/images/moedor-de-madeira-de-pimenta.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dweb09bdd4/images/moedor-de-madeira-de-pimenta-1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw04d97979/images/moedor-de-madeira.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-96001900687000",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Moedor de Sal em Madeira 21cm",
@@ -3531,12 +3808,16 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw7c2c8aec/images/moedor-de-madeira-de-sal.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw8cc1fa64/images/moedor-de-madeira-de-sal-1.png?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw04d97979/images/moedor-de-madeira.png?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-96002000687000",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Suporte Magnético de Madeira Coração",
@@ -3580,12 +3861,16 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwe954a6d8/images/47415200010003-suporte-de-madeira-coracao.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw02d6cd6e/images/47415200010003-suporte-de-madeira-coracao1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dwdbe20308/images/47415200010003-suporte-de-madeira-coracao2.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-47415200010003",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     },
     {
       "name": "Tela Protetora Para Frituras",
@@ -3629,17 +3914,25 @@
       "nexlar_category_id": null,
       "nexlar_category_mapping": "requires_new_category",
       "suggested_new_category": "Acessórios de Cozinha & Mesa",
-      "image_urls": [],
+      "image_urls": [
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw9d50ef66/images/tela_protetora_frituras_lecreuset_5.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw1eda7f3b/images/tela_protetora_frituras_lecreuset_1.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw001ee811/images/tela_protetora_frituras_lecreuset_2.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw78ecb1dc/images/tela_protetora_frituras_lecreuset_3.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw4cff1ddf/images/tela_protetora_frituras_lecreuset.jpg?sw=1600&sh=1600&sm=fit",
+        "https://www.lecreuset.com.br/dw/image/v2/BDRT_PRD/on/demandware.static/-/Sites-le-creuset-br-master/default/dw3c25ed41/images/tela_protetora_frituras_lecreuset_4.jpg?sw=1600&sh=1600&sm=fit"
+      ],
       "id": "lecreuset-984012",
       "brand": "Le Creuset",
       "market": "Brasil",
       "currency": "BRL",
-      "image_extraction_status": "http_200_short"
+      "image_extraction_status": "official_gallery_dom_2026-09-29"
     }
   ],
   "image_extraction": {
-    "method": "official product HTML only; no generated or third-party image URLs",
-    "products_with_images": 0,
-    "products_without_images": 66
+    "method": "official Le Creuset Brazil product DOM; img[itemprop=image]; no third-party or generated images",
+    "products_with_images": 66,
+    "products_without_images": 0,
+    "total_images": 226
   }
 }
