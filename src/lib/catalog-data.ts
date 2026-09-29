@@ -128522,6 +128522,123 @@ export const PRODUCTS: Product[] = [
     ],
     "meta_title": "Tela Protetora Para Frituras | Le Creuset | Nexlar",
     "meta_description": "tela que reduz respingos de óleo/gordura; deixa o vapor passar e possui pegador dobrável para armazenagem."
+  },
+
+  {
+    "id": "prod-nexlar-edge-facas-6pc",
+    "name": "Conjunto de Facas Edge 6 Peças com Bloco",
+    "slug": "conjunto-de-facas-edge-6-pecas-com-bloco",
+    "short_description": "Conjunto de seis facas com bloco organizador para equipar a preparação diária e manter a bancada mais prática.",
+    "description": "O Conjunto de Facas Edge 6 Peças com Bloco reúne seis facas de formatos diferentes em um bloco organizador de madeira. É uma entrada estratégica para a categoria de cozinha completa da NEXLAR, atendendo cortes do dia a dia sem competir diretamente com panelas, frigideiras e jogos de cozinha já existentes.",
+    "brand": "NEXLAR",
+    "sku": "NEX-EDGE-FACAS-6PC",
+    "price": 189.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-acessorios-cozinha-mesa",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "Seis facas para diferentes preparos",
+      "Bloco organizador para manter a bancada em ordem",
+      "Produto complementar para a cozinha completa NEXLAR"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Edge",
+      "Quantidade": "6 facas + bloco organizador",
+      "Material aparente": "Lâminas metálicas e bloco de madeira",
+      "Uso": "Preparo diário de alimentos",
+      "Observação": "Confirmar composição detalhada e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-edge-facas-6pc-img-0",
+        "url": "/products/conjunto-facas-edge-6pc.jpg",
+        "alt": "Conjunto de seis facas Edge com bloco organizador de madeira",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Acessórios de Cozinha & Mesa",
+      "slug": "acessorios-cozinha-mesa"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-nexlar-edge-facas-6pc-0",
+        "url": "/products/conjunto-facas-edge-6pc.jpg",
+        "alt": "Conjunto de seis facas Edge com bloco organizador de madeira",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
+  },
+  {
+    "id": "prod-nexlar-line-faqueiro-42pc",
+    "name": "Faqueiro Line 42 Peças em Aço Inox",
+    "slug": "faqueiro-line-42-pecas-em-aco-inox",
+    "short_description": "Faqueiro de 42 peças para montar uma mesa completa e ampliar a oferta de acessórios funcionais da NEXLAR.",
+    "description": "O Faqueiro Line 42 Peças em Aço Inox amplia a proposta de cozinha completa da NEXLAR com uma solução para servir refeições no dia a dia e receber convidados. A composição visual reúne facas, garfos e colheres em acabamento metálico uniforme.",
+    "brand": "NEXLAR",
+    "sku": "NEX-LINE-FAQUEIRO-42PC",
+    "price": 159.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-acessorios-cozinha-mesa",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "42 peças para uma mesa completa",
+      "Acabamento metálico uniforme",
+      "Complementa jogos de panelas e utensílios de cozinha"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Line",
+      "Quantidade": "42 peças",
+      "Material informado": "Aço inox",
+      "Uso": "Mesa e serviço de refeições",
+      "Observação": "Confirmar composição detalhada e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-line-faqueiro-42pc-img-0",
+        "url": "/products/faqueiro-line-42pc.jpg",
+        "alt": "Faqueiro Line de 42 peças em acabamento metálico",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Acessórios de Cozinha & Mesa",
+      "slug": "acessorios-cozinha-mesa"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-nexlar-line-faqueiro-42pc-0",
+        "url": "/products/faqueiro-line-42pc.jpg",
+        "alt": "Faqueiro Line de 42 peças em acabamento metálico",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
   }
 ];
 const PUBLIC_CATEGORY_CUTOFF_ID = "cat-assadeiras-travessas-ceramica";
