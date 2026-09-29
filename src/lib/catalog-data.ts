@@ -128639,7 +128639,355 @@ export const PRODUCTS: Product[] = [
     "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
     "price_is_reference": true,
     "image_source_status": "nexlar-curated-local-asset"
+  },
+
+  {
+    "id": "prod-nexlar-slate-cacarola-20",
+    "name": "Caçarola Slate 20 cm com Tampa",
+    "slug": "cacarola-slate-20-cm-com-tampa",
+    "short_description": "Caçarola de 20 cm com tampa para preparos do dia a dia, molhos e acompanhamentos.",
+    "description": "A Caçarola Slate 20 cm com Tampa amplia a linha de panelas avulsas da NEXLAR com uma peça compacta para preparos cotidianos. O conjunto visual combina corpo escuro, duas alças e tampa correspondente, facilitando levar o preparo do fogão à mesa.",
+    "brand": "NEXLAR",
+    "sku": "NEX-SLATE-CAC-20",
+    "price": 149.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-cacarolas-e-avulsas",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "Formato compacto para uso diário",
+      "Tampa e duas alças para servir com praticidade",
+      "Acabamento Slate neutro para combinar com a cozinha"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Slate",
+      "Diâmetro": "20 cm",
+      "Composição visual": "Caçarola com tampa e duas alças",
+      "Uso": "Preparos cotidianos",
+      "Observação": "Confirmar material, compatibilidade e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-slate-cacarola-20-img-0",
+        "url": "/products/cacarola-slate-20.jpg",
+        "alt": "Caçarola Slate 20 cm com Tampa",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Caçarolas & Panelas Avulsas",
+      "slug": "cacarolas-e-avulsas"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-prod-nexlar-slate-cacarola-20-0",
+        "url": "/products/cacarola-slate-20.jpg",
+        "alt": "Caçarola Slate 20 cm com Tampa",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
+  },
+  {
+    "id": "prod-nexlar-slate-frigideira-24",
+    "name": "Frigideira Slate 24 cm",
+    "slug": "frigideira-slate-24-cm",
+    "short_description": "Frigideira de 24 cm para preparos rápidos, porções médias e uso diário.",
+    "description": "A Frigideira Slate 24 cm é uma peça versátil para o preparo diário de ovos, legumes, carnes e acompanhamentos. Seu formato aberto e cabo longo favorecem o manuseio no fogão e complementam a variedade de frigideiras maiores já disponível na NEXLAR.",
+    "brand": "NEXLAR",
+    "sku": "NEX-SLATE-FRI-24",
+    "price": 119.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-frigideiras-e-woks",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "Tamanho versátil de 24 cm",
+      "Formato aberto para preparar e virar alimentos com facilidade",
+      "Cabo longo para manuseio no fogão"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Slate",
+      "Diâmetro": "24 cm",
+      "Composição visual": "Frigideira com cabo longo",
+      "Uso": "Preparos rápidos e porções médias",
+      "Observação": "Confirmar material, revestimento, compatibilidade e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-slate-frigideira-24-img-0",
+        "url": "/products/frigideira-slate-24.jpg",
+        "alt": "Frigideira Slate 24 cm",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Frigideiras, Woks & Grills",
+      "slug": "frigideiras-e-woks"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-prod-nexlar-slate-frigideira-24-0",
+        "url": "/products/frigideira-slate-24.jpg",
+        "alt": "Frigideira Slate 24 cm",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
+  },
+  {
+    "id": "prod-nexlar-slate-wok-30",
+    "name": "Wok Slate 30 cm",
+    "slug": "wok-slate-30-cm",
+    "short_description": "Wok de 30 cm para saltear, refogar e preparar porções maiores.",
+    "description": "A Wok Slate 30 cm acrescenta uma opção ampla para salteados, legumes, massas e preparos para compartilhar. O formato profundo, as duas alças e o cabo auxiliar visualmente integrado complementam as woks menores e médias já presentes no catálogo.",
+    "brand": "NEXLAR",
+    "sku": "NEX-SLATE-WOK-30",
+    "price": 169.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-frigideiras-e-woks",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "Diâmetro de 30 cm para porções maiores",
+      "Formato profundo para misturar ingredientes",
+      "Duas alças e cabo longo para movimentação"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Slate",
+      "Diâmetro": "30 cm",
+      "Composição visual": "Wok com duas alças e cabo longo",
+      "Uso": "Salteados, refogados e porções maiores",
+      "Observação": "Confirmar material, revestimento, compatibilidade e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-slate-wok-30-img-0",
+        "url": "/products/wok-slate-30.jpg",
+        "alt": "Wok Slate 30 cm",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Frigideiras, Woks & Grills",
+      "slug": "frigideiras-e-woks"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-prod-nexlar-slate-wok-30-0",
+        "url": "/products/wok-slate-30.jpg",
+        "alt": "Wok Slate 30 cm",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
+  },
+  {
+    "id": "prod-nexlar-studio-jogo-panelas-5pc",
+    "name": "Jogo de Panelas Studio 5 Peças",
+    "slug": "jogo-de-panelas-studio-5-pecas",
+    "short_description": "Jogo de cinco peças para equipar a cozinha com uma seleção essencial de panelas.",
+    "description": "O Jogo de Panelas Studio 5 Peças funciona como porta de entrada para quem precisa equipar ou renovar a cozinha de uma vez. A composição visual reúne peças de tamanhos diferentes e uma estética coordenada, sem repetir os jogos de marcas já presentes no catálogo.",
+    "brand": "NEXLAR",
+    "sku": "NEX-STUDIO-JOGO-5PC",
+    "price": 349.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-jogos-de-panelas",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "Cinco peças para montar uma base de cozinha",
+      "Conjunto coordenado para equipar a casa",
+      "Opção de entrada para compra de cozinha completa"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Studio",
+      "Quantidade": "5 peças",
+      "Composição": "Jogo de panelas com peças de tamanhos variados",
+      "Uso": "Cozinha diária",
+      "Observação": "Confirmar composição exata, material, compatibilidade e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-studio-jogo-panelas-5pc-img-0",
+        "url": "/products/jogo-panelas-studio-5pc.jpg",
+        "alt": "Jogo de Panelas Studio 5 Peças",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Jogos de Panelas",
+      "slug": "jogos-de-panelas"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-prod-nexlar-studio-jogo-panelas-5pc-0",
+        "url": "/products/jogo-panelas-studio-5pc.jpg",
+        "alt": "Jogo de Panelas Studio 5 Peças",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
+  },
+  {
+    "id": "prod-nexlar-ceramic-pro-42l",
+    "name": "Panela de Pressão Ceramic Pro 4,2 L",
+    "slug": "panela-de-pressao-ceramic-pro-42-litros",
+    "short_description": "Panela de pressão de 4,2 litros para preparos rápidos em porções médias.",
+    "description": "A Panela de Pressão Ceramic Pro 4,2 L cria uma opção de capacidade média dentro da linha de pressão da NEXLAR. É indicada para quem busca cozinhar feijão, grãos, carnes e legumes em porções familiares sem ocupar o espaço de uma panela de grande capacidade.",
+    "brand": "NEXLAR",
+    "sku": "NEX-CERAMIC-PRO-42L",
+    "price": 199.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-panelas-de-pressao",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "Capacidade de 4,2 litros para porções médias",
+      "Linha Ceramic Pro com proposta de uso cotidiano",
+      "Formato compacto para cozinhas de diferentes tamanhos"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Ceramic Pro",
+      "Capacidade": "4,2 L",
+      "Uso": "Cozimento sob pressão em porções médias",
+      "Observação": "Confirmar sistemas de segurança, material, compatibilidade e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-ceramic-pro-42l-img-0",
+        "url": "/products/panela-pressao-ceramic-pro-42l.jpg",
+        "alt": "Panela de Pressão Ceramic Pro 4,2 L",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Panelas de Pressão",
+      "slug": "panelas-de-pressao"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-prod-nexlar-ceramic-pro-42l-0",
+        "url": "/products/panela-pressao-ceramic-pro-42l.jpg",
+        "alt": "Panela de Pressão Ceramic Pro 4,2 L",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
+  },
+  {
+    "id": "prod-nexlar-ceramic-pro-54l",
+    "name": "Panela de Pressão Ceramic Pro 5,4 L",
+    "slug": "panela-de-pressao-ceramic-pro-54-litros",
+    "short_description": "Panela de pressão de 5,4 litros para receitas familiares e preparo de maiores volumes.",
+    "description": "A Panela de Pressão Ceramic Pro 5,4 L complementa a versão de 4,2 litros com maior capacidade para refeições familiares, feijão, carnes e caldos. A entrada cria uma dupla de tamanhos para a linha NEXLAR sem substituir as opções existentes de outras marcas.",
+    "brand": "NEXLAR",
+    "sku": "NEX-CERAMIC-PRO-54L",
+    "price": 229.9,
+    "compare_at_price": null,
+    "pix_discount_percent": 0,
+    "stock": 20,
+    "category_id": "cat-panelas-de-pressao",
+    "featured": false,
+    "is_new": true,
+    "rating": 0,
+    "review_count": 0,
+    "reviews_count": 0,
+    "free_shipping": false,
+    "active": true,
+    "highlights": [
+      "Capacidade de 5,4 litros para receitas familiares",
+      "Linha Ceramic Pro com proposta de uso cotidiano",
+      "Alternativa de maior volume dentro da nova linha NEXLAR"
+    ],
+    "specs": {
+      "Marca": "NEXLAR",
+      "Linha": "Ceramic Pro",
+      "Capacidade": "5,4 L",
+      "Uso": "Cozimento sob pressão para receitas familiares",
+      "Observação": "Confirmar sistemas de segurança, material, compatibilidade e garantia com o fornecedor antes da compra"
+    },
+    "images": [
+      {
+        "id": "prod-nexlar-ceramic-pro-54l-img-0",
+        "url": "/products/panela-pressao-ceramic-pro-54l.jpg",
+        "alt": "Panela de Pressão Ceramic Pro 5,4 L",
+        "position": 0
+      }
+    ],
+    "categories": {
+      "name": "Panelas de Pressão",
+      "slug": "panelas-de-pressao"
+    },
+    "created_at": "2026-09-29T00:00:00.000Z",
+    "product_images": [
+      {
+        "id": "img-prod-nexlar-ceramic-pro-54l-0",
+        "url": "/products/panela-pressao-ceramic-pro-54l.jpg",
+        "alt": "Panela de Pressão Ceramic Pro 5,4 L",
+        "position": 0
+      }
+    ],
+    "price_reference": "Preço inicial de teste comercial NEXLAR; validar fornecedor antes da publicação definitiva.",
+    "price_is_reference": true,
+    "image_source_status": "nexlar-curated-local-asset"
   }
+
 ];
 const PUBLIC_CATEGORY_CUTOFF_ID = "cat-assadeiras-travessas-ceramica";
 const PUBLIC_CATEGORY_CUTOFF_INDEX = CATEGORIES.findIndex((category) => category.id === PUBLIC_CATEGORY_CUTOFF_ID);

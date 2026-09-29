@@ -57,3 +57,18 @@ Os dois preços são **pontos de partida para teste comercial**, não afirmaçõ
 ## Fonte de decisão
 
 A análise usou o benchmark e as regras fornecidas pelo usuário, combinados com a leitura do catálogo atual em `src/lib/catalog-data.ts`. O benchmark foi tratado como referência de composição e merchandising, não como prova de vendas ou popularidade de mercado.
+
+## Extensão solicitada: linha de panelas NEXLAR
+
+Após a solicitação adicional do usuário, foram incluídos seis produtos de panelas que não existiam no snapshot anterior. Eles usam os ativos locais curados que já estavam preparados no projeto e foram distribuídos nas categorias existentes, sem criar categorias novas:
+
+- **Caçarola Slate 20 cm com Tampa**, em Caçarolas & Panelas Avulsas, R$ 149,90.
+- **Frigideira Slate 24 cm**, em Frigideiras, Woks & Grills, R$ 119,90.
+- **Wok Slate 30 cm**, em Frigideiras, Woks & Grills, R$ 169,90.
+- **Jogo de Panelas Studio 5 Peças**, em Jogos de Panelas, R$ 349,90.
+- **Panela de Pressão Ceramic Pro 4,2 L**, em Panelas de Pressão, R$ 199,90.
+- **Panela de Pressão Ceramic Pro 5,4 L**, em Panelas de Pressão, R$ 229,90.
+
+Essas entradas formam uma coleção NEXLAR coerente: uma peça avulsa compacta, uma frigideira, uma wok ampla, um jogo de entrada e duas capacidades de pressão. Elas complementam as marcas já existentes em vez de remover ou substituir suas opções.
+
+Os preços e especificações desses seis produtos são pontos de partida comerciais baseados nos ativos internos e precisam ser confirmados com o fornecedor antes de uma aquisição definitiva. O catálogo registra essa condição explicitamente para não tratar dados preliminares como prova de preço ou especificação oficial.
