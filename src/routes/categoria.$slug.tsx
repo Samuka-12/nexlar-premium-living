@@ -30,7 +30,8 @@ import {
 
 export const Route = createFileRoute("/categoria/$slug")({
   head: ({ params }) => {
-    const name = params.slug.replace(/-/g, " ");
+    const category = getLocalCategoryBySlug(params.slug);
+    const name = category?.name ?? "Categoria não encontrada";
     const title = `${name.charAt(0).toUpperCase()}${name.slice(1)} | NEXLAR`;
     const description = `Compre ${name} na NEXLAR com design funcional, frete grátis acima de R$ 299 e até 8x sem juros.`;
     return {
@@ -39,6 +40,7 @@ export const Route = createFileRoute("/categoria/$slug")({
         { name: "description", content: description },
         { property: "og:title", content: title },
         { property: "og:description", content: description },
+        ...(!category ? [{ name: "robots", content: "noindex" }] : []),
       ],
     };
   },
@@ -93,6 +95,25 @@ function CategoryPage() {
       sorted.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
     return sorted;
   }, [products, sort, maxPrice, onlyFreeShipping, onlyOffers, brand]);
+
+  if (!category) {
+    return (
+      <StoreLayout>
+        <div className="container-page py-20">
+          <EmptyState
+            icon={PackageSearch}
+            title="Categoria não encontrada"
+            description="Essa categoria não está disponível na vitrine. Explore as categorias da NEXLAR."
+            action={
+              <Button asChild>
+                <Link to="/">Voltar para a home</Link>
+              </Button>
+            }
+          />
+        </div>
+      </StoreLayout>
+    );
+  }
 
   const filters = (
     <div className="space-y-6">

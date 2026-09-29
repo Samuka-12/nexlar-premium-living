@@ -126893,8 +126893,14 @@ export const PRODUCTS: Product[] = [
     "meta_description": "tela que reduz respingos de óleo/gordura; deixa o vapor passar e possui pegador dobrável para armazenagem."
   }
 ];
-export function getLocalCategories(): Category[] { return CATEGORIES; }
-export function getLocalCategoryBySlug(slug: string): Category | undefined { return CATEGORIES.find((c) => c.slug === slug || c.id === slug); }
+const PUBLIC_CATEGORY_CUTOFF_ID = "cat-assadeiras-travessas-ceramica";
+const PUBLIC_CATEGORY_CUTOFF_INDEX = CATEGORIES.findIndex((category) => category.id === PUBLIC_CATEGORY_CUTOFF_ID);
+const PUBLIC_CATEGORIES = CATEGORIES.slice(0, PUBLIC_CATEGORY_CUTOFF_INDEX < 0 ? CATEGORIES.length : PUBLIC_CATEGORY_CUTOFF_INDEX);
+const PUBLIC_CATEGORY_IDS = new Set(PUBLIC_CATEGORIES.map((category) => category.id));
+const PUBLIC_PRODUCTS = PRODUCTS.filter((product) => product.category_id == null || PUBLIC_CATEGORY_IDS.has(product.category_id));
+
+export function getLocalCategories(): Category[] { return PUBLIC_CATEGORIES; }
+export function getLocalCategoryBySlug(slug: string): Category | undefined { return PUBLIC_CATEGORIES.find((c) => c.slug === slug || c.id === slug); }
 export function getLocalBanners(): Banner[] { return BANNERS; }
 export function getLocalProductBrand(product: Product): string | undefined {
   if (product.brand?.trim()) return product.brand.trim();
@@ -126902,7 +126908,7 @@ export function getLocalProductBrand(product: Product): string | undefined {
   return undefined;
 }
 export function getLocalBrands(): string[] {
-  return [...new Set(PRODUCTS.map(getLocalProductBrand).filter(Boolean))].sort((a, b) =>
+  return [...new Set(PUBLIC_PRODUCTS.map(getLocalProductBrand).filter(Boolean))].sort((a, b) =>
     a!.localeCompare(b!, "pt-BR"),
   ) as string[];
 }
@@ -126927,10 +126933,10 @@ export function diversifyProducts(products: Product[]): Product[] {
   }
   return [...mixed, ...unbranded];
 }
-export function getLocalProducts(filter?: "featured" | "new" | "offers"): Product[] { let list = PRODUCTS; if (filter === "featured") list = list.filter((p) => p.featured); if (filter === "new") list = list.filter((p) => p.is_new); if (filter === "offers") list = list.filter((p) => p.compare_at_price && p.compare_at_price > p.price); return diversifyProducts(list); }
-export function getLocalProductsByCategory(categorySlugOrId: string): Product[] { const cat = CATEGORIES.find((c) => c.slug === categorySlugOrId || c.id === categorySlugOrId); if (!cat) return []; return PRODUCTS.filter((p) => p.category_id === cat.id || p.categories?.slug === cat.slug); }
-export function getLocalProductBySlug(slug: string): Product | undefined { return PRODUCTS.find((p) => p.slug === slug || p.id === slug || p.sku === slug); }
-export function searchLocalProducts(term: string): Product[] { const q = term.toLowerCase().trim(); if (!q) return []; return diversifyProducts(PRODUCTS.filter((p) => p.name.toLowerCase().includes(q) || p.short_description?.toLowerCase().includes(q) || p.categories?.name.toLowerCase().includes(q) || p.highlights.some((h) => h.toLowerCase().includes(q)))); }
+export function getLocalProducts(filter?: "featured" | "new" | "offers"): Product[] { let list = PUBLIC_PRODUCTS; if (filter === "featured") list = list.filter((p) => p.featured); if (filter === "new") list = list.filter((p) => p.is_new); if (filter === "offers") list = list.filter((p) => p.compare_at_price && p.compare_at_price > p.price); return diversifyProducts(list); }
+export function getLocalProductsByCategory(categorySlugOrId: string): Product[] { const cat = PUBLIC_CATEGORIES.find((c) => c.slug === categorySlugOrId || c.id === categorySlugOrId); if (!cat) return []; return PUBLIC_PRODUCTS.filter((p) => p.category_id === cat.id || p.categories?.slug === cat.slug); }
+export function getLocalProductBySlug(slug: string): Product | undefined { return PUBLIC_PRODUCTS.find((p) => p.slug === slug || p.id === slug || p.sku === slug); }
+export function searchLocalProducts(term: string): Product[] { const q = term.toLowerCase().trim(); if (!q) return []; return diversifyProducts(PUBLIC_PRODUCTS.filter((p) => p.name.toLowerCase().includes(q) || p.short_description?.toLowerCase().includes(q) || p.categories?.name.toLowerCase().includes(q) || p.highlights.some((h) => h.toLowerCase().includes(q)))); }
 export function getLocalOrderBumpRecommendations(cartProductIds: string[], selectedBumpIds: string[] = []): Product[] {
   const cartIds = new Set(cartProductIds);
   const selectedIds = new Set(selectedBumpIds);
@@ -126947,7 +126953,7 @@ export function getLocalOrderBumpRecommendations(cartProductIds: string[], selec
     return (selectedIds.has(product.id) || !cartIds.has(product.id)) && product.active && product.stock > 0 && product.price > 0 && Boolean(image);
   };
   const category = (product: Product) => product.categories?.slug ?? product.category_id?.replace(/^cat-/, "");
-  const candidates = PRODUCTS.filter(isEligible).filter((product) => {
+  const candidates = PUBLIC_PRODUCTS.filter(isEligible).filter((product) => {
     if (!wantsInduction) return true;
     const text = Object.entries(product.specs).map(([key, value]) => `${key} ${value}`).join(" ");
     return /indu[cç][aã]o/i.test(text) && /sim|compat/i.test(text);
