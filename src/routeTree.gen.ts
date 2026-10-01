@@ -21,6 +21,7 @@ import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as CategoriaSlugRouteImport } from './routes/categoria.$slug'
 import { Route as ProdutoSlugRouteImport } from './routes/produto.$slug'
 import { Route as AdminProdutoIdRouteImport } from './routes/admin.produto.$id'
+import { Route as ApiWebhooksIronpayRouteImport } from './routes/api/webhooks/ironpay'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -57,11 +58,6 @@ const AdminIndexRoute = AdminIndexRouteImport.update({
   path: '/admin/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AdminProdutoIdRoute = AdminProdutoIdRouteImport.update({
-  id: '/admin/produto/$id',
-  path: '/admin/produto/$id',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const BlogIndexRoute = BlogIndexRouteImport.update({
   id: '/blog/',
   path: '/blog/',
@@ -82,6 +78,16 @@ const ProdutoSlugRoute = ProdutoSlugRouteImport.update({
   path: '/produto/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminProdutoIdRoute = AdminProdutoIdRouteImport.update({
+  id: '/admin/produto/$id',
+  path: '/admin/produto/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiWebhooksIronpayRoute = ApiWebhooksIronpayRouteImport.update({
+  id: '/api/webhooks/ironpay',
+  path: '/api/webhooks/ironpay',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -90,12 +96,13 @@ export interface FileRoutesByFullPath {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
-  '/admin/': typeof AdminIndexRoute
-  '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
   '/produto/$slug': typeof ProdutoSlugRoute
+  '/admin/': typeof AdminIndexRoute
   '/blog/': typeof BlogIndexRoute
+  '/admin/produto/$id': typeof AdminProdutoIdRoute
+  '/api/webhooks/ironpay': typeof ApiWebhooksIronpayRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -104,12 +111,13 @@ export interface FileRoutesByTo {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
-  '/admin': typeof AdminIndexRoute
-  '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
   '/produto/$slug': typeof ProdutoSlugRoute
+  '/admin': typeof AdminIndexRoute
   '/blog': typeof BlogIndexRoute
+  '/admin/produto/$id': typeof AdminProdutoIdRoute
+  '/api/webhooks/ironpay': typeof ApiWebhooksIronpayRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -119,12 +127,13 @@ export interface FileRoutesById {
   '/conta': typeof ContaRoute
   '/entrar': typeof EntrarRoute
   '/favoritos': typeof FavoritosRoute
-  '/admin/': typeof AdminIndexRoute
-  '/admin/produto/$id': typeof AdminProdutoIdRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/categoria/$slug': typeof CategoriaSlugRoute
   '/produto/$slug': typeof ProdutoSlugRoute
+  '/admin/': typeof AdminIndexRoute
   '/blog/': typeof BlogIndexRoute
+  '/admin/produto/$id': typeof AdminProdutoIdRoute
+  '/api/webhooks/ironpay': typeof ApiWebhooksIronpayRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -135,12 +144,13 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
-    | '/admin/'
-    | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
     | '/produto/$slug'
+    | '/admin/'
     | '/blog/'
+    | '/admin/produto/$id'
+    | '/api/webhooks/ironpay'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -149,12 +159,13 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
-    | '/admin'
-    | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
     | '/produto/$slug'
+    | '/admin'
     | '/blog'
+    | '/admin/produto/$id'
+    | '/api/webhooks/ironpay'
   id:
     | '__root__'
     | '/'
@@ -163,12 +174,13 @@ export interface FileRouteTypes {
     | '/conta'
     | '/entrar'
     | '/favoritos'
-    | '/admin/'
-    | '/admin/produto/$id'
     | '/blog/$slug'
     | '/categoria/$slug'
     | '/produto/$slug'
+    | '/admin/'
     | '/blog/'
+    | '/admin/produto/$id'
+    | '/api/webhooks/ironpay'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -178,12 +190,13 @@ export interface RootRouteChildren {
   ContaRoute: typeof ContaRoute
   EntrarRoute: typeof EntrarRoute
   FavoritosRoute: typeof FavoritosRoute
-  AdminIndexRoute: typeof AdminIndexRoute
-  AdminProdutoIdRoute: typeof AdminProdutoIdRoute
   BlogSlugRoute: typeof BlogSlugRoute
   CategoriaSlugRoute: typeof CategoriaSlugRoute
   ProdutoSlugRoute: typeof ProdutoSlugRoute
+  AdminIndexRoute: typeof AdminIndexRoute
   BlogIndexRoute: typeof BlogIndexRoute
+  AdminProdutoIdRoute: typeof AdminProdutoIdRoute
+  ApiWebhooksIronpayRoute: typeof ApiWebhooksIronpayRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -237,13 +250,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/admin/produto/$id': {
-      id: '/admin/produto/$id'
-      path: '/admin/produto/$id'
-      fullPath: '/admin/produto/$id'
-      preLoaderRoute: typeof AdminProdutoIdRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/blog/': {
       id: '/blog/'
       path: '/blog'
@@ -272,6 +278,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProdutoSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin/produto/$id': {
+      id: '/admin/produto/$id'
+      path: '/admin/produto/$id'
+      fullPath: '/admin/produto/$id'
+      preLoaderRoute: typeof AdminProdutoIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/webhooks/ironpay': {
+      id: '/api/webhooks/ironpay'
+      path: '/api/webhooks/ironpay'
+      fullPath: '/api/webhooks/ironpay'
+      preLoaderRoute: typeof ApiWebhooksIronpayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -282,12 +302,13 @@ const rootRouteChildren: RootRouteChildren = {
   ContaRoute: ContaRoute,
   EntrarRoute: EntrarRoute,
   FavoritosRoute: FavoritosRoute,
-  AdminIndexRoute: AdminIndexRoute,
-  AdminProdutoIdRoute: AdminProdutoIdRoute,
   BlogSlugRoute: BlogSlugRoute,
   CategoriaSlugRoute: CategoriaSlugRoute,
   ProdutoSlugRoute: ProdutoSlugRoute,
+  AdminIndexRoute: AdminIndexRoute,
   BlogIndexRoute: BlogIndexRoute,
+  AdminProdutoIdRoute: AdminProdutoIdRoute,
+  ApiWebhooksIronpayRoute: ApiWebhooksIronpayRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

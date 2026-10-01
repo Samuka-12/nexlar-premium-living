@@ -1,6 +1,8 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { Check, Plus, ShoppingCart, X } from "lucide-react";
+import QRCode from "qrcode";
 import { toast } from "sonner";
 import { StoreLayout } from "@/components/store/StoreLayout";
 import { EmptyState } from "@/components/store/EmptyState";
@@ -15,6 +17,7 @@ import { useAuth } from "@/lib/auth";
 import { brl, installment, maskCEP, maskCPF, maskPhone, pixPrice } from "@/lib/format";
 import { getLocalOrderBumpRecommendations } from "@/lib/catalog-data";
 import type { Coupon, Product } from "@/lib/types";
+import { createPixOrder, getPixOrderStatus } from "@/lib/ironpay.server";
 
 export const Route = createFileRoute("/checkout")({
   head: () => ({
@@ -51,6 +54,19 @@ function CheckoutPage() {
   const [payment, setPayment] = useState("pix");
   const [loading, setLoading] = useState(false);
   const [selectedBumpIds, setSelectedBumpIds] = useState<string[]>([]);
+  const [pixOrder, setPixOrder] = useState<{
+    orderId: string;
+    orderNumber: string;
+    transactionHash: string;
+    transactionId: string;
+    amount: number;
+    copyPaste: string;
+    expiresAt: string;
+    paymentStatus: string;
+    qrCodeUrl?: string;
+  } | null>(null);
+  const createPixOrderFn = useServerFn(createPixOrder);
+  const getPixOrderStatusFn = useServerFn(getPixOrderStatus);
 
   const bumpProducts = useMemo(
     () =>
@@ -100,6 +116,30 @@ function CheckoutPage() {
   const totalBefore = Math.max(subtotal - discount, 0) + baseShipping;
   const total = payment === "pix" ? pixPrice(totalBefore, 5) : totalBefore;
 
+  useEffect(() => {
+    if (!pixOrder || pixOrder.paymentStatus === "paid") return;
+    let active = true;
+    const refresh = async () => {
+      const result = await getPixOrderStatusFn({
+        data: { orderId: pixOrder.orderId, transactionHash: pixOrder.transactionHash },
+      });
+      if (active && result.ok) {
+        setPixOrder((current) =>
+          current ? { ...current, paymentStatus: result.paymentStatus ?? result.status } : current,
+        );
+        if (result.status === "paid") {
+          clear();
+          toast.success(`Pagamento do pedido ${result.orderNumber} confirmado!`);
+        }
+      }
+    };
+    const timer = window.setInterval(refresh, 5000);
+    return () => {
+      active = false;
+      window.clearInterval(timer);
+    };
+  }, [clear, getPixOrderStatusFn, pixOrder]);
+
   function set(key: keyof typeof form, value: string) {
     setForm((prev) => ({ ...prev, [key]: value }));
   }
@@ -126,6 +166,48 @@ function CheckoutPage() {
 
   async function submit(event: React.FormEvent) {
     event.preventDefault();
+    if (payment === "pix") {
+      setLoading(true);
+      const result = await createPixOrderFn({
+        data: {
+          customer: form,
+          items: items.map(({ variant, ...item }) => ({
+            ...item,
+            ...(variant ? { variant } : {}),
+          })),
+          subtotal,
+          discount,
+          shippingPrice: baseShipping,
+          total,
+          couponCode: coupon?.code ?? null,
+          userId: user?.id ?? null,
+        },
+      });
+      setLoading(false);
+      if (!result.ok) {
+        toast.error(result.error.message);
+        return;
+      }
+      let qrCodeUrl: string | undefined;
+      try {
+        qrCodeUrl = await QRCode.toDataURL(result.copyPaste, { width: 240, margin: 2 });
+      } catch {
+        toast.error("Não foi possível gerar o QR Code. Use o Pix Copia e Cola.");
+      }
+      setPixOrder({
+        orderId: result.orderId,
+        orderNumber: result.orderNumber,
+        transactionHash: result.transactionHash,
+        transactionId: result.transactionId,
+        amount: result.amount,
+        copyPaste: result.copyPaste,
+        expiresAt: result.expiresAt,
+        paymentStatus: result.paymentStatus,
+        ...(qrCodeUrl ? { qrCodeUrl } : {}),
+      });
+      toast.success(`Pedido ${result.orderNumber} criado. Aguardando pagamento.`);
+      return;
+    }
     setLoading(true);
     const orderNumber = `NX${Date.now().toString().slice(-8)}`;
     const { data, error } = await supabase
@@ -395,8 +477,66 @@ function CheckoutPage() {
             </div>
           </div>
 
-          <Button type="submit" size="lg" className="w-full" disabled={loading}>
-            {loading ? "Processando..." : "Finalizar pedido"}
+          {pixOrder && (
+            <section
+              className="space-y-4 rounded-2xl border border-primary/30 bg-primary/[0.04] p-4"
+              aria-live="polite"
+            >
+              <div>
+                <h3 className="font-semibold">Pix do pedido {pixOrder.orderNumber}</h3>
+                <p className="text-sm text-muted-foreground">
+                  {pixOrder.paymentStatus === "paid"
+                    ? "Pagamento confirmado"
+                    : "Aguardando pagamento"}
+                </p>
+              </div>
+              {pixOrder.qrCodeUrl && (
+                <div className="flex justify-center rounded-xl bg-white p-3">
+                  <img
+                    src={pixOrder.qrCodeUrl}
+                    alt="QR Code para pagamento Pix"
+                    className="h-52 w-52"
+                  />
+                </div>
+              )}
+              <div className="space-y-2 text-sm">
+                <div className="flex justify-between gap-3">
+                  <span className="text-muted-foreground">Valor</span>
+                  <strong>{brl(pixOrder.amount)}</strong>
+                </div>
+                <div className="flex justify-between gap-3">
+                  <span className="text-muted-foreground">Cobrança</span>
+                  <span className="font-mono text-xs">{pixOrder.transactionHash}</span>
+                </div>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="w-full"
+                  onClick={async () => {
+                    await navigator.clipboard.writeText(pixOrder.copyPaste);
+                    toast.success("Código Pix copiado!");
+                  }}
+                >
+                  Copiar Pix Copia e Cola
+                </Button>
+                <p className="break-all rounded-lg bg-muted p-2 font-mono text-[11px] text-muted-foreground">
+                  {pixOrder.copyPaste}
+                </p>
+                <p className="text-xs text-muted-foreground">
+                  O status é atualizado automaticamente. Esta cobrança expira em{" "}
+                  {new Date(pixOrder.expiresAt).toLocaleString("pt-BR")}.
+                </p>
+              </div>
+            </section>
+          )}
+
+          <Button
+            type="submit"
+            size="lg"
+            className="w-full"
+            disabled={loading || Boolean(pixOrder)}
+          >
+            {loading ? "Processando..." : pixOrder ? "Pagamento Pix criado" : "Finalizar pedido"}
           </Button>
 
           {bumpProducts.length > 0 && (
@@ -432,7 +572,7 @@ function CheckoutPage() {
                       />
                       <div className="min-w-0 flex-1">
                         <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
-                          {product.brand ?? product.specs.Marca ?? "Complemento"}
+                          {product.brand ?? product.specs["Marca"] ?? "Complemento"}
                         </p>
                         <p className="mt-0.5 line-clamp-2 text-sm font-medium leading-snug">
                           {product.name}

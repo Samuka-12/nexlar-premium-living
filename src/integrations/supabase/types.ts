@@ -226,9 +226,17 @@ export type Database = {
           customer_phone: string | null
           discount: number
           id: string
+          ironpay_payment_status: string | null
+          ironpay_status_reason: string | null
+          ironpay_transaction_hash: string | null
+          ironpay_transaction_id: string | null
           installments: number
           order_number: string
           payment_method: string
+          paid_at: string | null
+          pix_copy_paste: string | null
+          pix_expires_at: string | null
+          pix_qr_code: string | null
           shipping_address: string | null
           shipping_city: string | null
           shipping_complement: string | null
@@ -253,9 +261,17 @@ export type Database = {
           customer_phone?: string | null
           discount?: number
           id?: string
+          ironpay_payment_status?: string | null
+          ironpay_status_reason?: string | null
+          ironpay_transaction_hash?: string | null
+          ironpay_transaction_id?: string | null
           installments?: number
           order_number?: string
           payment_method?: string
+          paid_at?: string | null
+          pix_copy_paste?: string | null
+          pix_expires_at?: string | null
+          pix_qr_code?: string | null
           shipping_address?: string | null
           shipping_city?: string | null
           shipping_complement?: string | null
@@ -280,9 +296,17 @@ export type Database = {
           customer_phone?: string | null
           discount?: number
           id?: string
+          ironpay_payment_status?: string | null
+          ironpay_status_reason?: string | null
+          ironpay_transaction_hash?: string | null
+          ironpay_transaction_id?: string | null
           installments?: number
           order_number?: string
           payment_method?: string
+          paid_at?: string | null
+          pix_copy_paste?: string | null
+          pix_expires_at?: string | null
+          pix_qr_code?: string | null
           shipping_address?: string | null
           shipping_city?: string | null
           shipping_complement?: string | null
