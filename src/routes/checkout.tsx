@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 import { Check, Plus, ShoppingCart, X } from "lucide-react";
-import QRCode from "qrcode";
 import { toast } from "sonner";
 import { StoreLayout } from "@/components/store/StoreLayout";
 import { EmptyState } from "@/components/store/EmptyState";
@@ -190,7 +189,8 @@ function CheckoutPage() {
       }
       let qrCodeUrl: string | undefined;
       try {
-        qrCodeUrl = await QRCode.toDataURL(result.copyPaste, { width: 240, margin: 2 });
+        const qrCode = await import("qrcode");
+        qrCodeUrl = await qrCode.toDataURL(result.copyPaste, { width: 240, margin: 2 });
       } catch {
         toast.error("Não foi possível gerar o QR Code. Use o Pix Copia e Cola.");
       }
