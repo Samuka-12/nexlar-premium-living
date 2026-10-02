@@ -90,7 +90,9 @@ class IronPayError extends Error {
 
 async function ironPayRequest(path: string, init: RequestInit) {
   const token = env("IRONPAY_API_TOKEN");
-  const url = new URL(path, `${env("IRONPAY_BASE_URL", DEFAULT_BASE_URL).replace(/\/$/, "")}/`);
+  const base = env("IRONPAY_BASE_URL", DEFAULT_BASE_URL).replace(/\/+$/, "");
+  const cleanPath = path.replace(/^\/+/, "");
+  const url = new URL(`${base}/${cleanPath}`);
   url.searchParams.set("api_token", token);
   let response: Response;
   try {
