@@ -193,7 +193,7 @@ export const createPixOrder = createServerFn({ method: "POST" })
       const { error: itemsError } = await supabaseAdmin.from("order_items").insert(
         data.items.map((item) => ({
           order_id: order.id,
-          product_id: item.productId,
+          product_id: null, // produtos do catálogo local não existem na tabela products do Supabase
           product_name: item.name,
           image_url: item.image,
           variant: item.variant ?? null,
