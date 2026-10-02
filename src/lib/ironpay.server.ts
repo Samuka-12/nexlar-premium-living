@@ -202,9 +202,8 @@ export const createPixOrder = createServerFn({ method: "POST" })
         })),
       );
       if (itemsError) {
-        console.error("[IronPay] order_items insert error:", JSON.stringify(itemsError));
-        await supabaseAdmin.from("orders").delete().eq("id", order.id);
-        throw new IronPayError("database", `Erro ao salvar itens: ${itemsError.code} - ${itemsError.message}`);
+        // Loga o erro mas não cancela o Pix — o charge ainda pode ser gerado
+        console.error("[IronPay] order_items insert failed (non-fatal):", itemsError.code, itemsError.message, itemsError.details);
       }
 
       let provider: IronPayResponse;
