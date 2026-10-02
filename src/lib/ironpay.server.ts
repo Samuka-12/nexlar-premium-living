@@ -52,7 +52,7 @@ const REQUEST_TIMEOUT_MS = 15_000;
 
 function env(name: string, fallback?: string) {
   const value = process.env[name] ?? fallback;
-  if (!value) throw new Error(`Configuração ausente: ${name}`);
+  if (!value) throw new IronPayError("config", `Configuração ausente no servidor: ${name}`);
   return value;
 }
 
@@ -149,8 +149,9 @@ async function ironPayRequest(path: string, init: RequestInit) {
 
 function publicError(error: unknown) {
   if (error instanceof IronPayError) return { code: error.code, message: error.message };
-  console.error("[IronPay] erro inesperado", error);
-  return { code: "unexpected", message: "Não foi possível processar o Pix. Tente novamente." };
+  const msg = error instanceof Error ? error.message : String(error);
+  console.error("[IronPay] erro inesperado", msg);
+  return { code: "unexpected", message: `Erro interno: ${msg}` };
 }
 
 export const createPixOrder = createServerFn({ method: "POST" })
