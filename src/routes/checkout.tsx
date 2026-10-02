@@ -203,7 +203,7 @@ function CheckoutPage() {
         copyPaste: result.copyPaste,
         expiresAt: result.expiresAt,
         paymentStatus: result.paymentStatus,
-        ...(qrCodeUrl ? { qrCodeUrl } : {}),
+        qrCodeUrl: qrCodeUrl || result.pixUrl || undefined,
       });
       toast.success(`Pedido ${result.orderNumber} criado. Aguardando pagamento.`);
       return;

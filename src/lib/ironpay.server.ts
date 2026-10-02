@@ -67,11 +67,14 @@ function cents(value: number) {
   return result;
 }
 
-function postbackUrl() {
-  return (
-    process.env["IRONPAY_POSTBACK_URL"] ||
-    `${process.env["APP_BASE_URL"] || ""}/api/webhooks/ironpay`
-  );
+function postbackUrl(): string | undefined {
+  const custom = process.env["IRONPAY_POSTBACK_URL"];
+  if (custom && custom.startsWith("http")) return custom;
+  const appBase = process.env["APP_BASE_URL"];
+  if (appBase && appBase.startsWith("http")) return `${appBase.replace(/\/$/, "")}/api/webhooks/ironpay`;
+  const vercel = process.env["VERCEL_URL"];
+  if (vercel) return `https://${vercel.replace(/\/$/, "")}/api/webhooks/ironpay`;
+  return "https://nexlar-orcin.vercel.app/api/webhooks/ironpay";
 }
 
 class IronPayError extends Error {
@@ -104,26 +107,34 @@ async function ironPayRequest(path: string, init: RequestInit) {
     if (error instanceof DOMException && error.name === "TimeoutError") {
       throw new IronPayError("timeout", "A Iron Pay demorou para responder. Tente novamente.");
     }
-    throw new IronPayError("unavailable", "Não foi possível conectar à Iron Pay.");
+    const msg = error instanceof Error ? error.message : String(error);
+    throw new IronPayError("unavailable", `Não foi possível conectar à Iron Pay: ${msg}`);
   }
 
   const text = await response.text();
-  let payload: IronPayResponse & { message?: string; error?: string } = {};
+  let payload: IronPayResponse & { message?: string; error?: string; errors?: unknown } = {};
   try {
     payload = text ? (JSON.parse(text) as typeof payload) : {};
   } catch {
     throw new IronPayError(
       "unexpected_response",
-      "A Iron Pay retornou uma resposta inesperada.",
+      `A Iron Pay retornou uma resposta inesperada (${response.status})`,
       response.status,
     );
   }
 
   if (!response.ok || payload.success === false) {
+    const errorDetail =
+      payload.message ||
+      payload.error ||
+      (payload.errors ? JSON.stringify(payload.errors) : "") ||
+      text ||
+      "Erro não especificado";
+
     if (response.status === 401)
       throw new IronPayError(
         "invalid_credentials",
-        "As credenciais da Iron Pay são inválidas.",
+        `As credenciais da Iron Pay são inválidas: ${errorDetail}`,
         response.status,
       );
     if (response.status === 408 || response.status === 504)
@@ -135,12 +146,12 @@ async function ironPayRequest(path: string, init: RequestInit) {
     if (response.status === 400 || response.status === 422)
       throw new IronPayError(
         "rejected",
-        payload.message || payload.error || "A cobrança foi recusada pela Iron Pay.",
+        `Cobrança recusada pela Iron Pay: ${errorDetail}`,
         response.status,
       );
     throw new IronPayError(
       "unavailable",
-      "A Iron Pay não está disponível no momento.",
+      `A Iron Pay retornou erro (${response.status}): ${errorDetail}`,
       response.status,
     );
   }
@@ -208,10 +219,12 @@ export const createPixOrder = createServerFn({ method: "POST" })
       }
 
       let provider: IronPayResponse;
+      const pbUrl = postbackUrl();
       try {
         provider = await ironPayRequest("/transactions", {
           method: "POST",
           body: JSON.stringify({
+            api_token: env("IRONPAY_API_TOKEN"),
             amount: totalCents,
             offer_hash: offerHash,
             payment_method: "pix",
@@ -234,12 +247,12 @@ export const createPixOrder = createServerFn({ method: "POST" })
               cover: item.image || null,
               price: Math.round(item.price * 100),
               quantity: item.quantity,
-              operation_type: 1,
+              operation_type: "1",
               tangible: true,
             })),
             expire_in_days: 1,
             transaction_origin: "api",
-            postback_url: postbackUrl(),
+            ...(pbUrl ? { postback_url: pbUrl } : {}),
           }),
         });
       } catch (error) {
@@ -279,6 +292,7 @@ export const createPixOrder = createServerFn({ method: "POST" })
         transactionId: String(provider.id ?? provider.transaction ?? ""),
         amount: data.total,
         copyPaste,
+        pixUrl: provider.pix?.pix_url ?? null,
         expiresAt,
         paymentStatus: provider.payment_status ?? "pending",
       };
